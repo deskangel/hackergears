@@ -17,6 +17,7 @@ export default function ItemDetailModal({ item, year, onClose }) {
   if (!item) return null;
 
   const [activeTab, setActiveTab] = useState('quotes'); // 'quotes' or 'cautions' or 'specs'
+  const [imgError, setImgError] = useState(false);
 
   const stats = item.stats || {};
   const positiveQuotes = item.quotes?.positive || [];
@@ -63,6 +64,28 @@ export default function ItemDetailModal({ item, year, onClose }) {
         {/* Modal Body */}
         <div className="p-5 overflow-y-auto space-y-5">
           
+          {/* Hardware Real Photo Showcase Banner */}
+          <div className="relative w-full h-56 sm:h-64 rounded-xl bg-[#090c14] border border-gray-800/90 overflow-hidden flex items-center justify-center shadow-inner group">
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,102,0,0.06)_0%,transparent_70%)] pointer-events-none" />
+            {item.image && !imgError ? (
+              <img 
+                src={item.image} 
+                alt={item.name}
+                onError={() => setImgError(true)}
+                className="max-h-full max-w-full object-contain p-4 drop-shadow-[0_12px_24px_rgba(0,0,0,0.7)] group-hover:scale-[1.02] transition-transform duration-300"
+              />
+            ) : (
+              <div className="flex flex-col items-center justify-center text-gray-500 gap-2">
+                <Cpu className="w-12 h-12 stroke-[1.2] opacity-30 text-[#ff6600]" />
+                <span className="text-xs font-mono text-gray-400">Hardware Profile Showcase</span>
+              </div>
+            )}
+            <div className="absolute bottom-2.5 right-3 bg-black/75 backdrop-blur-md px-2.5 py-1 rounded-md text-[10px] font-mono text-gray-300 border border-gray-700/60 shadow-lg flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+              Authentic Hardware Photo
+            </div>
+          </div>
+
           {/* Key Metrics Grid */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             <div className="bg-[#0b0e16] border border-gray-800 rounded-xl p-3">

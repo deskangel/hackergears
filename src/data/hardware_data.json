@@ -112,7 +112,8 @@
             }
           ]
         },
-        "rank": 1
+        "rank": 1,
+        "image": "/images/hardware/framework-laptop-13-16.jpg"
       },
       {
         "id": "keychron-q-series",
@@ -194,7 +195,8 @@
           ],
           "caution": []
         },
-        "rank": 2
+        "rank": 2,
+        "image": "/images/hardware/keychron-q-series.webp"
       },
       {
         "id": "zsa-moonlander",
@@ -301,7 +303,8 @@
             }
           ]
         },
-        "rank": 3
+        "rank": 3,
+        "image": "/images/hardware/zsa-moonlander.webp"
       },
       {
         "id": "glove80",
@@ -389,7 +392,8 @@
           ],
           "caution": []
         },
-        "rank": 4
+        "rank": 4,
+        "image": "/images/hardware/glove80.webp"
       },
       {
         "id": "apple-macbook-pro-m-series",
@@ -454,7 +458,8 @@
           ],
           "caution": []
         },
-        "rank": 5
+        "rank": 5,
+        "image": "/images/hardware/apple-macbook-pro-m-series.png"
       },
       {
         "id": "ergodox-ez",
@@ -552,7 +557,8 @@
             }
           ]
         },
-        "rank": 6
+        "rank": 6,
+        "image": "/images/hardware/ergodox-ez.webp"
       },
       {
         "id": "hhkb-professional",
@@ -615,7 +621,8 @@
           ],
           "caution": []
         },
-        "rank": 7
+        "rank": 7,
+        "image": "/images/hardware/hhkb-professional.jpg"
       },
       {
         "id": "apple-magic-trackpad",
@@ -658,7 +665,8 @@
           ],
           "caution": []
         },
-        "rank": 8
+        "rank": 8,
+        "image": "/images/hardware/apple-magic-trackpad.jpg"
       },
       {
         "id": "apple-studio-display",
@@ -701,7 +709,8 @@
           ],
           "caution": []
         },
-        "rank": 9
+        "rank": 9,
+        "image": "/images/hardware/apple-studio-display.jpg"
       },
       {
         "id": "thinkpad-x1-carbon",
@@ -818,7 +827,8 @@
             }
           ]
         },
-        "rank": 10
+        "rank": 10,
+        "image": "/images/hardware/thinkpad-x1-carbon.jpg"
       },
       {
         "id": "thinkpad-t-series",
@@ -883,7 +893,8 @@
             }
           ]
         },
-        "rank": 11
+        "rank": 11,
+        "image": "/images/hardware/thinkpad-t-series.jpg"
       },
       {
         "id": "herman-miller-embody",
@@ -927,7 +938,8 @@
           ],
           "caution": []
         },
-        "rank": 12
+        "rank": 12,
+        "image": "/images/hardware/herman-miller-embody.jpg"
       },
       {
         "id": "asus-rog-zephyrus-g14",
@@ -989,7 +1001,8 @@
           ],
           "caution": []
         },
-        "rank": 13
+        "rank": 13,
+        "image": "/images/hardware/asus-rog-zephyrus-g14.png"
       },
       {
         "id": "lg-ultrafine-5k-4k",
@@ -1060,7 +1073,8 @@
             }
           ]
         },
-        "rank": 14
+        "rank": 14,
+        "image": "/images/hardware/lg-ultrafine-5k-4k.jpg"
       },
       {
         "id": "kensington-slimblade-expert",
@@ -1105,7 +1119,8 @@
           ],
           "caution": []
         },
-        "rank": 15
+        "rank": 15,
+        "image": "/images/hardware/kensington-slimblade-expert.jpg"
       },
       {
         "id": "herman-miller-aeron",
@@ -1149,7 +1164,8 @@
           ],
           "caution": []
         },
-        "rank": 16
+        "rank": 16,
+        "image": "/images/hardware/herman-miller-aeron.jpg"
       },
       {
         "id": "dell-ultrasharp-4k",
@@ -1205,7 +1221,8 @@
             }
           ]
         },
-        "rank": 17
+        "rank": 17,
+        "image": "/images/hardware/dell-ultrasharp-4k.png"
       },
       {
         "id": "zsa-voyager",
@@ -1238,7 +1255,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 18
+        "rank": 18,
+        "image": "/images/hardware/zsa-voyager.webp"
       },
       {
         "id": "logitech-mx-master-3s",
@@ -1273,7 +1291,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 19
+        "rank": 19,
+        "image": "/images/hardware/logitech-mx-master-3s.jpg"
       },
       {
         "id": "kinesis-advantage",
@@ -1318,7 +1337,8 @@
             }
           ]
         },
-        "rank": 20
+        "rank": 20,
+        "image": "/images/hardware/kinesis-advantage.jpg"
       },
       {
         "id": "logitech-mx-ergo",
@@ -1351,7 +1371,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 21
+        "rank": 21,
+        "image": "/images/hardware/logitech-mx-ergo.webp"
       },
       {
         "id": "corne-split",
@@ -1405,7 +1426,8 @@
             }
           ]
         },
-        "rank": 22
+        "rank": 22,
+        "image": "/images/hardware/corne-split.jpg"
       },
       {
         "id": "asus-proart-4k",
@@ -1458,7 +1480,8 @@
             }
           ]
         },
-        "rank": 23
+        "rank": 23,
+        "image": "/images/hardware/asus-proart-4k.png"
       },
       {
         "id": "logitech-mx-vertical-lift",
@@ -1513,7 +1536,8 @@
             }
           ]
         },
-        "rank": 24
+        "rank": 24,
+        "image": "/images/hardware/logitech-mx-vertical-lift.jpg"
       },
       {
         "id": "lg-c3-c4-oled-42",
@@ -1549,7 +1573,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 25
+        "rank": 25,
+        "image": "/images/hardware/lg-c3-c4-oled-42.jpg"
       },
       {
         "id": "steelcase-leap-v2",
@@ -1583,7 +1608,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 26
+        "rank": 26,
+        "image": "/images/hardware/steelcase-leap-v2.webp"
       },
       {
         "id": "steelcase-gesture",
@@ -1616,7 +1642,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 27
+        "rank": 27,
+        "image": "/images/hardware/steelcase-gesture.webp"
       },
       {
         "id": "haworth-fern",
@@ -1649,7 +1676,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 28
+        "rank": 28,
+        "image": "/images/hardware/haworth-fern.jpg"
       }
     ],
     "2025": [
@@ -1769,7 +1797,8 @@
             }
           ]
         },
-        "rank": 1
+        "rank": 1,
+        "image": "/images/hardware/framework-laptop-13-16.jpg"
       },
       {
         "id": "kinesis-advantage",
@@ -1878,7 +1907,8 @@
             }
           ]
         },
-        "rank": 2
+        "rank": 2,
+        "image": "/images/hardware/kinesis-advantage.jpg"
       },
       {
         "id": "herman-miller-embody",
@@ -1922,7 +1952,8 @@
           ],
           "caution": []
         },
-        "rank": 3
+        "rank": 3,
+        "image": "/images/hardware/herman-miller-embody.jpg"
       },
       {
         "id": "apple-macbook-pro-m-series",
@@ -1988,7 +2019,8 @@
             }
           ]
         },
-        "rank": 4
+        "rank": 4,
+        "image": "/images/hardware/apple-macbook-pro-m-series.png"
       },
       {
         "id": "logitech-mx-ergo",
@@ -2040,7 +2072,8 @@
           ],
           "caution": []
         },
-        "rank": 5
+        "rank": 5,
+        "image": "/images/hardware/logitech-mx-ergo.webp"
       },
       {
         "id": "hhkb-professional",
@@ -2094,7 +2127,8 @@
           ],
           "caution": []
         },
-        "rank": 6
+        "rank": 6,
+        "image": "/images/hardware/hhkb-professional.jpg"
       },
       {
         "id": "dell-ultrasharp-4k",
@@ -2158,7 +2192,8 @@
           ],
           "caution": []
         },
-        "rank": 7
+        "rank": 7,
+        "image": "/images/hardware/dell-ultrasharp-4k.png"
       },
       {
         "id": "glove80",
@@ -2210,7 +2245,8 @@
           ],
           "caution": []
         },
-        "rank": 8
+        "rank": 8,
+        "image": "/images/hardware/glove80.webp"
       },
       {
         "id": "corne-split",
@@ -2254,7 +2290,8 @@
           ],
           "caution": []
         },
-        "rank": 9
+        "rank": 9,
+        "image": "/images/hardware/corne-split.jpg"
       },
       {
         "id": "ergodox-ez",
@@ -2307,7 +2344,8 @@
             }
           ]
         },
-        "rank": 10
+        "rank": 10,
+        "image": "/images/hardware/ergodox-ez.webp"
       },
       {
         "id": "logitech-mx-vertical-lift",
@@ -2361,7 +2399,8 @@
           ],
           "caution": []
         },
-        "rank": 11
+        "rank": 11,
+        "image": "/images/hardware/logitech-mx-vertical-lift.jpg"
       },
       {
         "id": "herman-miller-aeron",
@@ -2433,7 +2472,8 @@
             }
           ]
         },
-        "rank": 12
+        "rank": 12,
+        "image": "/images/hardware/herman-miller-aeron.jpg"
       },
       {
         "id": "keychron-q-series",
@@ -2469,7 +2509,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 13
+        "rank": 13,
+        "image": "/images/hardware/keychron-q-series.webp"
       },
       {
         "id": "apple-magic-trackpad",
@@ -2502,7 +2543,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 14
+        "rank": 14,
+        "image": "/images/hardware/apple-magic-trackpad.jpg"
       },
       {
         "id": "steelcase-leap-v2",
@@ -2556,7 +2598,8 @@
             }
           ]
         },
-        "rank": 15
+        "rank": 15,
+        "image": "/images/hardware/steelcase-leap-v2.webp"
       },
       {
         "id": "thinkpad-x1-carbon",
@@ -2590,7 +2633,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 16
+        "rank": 16,
+        "image": "/images/hardware/thinkpad-x1-carbon.jpg"
       },
       {
         "id": "thinkpad-t-series",
@@ -2626,7 +2670,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 17
+        "rank": 17,
+        "image": "/images/hardware/thinkpad-t-series.jpg"
       },
       {
         "id": "zsa-moonlander",
@@ -2688,7 +2733,8 @@
             }
           ]
         },
-        "rank": 18
+        "rank": 18,
+        "image": "/images/hardware/zsa-moonlander.webp"
       },
       {
         "id": "steelcase-gesture",
@@ -2721,7 +2767,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 19
+        "rank": 19,
+        "image": "/images/hardware/steelcase-gesture.webp"
       },
       {
         "id": "logitech-mx-master-3s",
@@ -2794,7 +2841,8 @@
             }
           ]
         },
-        "rank": 20
+        "rank": 20,
+        "image": "/images/hardware/logitech-mx-master-3s.jpg"
       },
       {
         "id": "asus-proart-4k",
@@ -2838,7 +2886,8 @@
             }
           ]
         },
-        "rank": 21
+        "rank": 21,
+        "image": "/images/hardware/asus-proart-4k.png"
       },
       {
         "id": "zsa-voyager",
@@ -2909,7 +2958,8 @@
             }
           ]
         },
-        "rank": 22
+        "rank": 22,
+        "image": "/images/hardware/zsa-voyager.webp"
       },
       {
         "id": "kensington-slimblade-expert",
@@ -2954,7 +3004,8 @@
             }
           ]
         },
-        "rank": 23
+        "rank": 23,
+        "image": "/images/hardware/kensington-slimblade-expert.jpg"
       },
       {
         "id": "apple-studio-display",
@@ -2997,7 +3048,8 @@
             }
           ]
         },
-        "rank": 24
+        "rank": 24,
+        "image": "/images/hardware/apple-studio-display.jpg"
       },
       {
         "id": "lg-c3-c4-oled-42",
@@ -3033,7 +3085,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 25
+        "rank": 25,
+        "image": "/images/hardware/lg-c3-c4-oled-42.jpg"
       },
       {
         "id": "lg-ultrafine-5k-4k",
@@ -3076,7 +3129,8 @@
             }
           ]
         },
-        "rank": 26
+        "rank": 26,
+        "image": "/images/hardware/lg-ultrafine-5k-4k.jpg"
       },
       {
         "id": "haworth-fern",
@@ -3109,7 +3163,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 27
+        "rank": 27,
+        "image": "/images/hardware/haworth-fern.jpg"
       },
       {
         "id": "asus-rog-zephyrus-g14",
@@ -3153,7 +3208,8 @@
             }
           ]
         },
-        "rank": 28
+        "rank": 28,
+        "image": "/images/hardware/asus-rog-zephyrus-g14.png"
       }
     ],
     "All": [
@@ -3336,7 +3392,8 @@
             }
           ]
         },
-        "rank": 1
+        "rank": 1,
+        "image": "/images/hardware/framework-laptop-13-16.jpg"
       },
       {
         "id": "apple-macbook-pro-m-series",
@@ -3429,7 +3486,8 @@
             }
           ]
         },
-        "rank": 2
+        "rank": 2,
+        "image": "/images/hardware/apple-macbook-pro-m-series.png"
       },
       {
         "id": "keychron-q-series",
@@ -3511,7 +3569,8 @@
           ],
           "caution": []
         },
-        "rank": 3
+        "rank": 3,
+        "image": "/images/hardware/keychron-q-series.webp"
       },
       {
         "id": "glove80",
@@ -3617,7 +3676,8 @@
           ],
           "caution": []
         },
-        "rank": 4
+        "rank": 4,
+        "image": "/images/hardware/glove80.webp"
       },
       {
         "id": "hhkb-professional",
@@ -3698,7 +3758,8 @@
           ],
           "caution": []
         },
-        "rank": 5
+        "rank": 5,
+        "image": "/images/hardware/hhkb-professional.jpg"
       },
       {
         "id": "ergodox-ez",
@@ -3814,7 +3875,8 @@
             }
           ]
         },
-        "rank": 6
+        "rank": 6,
+        "image": "/images/hardware/ergodox-ez.webp"
       },
       {
         "id": "herman-miller-embody",
@@ -3867,7 +3929,8 @@
           ],
           "caution": []
         },
-        "rank": 7
+        "rank": 7,
+        "image": "/images/hardware/herman-miller-embody.jpg"
       },
       {
         "id": "kinesis-advantage",
@@ -3985,7 +4048,8 @@
             }
           ]
         },
-        "rank": 8
+        "rank": 8,
+        "image": "/images/hardware/kinesis-advantage.jpg"
       },
       {
         "id": "zsa-moonlander",
@@ -4119,7 +4183,8 @@
             }
           ]
         },
-        "rank": 9
+        "rank": 9,
+        "image": "/images/hardware/zsa-moonlander.webp"
       },
       {
         "id": "apple-magic-trackpad",
@@ -4162,7 +4227,8 @@
           ],
           "caution": []
         },
-        "rank": 10
+        "rank": 10,
+        "image": "/images/hardware/apple-magic-trackpad.jpg"
       },
       {
         "id": "logitech-mx-ergo",
@@ -4214,7 +4280,8 @@
           ],
           "caution": []
         },
-        "rank": 11
+        "rank": 11,
+        "image": "/images/hardware/logitech-mx-ergo.webp"
       },
       {
         "id": "dell-ultrasharp-4k",
@@ -4297,7 +4364,8 @@
             }
           ]
         },
-        "rank": 12
+        "rank": 12,
+        "image": "/images/hardware/dell-ultrasharp-4k.png"
       },
       {
         "id": "thinkpad-x1-carbon",
@@ -4414,7 +4482,8 @@
             }
           ]
         },
-        "rank": 13
+        "rank": 13,
+        "image": "/images/hardware/thinkpad-x1-carbon.jpg"
       },
       {
         "id": "thinkpad-t-series",
@@ -4479,7 +4548,8 @@
             }
           ]
         },
-        "rank": 14
+        "rank": 14,
+        "image": "/images/hardware/thinkpad-t-series.jpg"
       },
       {
         "id": "apple-studio-display",
@@ -4532,7 +4602,8 @@
             }
           ]
         },
-        "rank": 15
+        "rank": 15,
+        "image": "/images/hardware/apple-studio-display.jpg"
       },
       {
         "id": "corne-split",
@@ -4595,7 +4666,8 @@
             }
           ]
         },
-        "rank": 16
+        "rank": 16,
+        "image": "/images/hardware/corne-split.jpg"
       },
       {
         "id": "herman-miller-aeron",
@@ -4676,7 +4748,8 @@
             }
           ]
         },
-        "rank": 17
+        "rank": 17,
+        "image": "/images/hardware/herman-miller-aeron.jpg"
       },
       {
         "id": "logitech-mx-vertical-lift",
@@ -4749,7 +4822,8 @@
             }
           ]
         },
-        "rank": 18
+        "rank": 18,
+        "image": "/images/hardware/logitech-mx-vertical-lift.jpg"
       },
       {
         "id": "asus-rog-zephyrus-g14",
@@ -4821,7 +4895,8 @@
             }
           ]
         },
-        "rank": 19
+        "rank": 19,
+        "image": "/images/hardware/asus-rog-zephyrus-g14.png"
       },
       {
         "id": "zsa-voyager",
@@ -4892,7 +4967,8 @@
             }
           ]
         },
-        "rank": 20
+        "rank": 20,
+        "image": "/images/hardware/zsa-voyager.webp"
       },
       {
         "id": "logitech-mx-master-3s",
@@ -4965,7 +5041,8 @@
             }
           ]
         },
-        "rank": 21
+        "rank": 21,
+        "image": "/images/hardware/logitech-mx-master-3s.jpg"
       },
       {
         "id": "lg-ultrafine-5k-4k",
@@ -5045,7 +5122,8 @@
             }
           ]
         },
-        "rank": 22
+        "rank": 22,
+        "image": "/images/hardware/lg-ultrafine-5k-4k.jpg"
       },
       {
         "id": "steelcase-leap-v2",
@@ -5099,7 +5177,8 @@
             }
           ]
         },
-        "rank": 23
+        "rank": 23,
+        "image": "/images/hardware/steelcase-leap-v2.webp"
       },
       {
         "id": "asus-proart-4k",
@@ -5161,7 +5240,8 @@
             }
           ]
         },
-        "rank": 24
+        "rank": 24,
+        "image": "/images/hardware/asus-proart-4k.png"
       },
       {
         "id": "kensington-slimblade-expert",
@@ -5216,7 +5296,8 @@
             }
           ]
         },
-        "rank": 25
+        "rank": 25,
+        "image": "/images/hardware/kensington-slimblade-expert.jpg"
       },
       {
         "id": "steelcase-gesture",
@@ -5249,7 +5330,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 26
+        "rank": 26,
+        "image": "/images/hardware/steelcase-gesture.webp"
       },
       {
         "id": "lg-c3-c4-oled-42",
@@ -5285,7 +5367,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 27
+        "rank": 27,
+        "image": "/images/hardware/lg-c3-c4-oled-42.jpg"
       },
       {
         "id": "haworth-fern",
@@ -5318,7 +5401,8 @@
           "positive": [],
           "caution": []
         },
-        "rank": 28
+        "rank": 28,
+        "image": "/images/hardware/haworth-fern.jpg"
       }
     ]
   }

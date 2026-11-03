@@ -32,6 +32,7 @@ const CATEGORY_COLORS = {
 };
 
 export default function HardwareCard({ item, rank, onSelect }) {
+  const [imgError, setImgError] = React.useState(false);
   const Icon = CATEGORY_ICONS[item.category] || Sparkles;
   const colorClass = CATEGORY_COLORS[item.category] || 'text-gray-400 bg-gray-500/10 border-gray-500/20';
 
@@ -80,6 +81,25 @@ export default function HardwareCard({ item, rank, onSelect }) {
               {item.price_tier || '$$$'}
             </span>
           </div>
+        </div>
+
+        {/* Hardware Real Photo Showcase */}
+        <div className="relative w-full h-40 mb-3.5 rounded-xl bg-[#090c14] border border-gray-800/80 overflow-hidden flex items-center justify-center group-hover:border-gray-700 transition-colors">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,102,0,0.03)_0%,transparent_70%)] pointer-events-none" />
+          {item.image && !imgError ? (
+            <img 
+              src={item.image} 
+              alt={item.name}
+              loading="lazy"
+              onError={() => setImgError(true)}
+              className="max-h-full max-w-full object-contain p-2.5 group-hover:scale-105 transition-transform duration-300 drop-shadow-[0_6px_12px_rgba(0,0,0,0.6)]"
+            />
+          ) : (
+            <div className="flex flex-col items-center justify-center text-gray-600 gap-1.5 py-6">
+              <Icon className="w-10 h-10 stroke-[1.2] opacity-40 text-gray-500" />
+              <span className="text-[10px] font-mono uppercase tracking-wider text-gray-500">Hardware Preview</span>
+            </div>
+          )}
         </div>
 
         {/* Item Brand & Name */}

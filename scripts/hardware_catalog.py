@@ -15,6 +15,7 @@ CATALOG = [
     # ==========================================
     {
         "id": "kinesis-advantage",
+        "image": "/images/hardware/kinesis-advantage.jpg",
         "name": "Kinesis Advantage 360 / 2",
         "brand": "Kinesis",
         "category": "keyboard",
@@ -31,6 +32,7 @@ CATALOG = [
     },
     {
         "id": "zsa-moonlander",
+        "image": "/images/hardware/zsa-moonlander.webp",
         "name": "ZSA Moonlander",
         "brand": "ZSA",
         "category": "keyboard",
@@ -45,6 +47,7 @@ CATALOG = [
     },
     {
         "id": "zsa-voyager",
+        "image": "/images/hardware/zsa-voyager.webp",
         "name": "ZSA Voyager",
         "brand": "ZSA",
         "category": "keyboard",
@@ -59,6 +62,7 @@ CATALOG = [
     },
     {
         "id": "hhkb-professional",
+        "image": "/images/hardware/hhkb-professional.jpg",
         "name": "HHKB Professional (Classic / Hybrid)",
         "brand": "Happy Hacking",
         "category": "keyboard",
@@ -75,6 +79,7 @@ CATALOG = [
     },
     {
         "id": "keychron-q-series",
+        "image": "/images/hardware/keychron-q-series.webp",
         "name": "Keychron Q / V Series (Q1/Q2/Q3/V1)",
         "brand": "Keychron",
         "category": "keyboard",
@@ -92,6 +97,7 @@ CATALOG = [
     },
     {
         "id": "ergodox-ez",
+        "image": "/images/hardware/ergodox-ez.webp",
         "name": "Ergodox EZ",
         "brand": "ZSA",
         "category": "keyboard",
@@ -106,6 +112,7 @@ CATALOG = [
     },
     {
         "id": "glove80",
+        "image": "/images/hardware/glove80.webp",
         "name": "MoErgo Glove80",
         "brand": "MoErgo",
         "category": "keyboard",
@@ -120,6 +127,7 @@ CATALOG = [
     },
     {
         "id": "corne-split",
+        "image": "/images/hardware/corne-split.jpg",
         "name": "Corne / CRKBD (Custom Split)",
         "brand": "Open Source",
         "category": "keyboard",
@@ -139,6 +147,7 @@ CATALOG = [
     # ==========================================
     {
         "id": "logitech-mx-master-3s",
+        "image": "/images/hardware/logitech-mx-master-3s.jpg",
         "name": "Logitech MX Master 3S / 3",
         "brand": "Logitech",
         "category": "mouse",
@@ -155,6 +164,7 @@ CATALOG = [
     },
     {
         "id": "apple-magic-trackpad",
+        "image": "/images/hardware/apple-magic-trackpad.jpg",
         "name": "Apple Magic Trackpad",
         "brand": "Apple",
         "category": "mouse",
@@ -169,6 +179,7 @@ CATALOG = [
     },
     {
         "id": "logitech-mx-vertical-lift",
+        "image": "/images/hardware/logitech-mx-vertical-lift.jpg",
         "name": "Logitech Lift / MX Vertical",
         "brand": "Logitech",
         "category": "mouse",
@@ -185,6 +196,7 @@ CATALOG = [
     },
     {
         "id": "kensington-slimblade-expert",
+        "image": "/images/hardware/kensington-slimblade-expert.jpg",
         "name": "Kensington SlimBlade Pro / Expert Mouse",
         "brand": "Kensington",
         "category": "mouse",
@@ -201,6 +213,7 @@ CATALOG = [
     },
     {
         "id": "logitech-mx-ergo",
+        "image": "/images/hardware/logitech-mx-ergo.webp",
         "name": "Logitech MX Ergo",
         "brand": "Logitech",
         "category": "mouse",
@@ -219,6 +232,7 @@ CATALOG = [
     # ==========================================
     {
         "id": "dell-ultrasharp-4k",
+        "image": "/images/hardware/dell-ultrasharp-4k.png",
         "name": "Dell UltraSharp 4K (U2723QE / U3223QE)",
         "brand": "Dell",
         "category": "monitor",
@@ -236,6 +250,7 @@ CATALOG = [
     },
     {
         "id": "apple-studio-display",
+        "image": "/images/hardware/apple-studio-display.jpg",
         "name": "Apple Studio Display 27\" 5K",
         "brand": "Apple",
         "category": "monitor",
@@ -250,6 +265,7 @@ CATALOG = [
     },
     {
         "id": "lg-c3-c4-oled-42",
+        "image": "/images/hardware/lg-c3-c4-oled-42.jpg",
         "name": "LG OLED C3 / C4 (42\" / 48\")",
         "brand": "LG",
         "category": "monitor",
@@ -267,6 +283,7 @@ CATALOG = [
     },
     {
         "id": "lg-ultrafine-5k-4k",
+        "image": "/images/hardware/lg-ultrafine-5k-4k.jpg",
         "name": "LG UltraFine 5K (27MD5KL)",
         "brand": "LG",
         "category": "monitor",
@@ -281,6 +298,7 @@ CATALOG = [
     },
     {
         "id": "asus-proart-4k",
+        "image": "/images/hardware/asus-proart-4k.png",
         "name": "ASUS ProArt Display (PA279CRV / PA329CRV)",
         "brand": "ASUS",
         "category": "monitor",
@@ -300,6 +318,7 @@ CATALOG = [
     # ==========================================
     {
         "id": "herman-miller-aeron",
+        "image": "/images/hardware/herman-miller-aeron.jpg",
         "name": "Herman Miller Aeron (Remastered)",
         "brand": "Herman Miller",
         "category": "chair",
@@ -315,6 +334,7 @@ CATALOG = [
     },
     {
         "id": "herman-miller-embody",
+        "image": "/images/hardware/herman-miller-embody.jpg",
         "name": "Herman Miller Embody (Logitech Edition)",
         "brand": "Herman Miller",
         "category": "chair",
@@ -330,6 +350,7 @@ CATALOG = [
     },
     {
         "id": "steelcase-leap-v2",
+        "image": "/images/hardware/steelcase-leap-v2.webp",
         "name": "Steelcase Leap V2",
         "brand": "Steelcase",
         "category": "chair",
@@ -345,6 +366,7 @@ CATALOG = [
     },
     {
         "id": "steelcase-gesture",
+        "image": "/images/hardware/steelcase-gesture.webp",
         "name": "Steelcase Gesture",
         "brand": "Steelcase",
         "category": "chair",
@@ -359,6 +381,7 @@ CATALOG = [
     },
     {
         "id": "haworth-fern",
+        "image": "/images/hardware/haworth-fern.jpg",
         "name": "Haworth Fern",
         "brand": "Haworth",
         "category": "chair",
@@ -377,6 +400,7 @@ CATALOG = [
     # ==========================================
     {
         "id": "apple-macbook-pro-m-series",
+        "image": "/images/hardware/apple-macbook-pro-m-series.png",
         "name": "Apple MacBook Pro 14\" / 16\" (M3 / M4 / M2 / M1)",
         "brand": "Apple",
         "category": "laptop",
@@ -395,6 +419,7 @@ CATALOG = [
     },
     {
         "id": "framework-laptop-13-16",
+        "image": "/images/hardware/framework-laptop-13-16.jpg",
         "name": "Framework Laptop 13 / 16",
         "brand": "Framework",
         "category": "laptop",
@@ -411,6 +436,7 @@ CATALOG = [
     },
     {
         "id": "thinkpad-x1-carbon",
+        "image": "/images/hardware/thinkpad-x1-carbon.jpg",
         "name": "Lenovo ThinkPad X1 Carbon (Gen 11 / 12)",
         "brand": "Lenovo",
         "category": "laptop",
@@ -426,6 +452,7 @@ CATALOG = [
     },
     {
         "id": "thinkpad-t-series",
+        "image": "/images/hardware/thinkpad-t-series.jpg",
         "name": "Lenovo ThinkPad T14 / T14s (AMD / Intel)",
         "brand": "Lenovo",
         "category": "laptop",
@@ -443,6 +470,7 @@ CATALOG = [
     },
     {
         "id": "asus-rog-zephyrus-g14",
+        "image": "/images/hardware/asus-rog-zephyrus-g14.png",
         "name": "ASUS ROG Zephyrus G14 (OLED)",
         "brand": "ASUS",
         "category": "laptop",
