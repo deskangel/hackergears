@@ -71,7 +71,7 @@ CATALOG = [
         "specs": "Topre capacitive switches (45g), customized UNIX layout with Control next to 'A', Bluetooth & USB-C",
         "patterns": [
             r"\bhhkb\b",
-            r"\bhappy\s+hacking\b",
+            r"\bhappy\s+hacking\s+keyboard\b",
             r"\bhhkb\s+hybrid\b",
             r"\bhhkb\s+pro\b"
         ],
@@ -342,9 +342,10 @@ CATALOG = [
         "tags": ["Pixelated Support", "Dynamic Spine", "Active Sitting", "Upper Back Freedom"],
         "specs": "Matrix of pixels that automatically conforms to micro-movements, BackFit adjustment, copper cooling foam",
         "patterns": [
-            r"\bembody\b",
             r"\bherman\s+miller\s+embody\b",
-            r"\blogitech\s+embody\b"
+            r"\blogitech\s+embody\b",
+            r"\bembody\s+(chair|seat|gaming)\b",
+            r"\bhm\s+embody\b"
         ],
         "primary_keyword": "Herman Miller Embody"
     },
@@ -430,7 +431,7 @@ CATALOG = [
             r"\bframework\s+laptop\b",
             r"\bframework\s+13\b",
             r"\bframework\s+16\b",
-            r"\bframework\b"
+            r"\bframework\s+(12|13|16)\b"
         ],
         "primary_keyword": "Framework Laptop"
     },

@@ -1,6 +1,6 @@
 """
 test_sentiment.py
-Unit tests verifying sentiment polarity classification and author de-duplication rules.
+Unit tests verifying sentiment polarity classification, negations, and comparative expressions.
 """
 
 import unittest
@@ -27,6 +27,29 @@ class TestSentimentClassifier(unittest.TestCase):
         self.assertEqual(polarity, 0)
         self.assertEqual(len(pos), 0)
         self.assertEqual(len(neg), 0)
+
+    def test_negation_wont_regret(self):
+        text = "Get a kinesis advantage, you won’t regret it."
+        polarity, pos, neg = analyze_sentiment_clause(text)
+        self.assertEqual(polarity, 1)
+        self.assertEqual(len(neg), 0)
+
+    def test_negation_never_uncomfortable(self):
+        text = "Leap V2 at work, near perfect: sit however, never uncomfortable."
+        polarity, pos, neg = analyze_sentiment_clause(text)
+        self.assertGreaterEqual(polarity, 0)
+        self.assertEqual(len(neg), 0)
+
+    def test_comparative_remedy_thinkpad_t14(self):
+        text = "In my opinion, DHH is underselling how terrible the keyboard on the Dell XPS is. I bought the lunar lake XPS and I hate the keyboard so much, I turned it into an expensive Jellyfin server and bought a $275 thinkpad T14 on ebay to use instead."
+        polarity, pos, neg = analyze_sentiment_clause(text)
+        # ThinkPad T14 is the remedy/alternative purchased instead of terrible XPS keyboard
+        self.assertNotEqual(polarity, -1)
+
+    def test_conditional_love(self):
+        text = "I would love the apple studio display if the framerate wasn't actually crap."
+        polarity, pos, neg = analyze_sentiment_clause(text)
+        self.assertEqual(polarity, -1)
 
     def test_html_cleaning(self):
         raw = "This is great&#x27;s item!<p>Another paragraph &quot;quoted&quot; <a href=\"https://example.com\">link</a></p>"

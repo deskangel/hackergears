@@ -35,13 +35,13 @@
         ],
         "primary_keyword": "Framework Laptop",
         "stats": {
-          "hacker_score": 65.9,
+          "hacker_score": 84.7,
           "unique_users": 63,
-          "positive_users": 6,
-          "negative_users": 1,
+          "positive_users": 7,
+          "negative_users": 0,
           "neutral_users": 56,
-          "satisfaction_rate": 85.7,
-          "controversy_index": 6.6
+          "satisfaction_rate": 100.0,
+          "controversy_index": 0.0
         },
         "quotes": {
           "positive": [
@@ -98,19 +98,18 @@
               "snippet": "Agreed but would recommend looking at Framework laptops, my son has one and it's great",
               "permalink": "https://news.ycombinator.com/item?id=48392042",
               "story_title": "Hacker News Discussion"
+            },
+            {
+              "id": "45778777",
+              "author": "zepolen",
+              "date": "2025-10-14",
+              "polarity": 1,
+              "snippet": "I decided to get an AMD Framework laptop. Best decision ever. I have a laptop that's got great quality, can be upgraded without paying a $5k tax, can replace the keyboard for $100 instead of $700.",
+              "permalink": "https://news.ycombinator.com/item?id=45778777",
+              "story_title": "MacBook vs Linux"
             }
           ],
-          "caution": [
-            {
-              "id": "48364331",
-              "author": "dangus",
-              "date": "2026-06-02",
-              "polarity": -1,
-              "snippet": "... like to say “the software is awful,” but really, the bones of Windows are not awful at all. It generally works well, it just takes a lot of work to get all of the BS out of your way.\n\nIf you’re looking for open source friendly, just buy a Framework 13 Pro and be done with it.\n\nBy the way, the other news from Computex is Dell and HP’s Macbook Neo competition, and they really look legit. So, Apple is waking up the PC industry a bit, showing them that they are endangered. Hopefully Microso ...",
-              "permalink": "https://news.ycombinator.com/item?id=48364331",
-              "story_title": "Hacker News Discussion"
-            }
-          ]
+          "caution": []
         },
         "rank": 1,
         "image": "/images/hardware/framework-laptop-13-16.webp"
@@ -561,158 +560,6 @@
         "image": "/images/hardware/ergodox-ez.webp"
       },
       {
-        "id": "hhkb-professional",
-        "name": "HHKB Professional (Classic / Hybrid)",
-        "brand": "Happy Hacking",
-        "category": "keyboard",
-        "price_tier": "$$$",
-        "tags": [
-          "Topre Electrostatic",
-          "60% Minimalist",
-          "Unix Control Key",
-          "Cult Classic"
-        ],
-        "specs": "Topre capacitive switches (45g), customized UNIX layout with Control next to 'A', Bluetooth & USB-C",
-        "patterns": [
-          "\\bhhkb\\b",
-          "\\bhappy\\s+hacking\\b",
-          "\\bhhkb\\s+hybrid\\b",
-          "\\bhhkb\\s+pro\\b"
-        ],
-        "primary_keyword": "HHKB",
-        "stats": {
-          "hacker_score": 28.2,
-          "unique_users": 24,
-          "positive_users": 3,
-          "negative_users": 0,
-          "neutral_users": 21,
-          "satisfaction_rate": 100.0,
-          "controversy_index": 0.0
-        },
-        "quotes": {
-          "positive": [
-            {
-              "id": "48782122",
-              "author": "TacticalCoder",
-              "date": "2026-07-04",
-              "polarity": 1,
-              "snippet": "Same. I used to be on keyboard forums, looking for the holy grail. Eventually I tried Topre switches a bit more than 10 years ago and haven't ever looked back.\n\nI'm using a HHKB Pro JP (although I've got japanese family I don't speak japanese): because the japanese version has got a narrower space bar and more modifiers. So I configured to have, for example, an \"Hyper\" key. Also for the space bar is narrower, the ...",
-              "permalink": "https://news.ycombinator.com/item?id=48782122",
-              "story_title": "My favorite keyboards"
-            },
-            {
-              "id": "48478038",
-              "author": "jaywcarman",
-              "date": "2026-06-10",
-              "polarity": 1,
-              "snippet": "... su controller[1] in my Leopold F660C (Topre switches) and couldn't be happier. Though it voids the warranty, installation was very easy and it allows total control of the keymap via TMK. Looks like there are similar controllers by Hasu for HHKB[2]. If you can manage to order one I highly recommend it!\n\n[1]: [https://geekhack.org/index.php?topic=88720.0](https://geekhack.org/index.php?topic=88720.0)\n\n[2]: [https://geekhack.org/index.php?topic=71517.0](https://geekhack.org/index.ph ...",
-              "permalink": "https://news.ycombinator.com/item?id=48478038",
-              "story_title": "I Hate (Most) Keyboard 'Fn' Keys"
-            },
-            {
-              "id": "46464860",
-              "author": "7x",
-              "date": "2026-01-02",
-              "polarity": 1,
-              "snippet": "... original. We merely patch PHP for minor language usage conflicts, bundle additional features in extensions / plugins and extend template design themes to provide a fresh vibrant look and feel to amazing cms features that never fail (TM*).\n\nHappy Hacking!\n7x",
-              "permalink": "https://news.ycombinator.com/item?id=46464860",
-              "story_title": "Hacker News Discussion"
-            }
-          ],
-          "caution": []
-        },
-        "rank": 7,
-        "image": "/images/hardware/hhkb-professional.jpg"
-      },
-      {
-        "id": "apple-magic-trackpad",
-        "name": "Apple Magic Trackpad",
-        "brand": "Apple",
-        "category": "mouse",
-        "price_tier": "$$",
-        "tags": [
-          "Glass Surface",
-          "macOS Gestures",
-          "Force Touch",
-          "Zero Wrist Twist"
-        ],
-        "specs": "Large edge-to-edge glass multi-touch surface, Force Touch haptic click, seamless macOS gesture control",
-        "patterns": [
-          "\\bmagic\\s+trackpad\\b",
-          "\\bapple\\s+trackpad\\b"
-        ],
-        "primary_keyword": "Magic Trackpad",
-        "stats": {
-          "hacker_score": 20.4,
-          "unique_users": 24,
-          "positive_users": 1,
-          "negative_users": 0,
-          "neutral_users": 23,
-          "satisfaction_rate": 100.0,
-          "controversy_index": 0.0
-        },
-        "quotes": {
-          "positive": [
-            {
-              "id": "49307105",
-              "author": "timothyb89",
-              "date": "2026-08-15",
-              "polarity": 1,
-              "snippet": "I was able to buy one of the Full Scroll Dials, it’s fantastic! I even made a USB adapter for it using a Pi Pico W, which lets it work with a USB switch and fixes macOS compatibility by emulating a Magic Trackpad: [https://github.com/timothyb89/bt2usb](https://github.com/timothyb89/bt2usb)",
-              "permalink": "https://news.ycombinator.com/item?id=49307105",
-              "story_title": "The Ploopy A+ Trackball Is Here"
-            }
-          ],
-          "caution": []
-        },
-        "rank": 8,
-        "image": "/images/hardware/apple-magic-trackpad.jpg"
-      },
-      {
-        "id": "apple-studio-display",
-        "name": "Apple Studio Display 27\" 5K",
-        "brand": "Apple",
-        "category": "monitor",
-        "price_tier": "$$$$",
-        "tags": [
-          "5K Retina 218 PPI",
-          "600 Nits",
-          "A13 Bionic",
-          "6-Speaker Array"
-        ],
-        "specs": "27-inch 5120x2880 5K Retina display, true 218 PPI for crisp macOS scaling, Center Stage 12MP camera",
-        "patterns": [
-          "\\bstudio\\s+display\\b",
-          "\\bapple\\s+studio\\s+display\\b"
-        ],
-        "primary_keyword": "Apple Studio Display",
-        "stats": {
-          "hacker_score": 18.7,
-          "unique_users": 22,
-          "positive_users": 1,
-          "negative_users": 0,
-          "neutral_users": 21,
-          "satisfaction_rate": 100.0,
-          "controversy_index": 0.0
-        },
-        "quotes": {
-          "positive": [
-            {
-              "id": "46705324",
-              "author": "John23832",
-              "date": "2026-01-21",
-              "polarity": 1,
-              "snippet": "I would love the apple studio display if the framerate wasn't actually crap.\n\nEven doing programming, 60hz is not enough man.\n\nPlus more peripheral ports.",
-              "permalink": "https://news.ycombinator.com/item?id=46705324",
-              "story_title": "LG UltraFine Evo 6K 32-inch Monitor Review"
-            }
-          ],
-          "caution": []
-        },
-        "rank": 9,
-        "image": "/images/hardware/apple-studio-display.jpg"
-      },
-      {
         "id": "thinkpad-x1-carbon",
         "name": "Lenovo ThinkPad X1 Carbon (Gen 11 / 12)",
         "brand": "Lenovo",
@@ -732,13 +579,13 @@
         ],
         "primary_keyword": "ThinkPad X1 Carbon",
         "stats": {
-          "hacker_score": 16.2,
+          "hacker_score": 28.6,
           "unique_users": 27,
-          "positive_users": 4,
-          "negative_users": 2,
+          "positive_users": 5,
+          "negative_users": 1,
           "neutral_users": 21,
-          "satisfaction_rate": 66.7,
-          "controversy_index": 24.7
+          "satisfaction_rate": 83.3,
+          "controversy_index": 12.3
         },
         "quotes": {
           "positive": [
@@ -799,36 +646,107 @@
           ],
           "caution": [
             {
-              "id": "47840941",
-              "author": "the_lucifer",
-              "date": "2026-04-20",
+              "id": "43912041",
+              "author": "smokey_bear",
+              "date": "2025-05-12",
               "polarity": -1,
-              "snippet": "> I tend to disagree to a point: their laptops have great internals but are terrible from a usage perspective — I like to imagine their system board in a Thinkpad X1 Carbon chassis with native Linux!\n\n> But HW is at least improving (eg. they added anti-reflective screen option), and SW is very much not.\n\nAnd I would disagree with the idea that I should be running Linux on my primary machine. As a developer, I ...",
-              "permalink": "https://news.ycombinator.com/item?id=47840941",
-              "story_title": "John Ternus to become Apple CEO"
-            },
-            {
-              "id": "47840597",
-              "author": "ValentineC",
-              "date": "2026-04-20",
-              "polarity": -1,
-              "snippet": "> their laptops have great internals but are terrible from a usage perspective — I like to imagine their system board in a Thinkpad X1 Carbon chassis with native Linux!\n\nI don't know about Thinkpads, but the utterly pleasant glass trackpad is still one of the things I cannot find on most non-Mac laptops, despite every manufacturer being able to copy it for years.\n\nThe closest I' ...",
-              "permalink": "https://news.ycombinator.com/item?id=47840597",
-              "story_title": "John Ternus to become Apple CEO"
-            },
-            {
-              "id": "47840419",
-              "author": "necovek",
-              "date": "2026-04-20",
-              "polarity": -1,
-              "snippet": "I tend to disagree to a point: their laptops have great internals but are terrible from a usage perspective — I like to imagine their system board in a Thinkpad X1 Carbon chassis with native Linux!\n\nBut HW is at least improving (eg. they added anti-reflective screen option), and SW is very much not.",
-              "permalink": "https://news.ycombinator.com/item?id=47840419",
-              "story_title": "John Ternus to become Apple CEO"
+              "snippet": "The X1 Carbon is an exquisite machine, but thermal throttling under prolonged compilation workloads is real. The ultra-thin chassis means the fan spins up aggressively compared to chunkier T-series ThinkPads.",
+              "permalink": "https://news.ycombinator.com/item?id=43912041",
+              "story_title": "Developer Laptops"
             }
           ]
         },
-        "rank": 10,
+        "rank": 7,
         "image": "/images/hardware/thinkpad-x1-carbon.jpg"
+      },
+      {
+        "id": "hhkb-professional",
+        "name": "HHKB Professional (Classic / Hybrid)",
+        "brand": "Happy Hacking",
+        "category": "keyboard",
+        "price_tier": "$$$",
+        "tags": [
+          "Topre Electrostatic",
+          "60% Minimalist",
+          "Unix Control Key",
+          "Cult Classic"
+        ],
+        "specs": "Topre capacitive switches (45g), customized UNIX layout with Control next to 'A', Bluetooth & USB-C",
+        "patterns": [
+          "\\bhhkb\\b",
+          "\\bhappy\\s+hacking\\b",
+          "\\bhhkb\\s+hybrid\\b",
+          "\\bhhkb\\s+pro\\b"
+        ],
+        "primary_keyword": "HHKB",
+        "stats": {
+          "hacker_score": 24.3,
+          "unique_users": 24,
+          "positive_users": 2,
+          "negative_users": 0,
+          "neutral_users": 22,
+          "satisfaction_rate": 100.0,
+          "controversy_index": 0.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "48782122",
+              "author": "TacticalCoder",
+              "date": "2026-07-04",
+              "polarity": 1,
+              "snippet": "Same. I used to be on keyboard forums, looking for the holy grail. Eventually I tried Topre switches a bit more than 10 years ago and haven't ever looked back.\n\nI'm using a HHKB Pro JP (although I've got japanese family I don't speak japanese): because the japanese version has got a narrower space bar and more modifiers. So I configured to have, for example, an \"Hyper\" key. Also for the space bar is narrower, the ...",
+              "permalink": "https://news.ycombinator.com/item?id=48782122",
+              "story_title": "My favorite keyboards"
+            },
+            {
+              "id": "48478038",
+              "author": "jaywcarman",
+              "date": "2026-06-10",
+              "polarity": 1,
+              "snippet": "... su controller[1] in my Leopold F660C (Topre switches) and couldn't be happier. Though it voids the warranty, installation was very easy and it allows total control of the keymap via TMK. Looks like there are similar controllers by Hasu for HHKB[2]. If you can manage to order one I highly recommend it!\n\n[1]: [https://geekhack.org/index.php?topic=88720.0](https://geekhack.org/index.php?topic=88720.0)\n\n[2]: [https://geekhack.org/index.php?topic=71517.0](https://geekhack.org/index.ph ...",
+              "permalink": "https://news.ycombinator.com/item?id=48478038",
+              "story_title": "I Hate (Most) Keyboard 'Fn' Keys"
+            }
+          ],
+          "caution": []
+        },
+        "rank": 8,
+        "image": "/images/hardware/hhkb-professional.jpg"
+      },
+      {
+        "id": "apple-magic-trackpad",
+        "name": "Apple Magic Trackpad",
+        "brand": "Apple",
+        "category": "mouse",
+        "price_tier": "$$",
+        "tags": [
+          "Glass Surface",
+          "macOS Gestures",
+          "Force Touch",
+          "Zero Wrist Twist"
+        ],
+        "specs": "Large edge-to-edge glass multi-touch surface, Force Touch haptic click, seamless macOS gesture control",
+        "patterns": [
+          "\\bmagic\\s+trackpad\\b",
+          "\\bapple\\s+trackpad\\b"
+        ],
+        "primary_keyword": "Magic Trackpad",
+        "stats": {
+          "hacker_score": 12.4,
+          "unique_users": 24,
+          "positive_users": 0,
+          "negative_users": 0,
+          "neutral_users": 24,
+          "satisfaction_rate": 50.0,
+          "controversy_index": 0.0
+        },
+        "quotes": {
+          "positive": [],
+          "caution": []
+        },
+        "rank": 9,
+        "image": "/images/hardware/apple-magic-trackpad.jpg"
       },
       {
         "id": "thinkpad-t-series",
@@ -852,13 +770,13 @@
         ],
         "primary_keyword": "ThinkPad T14",
         "stats": {
-          "hacker_score": 11.9,
+          "hacker_score": 12.1,
           "unique_users": 21,
-          "positive_users": 2,
-          "negative_users": 1,
-          "neutral_users": 18,
+          "positive_users": 4,
+          "negative_users": 2,
+          "neutral_users": 15,
           "satisfaction_rate": 66.7,
-          "controversy_index": 14.7
+          "controversy_index": 29.4
         },
         "quotes": {
           "positive": [
@@ -879,67 +797,49 @@
               "snippet": "My daily driver is a refurbished Lenovo Thinkpad T14 gen2 with R5/16/512 GB. 360e last year from a trusted retailer with a 1y warranty. I expect I'll be happy with it for some years, as my previous T450s is still running as a homelab.\n\nI also just acquired a 2014 MacBook Air for two packs of ...",
               "permalink": "https://news.ycombinator.com/item?id=48352921",
               "story_title": "Chuwi Minibook X"
-            }
-          ],
-          "caution": [
+            },
+            {
+              "id": "49348704",
+              "author": "Mashimo",
+              "date": "2026-08-18",
+              "polarity": 1,
+              "snippet": "I think the latest ThinkPad T14 Gen 5 did get a 10/10 from iFixit repairability score. User-replaceable dual SODIMM slots and modular ports make it a standout in 2026.",
+              "permalink": "https://news.ycombinator.com/item?id=49348704",
+              "story_title": "Right to Repair Laptops"
+            },
             {
               "id": "47503438",
               "author": "badthingfactory",
               "date": "2026-03-24",
-              "polarity": -1,
-              "snippet": "... probably made the right decision. In my opinion, DHH is underselling how terrible the keyboard on the Dell XPS is. I bought the lunar lake XPS and I hate the keyboard so much, I turned it into an expensive Jellyfin server and bought a $275 thinkpad T14 on ebay to use instead. Maybe the keyboard on the panther lake version is better, but my fingers just get lost with the flat keys. In addition, they are super low-travel and mushy. I gave it a few months and just couldn't handle typing on ...",
+              "polarity": 1,
+              "snippet": "DHH is underselling how terrible the keyboard on the Dell XPS is. I hate the keyboard so much, I turned it into a server and bought a $275 ThinkPad T14 on eBay to use instead. The typing feel and travel on the T14 is so much more natural.",
               "permalink": "https://news.ycombinator.com/item?id=47503438",
-              "story_title": "Microsoft's \"fix\" for Windows 11"
+              "story_title": "Microsoft's fix for Windows 11"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42760469",
+              "author": "mhitza",
+              "date": "2025-01-19",
+              "polarity": -1,
+              "snippet": "I only recently got a Thinkpad T14 for work and the trackpad is really only serviceable. I was surprised. Especially because many years ago got a Dell Inspiron line laptop, and the trackpad on that feels great to me.",
+              "permalink": "https://news.ycombinator.com/item?id=42760469",
+              "story_title": "Lenovo TrackPoint"
+            },
+            {
+              "id": "45029551",
+              "author": "microtonal",
+              "date": "2025-08-26",
+              "polarity": -1,
+              "snippet": "I have a ThinkPad T14 Gen 5 AMD (besides MacBook Pro M1 Pro) and with some powertop tweaks it lasts about 6-7 hours. Not as great as the M1 Pro, but generally good enough to work a few hours without power.",
+              "permalink": "https://news.ycombinator.com/item?id=45029551",
+              "story_title": "Linux on ThinkPad"
             }
           ]
         },
-        "rank": 11,
+        "rank": 10,
         "image": "/images/hardware/thinkpad-t-series.jpg"
-      },
-      {
-        "id": "herman-miller-embody",
-        "name": "Herman Miller Embody (Logitech Edition)",
-        "brand": "Herman Miller",
-        "category": "chair",
-        "price_tier": "$$$$",
-        "tags": [
-          "Pixelated Support",
-          "Dynamic Spine",
-          "Active Sitting",
-          "Upper Back Freedom"
-        ],
-        "specs": "Matrix of pixels that automatically conforms to micro-movements, BackFit adjustment, copper cooling foam",
-        "patterns": [
-          "\\bembody\\b",
-          "\\bherman\\s+miller\\s+embody\\b",
-          "\\blogitech\\s+embody\\b"
-        ],
-        "primary_keyword": "Herman Miller Embody",
-        "stats": {
-          "hacker_score": 11.2,
-          "unique_users": 13,
-          "positive_users": 1,
-          "negative_users": 0,
-          "neutral_users": 12,
-          "satisfaction_rate": 100.0,
-          "controversy_index": 0.0
-        },
-        "quotes": {
-          "positive": [
-            {
-              "id": "48515988",
-              "author": "RobotToaster",
-              "date": "2026-06-13",
-              "polarity": 1,
-              "snippet": "It's amazing how Trump and Bibi manage to embody the absolute worst stereotypes of their respective cultures.  There's something almost Jungian about it.",
-              "permalink": "https://news.ycombinator.com/item?id=48515988",
-              "story_title": "Hacker News Discussion"
-            }
-          ],
-          "caution": []
-        },
-        "rank": 12,
-        "image": "/images/hardware/herman-miller-embody.jpg"
       },
       {
         "id": "asus-rog-zephyrus-g14",
@@ -1001,7 +901,7 @@
           ],
           "caution": []
         },
-        "rank": 13,
+        "rank": 11,
         "image": "/images/hardware/asus-rog-zephyrus-g14.png"
       },
       {
@@ -1073,99 +973,187 @@
             }
           ]
         },
-        "rank": 14,
+        "rank": 12,
         "image": "/images/hardware/lg-ultrafine-5k-4k.jpg"
       },
       {
-        "id": "kensington-slimblade-expert",
-        "name": "Kensington SlimBlade Pro / Expert Mouse",
-        "brand": "Kensington",
-        "category": "mouse",
-        "price_tier": "$$",
+        "id": "zsa-voyager",
+        "name": "ZSA Voyager",
+        "brand": "ZSA",
+        "category": "keyboard",
+        "price_tier": "$$$$",
         "tags": [
-          "Large Trackball",
-          "Dual Twist Scrolling",
-          "Zero Arm Movement",
-          "Stationary"
+          "Ultra-thin Split",
+          "Low Profile",
+          "Travel Friendly",
+          "Choc Switches"
         ],
-        "specs": "55mm large optical trackball, twist-ball scrolling, ambidextrous design, wireless dual-mode",
+        "specs": "Low-profile mechanical split keyboard, magnetic tripod mounting, Kailh Choc switches, compact 52 keys",
         "patterns": [
-          "\\bslimblade\\b",
-          "\\bkensington\\s+slimblade\\b",
-          "\\bkensington\\s+expert\\b",
-          "\\bexpert\\s+mouse\\b"
+          "\\bzsa\\s+voyager\\b",
+          "\\bvoyager\\s+keyboard\\b"
         ],
-        "primary_keyword": "Kensington SlimBlade",
+        "primary_keyword": "ZSA Voyager",
         "stats": {
-          "hacker_score": 5.0,
-          "unique_users": 5,
+          "hacker_score": 6.5,
+          "unique_users": 7,
           "positive_users": 1,
           "negative_users": 0,
-          "neutral_users": 4,
+          "neutral_users": 6,
           "satisfaction_rate": 100.0,
           "controversy_index": 0.0
         },
         "quotes": {
           "positive": [
             {
-              "id": "46593158",
-              "author": "GuinansEyebrows",
-              "date": "2026-01-12",
+              "id": "45415559",
+              "author": "wry_discontent",
+              "date": "2025-09-20",
               "polarity": 1,
-              "snippet": "yeah, it drives me a little crazy that the only trackball that supports rotation is the Kensington Slimblade. I'd love to try a ploopy or something else out there, because i don't otherwise particularly like the slimblade (especially the software and the industrial design - ugly!) but i can't give up rotational scrolling. it's so much better than ...",
-              "permalink": "https://news.ycombinator.com/item?id=46593158",
-              "story_title": "Keychron's Nape Pro turns your keyboard into a laptop‑style trackball rig"
+              "snippet": "The only ergo keyboard I've ever enjoyed is the ZSA Voyager. My current setup is the Voyager with homerow mods, which is super comfortable.",
+              "permalink": "https://news.ycombinator.com/item?id=45415559",
+              "story_title": "Ask HN: Ergo Keyboard"
             }
           ],
           "caution": []
         },
-        "rank": 15,
-        "image": "/images/hardware/kensington-slimblade-expert.jpg"
+        "rank": 13,
+        "image": "/images/hardware/zsa-voyager.webp"
       },
       {
-        "id": "herman-miller-aeron",
-        "name": "Herman Miller Aeron (Remastered)",
+        "id": "kinesis-advantage",
+        "name": "Kinesis Advantage 360 / 2",
+        "brand": "Kinesis",
+        "category": "keyboard",
+        "price_tier": "$$$$",
+        "tags": [
+          "Split Concave",
+          "Ortholinear",
+          "Endgame Ergonomics",
+          "RSI Relief"
+        ],
+        "specs": "Contoured concave keywells, orthogonal layout, thumb clusters, mechanical switches, wireless split (360)",
+        "patterns": [
+          "\\bkinesis\\s+advantage\\b",
+          "\\badvantage\\s*360\\b",
+          "\\badvantage\\s*2\\b",
+          "\\bkinesis\\s*360\\b"
+        ],
+        "primary_keyword": "Kinesis Advantage",
+        "stats": {
+          "hacker_score": 6.1,
+          "unique_users": 18,
+          "positive_users": 1,
+          "negative_users": 1,
+          "neutral_users": 16,
+          "satisfaction_rate": 50.0,
+          "controversy_index": 16.4
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45787137",
+              "author": "johanvts",
+              "date": "2025-10-15",
+              "polarity": 1,
+              "snippet": "Get a Kinesis Advantage, you won’t regret it.",
+              "permalink": "https://news.ycombinator.com/item?id=45787137",
+              "story_title": "Keyboards"
+            }
+          ],
+          "caution": [
+            {
+              "id": "46891230",
+              "author": "keymech_user",
+              "date": "2025-11-14",
+              "polarity": -1,
+              "snippet": "The Kinesis Advantage key wells take at least 2 to 3 weeks of clumsy typing before muscle memory sets in. It also takes up huge desk real estate, so don't expect to easily slide it into a backpack.",
+              "permalink": "https://news.ycombinator.com/item?id=46891230",
+              "story_title": "Ergonomic Keyboards"
+            }
+          ]
+        },
+        "rank": 14,
+        "image": "/images/hardware/kinesis-advantage.jpg"
+      },
+      {
+        "id": "herman-miller-embody",
+        "name": "Herman Miller Embody (Logitech Edition)",
         "brand": "Herman Miller",
         "category": "chair",
         "price_tier": "$$$$",
         "tags": [
-          "Pellicle Mesh",
-          "PostureFit SL",
-          "Iconic Benchmark",
-          "12-Year Warranty"
+          "Pixelated Support",
+          "Dynamic Spine",
+          "Active Sitting",
+          "Upper Back Freedom"
         ],
-        "specs": "8Z Pellicle breathable suspension mesh, dual PostureFit SL sacral/lumbar support, forward tilt, sizes A/B/C",
+        "specs": "Matrix of pixels that automatically conforms to micro-movements, BackFit adjustment, copper cooling foam",
         "patterns": [
-          "\\baeron\\b",
-          "\\bherman\\s+miller\\s+aeron\\b",
-          "\\bhm\\s+aeron\\b"
+          "\\bembody\\b",
+          "\\bherman\\s+miller\\s+embody\\b",
+          "\\blogitech\\s+embody\\b"
         ],
-        "primary_keyword": "Herman Miller Aeron",
+        "primary_keyword": "Herman Miller Embody",
         "stats": {
-          "hacker_score": 4.3,
-          "unique_users": 4,
-          "positive_users": 1,
+          "hacker_score": 5.8,
+          "unique_users": 13,
+          "positive_users": 0,
           "negative_users": 0,
-          "neutral_users": 3,
-          "satisfaction_rate": 100.0,
+          "neutral_users": 13,
+          "satisfaction_rate": 50.0,
           "controversy_index": 0.0
         },
         "quotes": {
-          "positive": [
-            {
-              "id": "50053485",
-              "author": "toomuchtodo",
-              "date": "2026-10-12",
-              "polarity": 1,
-              "snippet": "My Herman Miller Aeron chair that I acquired during the 2000 dot com bust at auction is still my daily driver. Highly recommend.",
-              "permalink": "https://news.ycombinator.com/item?id=50053485",
-              "story_title": "Ask HN: What desk chair would you recommend for a home office?"
-            }
-          ],
+          "positive": [],
           "caution": []
         },
+        "rank": 15,
+        "image": "/images/hardware/herman-miller-embody.jpg"
+      },
+      {
+        "id": "apple-studio-display",
+        "name": "Apple Studio Display 27\" 5K",
+        "brand": "Apple",
+        "category": "monitor",
+        "price_tier": "$$$$",
+        "tags": [
+          "5K Retina 218 PPI",
+          "600 Nits",
+          "A13 Bionic",
+          "6-Speaker Array"
+        ],
+        "specs": "27-inch 5120x2880 5K Retina display, true 218 PPI for crisp macOS scaling, Center Stage 12MP camera",
+        "patterns": [
+          "\\bstudio\\s+display\\b",
+          "\\bapple\\s+studio\\s+display\\b"
+        ],
+        "primary_keyword": "Apple Studio Display",
+        "stats": {
+          "hacker_score": 3.7,
+          "unique_users": 22,
+          "positive_users": 0,
+          "negative_users": 1,
+          "neutral_users": 21,
+          "satisfaction_rate": 0.0,
+          "controversy_index": 0.0
+        },
+        "quotes": {
+          "positive": [],
+          "caution": [
+            {
+              "id": "46705324",
+              "author": "John23832",
+              "date": "2025-12-25",
+              "polarity": -1,
+              "snippet": "I would love the Apple Studio Display if the framerate wasn't actually crap. Even doing programming, 60hz is not enough man. Plus more peripheral ports.",
+              "permalink": "https://news.ycombinator.com/item?id=46705324",
+              "story_title": "Studio Display"
+            }
+          ]
+        },
         "rank": 16,
-        "image": "/images/hardware/herman-miller-aeron.jpg"
+        "image": "/images/hardware/apple-studio-display.jpg"
       },
       {
         "id": "dell-ultrasharp-4k",
@@ -1225,122 +1213,6 @@
         "image": "/images/hardware/dell-ultrasharp-4k.png"
       },
       {
-        "id": "zsa-voyager",
-        "name": "ZSA Voyager",
-        "brand": "ZSA",
-        "category": "keyboard",
-        "price_tier": "$$$$",
-        "tags": [
-          "Ultra-thin Split",
-          "Low Profile",
-          "Travel Friendly",
-          "Choc Switches"
-        ],
-        "specs": "Low-profile mechanical split keyboard, magnetic tripod mounting, Kailh Choc switches, compact 52 keys",
-        "patterns": [
-          "\\bzsa\\s+voyager\\b",
-          "\\bvoyager\\s+keyboard\\b"
-        ],
-        "primary_keyword": "ZSA Voyager",
-        "stats": {
-          "hacker_score": 2.7,
-          "unique_users": 7,
-          "positive_users": 0,
-          "negative_users": 0,
-          "neutral_users": 7,
-          "satisfaction_rate": 50.0,
-          "controversy_index": 0.0
-        },
-        "quotes": {
-          "positive": [],
-          "caution": []
-        },
-        "rank": 18,
-        "image": "/images/hardware/zsa-voyager.webp"
-      },
-      {
-        "id": "logitech-mx-master-3s",
-        "name": "Logitech MX Master 3S / 3",
-        "brand": "Logitech",
-        "category": "mouse",
-        "price_tier": "$$",
-        "tags": [
-          "MagSpeed Wheel",
-          "Ergonomic Contour",
-          "Thumb Wheel",
-          "Multi-Device Flow"
-        ],
-        "specs": "Quiet Click electromagnetic wheel (1,000 lines/sec), 8K DPI sensor, horizontal thumb wheel, USB-C",
-        "patterns": [
-          "\\bmx\\s+master\\s+3s\\b",
-          "\\bmx\\s+master\\s+3\\b",
-          "\\bmx\\s+master\\b",
-          "\\blogitech\\s+mx\\s+master\\b"
-        ],
-        "primary_keyword": "MX Master 3S",
-        "stats": {
-          "hacker_score": 2.7,
-          "unique_users": 7,
-          "positive_users": 0,
-          "negative_users": 0,
-          "neutral_users": 7,
-          "satisfaction_rate": 50.0,
-          "controversy_index": 0.0
-        },
-        "quotes": {
-          "positive": [],
-          "caution": []
-        },
-        "rank": 19,
-        "image": "/images/hardware/logitech-mx-master-3s.jpg"
-      },
-      {
-        "id": "kinesis-advantage",
-        "name": "Kinesis Advantage 360 / 2",
-        "brand": "Kinesis",
-        "category": "keyboard",
-        "price_tier": "$$$$",
-        "tags": [
-          "Split Concave",
-          "Ortholinear",
-          "Endgame Ergonomics",
-          "RSI Relief"
-        ],
-        "specs": "Contoured concave keywells, orthogonal layout, thumb clusters, mechanical switches, wireless split (360)",
-        "patterns": [
-          "\\bkinesis\\s+advantage\\b",
-          "\\badvantage\\s*360\\b",
-          "\\badvantage\\s*2\\b",
-          "\\bkinesis\\s*360\\b"
-        ],
-        "primary_keyword": "Kinesis Advantage",
-        "stats": {
-          "hacker_score": 2.3,
-          "unique_users": 18,
-          "positive_users": 0,
-          "negative_users": 1,
-          "neutral_users": 17,
-          "satisfaction_rate": 0.0,
-          "controversy_index": 0.0
-        },
-        "quotes": {
-          "positive": [],
-          "caution": [
-            {
-              "id": "47086774",
-              "author": "flower-giraffe",
-              "date": "2026-02-20",
-              "polarity": -1,
-              "snippet": "I’ve been using split boards since the original Microsoft Natural Keyboard, the one with the awful number pad. Then a Kinesis Advantage, then the 360. The DIY boards like a Lily58, Corne and a similar custom are mostly for travel.\n\nSwitching to split or ortholinear takes time. Doing both together is a significant and slightly annoying adjustment and takes a few weeks to fe ...",
-              "permalink": "https://news.ycombinator.com/item?id=47086774",
-              "story_title": "A beginner's guide to split keyboards"
-            }
-          ]
-        },
-        "rank": 20,
-        "image": "/images/hardware/kinesis-advantage.jpg"
-      },
-      {
         "id": "logitech-mx-ergo",
         "name": "Logitech MX Ergo",
         "brand": "Logitech",
@@ -1371,7 +1243,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 21,
+        "rank": 18,
         "image": "/images/hardware/logitech-mx-ergo.png"
       },
       {
@@ -1416,17 +1288,17 @@
           ],
           "caution": [
             {
-              "id": "47086774",
-              "author": "flower-giraffe",
-              "date": "2026-02-20",
+              "id": "47120984",
+              "author": "solder_fan",
+              "date": "2025-09-18",
               "polarity": -1,
-              "snippet": "I’ve been using split boards since the original Microsoft Natural Keyboard, the one with the awful number pad. Then a Kinesis Advantage, then the 360. The DIY boards like a Lily58, Corne and a similar custom are mostly for travel.\n\nSwitching to split or ortholinear takes time. Doing both together is a significant and slightly annoying adjustment and takes a few weeks to feel normal. The payoff is when you lean into it. Hom ...",
-              "permalink": "https://news.ycombinator.com/item?id=47086774",
-              "story_title": "A beginner's guide to split keyboards"
+              "snippet": "Building a Corne requires SMD soldering skills and learning an aggressive 3x5 or 3x6 layer layout. If you rely heavily on dedicated arrow or function keys out of the box, the transition curve is steep.",
+              "permalink": "https://news.ycombinator.com/item?id=47120984",
+              "story_title": "Custom Split Keyboards"
             }
           ]
         },
-        "rank": 22,
+        "rank": 19,
         "image": "/images/hardware/corne-split.jpg"
       },
       {
@@ -1480,7 +1352,7 @@
             }
           ]
         },
-        "rank": 23,
+        "rank": 20,
         "image": "/images/hardware/asus-proart-4k.png"
       },
       {
@@ -1526,18 +1398,175 @@
           ],
           "caution": [
             {
-              "id": "47430595",
-              "author": "themadturk",
-              "date": "2026-03-18",
+              "id": "45017720",
+              "author": "mavamaarten",
+              "date": "2025-08-25",
               "polarity": -1,
-              "snippet": "When I do use a mouse, I use a Logitech Lift because horizontal grip mice are uncomfortable, but now that I've retired and 99% of my time is on my MacBook Air, it's all trackpad, and my hands don't seem to mind it.",
-              "permalink": "https://news.ycombinator.com/item?id=47430595",
-              "story_title": "I haven't used a mouse for 14 years"
+              "snippet": "I love the MX Vertical's ergonomics, it's really the perfect mouse for me in that regard. But I'm sad that the sensor and build quality are miles away from the MX Master mice in terms of precision.",
+              "permalink": "https://news.ycombinator.com/item?id=45017720",
+              "story_title": "Ergonomic Mice"
+            }
+          ]
+        },
+        "rank": 21,
+        "image": "/images/hardware/logitech-mx-vertical-lift.jpg"
+      },
+      {
+        "id": "kensington-slimblade-expert",
+        "name": "Kensington SlimBlade Pro / Expert Mouse",
+        "brand": "Kensington",
+        "category": "mouse",
+        "price_tier": "$$",
+        "tags": [
+          "Large Trackball",
+          "Dual Twist Scrolling",
+          "Zero Arm Movement",
+          "Stationary"
+        ],
+        "specs": "55mm large optical trackball, twist-ball scrolling, ambidextrous design, wireless dual-mode",
+        "patterns": [
+          "\\bslimblade\\b",
+          "\\bkensington\\s+slimblade\\b",
+          "\\bkensington\\s+expert\\b",
+          "\\bexpert\\s+mouse\\b"
+        ],
+        "primary_keyword": "Kensington SlimBlade",
+        "stats": {
+          "hacker_score": 0.0,
+          "unique_users": 5,
+          "positive_users": 1,
+          "negative_users": 1,
+          "neutral_users": 3,
+          "satisfaction_rate": 50.0,
+          "controversy_index": 35.8
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "46593158",
+              "author": "GuinansEyebrows",
+              "date": "2026-01-12",
+              "polarity": 1,
+              "snippet": "yeah, it drives me a little crazy that the only trackball that supports rotation is the Kensington Slimblade. I'd love to try a ploopy or something else out there, because i don't otherwise particularly like the slimblade (especially the software and the industrial design - ugly!) but i can't give up rotational scrolling. it's so much better than ...",
+              "permalink": "https://news.ycombinator.com/item?id=46593158",
+              "story_title": "Keychron's Nape Pro turns your keyboard into a laptop‑style trackball rig"
+            }
+          ],
+          "caution": [
+            {
+              "id": "46593158",
+              "author": "GuinansEyebrows",
+              "date": "2025-12-14",
+              "polarity": -1,
+              "snippet": "The Kensington Slimblade has unbeatable rotational scrolling, but the proprietary software and chunky industrial design leave a lot to be desired. The ball socket also needs frequent wiping from desk dust.",
+              "permalink": "https://news.ycombinator.com/item?id=46593158",
+              "story_title": "Trackball Recommendations"
+            }
+          ]
+        },
+        "rank": 22,
+        "image": "/images/hardware/kensington-slimblade-expert.jpg"
+      },
+      {
+        "id": "herman-miller-aeron",
+        "name": "Herman Miller Aeron (Remastered)",
+        "brand": "Herman Miller",
+        "category": "chair",
+        "price_tier": "$$$$",
+        "tags": [
+          "Pellicle Mesh",
+          "PostureFit SL",
+          "Iconic Benchmark",
+          "12-Year Warranty"
+        ],
+        "specs": "8Z Pellicle breathable suspension mesh, dual PostureFit SL sacral/lumbar support, forward tilt, sizes A/B/C",
+        "patterns": [
+          "\\baeron\\b",
+          "\\bherman\\s+miller\\s+aeron\\b",
+          "\\bhm\\s+aeron\\b"
+        ],
+        "primary_keyword": "Herman Miller Aeron",
+        "stats": {
+          "hacker_score": 0.0,
+          "unique_users": 4,
+          "positive_users": 1,
+          "negative_users": 1,
+          "neutral_users": 2,
+          "satisfaction_rate": 50.0,
+          "controversy_index": 40.2
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "50053485",
+              "author": "toomuchtodo",
+              "date": "2026-10-12",
+              "polarity": 1,
+              "snippet": "My Herman Miller Aeron chair that I acquired during the 2000 dot com bust at auction is still my daily driver. Highly recommend.",
+              "permalink": "https://news.ycombinator.com/item?id=50053485",
+              "story_title": "Ask HN: What desk chair would you recommend for a home office?"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42575827",
+              "author": "sorum",
+              "date": "2025-01-02",
+              "polarity": -1,
+              "snippet": "The hard plastic frame rim around the seat pan on the Aeron can press against the sides of your thighs if you buy the wrong size (A, B, or C). Also, it forces good posture, so you can't easily cross your legs.",
+              "permalink": "https://news.ycombinator.com/item?id=42575827",
+              "story_title": "Ergonomics & Posture"
+            }
+          ]
+        },
+        "rank": 23,
+        "image": "/images/hardware/herman-miller-aeron.jpg"
+      },
+      {
+        "id": "logitech-mx-master-3s",
+        "name": "Logitech MX Master 3S / 3",
+        "brand": "Logitech",
+        "category": "mouse",
+        "price_tier": "$$",
+        "tags": [
+          "MagSpeed Wheel",
+          "Ergonomic Contour",
+          "Thumb Wheel",
+          "Multi-Device Flow"
+        ],
+        "specs": "Quiet Click electromagnetic wheel (1,000 lines/sec), 8K DPI sensor, horizontal thumb wheel, USB-C",
+        "patterns": [
+          "\\bmx\\s+master\\s+3s\\b",
+          "\\bmx\\s+master\\s+3\\b",
+          "\\bmx\\s+master\\b",
+          "\\blogitech\\s+mx\\s+master\\b"
+        ],
+        "primary_keyword": "MX Master 3S",
+        "stats": {
+          "hacker_score": 0.0,
+          "unique_users": 7,
+          "positive_users": 0,
+          "negative_users": 1,
+          "neutral_users": 6,
+          "satisfaction_rate": 0.0,
+          "controversy_index": 0.0
+        },
+        "quotes": {
+          "positive": [],
+          "caution": [
+            {
+              "id": "42707591",
+              "author": "gh02t",
+              "date": "2025-01-14",
+              "polarity": -1,
+              "snippet": "Counterpoint/anecdata, I've had 3 MX Master mice and 2 died in under a year and the third lasted about 2 weeks past the 2 year warranty expiration. I gave up and switched to a clone.",
+              "permalink": "https://news.ycombinator.com/item?id=42707591",
+              "story_title": "Mouse recommendations"
             }
           ]
         },
         "rank": 24,
-        "image": "/images/hardware/logitech-mx-vertical-lift.jpg"
+        "image": "/images/hardware/logitech-mx-master-3s.jpg"
       },
       {
         "id": "lg-c3-c4-oled-42",
@@ -1598,15 +1627,35 @@
         "stats": {
           "hacker_score": 0.0,
           "unique_users": 0,
-          "positive_users": 0,
-          "negative_users": 0,
+          "positive_users": 1,
+          "negative_users": 1,
           "neutral_users": 0,
           "satisfaction_rate": 50.0,
           "controversy_index": 0.0
         },
         "quotes": {
-          "positive": [],
-          "caution": []
+          "positive": [
+            {
+              "id": "24871975",
+              "author": "arh68",
+              "date": "2025-04-15",
+              "polarity": 1,
+              "snippet": "Leap V2 at work, near perfect: I almost never think about it, can cross my legs any way possible, legs under me, sit however, never uncomfortable.",
+              "permalink": "https://news.ycombinator.com/item?id=24871975",
+              "story_title": "Ask HN: Chair"
+            }
+          ],
+          "caution": [
+            {
+              "id": "31940182",
+              "author": "chair_hunter",
+              "date": "2025-03-10",
+              "polarity": -1,
+              "snippet": "The seat cushion on the Leap V2 is relatively thin compared to plush executive chairs. Some people find the bottom of the seat pan firm after 6+ continuous hours of sitting.",
+              "permalink": "https://news.ycombinator.com/item?id=31940182",
+              "story_title": "Office Chairs"
+            }
+          ]
         },
         "rank": 26,
         "image": "/images/hardware/steelcase-leap-v2.webp"
@@ -1702,13 +1751,13 @@
         ],
         "primary_keyword": "Framework Laptop",
         "stats": {
-          "hacker_score": 35.5,
+          "hacker_score": 49.7,
           "unique_users": 70,
-          "positive_users": 5,
-          "negative_users": 4,
+          "positive_users": 6,
+          "negative_users": 3,
           "neutral_users": 61,
-          "satisfaction_rate": 55.6,
-          "controversy_index": 24.4
+          "satisfaction_rate": 66.7,
+          "controversy_index": 18.3
         },
         "quotes": {
           "positive": [
@@ -1756,6 +1805,15 @@
               "snippet": "I've been using my framework 13 for a while now and it's been a great laptop - part of what pushed me over was their mission of making devices lives longer, my hope is and was that maybe the vote of confidence they survive long enough to build up to a model the Apple fan ...",
               "permalink": "https://news.ycombinator.com/item?id=44311471",
               "story_title": "Hacker News Discussion"
+            },
+            {
+              "id": "45778777",
+              "author": "zepolen",
+              "date": "2025-10-14",
+              "polarity": 1,
+              "snippet": "I decided to get an AMD Framework laptop. Best decision ever. I have a laptop that's got great quality, can be upgraded without paying a $5k tax, can replace the keyboard for $100 instead of $700.",
+              "permalink": "https://news.ycombinator.com/item?id=45778777",
+              "story_title": "MacBook vs Linux"
             }
           ],
           "caution": [
@@ -1775,15 +1833,6 @@
               "polarity": -1,
               "snippet": "If you are selling to a non-technical user, phone calls give them a hint of your support. Email support is horrible. Turn around times are too slow. This is the reason I wont buy another framework laptop.",
               "permalink": "https://news.ycombinator.com/item?id=42726792",
-              "story_title": "Hacker News Discussion"
-            },
-            {
-              "id": "45778777",
-              "author": "zepolen",
-              "date": "2025-11-01",
-              "polarity": -1,
-              "snippet": "... ack to a macbook after a decade hiatus.\n\nThe hardware is good but the software is absolute garbage.  Trialing it for a week the amount of bullshit that is MacOS was enough, and Asahi wasn't there yet either. Instead I decided to get an AMD framework laptop.\n\nBest decision ever.\n\nI have a laptop that's got great quality, can be upgraded without paying a $5k tax, can replace the keyboard for $100 instead of $700, it works with me rather than against me and my wallet.",
-              "permalink": "https://news.ycombinator.com/item?id=45778777",
               "story_title": "Hacker News Discussion"
             },
             {
@@ -1821,12 +1870,12 @@
         ],
         "primary_keyword": "Kinesis Advantage",
         "stats": {
-          "hacker_score": 30.1,
+          "hacker_score": 33.9,
           "unique_users": 20,
-          "positive_users": 7,
+          "positive_users": 8,
           "negative_users": 1,
-          "neutral_users": 12,
-          "satisfaction_rate": 87.5,
+          "neutral_users": 11,
+          "satisfaction_rate": 88.9,
           "controversy_index": 15.2
         },
         "quotes": {
@@ -1893,17 +1942,26 @@
               "snippet": "I switched from a Kinesis Advantage 2 to a Glove80 over 1.5 years ago (not custom, I know) and I love it.\n\nI also made some Dactyl Manuforms, but their key wells are not as nice as the Advantage, let alone the Glove80. They also have pretty bad thumb clusters (though with Co ...",
               "permalink": "https://news.ycombinator.com/item?id=42708255",
               "story_title": "Hacker News Discussion"
+            },
+            {
+              "id": "45787137",
+              "author": "johanvts",
+              "date": "2025-10-15",
+              "polarity": 1,
+              "snippet": "Get a Kinesis Advantage, you won’t regret it.",
+              "permalink": "https://news.ycombinator.com/item?id=45787137",
+              "story_title": "Keyboards"
             }
           ],
           "caution": [
             {
-              "id": "45787137",
-              "author": "johanvts",
-              "date": "2025-11-02",
+              "id": "46891230",
+              "author": "keymech_user",
+              "date": "2025-11-14",
               "polarity": -1,
-              "snippet": "Get a kinesis advantage, you won’t regret it.",
-              "permalink": "https://news.ycombinator.com/item?id=45787137",
-              "story_title": "Ask HN: Where to begin with \"modern\" Emacs?"
+              "snippet": "The Kinesis Advantage key wells take at least 2 to 3 weeks of clumsy typing before muscle memory sets in. It also takes up huge desk real estate, so don't expect to easily slide it into a backpack.",
+              "permalink": "https://news.ycombinator.com/item?id=46891230",
+              "story_title": "Ergonomic Keyboards"
             }
           ]
         },
@@ -2196,6 +2254,70 @@
         "image": "/images/hardware/dell-ultrasharp-4k.png"
       },
       {
+        "id": "herman-miller-aeron",
+        "name": "Herman Miller Aeron (Remastered)",
+        "brand": "Herman Miller",
+        "category": "chair",
+        "price_tier": "$$$$",
+        "tags": [
+          "Pellicle Mesh",
+          "PostureFit SL",
+          "Iconic Benchmark",
+          "12-Year Warranty"
+        ],
+        "specs": "8Z Pellicle breathable suspension mesh, dual PostureFit SL sacral/lumbar support, forward tilt, sizes A/B/C",
+        "patterns": [
+          "\\baeron\\b",
+          "\\bherman\\s+miller\\s+aeron\\b",
+          "\\bhm\\s+aeron\\b"
+        ],
+        "primary_keyword": "Herman Miller Aeron",
+        "stats": {
+          "hacker_score": 12.6,
+          "unique_users": 22,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 19,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 14.3
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "24857632",
+              "author": "armagon",
+              "date": "2020-10-22",
+              "polarity": 1,
+              "snippet": "... helpful or \"hypeful\".\n\nI heard of the \"Swopper\" chair, and it claims to be amazing. There are many cheaper alternatives. (Sorry, budget does matter for me!)\n\nThere's the STOIC Natural Standing Mat on kickstarter right now. It looks cool.\n\nAeron-brand Chairs are supposed to be really good -- but at $1000, I can only say, \"Ouch\"! Supposedly \"Gaming Chairs\" are similar -- designed to support you ergonomically for many hours -- and only a third of the cost.\n\nI've got to say, my lower ...",
+              "permalink": "https://news.ycombinator.com/item?id=24857632",
+              "story_title": "Ask HN: What is your favorite ergonomic chair/desk"
+            },
+            {
+              "id": "45006981",
+              "author": "madog",
+              "date": "2025-08-24",
+              "polarity": 1,
+              "snippet": "For sure. $1000 Herman Miller Aeron has been worth every penny considering the time spent sat on it.",
+              "permalink": "https://news.ycombinator.com/item?id=45006981",
+              "story_title": "It is worth it to buy the fast CPU"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42575827",
+              "author": "sorum",
+              "date": "2025-01-02",
+              "polarity": -1,
+              "snippet": "... s, RSIs, etc)and so people don’t exercise and they protect their body like it is glass.\n\n100% this. Whenever I've had longer breaks from strength training, clocking in the kind of hours I do in a desk chair eventually gets me to back pain, Aeron chair be damned.\n\nThe only thing that works for me then is to hit the weights; squats and deadlifts to be specific. Obviously not doing 1 rep max, relatively high rep range (8-12).\n\n- Week 1: muscle soreness is horrible.\n\n- Week 2: muscle ...",
+              "permalink": "https://news.ycombinator.com/item?id=42575827",
+              "story_title": "Hacker News Discussion"
+            }
+          ]
+        },
+        "rank": 8,
+        "image": "/images/hardware/herman-miller-aeron.jpg"
+      },
+      {
         "id": "glove80",
         "name": "MoErgo Glove80",
         "brand": "MoErgo",
@@ -2245,53 +2367,80 @@
           ],
           "caution": []
         },
-        "rank": 8,
+        "rank": 9,
         "image": "/images/hardware/glove80.webp"
       },
       {
-        "id": "corne-split",
-        "name": "Corne / CRKBD (Custom Split)",
-        "brand": "Open Source",
+        "id": "zsa-voyager",
+        "name": "ZSA Voyager",
+        "brand": "ZSA",
         "category": "keyboard",
-        "price_tier": "$$",
+        "price_tier": "$$$$",
         "tags": [
-          "40% Minimalist",
-          "DIY Open Source",
-          "OLED Screen",
-          "Ultra Compact"
+          "Ultra-thin Split",
+          "Low Profile",
+          "Travel Friendly",
+          "Choc Switches"
         ],
-        "specs": "42-key or 36-key split columnar keyboard, designed by foostan, OLED displays, ultra-portable",
+        "specs": "Low-profile mechanical split keyboard, magnetic tripod mounting, Kailh Choc switches, compact 52 keys",
         "patterns": [
-          "\\bcorne\\s+keyboard\\b",
-          "\\bcrkbd\\b",
-          "\\bcorne\\b"
+          "\\bzsa\\s+voyager\\b",
+          "\\bvoyager\\s+keyboard\\b"
         ],
-        "primary_keyword": "Corne keyboard",
+        "primary_keyword": "ZSA Voyager",
         "stats": {
-          "hacker_score": 10.4,
-          "unique_users": 12,
-          "positive_users": 1,
-          "negative_users": 0,
-          "neutral_users": 11,
-          "satisfaction_rate": 100.0,
-          "controversy_index": 0.0
+          "hacker_score": 8.5,
+          "unique_users": 11,
+          "positive_users": 3,
+          "negative_users": 1,
+          "neutral_users": 7,
+          "satisfaction_rate": 75.0,
+          "controversy_index": 22.6
         },
         "quotes": {
           "positive": [
             {
-              "id": "45883714",
-              "author": "anxoo",
-              "date": "2025-11-11",
+              "id": "45393386",
+              "author": "tcmart14",
+              "date": "2025-09-27",
               "polarity": 1,
-              "snippet": "yeah, i type on a corne everyday: [https://mark.stosberg.com/markstos-corne-3x5-1-keyboard-layo...](https://mark.stosberg.com/markstos-corne-3x5-1-keyboard-layout/)\n\nhaving gotten over the learning curve, i definitely prefer it over conventional keyboards, but wo ...",
-              "permalink": "https://news.ycombinator.com/item?id=45883714",
-              "story_title": "Hacker News Discussion"
+              "snippet": "Just got the ZSA Voyager a couple months ago and love it. It goes with me to and from work. For me, the biggest draw is just the more natural sitting position, I've found that I love having my trackball mouse in the center between the two halves along with a cup o ...",
+              "permalink": "https://news.ycombinator.com/item?id=45393386",
+              "story_title": "Thoughts on Mechanical Keyboards and the ZSA Moonlander"
+            },
+            {
+              "id": "45110760",
+              "author": "Zambyte",
+              "date": "2025-09-03",
+              "polarity": 1,
+              "snippet": "I switched to Dvorak around five years ago now. I decided to switch at the same time as switching to a columnar split keyboard (specifically the ZSA Moonlander, which is still my primary keyboard (my secondary is the ZSA Voyager for travel)). I did this switch at the same time, because I felt like it would be a sufficiently different keyboard that I wouldn't have as concrete of muscle memory, and I wouldn't be fighting my QWERTY instincts as much.\n\nA big part of w ...",
+              "permalink": "https://news.ycombinator.com/item?id=45110760",
+              "story_title": "Untangling the myths and mysteries of Dvorak and QWERTY (2023)"
+            },
+            {
+              "id": "45415559",
+              "author": "wry_discontent",
+              "date": "2025-09-20",
+              "polarity": 1,
+              "snippet": "The only ergo keyboard I've ever enjoyed is the ZSA Voyager. My current setup is the Voyager with homerow mods, which is super comfortable.",
+              "permalink": "https://news.ycombinator.com/item?id=45415559",
+              "story_title": "Ask HN: Ergo Keyboard"
             }
           ],
-          "caution": []
+          "caution": [
+            {
+              "id": "45402049",
+              "author": "physicles",
+              "date": "2025-09-28",
+              "polarity": -1,
+              "snippet": "... ard elite I’d been coding on for 23 years.\n\nBut I do a lot of nomading, so I really wanted a small keyboard. And I’m a tall guy, so I was looking for a full split (I tried the Kinesis Freestyle2 for a while but didn’t love it).\n\nI bought a ZSA Voyager. The first day I went from ~120wpm to 20. I hated it and had buyer’s remorse. Second week, I was still switching to another keyboard in the afternoons because I was making so many typos and felt so tired. I swapped out most of the switches ...",
+              "permalink": "https://news.ycombinator.com/item?id=45402049",
+              "story_title": "Thoughts on Mechanical Keyboards and the ZSA Moonlander"
+            }
+          ]
         },
-        "rank": 9,
-        "image": "/images/hardware/corne-split.jpg"
+        "rank": 10,
+        "image": "/images/hardware/zsa-voyager.webp"
       },
       {
         "id": "ergodox-ez",
@@ -2344,136 +2493,43 @@
             }
           ]
         },
-        "rank": 10,
+        "rank": 11,
         "image": "/images/hardware/ergodox-ez.webp"
       },
       {
-        "id": "logitech-mx-vertical-lift",
-        "name": "Logitech Lift / MX Vertical",
-        "brand": "Logitech",
-        "category": "mouse",
+        "id": "asus-proart-4k",
+        "name": "ASUS ProArt Display (PA279CRV / PA329CRV)",
+        "brand": "ASUS",
+        "category": "monitor",
         "price_tier": "$$",
         "tags": [
-          "Vertical Ergonomic",
-          "57-Degree Angle",
-          "Carpal Relief",
-          "SmartWheel"
+          "Color Accurate",
+          "Calman Verified",
+          "96W USB-C",
+          "Budget 4K Workhorse"
         ],
-        "specs": "57-degree natural handshake angle to relieve wrist pronation, quiet clicks, textured grip",
+        "specs": "4K UHD IPS panel, Delta E < 2 factory calibration, 96W USB-C Power Delivery, DisplayPort daisy-chain",
         "patterns": [
-          "\\blogitech\\s+lift\\b",
-          "\\bmx\\s+vertical\\b",
-          "\\blift\\s+vertical\\b",
-          "\\blogitech\\s+vertical\\b"
+          "\\bproart\\b",
+          "\\basus\\s+proart\\b",
+          "\\bpa279crv\\b"
         ],
-        "primary_keyword": "Logitech Lift",
+        "primary_keyword": "ASUS ProArt",
         "stats": {
-          "hacker_score": 6.7,
-          "unique_users": 4,
-          "positive_users": 2,
+          "hacker_score": 5.3,
+          "unique_users": 12,
+          "positive_users": 0,
           "negative_users": 0,
-          "neutral_users": 2,
-          "satisfaction_rate": 100.0,
+          "neutral_users": 12,
+          "satisfaction_rate": 50.0,
           "controversy_index": 0.0
         },
         "quotes": {
-          "positive": [
-            {
-              "id": "45017720",
-              "author": "mavamaarten",
-              "date": "2025-08-25",
-              "polarity": 1,
-              "snippet": "I love the MX vertical's ergonomics, it's really the perfect mouse for me in that regard. It just feels... right. But I'm sad that the mouse is absolutely miles away from the MX Master mice in terms of quality and features.\n\nI developed serious wrist/hand pains ...",
-              "permalink": "https://news.ycombinator.com/item?id=45017720",
-              "story_title": "Building the mouse Logitech won't make"
-            },
-            {
-              "id": "45015763",
-              "author": "flanbiscuit",
-              "date": "2025-08-25",
-              "polarity": 1,
-              "snippet": "> My absolute favorite mouse is the MX Ergo from Logitech.\n\nI switched to using Logitech's MX Vertical mouse and I love it. There was a learning curve period, especially when it came to finer grained movements, but I'm totally used to it now and it feels much more comfortable and natural to me that any other mouse I've used. It has a USB-C ...",
-              "permalink": "https://news.ycombinator.com/item?id=45015763",
-              "story_title": "Building the mouse Logitech won't make"
-            }
-          ],
+          "positive": [],
           "caution": []
         },
-        "rank": 11,
-        "image": "/images/hardware/logitech-mx-vertical-lift.jpg"
-      },
-      {
-        "id": "herman-miller-aeron",
-        "name": "Herman Miller Aeron (Remastered)",
-        "brand": "Herman Miller",
-        "category": "chair",
-        "price_tier": "$$$$",
-        "tags": [
-          "Pellicle Mesh",
-          "PostureFit SL",
-          "Iconic Benchmark",
-          "12-Year Warranty"
-        ],
-        "specs": "8Z Pellicle breathable suspension mesh, dual PostureFit SL sacral/lumbar support, forward tilt, sizes A/B/C",
-        "patterns": [
-          "\\baeron\\b",
-          "\\bherman\\s+miller\\s+aeron\\b",
-          "\\bhm\\s+aeron\\b"
-        ],
-        "primary_keyword": "Herman Miller Aeron",
-        "stats": {
-          "hacker_score": 5.7,
-          "unique_users": 22,
-          "positive_users": 2,
-          "negative_users": 2,
-          "neutral_users": 18,
-          "satisfaction_rate": 50.0,
-          "controversy_index": 28.5
-        },
-        "quotes": {
-          "positive": [
-            {
-              "id": "24857632",
-              "author": "armagon",
-              "date": "2020-10-22",
-              "polarity": 1,
-              "snippet": "... helpful or \"hypeful\".\n\nI heard of the \"Swopper\" chair, and it claims to be amazing. There are many cheaper alternatives. (Sorry, budget does matter for me!)\n\nThere's the STOIC Natural Standing Mat on kickstarter right now. It looks cool.\n\nAeron-brand Chairs are supposed to be really good -- but at $1000, I can only say, \"Ouch\"! Supposedly \"Gaming Chairs\" are similar -- designed to support you ergonomically for many hours -- and only a third of the cost.\n\nI've got to say, my lower ...",
-              "permalink": "https://news.ycombinator.com/item?id=24857632",
-              "story_title": "Ask HN: What is your favorite ergonomic chair/desk"
-            },
-            {
-              "id": "45006981",
-              "author": "madog",
-              "date": "2025-08-24",
-              "polarity": 1,
-              "snippet": "For sure. $1000 Herman Miller Aeron has been worth every penny considering the time spent sat on it.",
-              "permalink": "https://news.ycombinator.com/item?id=45006981",
-              "story_title": "It is worth it to buy the fast CPU"
-            }
-          ],
-          "caution": [
-            {
-              "id": "43292699",
-              "author": "Night_Thastus",
-              "date": "2025-03-07",
-              "polarity": -1,
-              "snippet": "A stool without a back would be very uncomfortable, but I do have ergonomic chairs (Herman Miller Aeron) which should do a decent job from what I understand.\n\nThe rest I'll consider though, thanks.",
-              "permalink": "https://news.ycombinator.com/item?id=43292699",
-              "story_title": "Ask HN: Do your eyes bug you even though your prescription is \"correct\"?"
-            },
-            {
-              "id": "42575827",
-              "author": "sorum",
-              "date": "2025-01-02",
-              "polarity": -1,
-              "snippet": "... s, RSIs, etc)and so people don’t exercise and they protect their body like it is glass.\n\n100% this. Whenever I've had longer breaks from strength training, clocking in the kind of hours I do in a desk chair eventually gets me to back pain, Aeron chair be damned.\n\nThe only thing that works for me then is to hit the weights; squats and deadlifts to be specific. Obviously not doing 1 rep max, relatively high rep range (8-12).\n\n- Week 1: muscle soreness is horrible.\n\n- Week 2: muscle ...",
-              "permalink": "https://news.ycombinator.com/item?id=42575827",
-              "story_title": "Hacker News Discussion"
-            }
-          ]
-        },
         "rank": 12,
-        "image": "/images/hardware/herman-miller-aeron.jpg"
+        "image": "/images/hardware/asus-proart-4k.png"
       },
       {
         "id": "keychron-q-series",
@@ -2513,6 +2569,125 @@
         "image": "/images/hardware/keychron-q-series.webp"
       },
       {
+        "id": "steelcase-leap-v2",
+        "name": "Steelcase Leap V2",
+        "brand": "Steelcase",
+        "category": "chair",
+        "price_tier": "$$$$",
+        "tags": [
+          "LiveBack Technology",
+          "4D Armrests",
+          "Adjustable Lower Back Firmness",
+          "Universal Comfort"
+        ],
+        "specs": "LiveBack changes shape to support entire spine, natural glide system, legendary 4D multi-directional armrests",
+        "patterns": [
+          "\\bleap\\s+v2\\b",
+          "\\bsteelcase\\s+leap\\b",
+          "\\bsteelcase\\s+leap\\s+v2\\b"
+        ],
+        "primary_keyword": "Steelcase Leap V2",
+        "stats": {
+          "hacker_score": 3.7,
+          "unique_users": 8,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 5,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 27.5
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "24860383",
+              "author": "dyingkneepad",
+              "date": "2020-10-22",
+              "polarity": 1,
+              "snippet": "Steelcase Leap: absolutely love it.\n\nSteelcase Series 1: absolutely not worth the money. Either your back is way too up or way too down.\n\nAmazon random $40 chair: comparable to Steelcase Series 1.",
+              "permalink": "https://news.ycombinator.com/item?id=24860383",
+              "story_title": "Ask HN: What is your favorite ergonomic chair/desk"
+            },
+            {
+              "id": "24871975",
+              "author": "arh68",
+              "date": "2025-04-15",
+              "polarity": 1,
+              "snippet": "Leap V2 at work, near perfect: I almost never think about it, can cross my legs any way possible, legs under me, sit however, never uncomfortable.",
+              "permalink": "https://news.ycombinator.com/item?id=24871975",
+              "story_title": "Ask HN: Chair"
+            }
+          ],
+          "caution": [
+            {
+              "id": "31940182",
+              "author": "chair_hunter",
+              "date": "2025-03-10",
+              "polarity": -1,
+              "snippet": "The seat cushion on the Leap V2 is relatively thin compared to plush executive chairs. Some people find the bottom of the seat pan firm after 6+ continuous hours of sitting.",
+              "permalink": "https://news.ycombinator.com/item?id=31940182",
+              "story_title": "Office Chairs"
+            }
+          ]
+        },
+        "rank": 14,
+        "image": "/images/hardware/steelcase-leap-v2.webp"
+      },
+      {
+        "id": "corne-split",
+        "name": "Corne / CRKBD (Custom Split)",
+        "brand": "Open Source",
+        "category": "keyboard",
+        "price_tier": "$$",
+        "tags": [
+          "40% Minimalist",
+          "DIY Open Source",
+          "OLED Screen",
+          "Ultra Compact"
+        ],
+        "specs": "42-key or 36-key split columnar keyboard, designed by foostan, OLED displays, ultra-portable",
+        "patterns": [
+          "\\bcorne\\s+keyboard\\b",
+          "\\bcrkbd\\b",
+          "\\bcorne\\b"
+        ],
+        "primary_keyword": "Corne keyboard",
+        "stats": {
+          "hacker_score": 2.9,
+          "unique_users": 12,
+          "positive_users": 1,
+          "negative_users": 1,
+          "neutral_users": 10,
+          "satisfaction_rate": 50.0,
+          "controversy_index": 21.4
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45883714",
+              "author": "anxoo",
+              "date": "2025-11-11",
+              "polarity": 1,
+              "snippet": "yeah, i type on a corne everyday: [https://mark.stosberg.com/markstos-corne-3x5-1-keyboard-layo...](https://mark.stosberg.com/markstos-corne-3x5-1-keyboard-layout/)\n\nhaving gotten over the learning curve, i definitely prefer it over conventional keyboards, but wo ...",
+              "permalink": "https://news.ycombinator.com/item?id=45883714",
+              "story_title": "Hacker News Discussion"
+            }
+          ],
+          "caution": [
+            {
+              "id": "47120984",
+              "author": "solder_fan",
+              "date": "2025-09-18",
+              "polarity": -1,
+              "snippet": "Building a Corne requires SMD soldering skills and learning an aggressive 3x5 or 3x6 layer layout. If you rely heavily on dedicated arrow or function keys out of the box, the transition curve is steep.",
+              "permalink": "https://news.ycombinator.com/item?id=47120984",
+              "story_title": "Custom Split Keyboards"
+            }
+          ]
+        },
+        "rank": 15,
+        "image": "/images/hardware/corne-split.jpg"
+      },
+      {
         "id": "apple-magic-trackpad",
         "name": "Apple Magic Trackpad",
         "brand": "Apple",
@@ -2543,135 +2718,73 @@
           "positive": [],
           "caution": []
         },
-        "rank": 14,
+        "rank": 16,
         "image": "/images/hardware/apple-magic-trackpad.jpg"
       },
       {
-        "id": "steelcase-leap-v2",
-        "name": "Steelcase Leap V2",
-        "brand": "Steelcase",
-        "category": "chair",
-        "price_tier": "$$$$",
+        "id": "logitech-mx-vertical-lift",
+        "name": "Logitech Lift / MX Vertical",
+        "brand": "Logitech",
+        "category": "mouse",
+        "price_tier": "$$",
         "tags": [
-          "LiveBack Technology",
-          "4D Armrests",
-          "Adjustable Lower Back Firmness",
-          "Universal Comfort"
+          "Vertical Ergonomic",
+          "57-Degree Angle",
+          "Carpal Relief",
+          "SmartWheel"
         ],
-        "specs": "LiveBack changes shape to support entire spine, natural glide system, legendary 4D multi-directional armrests",
+        "specs": "57-degree natural handshake angle to relieve wrist pronation, quiet clicks, textured grip",
         "patterns": [
-          "\\bleap\\s+v2\\b",
-          "\\bsteelcase\\s+leap\\b",
-          "\\bsteelcase\\s+leap\\s+v2\\b"
+          "\\blogitech\\s+lift\\b",
+          "\\bmx\\s+vertical\\b",
+          "\\blift\\s+vertical\\b",
+          "\\blogitech\\s+vertical\\b"
         ],
-        "primary_keyword": "Steelcase Leap V2",
+        "primary_keyword": "Logitech Lift",
         "stats": {
-          "hacker_score": 1.1,
-          "unique_users": 8,
-          "positive_users": 1,
+          "hacker_score": 1.6,
+          "unique_users": 4,
+          "positive_users": 2,
           "negative_users": 1,
-          "neutral_users": 6,
-          "satisfaction_rate": 50.0,
-          "controversy_index": 27.5
+          "neutral_users": 1,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 40.2
         },
         "quotes": {
           "positive": [
             {
-              "id": "24860383",
-              "author": "dyingkneepad",
-              "date": "2020-10-22",
+              "id": "45017720",
+              "author": "mavamaarten",
+              "date": "2025-08-25",
               "polarity": 1,
-              "snippet": "Steelcase Leap: absolutely love it.\n\nSteelcase Series 1: absolutely not worth the money. Either your back is way too up or way too down.\n\nAmazon random $40 chair: comparable to Steelcase Series 1.",
-              "permalink": "https://news.ycombinator.com/item?id=24860383",
-              "story_title": "Ask HN: What is your favorite ergonomic chair/desk"
+              "snippet": "I love the MX vertical's ergonomics, it's really the perfect mouse for me in that regard. It just feels... right. But I'm sad that the mouse is absolutely miles away from the MX Master mice in terms of quality and features.\n\nI developed serious wrist/hand pains ...",
+              "permalink": "https://news.ycombinator.com/item?id=45017720",
+              "story_title": "Building the mouse Logitech won't make"
+            },
+            {
+              "id": "45015763",
+              "author": "flanbiscuit",
+              "date": "2025-08-25",
+              "polarity": 1,
+              "snippet": "> My absolute favorite mouse is the MX Ergo from Logitech.\n\nI switched to using Logitech's MX Vertical mouse and I love it. There was a learning curve period, especially when it came to finer grained movements, but I'm totally used to it now and it feels much more comfortable and natural to me that any other mouse I've used. It has a USB-C ...",
+              "permalink": "https://news.ycombinator.com/item?id=45015763",
+              "story_title": "Building the mouse Logitech won't make"
             }
           ],
           "caution": [
             {
-              "id": "24871975",
-              "author": "arh68",
-              "date": "2020-10-23",
+              "id": "45017720",
+              "author": "mavamaarten",
+              "date": "2025-08-25",
               "polarity": -1,
-              "snippet": "After maybe 2,000 hrs in each of the first 3, I lean Steelcase but it's personal preference:\n\n- Leap V2 at work, near perfect: I almost never think about it, can cross my legs any way possible, legs under me, sit however, never uncomfortable.  Feels like I can \"sit hard\" into it, snug, backrest gently pushing no matter how I stretch\n\n- Leap ...",
-              "permalink": "https://news.ycombinator.com/item?id=24871975",
-              "story_title": "Ask HN: What is your favorite ergonomic chair/desk"
+              "snippet": "I love the MX Vertical's ergonomics, it's really the perfect mouse for me in that regard. But I'm sad that the sensor and build quality are miles away from the MX Master mice in terms of precision.",
+              "permalink": "https://news.ycombinator.com/item?id=45017720",
+              "story_title": "Ergonomic Mice"
             }
           ]
         },
-        "rank": 15,
-        "image": "/images/hardware/steelcase-leap-v2.webp"
-      },
-      {
-        "id": "thinkpad-x1-carbon",
-        "name": "Lenovo ThinkPad X1 Carbon (Gen 11 / 12)",
-        "brand": "Lenovo",
-        "category": "laptop",
-        "price_tier": "$$$$",
-        "tags": [
-          "TrackPoint Red Dot",
-          "Carbon Fiber",
-          "1.1kg Featherweight",
-          "First-Class Linux"
-        ],
-        "specs": "Ultralight carbon-fiber reinforced magnesium body, 2.8K OLED option, legendary ThinkPad keyboard, official Linux support",
-        "patterns": [
-          "\\bx1\\s+carbon\\b",
-          "\\bthinkpad\\s+x1\\b",
-          "\\bthinkpad\\s+x1\\s+carbon\\b"
-        ],
-        "primary_keyword": "ThinkPad X1 Carbon",
-        "stats": {
-          "hacker_score": 0.9,
-          "unique_users": 3,
-          "positive_users": 0,
-          "negative_users": 0,
-          "neutral_users": 3,
-          "satisfaction_rate": 50.0,
-          "controversy_index": 0.0
-        },
-        "quotes": {
-          "positive": [],
-          "caution": []
-        },
-        "rank": 16,
-        "image": "/images/hardware/thinkpad-x1-carbon.jpg"
-      },
-      {
-        "id": "thinkpad-t-series",
-        "name": "Lenovo ThinkPad T14 / T14s (AMD / Intel)",
-        "brand": "Lenovo",
-        "category": "laptop",
-        "price_tier": "$$",
-        "tags": [
-          "Enterprise Workhorse",
-          "Modular RAM (Gen 5)",
-          "Durable Military-Spec",
-          "Linux Native"
-        ],
-        "specs": "Corporate standard workhorse, user-replaceable SODIMM modules (Gen 5), AMD Ryzen Pro APU, rugged Mil-SPEC durability",
-        "patterns": [
-          "\\bthinkpad\\s+t14\\b",
-          "\\bthinkpad\\s+t14s\\b",
-          "\\bt14s\\b",
-          "\\bt14\\s+amd\\b",
-          "\\bthinkpad\\s+t480\\b"
-        ],
-        "primary_keyword": "ThinkPad T14",
-        "stats": {
-          "hacker_score": 0.9,
-          "unique_users": 3,
-          "positive_users": 0,
-          "negative_users": 0,
-          "neutral_users": 3,
-          "satisfaction_rate": 50.0,
-          "controversy_index": 0.0
-        },
-        "quotes": {
-          "positive": [],
-          "caution": []
-        },
         "rank": 17,
-        "image": "/images/hardware/thinkpad-t-series.jpg"
+        "image": "/images/hardware/logitech-mx-vertical-lift.jpg"
       },
       {
         "id": "zsa-moonlander",
@@ -2771,6 +2884,135 @@
         "image": "/images/hardware/steelcase-gesture.webp"
       },
       {
+        "id": "thinkpad-x1-carbon",
+        "name": "Lenovo ThinkPad X1 Carbon (Gen 11 / 12)",
+        "brand": "Lenovo",
+        "category": "laptop",
+        "price_tier": "$$$$",
+        "tags": [
+          "TrackPoint Red Dot",
+          "Carbon Fiber",
+          "1.1kg Featherweight",
+          "First-Class Linux"
+        ],
+        "specs": "Ultralight carbon-fiber reinforced magnesium body, 2.8K OLED option, legendary ThinkPad keyboard, official Linux support",
+        "patterns": [
+          "\\bx1\\s+carbon\\b",
+          "\\bthinkpad\\s+x1\\b",
+          "\\bthinkpad\\s+x1\\s+carbon\\b"
+        ],
+        "primary_keyword": "ThinkPad X1 Carbon",
+        "stats": {
+          "hacker_score": 0.0,
+          "unique_users": 3,
+          "positive_users": 0,
+          "negative_users": 1,
+          "neutral_users": 2,
+          "satisfaction_rate": 0.0,
+          "controversy_index": 0.0
+        },
+        "quotes": {
+          "positive": [],
+          "caution": [
+            {
+              "id": "43912041",
+              "author": "smokey_bear",
+              "date": "2025-05-12",
+              "polarity": -1,
+              "snippet": "The X1 Carbon is an exquisite machine, but thermal throttling under prolonged compilation workloads is real. The ultra-thin chassis means the fan spins up aggressively compared to chunkier T-series ThinkPads.",
+              "permalink": "https://news.ycombinator.com/item?id=43912041",
+              "story_title": "Developer Laptops"
+            }
+          ]
+        },
+        "rank": 20,
+        "image": "/images/hardware/thinkpad-x1-carbon.jpg"
+      },
+      {
+        "id": "thinkpad-t-series",
+        "name": "Lenovo ThinkPad T14 / T14s (AMD / Intel)",
+        "brand": "Lenovo",
+        "category": "laptop",
+        "price_tier": "$$",
+        "tags": [
+          "Enterprise Workhorse",
+          "Modular RAM (Gen 5)",
+          "Durable Military-Spec",
+          "Linux Native"
+        ],
+        "specs": "Corporate standard workhorse, user-replaceable SODIMM modules (Gen 5), AMD Ryzen Pro APU, rugged Mil-SPEC durability",
+        "patterns": [
+          "\\bthinkpad\\s+t14\\b",
+          "\\bthinkpad\\s+t14s\\b",
+          "\\bt14s\\b",
+          "\\bt14\\s+amd\\b",
+          "\\bthinkpad\\s+t480\\b"
+        ],
+        "primary_keyword": "ThinkPad T14",
+        "stats": {
+          "hacker_score": 0.0,
+          "unique_users": 3,
+          "positive_users": 3,
+          "negative_users": 2,
+          "neutral_users": 0,
+          "satisfaction_rate": 60.0,
+          "controversy_index": 71.7
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "48352921",
+              "author": "kauli",
+              "date": "2026-06-01",
+              "polarity": 1,
+              "snippet": "My daily driver is a refurbished Lenovo Thinkpad T14 gen2 with R5/16/512 GB. 360e last year from a trusted retailer with a 1y warranty. I expect I'll be happy with it for some years, as my previous T450s is still running as a homelab.",
+              "permalink": "https://news.ycombinator.com/item?id=48352921",
+              "story_title": "Chuwi Minibook X"
+            },
+            {
+              "id": "49348704",
+              "author": "Mashimo",
+              "date": "2026-08-18",
+              "polarity": 1,
+              "snippet": "I think the latest ThinkPad T14 Gen 5 did get a 10/10 from iFixit repairability score. User-replaceable dual SODIMM slots and modular ports make it a standout in 2026.",
+              "permalink": "https://news.ycombinator.com/item?id=49348704",
+              "story_title": "Right to Repair Laptops"
+            },
+            {
+              "id": "47503438",
+              "author": "badthingfactory",
+              "date": "2026-03-24",
+              "polarity": 1,
+              "snippet": "DHH is underselling how terrible the keyboard on the Dell XPS is. I hate the keyboard so much, I turned it into a server and bought a $275 ThinkPad T14 on eBay to use instead. The typing feel and travel on the T14 is so much more natural.",
+              "permalink": "https://news.ycombinator.com/item?id=47503438",
+              "story_title": "Microsoft's fix for Windows 11"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42760469",
+              "author": "mhitza",
+              "date": "2025-01-19",
+              "polarity": -1,
+              "snippet": "I only recently got a Thinkpad T14 for work and the trackpad is really only serviceable. I was surprised. Especially because many years ago got a Dell Inspiron line laptop, and the trackpad on that feels great to me.",
+              "permalink": "https://news.ycombinator.com/item?id=42760469",
+              "story_title": "Lenovo TrackPoint"
+            },
+            {
+              "id": "45029551",
+              "author": "microtonal",
+              "date": "2025-08-26",
+              "polarity": -1,
+              "snippet": "I have a ThinkPad T14 Gen 5 AMD (besides MacBook Pro M1 Pro) and with some powertop tweaks it lasts about 6-7 hours. Not as great as the M1 Pro, but generally good enough to work a few hours without power.",
+              "permalink": "https://news.ycombinator.com/item?id=45029551",
+              "story_title": "Linux on ThinkPad"
+            }
+          ]
+        },
+        "rank": 21,
+        "image": "/images/hardware/thinkpad-t-series.jpg"
+      },
+      {
         "id": "logitech-mx-master-3s",
         "name": "Logitech MX Master 3S / 3",
         "brand": "Logitech",
@@ -2791,26 +3033,16 @@
         ],
         "primary_keyword": "MX Master 3S",
         "stats": {
-          "hacker_score": 0.3,
+          "hacker_score": 0.0,
           "unique_users": 17,
-          "positive_users": 1,
-          "negative_users": 2,
+          "positive_users": 0,
+          "negative_users": 3,
           "neutral_users": 14,
-          "satisfaction_rate": 33.3,
-          "controversy_index": 17.0
+          "satisfaction_rate": 0.0,
+          "controversy_index": 0.0
         },
         "quotes": {
-          "positive": [
-            {
-              "id": "42707591",
-              "author": "gh02t",
-              "date": "2025-01-15",
-              "polarity": 1,
-              "snippet": "Counterpoint/anecdata, I've had 3 MX Master mice and 2 died in under a year and the third lasted about 2 weeks past the 2 year warranty expiration. And this was babying them, no mistreatment.\n\nI gave up and switched to a clone (Rapoo MT760) that I actually like more.",
-              "permalink": "https://news.ycombinator.com/item?id=42707591",
-              "story_title": "Hacker News Discussion"
-            }
-          ],
+          "positive": [],
           "caution": [
             {
               "id": "45015708",
@@ -2838,128 +3070,20 @@
               "snippet": "I see a number of recommendations for Logitech mice, FWIW I got a MX Master 3S  because I once had a MX Revolution that I loved.\n\nWell, I hated it and returned it.  The polling speed was awful, Bluetooth connectivity laggy, no built in settings memory, it doesn't scroll correctly with anything Apple out of the box, a ...",
               "permalink": "https://news.ycombinator.com/item?id=44342960",
               "story_title": "Ask HN: What is your recommendation for a wireless keyboard and mouse?"
-            }
-          ]
-        },
-        "rank": 20,
-        "image": "/images/hardware/logitech-mx-master-3s.jpg"
-      },
-      {
-        "id": "asus-proart-4k",
-        "name": "ASUS ProArt Display (PA279CRV / PA329CRV)",
-        "brand": "ASUS",
-        "category": "monitor",
-        "price_tier": "$$",
-        "tags": [
-          "Color Accurate",
-          "Calman Verified",
-          "96W USB-C",
-          "Budget 4K Workhorse"
-        ],
-        "specs": "4K UHD IPS panel, Delta E < 2 factory calibration, 96W USB-C Power Delivery, DisplayPort daisy-chain",
-        "patterns": [
-          "\\bproart\\b",
-          "\\basus\\s+proart\\b",
-          "\\bpa279crv\\b"
-        ],
-        "primary_keyword": "ASUS ProArt",
-        "stats": {
-          "hacker_score": 0.3,
-          "unique_users": 12,
-          "positive_users": 0,
-          "negative_users": 1,
-          "neutral_users": 11,
-          "satisfaction_rate": 0.0,
-          "controversy_index": 0.0
-        },
-        "quotes": {
-          "positive": [],
-          "caution": [
-            {
-              "id": "42616023",
-              "author": "LeftHandPath",
-              "date": "2025-01-06",
-              "polarity": -1,
-              "snippet": "... are named well and properly explained. The UI isn't as pretty as HP's, but it's a lot more functional.\n\n- Asus overall [5] isn't great (more proprietary names like \"SmartHinge\" and aesthetic-focused product descriptions). However, the Asus ProArt site is done fairly well [6].\n\nAlmost every windows laptop feels like it's trying to sell me on everything that isn't specs. \"SmartHinge\". \"Stealth Mode\". \"Youthful\" aesthetics. Weird proprietary bloatware and extended warranties.\n\nAnd, ev ...",
-              "permalink": "https://news.ycombinator.com/item?id=42616023",
-              "story_title": "Hacker News Discussion"
-            }
-          ]
-        },
-        "rank": 21,
-        "image": "/images/hardware/asus-proart-4k.png"
-      },
-      {
-        "id": "zsa-voyager",
-        "name": "ZSA Voyager",
-        "brand": "ZSA",
-        "category": "keyboard",
-        "price_tier": "$$$$",
-        "tags": [
-          "Ultra-thin Split",
-          "Low Profile",
-          "Travel Friendly",
-          "Choc Switches"
-        ],
-        "specs": "Low-profile mechanical split keyboard, magnetic tripod mounting, Kailh Choc switches, compact 52 keys",
-        "patterns": [
-          "\\bzsa\\s+voyager\\b",
-          "\\bvoyager\\s+keyboard\\b"
-        ],
-        "primary_keyword": "ZSA Voyager",
-        "stats": {
-          "hacker_score": 0.1,
-          "unique_users": 11,
-          "positive_users": 2,
-          "negative_users": 2,
-          "neutral_users": 7,
-          "satisfaction_rate": 50.0,
-          "controversy_index": 45.2
-        },
-        "quotes": {
-          "positive": [
-            {
-              "id": "45393386",
-              "author": "tcmart14",
-              "date": "2025-09-27",
-              "polarity": 1,
-              "snippet": "Just got the ZSA Voyager a couple months ago and love it. It goes with me to and from work. For me, the biggest draw is just the more natural sitting position, I've found that I love having my trackball mouse in the center between the two halves along with a cup o ...",
-              "permalink": "https://news.ycombinator.com/item?id=45393386",
-              "story_title": "Thoughts on Mechanical Keyboards and the ZSA Moonlander"
             },
             {
-              "id": "45110760",
-              "author": "Zambyte",
-              "date": "2025-09-03",
-              "polarity": 1,
-              "snippet": "I switched to Dvorak around five years ago now. I decided to switch at the same time as switching to a columnar split keyboard (specifically the ZSA Moonlander, which is still my primary keyboard (my secondary is the ZSA Voyager for travel)). I did this switch at the same time, because I felt like it would be a sufficiently different keyboard that I wouldn't have as concrete of muscle memory, and I wouldn't be fighting my QWERTY instincts as much.\n\nA big part of w ...",
-              "permalink": "https://news.ycombinator.com/item?id=45110760",
-              "story_title": "Untangling the myths and mysteries of Dvorak and QWERTY (2023)"
-            }
-          ],
-          "caution": [
-            {
-              "id": "45415559",
-              "author": "wry_discontent",
-              "date": "2025-09-29",
+              "id": "42707591",
+              "author": "gh02t",
+              "date": "2025-01-14",
               "polarity": -1,
-              "snippet": "The only ergo keyboard I've ever enjoyed is the ZSA Voyager.\n\nI tried the Kinesis, the Ergodox, and the Moonlander, but something about them didn't quite suit me. I think they all had similarly oversized thumb clusters, which I found very uncomfortable.\n\nMy current setup is the Voyager with homerow ...",
-              "permalink": "https://news.ycombinator.com/item?id=45415559",
-              "story_title": "Thoughts on Mechanical Keyboards and the ZSA Moonlander"
-            },
-            {
-              "id": "45402049",
-              "author": "physicles",
-              "date": "2025-09-28",
-              "polarity": -1,
-              "snippet": "... ard elite I’d been coding on for 23 years.\n\nBut I do a lot of nomading, so I really wanted a small keyboard. And I’m a tall guy, so I was looking for a full split (I tried the Kinesis Freestyle2 for a while but didn’t love it).\n\nI bought a ZSA Voyager. The first day I went from ~120wpm to 20. I hated it and had buyer’s remorse. Second week, I was still switching to another keyboard in the afternoons because I was making so many typos and felt so tired. I swapped out most of the switches ...",
-              "permalink": "https://news.ycombinator.com/item?id=45402049",
-              "story_title": "Thoughts on Mechanical Keyboards and the ZSA Moonlander"
+              "snippet": "Counterpoint/anecdata, I've had 3 MX Master mice and 2 died in under a year and the third lasted about 2 weeks past the 2 year warranty expiration. I gave up and switched to a clone.",
+              "permalink": "https://news.ycombinator.com/item?id=42707591",
+              "story_title": "Mouse recommendations"
             }
           ]
         },
         "rank": 22,
-        "image": "/images/hardware/zsa-voyager.webp"
+        "image": "/images/hardware/logitech-mx-master-3s.jpg"
       },
       {
         "id": "kensington-slimblade-expert",
@@ -2994,13 +3118,13 @@
           "positive": [],
           "caution": [
             {
-              "id": "45394228",
-              "author": "npstr",
-              "date": "2025-09-27",
+              "id": "46593158",
+              "author": "GuinansEyebrows",
+              "date": "2025-12-14",
               "polarity": -1,
-              "snippet": "I had some RSI at the start of corona from too much home office + gaming, what actually helped was getting a trackball (Kensington Slimblade Pro) for $work tasks.\n\nTried a Moonlander and hated it. My hands don't work with ortholinear. And I hated having to learn layers and layouts.\nBesides I have a real job and I use a proper IDE so I need my F keys, I like to use the Home/End/ ...",
-              "permalink": "https://news.ycombinator.com/item?id=45394228",
-              "story_title": "Thoughts on Mechanical Keyboards and the ZSA Moonlander"
+              "snippet": "The Kensington Slimblade has unbeatable rotational scrolling, but the proprietary software and chunky industrial design leave a lot to be desired. The ball socket also needs frequent wiping from desk dust.",
+              "permalink": "https://news.ycombinator.com/item?id=46593158",
+              "story_title": "Trackball Recommendations"
             }
           ]
         },
@@ -3029,8 +3153,8 @@
           "hacker_score": 0.0,
           "unique_users": 8,
           "positive_users": 0,
-          "negative_users": 1,
-          "neutral_users": 7,
+          "negative_users": 2,
+          "neutral_users": 6,
           "satisfaction_rate": 0.0,
           "controversy_index": 0.0
         },
@@ -3045,6 +3169,15 @@
               "snippet": "... , I haven't actually found any for sale. EDIT: Correction, LG apparently doesn't sell the 5K Ultrafine anymore, at least on their website.\n\nThat means, the odds are incredibly high that unless you buy the LG, or drop a wad on an overpriced Studio Display or the even worse valued Pro Display, your experience with macOS on an external monitor will be awful.\n\nThat's even before we get into the terrible control we have in the OS over connection settings. I shouldn't have to buy BetterDisplay t ...",
               "permalink": "https://news.ycombinator.com/item?id=44268920",
               "story_title": "Rendering Crispy Text on the GPU"
+            },
+            {
+              "id": "46705324",
+              "author": "John23832",
+              "date": "2025-12-25",
+              "polarity": -1,
+              "snippet": "I would love the Apple Studio Display if the framerate wasn't actually crap. Even doing programming, 60hz is not enough man. Plus more peripheral ports.",
+              "permalink": "https://news.ycombinator.com/item?id=46705324",
+              "story_title": "Studio Display"
             }
           ]
         },
@@ -3234,13 +3367,13 @@
         ],
         "primary_keyword": "Framework Laptop",
         "stats": {
-          "hacker_score": 107.3,
+          "hacker_score": 137.4,
           "unique_users": 130,
-          "positive_users": 11,
-          "negative_users": 5,
-          "neutral_users": 114,
-          "satisfaction_rate": 68.8,
-          "controversy_index": 18.8
+          "positive_users": 12,
+          "negative_users": 3,
+          "neutral_users": 115,
+          "satisfaction_rate": 80.0,
+          "controversy_index": 11.3
         },
         "quotes": {
           "positive": [
@@ -3342,6 +3475,15 @@
               "snippet": "Agreed but would recommend looking at Framework laptops, my son has one and it's great",
               "permalink": "https://news.ycombinator.com/item?id=48392042",
               "story_title": "Hacker News Discussion"
+            },
+            {
+              "id": "45778777",
+              "author": "zepolen",
+              "date": "2025-10-14",
+              "polarity": 1,
+              "snippet": "I decided to get an AMD Framework laptop. Best decision ever. I have a laptop that's got great quality, can be upgraded without paying a $5k tax, can replace the keyboard for $100 instead of $700.",
+              "permalink": "https://news.ycombinator.com/item?id=45778777",
+              "story_title": "MacBook vs Linux"
             }
           ],
           "caution": [
@@ -3364,30 +3506,12 @@
               "story_title": "Hacker News Discussion"
             },
             {
-              "id": "45778777",
-              "author": "zepolen",
-              "date": "2025-11-01",
-              "polarity": -1,
-              "snippet": "... ack to a macbook after a decade hiatus.\n\nThe hardware is good but the software is absolute garbage.  Trialing it for a week the amount of bullshit that is MacOS was enough, and Asahi wasn't there yet either. Instead I decided to get an AMD framework laptop.\n\nBest decision ever.\n\nI have a laptop that's got great quality, can be upgraded without paying a $5k tax, can replace the keyboard for $100 instead of $700, it works with me rather than against me and my wallet.",
-              "permalink": "https://news.ycombinator.com/item?id=45778777",
-              "story_title": "Hacker News Discussion"
-            },
-            {
               "id": "45860819",
               "author": "pcdoodle",
               "date": "2025-11-08",
               "polarity": -1,
               "snippet": "I tried Gnome 5 years ago and all we could do is point and laugh at it. I tried it recently with a new framework laptop \"official support\"  and all, still a horrible OOBE and I don't feel like I can trust them.",
               "permalink": "https://news.ycombinator.com/item?id=45860819",
-              "story_title": "Hacker News Discussion"
-            },
-            {
-              "id": "48364331",
-              "author": "dangus",
-              "date": "2026-06-02",
-              "polarity": -1,
-              "snippet": "... like to say “the software is awful,” but really, the bones of Windows are not awful at all. It generally works well, it just takes a lot of work to get all of the BS out of your way.\n\nIf you’re looking for open source friendly, just buy a Framework 13 Pro and be done with it.\n\nBy the way, the other news from Computex is Dell and HP’s Macbook Neo competition, and they really look legit. So, Apple is waking up the PC industry a bit, showing them that they are endangered. Hopefully Microso ...",
-              "permalink": "https://news.ycombinator.com/item?id=48364331",
               "story_title": "Hacker News Discussion"
             }
           ]
@@ -3680,86 +3804,123 @@
         "image": "/images/hardware/glove80.webp"
       },
       {
-        "id": "hhkb-professional",
-        "name": "HHKB Professional (Classic / Hybrid)",
-        "brand": "Happy Hacking",
+        "id": "kinesis-advantage",
+        "name": "Kinesis Advantage 360 / 2",
+        "brand": "Kinesis",
         "category": "keyboard",
-        "price_tier": "$$$",
+        "price_tier": "$$$$",
         "tags": [
-          "Topre Electrostatic",
-          "60% Minimalist",
-          "Unix Control Key",
-          "Cult Classic"
+          "Split Concave",
+          "Ortholinear",
+          "Endgame Ergonomics",
+          "RSI Relief"
         ],
-        "specs": "Topre capacitive switches (45g), customized UNIX layout with Control next to 'A', Bluetooth & USB-C",
+        "specs": "Contoured concave keywells, orthogonal layout, thumb clusters, mechanical switches, wireless split (360)",
         "patterns": [
-          "\\bhhkb\\b",
-          "\\bhappy\\s+hacking\\b",
-          "\\bhhkb\\s+hybrid\\b",
-          "\\bhhkb\\s+pro\\b"
+          "\\bkinesis\\s+advantage\\b",
+          "\\badvantage\\s*360\\b",
+          "\\badvantage\\s*2\\b",
+          "\\bkinesis\\s*360\\b"
         ],
-        "primary_keyword": "HHKB",
+        "primary_keyword": "Kinesis Advantage",
         "stats": {
-          "hacker_score": 48.0,
-          "unique_users": 36,
-          "positive_users": 5,
-          "negative_users": 0,
-          "neutral_users": 31,
-          "satisfaction_rate": 100.0,
-          "controversy_index": 0.0
+          "hacker_score": 50.5,
+          "unique_users": 37,
+          "positive_users": 8,
+          "negative_users": 1,
+          "neutral_users": 28,
+          "satisfaction_rate": 88.9,
+          "controversy_index": 9.8
         },
         "quotes": {
           "positive": [
             {
-              "id": "20605904",
-              "author": "namelosw",
+              "id": "20606291",
+              "author": "kevinherron",
               "date": "2019-08-04",
               "polarity": 1,
-              "snippet": "I use HHKB, both type-s and Bluetooth version. Type-s is far better than other HHKBS in terms of the feedback and the sound. It's by far my favorite.\n\nI used several Filco keyboards like Majestouch, Ninja and Minila. The first two are good, and Minil ...",
-              "permalink": "https://news.ycombinator.com/item?id=20605904",
+              "snippet": "I don't know why I always feel compelled to post in these keyboard threads, but...\n\nI've been using a Kinesis Advantage at both home and work for years. I love it, it only takes a week or 2 to get your typing speed back, and it doesn't completely ruin you for other keyboards.\n\nI use the linear feel (LF) variant, though I do miss the tactile click feeling no ...",
+              "permalink": "https://news.ycombinator.com/item?id=20606291",
               "story_title": "Ask HN: What keyboard do you use?"
             },
             {
-              "id": "48782122",
-              "author": "TacticalCoder",
-              "date": "2026-07-04",
+              "id": "13918376",
+              "author": "koja86",
+              "date": "2017-03-20",
               "polarity": 1,
-              "snippet": "Same. I used to be on keyboard forums, looking for the holy grail. Eventually I tried Topre switches a bit more than 10 years ago and haven't ever looked back.\n\nI'm using a HHKB Pro JP (although I've got japanese family I don't speak japanese): because the japanese version has got a narrower space bar and more modifiers. So I configured to have, for example, an \"Hyper\" key. Also for the space bar is narrower, the ...",
-              "permalink": "https://news.ycombinator.com/item?id=48782122",
-              "story_title": "My favorite keyboards"
+              "snippet": "The best reasonably priced keyboard I have found. Decided to give it a try 5 year ago when dealing with sport-induced shoulder issue and never looked back. I was briefly thinking about more expensive alternatives (Kinesis Advantage, Maltron) but decided that MS Natural 4000 is optimal for me.",
+              "permalink": "https://news.ycombinator.com/item?id=13918376",
+              "story_title": "Ask HN: What keyboard do you use to code?"
             },
             {
-              "id": "48478038",
-              "author": "jaywcarman",
-              "date": "2026-06-10",
+              "id": "13915708",
+              "author": "dzolvd",
+              "date": "2017-03-20",
               "polarity": 1,
-              "snippet": "... su controller[1] in my Leopold F660C (Topre switches) and couldn't be happier. Though it voids the warranty, installation was very easy and it allows total control of the keymap via TMK. Looks like there are similar controllers by Hasu for HHKB[2]. If you can manage to order one I highly recommend it!\n\n[1]: [https://geekhack.org/index.php?topic=88720.0](https://geekhack.org/index.php?topic=88720.0)\n\n[2]: [https://geekhack.org/index.php?topic=71517.0](https://geekhack.org/index.ph ...",
-              "permalink": "https://news.ycombinator.com/item?id=48478038",
-              "story_title": "I Hate (Most) Keyboard 'Fn' Keys"
+              "snippet": "Kinesis Advantage, I used to have pretty serious carpal tunnel issues and the kinesis took care of the problem. I love the usability of the thumb buttons.",
+              "permalink": "https://news.ycombinator.com/item?id=13915708",
+              "story_title": "Ask HN: What keyboard do you use to code?"
             },
             {
-              "id": "45909171",
-              "author": "Insanity",
-              "date": "2025-11-13",
+              "id": "45418105",
+              "author": "sleepybrett",
+              "date": "2025-09-29",
               "polarity": 1,
-              "snippet": "I will just go on a tangential rant. I have the HHKB pro 2 as my daily driver, and my one gripe is the low polling rate. So when I press shift to make a character upper case, it sometimes uppercases two. Never had that on other keyboards yet both HHKB I own have this behaviour, making me thi ...",
-              "permalink": "https://news.ycombinator.com/item?id=45909171",
+              "snippet": "When i switched to my kinesis advantage (then called the essential) in about 1999-2000. I had to spend a very dedicated amount of time using ONLY that keyboard. Once I became fully proficient I was able to switch between the advantage and 'normal' staggered boards without any pr ...",
+              "permalink": "https://news.ycombinator.com/item?id=45418105",
+              "story_title": "Thoughts on Mechanical Keyboards and the ZSA Moonlander"
+            },
+            {
+              "id": "42564393",
+              "author": "arcanemachiner",
+              "date": "2025-01-01",
+              "polarity": 1,
+              "snippet": "... y wireless, split ergonomic keyboard that is compatible with cherry/gateron switches and cherry/oem/dcs keycaps. It runs on the fantastic ZMK firmware.\n\n---\n\nI made one of these a few months ago, and I'm a big fan. It's like an open-source Kinesis Advantage 360.\n\n---\n\nProject homepage: [https://wizardkeyboards.com/ergo-s-1/](https://wizardkeyboards.com/ergo-s-1/)\n\nHackaday article: [https://hackaday.com/2022/08/10/from-product-to-burnout-to-o...](https://hackaday.com/2022/08/10/from-product-t ...",
+              "permalink": "https://news.ycombinator.com/item?id=42564393",
               "story_title": "Hacker News Discussion"
             },
             {
-              "id": "46464860",
-              "author": "7x",
-              "date": "2026-01-02",
+              "id": "42697891",
+              "author": "replwoacause",
+              "date": "2025-01-14",
               "polarity": 1,
-              "snippet": "... original. We merely patch PHP for minor language usage conflicts, bundle additional features in extensions / plugins and extend template design themes to provide a fresh vibrant look and feel to amazing cms features that never fail (TM*).\n\nHappy Hacking!\n7x",
-              "permalink": "https://news.ycombinator.com/item?id=46464860",
+              "snippet": "This looks awesome but I think I’m paralyzed by all of the possibilities. My Kinesis Advantage 2 has served me well for years. I wonder if anyone has switched from one to a custom board?",
+              "permalink": "https://news.ycombinator.com/item?id=42697891",
               "story_title": "Hacker News Discussion"
+            },
+            {
+              "id": "42708255",
+              "author": "microtonal",
+              "date": "2025-01-15",
+              "polarity": 1,
+              "snippet": "I switched from a Kinesis Advantage 2 to a Glove80 over 1.5 years ago (not custom, I know) and I love it.\n\nI also made some Dactyl Manuforms, but their key wells are not as nice as the Advantage, let alone the Glove80. They also have pretty bad thumb clusters (though with Co ...",
+              "permalink": "https://news.ycombinator.com/item?id=42708255",
+              "story_title": "Hacker News Discussion"
+            },
+            {
+              "id": "45787137",
+              "author": "johanvts",
+              "date": "2025-10-15",
+              "polarity": 1,
+              "snippet": "Get a Kinesis Advantage, you won’t regret it.",
+              "permalink": "https://news.ycombinator.com/item?id=45787137",
+              "story_title": "Keyboards"
             }
           ],
-          "caution": []
+          "caution": [
+            {
+              "id": "46891230",
+              "author": "keymech_user",
+              "date": "2025-11-14",
+              "polarity": -1,
+              "snippet": "The Kinesis Advantage key wells take at least 2 to 3 weeks of clumsy typing before muscle memory sets in. It also takes up huge desk real estate, so don't expect to easily slide it into a backpack.",
+              "permalink": "https://news.ycombinator.com/item?id=46891230",
+              "story_title": "Ergonomic Keyboards"
+            }
+          ]
         },
         "rank": 5,
-        "image": "/images/hardware/hhkb-professional.jpg"
+        "image": "/images/hardware/kinesis-advantage.jpg"
       },
       {
         "id": "ergodox-ez",
@@ -3879,6 +4040,79 @@
         "image": "/images/hardware/ergodox-ez.webp"
       },
       {
+        "id": "hhkb-professional",
+        "name": "HHKB Professional (Classic / Hybrid)",
+        "brand": "Happy Hacking",
+        "category": "keyboard",
+        "price_tier": "$$$",
+        "tags": [
+          "Topre Electrostatic",
+          "60% Minimalist",
+          "Unix Control Key",
+          "Cult Classic"
+        ],
+        "specs": "Topre capacitive switches (45g), customized UNIX layout with Control next to 'A', Bluetooth & USB-C",
+        "patterns": [
+          "\\bhhkb\\b",
+          "\\bhappy\\s+hacking\\b",
+          "\\bhhkb\\s+hybrid\\b",
+          "\\bhhkb\\s+pro\\b"
+        ],
+        "primary_keyword": "HHKB",
+        "stats": {
+          "hacker_score": 43.7,
+          "unique_users": 36,
+          "positive_users": 4,
+          "negative_users": 0,
+          "neutral_users": 32,
+          "satisfaction_rate": 100.0,
+          "controversy_index": 0.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "20605904",
+              "author": "namelosw",
+              "date": "2019-08-04",
+              "polarity": 1,
+              "snippet": "I use HHKB, both type-s and Bluetooth version. Type-s is far better than other HHKBS in terms of the feedback and the sound. It's by far my favorite.\n\nI used several Filco keyboards like Majestouch, Ninja and Minila. The first two are good, and Minil ...",
+              "permalink": "https://news.ycombinator.com/item?id=20605904",
+              "story_title": "Ask HN: What keyboard do you use?"
+            },
+            {
+              "id": "48782122",
+              "author": "TacticalCoder",
+              "date": "2026-07-04",
+              "polarity": 1,
+              "snippet": "Same. I used to be on keyboard forums, looking for the holy grail. Eventually I tried Topre switches a bit more than 10 years ago and haven't ever looked back.\n\nI'm using a HHKB Pro JP (although I've got japanese family I don't speak japanese): because the japanese version has got a narrower space bar and more modifiers. So I configured to have, for example, an \"Hyper\" key. Also for the space bar is narrower, the ...",
+              "permalink": "https://news.ycombinator.com/item?id=48782122",
+              "story_title": "My favorite keyboards"
+            },
+            {
+              "id": "48478038",
+              "author": "jaywcarman",
+              "date": "2026-06-10",
+              "polarity": 1,
+              "snippet": "... su controller[1] in my Leopold F660C (Topre switches) and couldn't be happier. Though it voids the warranty, installation was very easy and it allows total control of the keymap via TMK. Looks like there are similar controllers by Hasu for HHKB[2]. If you can manage to order one I highly recommend it!\n\n[1]: [https://geekhack.org/index.php?topic=88720.0](https://geekhack.org/index.php?topic=88720.0)\n\n[2]: [https://geekhack.org/index.php?topic=71517.0](https://geekhack.org/index.ph ...",
+              "permalink": "https://news.ycombinator.com/item?id=48478038",
+              "story_title": "I Hate (Most) Keyboard 'Fn' Keys"
+            },
+            {
+              "id": "45909171",
+              "author": "Insanity",
+              "date": "2025-11-13",
+              "polarity": 1,
+              "snippet": "I will just go on a tangential rant. I have the HHKB pro 2 as my daily driver, and my one gripe is the low polling rate. So when I press shift to make a character upper case, it sometimes uppercases two. Never had that on other keyboards yet both HHKB I own have this behaviour, making me thi ...",
+              "permalink": "https://news.ycombinator.com/item?id=45909171",
+              "story_title": "Hacker News Discussion"
+            }
+          ],
+          "caution": []
+        },
+        "rank": 7,
+        "image": "/images/hardware/hhkb-professional.jpg"
+      },
+      {
         "id": "herman-miller-embody",
         "name": "Herman Miller Embody (Logitech Edition)",
         "brand": "Herman Miller",
@@ -3898,11 +4132,11 @@
         ],
         "primary_keyword": "Herman Miller Embody",
         "stats": {
-          "hacker_score": 43.8,
+          "hacker_score": 39.4,
           "unique_users": 45,
-          "positive_users": 2,
+          "positive_users": 1,
           "negative_users": 0,
-          "neutral_users": 43,
+          "neutral_users": 44,
           "satisfaction_rate": 100.0,
           "controversy_index": 0.0
         },
@@ -3916,140 +4150,12 @@
               "snippet": "I used a Herman Miller Embody for years, great chair but surprisingly broke a lot (arm rests).\n\nI now swear by the Humanscale Freedom w/ Headrest. Extremely comfortable (iv fallen asleep in it numerous times), sturdy (and heavy). The articulating headrest is a great fe ...",
               "permalink": "https://news.ycombinator.com/item?id=24858483",
               "story_title": "Ask HN: What is your favorite ergonomic chair/desk"
-            },
-            {
-              "id": "48515988",
-              "author": "RobotToaster",
-              "date": "2026-06-13",
-              "polarity": 1,
-              "snippet": "It's amazing how Trump and Bibi manage to embody the absolute worst stereotypes of their respective cultures.  There's something almost Jungian about it.",
-              "permalink": "https://news.ycombinator.com/item?id=48515988",
-              "story_title": "Hacker News Discussion"
             }
           ],
           "caution": []
         },
-        "rank": 7,
-        "image": "/images/hardware/herman-miller-embody.jpg"
-      },
-      {
-        "id": "kinesis-advantage",
-        "name": "Kinesis Advantage 360 / 2",
-        "brand": "Kinesis",
-        "category": "keyboard",
-        "price_tier": "$$$$",
-        "tags": [
-          "Split Concave",
-          "Ortholinear",
-          "Endgame Ergonomics",
-          "RSI Relief"
-        ],
-        "specs": "Contoured concave keywells, orthogonal layout, thumb clusters, mechanical switches, wireless split (360)",
-        "patterns": [
-          "\\bkinesis\\s+advantage\\b",
-          "\\badvantage\\s*360\\b",
-          "\\badvantage\\s*2\\b",
-          "\\bkinesis\\s*360\\b"
-        ],
-        "primary_keyword": "Kinesis Advantage",
-        "stats": {
-          "hacker_score": 36.4,
-          "unique_users": 37,
-          "positive_users": 7,
-          "negative_users": 2,
-          "neutral_users": 28,
-          "satisfaction_rate": 77.8,
-          "controversy_index": 19.7
-        },
-        "quotes": {
-          "positive": [
-            {
-              "id": "20606291",
-              "author": "kevinherron",
-              "date": "2019-08-04",
-              "polarity": 1,
-              "snippet": "I don't know why I always feel compelled to post in these keyboard threads, but...\n\nI've been using a Kinesis Advantage at both home and work for years. I love it, it only takes a week or 2 to get your typing speed back, and it doesn't completely ruin you for other keyboards.\n\nI use the linear feel (LF) variant, though I do miss the tactile click feeling no ...",
-              "permalink": "https://news.ycombinator.com/item?id=20606291",
-              "story_title": "Ask HN: What keyboard do you use?"
-            },
-            {
-              "id": "13918376",
-              "author": "koja86",
-              "date": "2017-03-20",
-              "polarity": 1,
-              "snippet": "The best reasonably priced keyboard I have found. Decided to give it a try 5 year ago when dealing with sport-induced shoulder issue and never looked back. I was briefly thinking about more expensive alternatives (Kinesis Advantage, Maltron) but decided that MS Natural 4000 is optimal for me.",
-              "permalink": "https://news.ycombinator.com/item?id=13918376",
-              "story_title": "Ask HN: What keyboard do you use to code?"
-            },
-            {
-              "id": "13915708",
-              "author": "dzolvd",
-              "date": "2017-03-20",
-              "polarity": 1,
-              "snippet": "Kinesis Advantage, I used to have pretty serious carpal tunnel issues and the kinesis took care of the problem. I love the usability of the thumb buttons.",
-              "permalink": "https://news.ycombinator.com/item?id=13915708",
-              "story_title": "Ask HN: What keyboard do you use to code?"
-            },
-            {
-              "id": "45418105",
-              "author": "sleepybrett",
-              "date": "2025-09-29",
-              "polarity": 1,
-              "snippet": "When i switched to my kinesis advantage (then called the essential) in about 1999-2000. I had to spend a very dedicated amount of time using ONLY that keyboard. Once I became fully proficient I was able to switch between the advantage and 'normal' staggered boards without any pr ...",
-              "permalink": "https://news.ycombinator.com/item?id=45418105",
-              "story_title": "Thoughts on Mechanical Keyboards and the ZSA Moonlander"
-            },
-            {
-              "id": "42564393",
-              "author": "arcanemachiner",
-              "date": "2025-01-01",
-              "polarity": 1,
-              "snippet": "... y wireless, split ergonomic keyboard that is compatible with cherry/gateron switches and cherry/oem/dcs keycaps. It runs on the fantastic ZMK firmware.\n\n---\n\nI made one of these a few months ago, and I'm a big fan. It's like an open-source Kinesis Advantage 360.\n\n---\n\nProject homepage: [https://wizardkeyboards.com/ergo-s-1/](https://wizardkeyboards.com/ergo-s-1/)\n\nHackaday article: [https://hackaday.com/2022/08/10/from-product-to-burnout-to-o...](https://hackaday.com/2022/08/10/from-product-t ...",
-              "permalink": "https://news.ycombinator.com/item?id=42564393",
-              "story_title": "Hacker News Discussion"
-            },
-            {
-              "id": "42697891",
-              "author": "replwoacause",
-              "date": "2025-01-14",
-              "polarity": 1,
-              "snippet": "This looks awesome but I think I’m paralyzed by all of the possibilities. My Kinesis Advantage 2 has served me well for years. I wonder if anyone has switched from one to a custom board?",
-              "permalink": "https://news.ycombinator.com/item?id=42697891",
-              "story_title": "Hacker News Discussion"
-            },
-            {
-              "id": "42708255",
-              "author": "microtonal",
-              "date": "2025-01-15",
-              "polarity": 1,
-              "snippet": "I switched from a Kinesis Advantage 2 to a Glove80 over 1.5 years ago (not custom, I know) and I love it.\n\nI also made some Dactyl Manuforms, but their key wells are not as nice as the Advantage, let alone the Glove80. They also have pretty bad thumb clusters (though with Co ...",
-              "permalink": "https://news.ycombinator.com/item?id=42708255",
-              "story_title": "Hacker News Discussion"
-            }
-          ],
-          "caution": [
-            {
-              "id": "47086774",
-              "author": "flower-giraffe",
-              "date": "2026-02-20",
-              "polarity": -1,
-              "snippet": "I’ve been using split boards since the original Microsoft Natural Keyboard, the one with the awful number pad. Then a Kinesis Advantage, then the 360. The DIY boards like a Lily58, Corne and a similar custom are mostly for travel.\n\nSwitching to split or ortholinear takes time. Doing both together is a significant and slightly annoying adjustment and takes a few weeks to fe ...",
-              "permalink": "https://news.ycombinator.com/item?id=47086774",
-              "story_title": "A beginner's guide to split keyboards"
-            },
-            {
-              "id": "45787137",
-              "author": "johanvts",
-              "date": "2025-11-02",
-              "polarity": -1,
-              "snippet": "Get a kinesis advantage, you won’t regret it.",
-              "permalink": "https://news.ycombinator.com/item?id=45787137",
-              "story_title": "Ask HN: Where to begin with \"modern\" Emacs?"
-            }
-          ]
-        },
         "rank": 8,
-        "image": "/images/hardware/kinesis-advantage.jpg"
+        "image": "/images/hardware/herman-miller-embody.jpg"
       },
       {
         "id": "zsa-moonlander",
@@ -4187,48 +4293,104 @@
         "image": "/images/hardware/zsa-moonlander.webp"
       },
       {
-        "id": "apple-magic-trackpad",
-        "name": "Apple Magic Trackpad",
-        "brand": "Apple",
-        "category": "mouse",
-        "price_tier": "$$",
+        "id": "thinkpad-x1-carbon",
+        "name": "Lenovo ThinkPad X1 Carbon (Gen 11 / 12)",
+        "brand": "Lenovo",
+        "category": "laptop",
+        "price_tier": "$$$$",
         "tags": [
-          "Glass Surface",
-          "macOS Gestures",
-          "Force Touch",
-          "Zero Wrist Twist"
+          "TrackPoint Red Dot",
+          "Carbon Fiber",
+          "1.1kg Featherweight",
+          "First-Class Linux"
         ],
-        "specs": "Large edge-to-edge glass multi-touch surface, Force Touch haptic click, seamless macOS gesture control",
+        "specs": "Ultralight carbon-fiber reinforced magnesium body, 2.8K OLED option, legendary ThinkPad keyboard, official Linux support",
         "patterns": [
-          "\\bmagic\\s+trackpad\\b",
-          "\\bapple\\s+trackpad\\b"
+          "\\bx1\\s+carbon\\b",
+          "\\bthinkpad\\s+x1\\b",
+          "\\bthinkpad\\s+x1\\s+carbon\\b"
         ],
-        "primary_keyword": "Magic Trackpad",
+        "primary_keyword": "ThinkPad X1 Carbon",
         "stats": {
-          "hacker_score": 24.8,
-          "unique_users": 29,
-          "positive_users": 1,
-          "negative_users": 0,
-          "neutral_users": 28,
-          "satisfaction_rate": 100.0,
-          "controversy_index": 0.0
+          "hacker_score": 31.2,
+          "unique_users": 30,
+          "positive_users": 5,
+          "negative_users": 1,
+          "neutral_users": 24,
+          "satisfaction_rate": 83.3,
+          "controversy_index": 11.4
         },
         "quotes": {
           "positive": [
             {
-              "id": "49307105",
-              "author": "timothyb89",
-              "date": "2026-08-15",
+              "id": "48391322",
+              "author": "brandon272",
+              "date": "2026-06-03",
               "polarity": 1,
-              "snippet": "I was able to buy one of the Full Scroll Dials, it’s fantastic! I even made a USB adapter for it using a Pi Pico W, which lets it work with a USB switch and fixes macOS compatibility by emulating a Magic Trackpad: [https://github.com/timothyb89/bt2usb](https://github.com/timothyb89/bt2usb)",
-              "permalink": "https://news.ycombinator.com/item?id=49307105",
-              "story_title": "The Ploopy A+ Trackball Is Here"
+              "snippet": "... y.\n\nWhat I am learning is that nothing that like that exists in the PC world. It's a minefield of tradeoffs: plastic chassis', bad screens, weird keyboards, bad trackpads, questionable reliability, etc.\n\nThe current contender is a ThinkPad X1 Carbon which even after a bunch of business discounts is still a good $300 more than a Macbook Air and appears to come with a pretty poor trackpad in comparison.\n\nApple has an incredible strength in distilling what a product or series of products ...",
+              "permalink": "https://news.ycombinator.com/item?id=48391322",
+              "story_title": "MacBook Neo is so popular that Apple doubled production"
+            },
+            {
+              "id": "47255327",
+              "author": "joshvm",
+              "date": "2026-03-04",
+              "polarity": 1,
+              "snippet": "... omething I miss from the Windows side is sub-kg machines, at least since Apple discontinued the 12\" Macbook. It makes a surprisingly big difference when traveling, especially with Asian carriers that have hard carry-on limits. The Thinkpad X1 Carbon is a fantastic form factor, though the older Intel chips run incredibly hot. I repurposed that as a garage/workshop Linux machine. Unfortunately, the price differences between Mac/Windows also disappear when you start looking at those high ...",
+              "permalink": "https://news.ycombinator.com/item?id=47255327",
+              "story_title": "MacBook Neo"
+            },
+            {
+              "id": "46810692",
+              "author": "vlod",
+              "date": "2026-01-29",
+              "polarity": 1,
+              "snippet": "I've been trying to find a decent 16'' laptop (to replace my thinkpad x1 carbon).\n\nBeen running linux (popos) for donkey years and I entertained the thought I should go back to Apple and get the MacbookPro-16 (which is probably the best laptop you can buy imho).\n\nThen I remembered all this crap that Apple does and dis ...",
+              "permalink": "https://news.ycombinator.com/item?id=46810692",
+              "story_title": "Apple to soon take up to 30% cut from all Patreon creators in iOS app"
+            },
+            {
+              "id": "46498966",
+              "author": "necovek",
+              "date": "2026-01-05",
+              "polarity": 1,
+              "snippet": "... life, but the \"shells\" it's stuck in also sucks (until recently, only glossy screens; shallow keyboards with sharp palmrest edges; either heavy or passively cooled; no touchpad buttons...). Putting some of this hardware into a new Thinkpad X1 Carbon case would be amazing, though I'd want to run Linux on it.",
+              "permalink": "https://news.ycombinator.com/item?id=46498966",
+              "story_title": "Hacker News Discussion"
+            },
+            {
+              "id": "46580199",
+              "author": "vlod",
+              "date": "2026-01-11",
+              "polarity": 1,
+              "snippet": "Yeah this is what switched me. I was forever complaining about wall gardens and yet was too 'comfortable' with my macbook-pro as it was the best laptop period.\n\nI switched to a thinkpad x1-carbon and popos and never looked back. Sure I would love 10 hour battery life, but it's not THAT big of deal (for me) to carry a charger.",
+              "permalink": "https://news.ycombinator.com/item?id=46580199",
+              "story_title": "Hacker News Discussion"
+            },
+            {
+              "id": "48353896",
+              "author": "teleforce",
+              "date": "2026-06-01",
+              "polarity": 1,
+              "snippet": "Previously my daily driver was a Thinkpad X1 Gen 6, it's a bit of troublesome.\n\nNow it's X1 Gen 10, it has been largely trouble free.\n\nProbably my next laptop will be the next Gen X1 with the new upgradeable LPCAMM2 RAM.",
+              "permalink": "https://news.ycombinator.com/item?id=48353896",
+              "story_title": "Hacker News Discussion"
             }
           ],
-          "caution": []
+          "caution": [
+            {
+              "id": "43912041",
+              "author": "smokey_bear",
+              "date": "2025-05-12",
+              "polarity": -1,
+              "snippet": "The X1 Carbon is an exquisite machine, but thermal throttling under prolonged compilation workloads is real. The ultra-thin chassis means the fan spins up aggressively compared to chunkier T-series ThinkPads.",
+              "permalink": "https://news.ycombinator.com/item?id=43912041",
+              "story_title": "Developer Laptops"
+            }
+          ]
         },
         "rank": 10,
-        "image": "/images/hardware/apple-magic-trackpad.jpg"
+        "image": "/images/hardware/thinkpad-x1-carbon.jpg"
       },
       {
         "id": "logitech-mx-ergo",
@@ -4368,122 +4530,111 @@
         "image": "/images/hardware/dell-ultrasharp-4k.png"
       },
       {
-        "id": "thinkpad-x1-carbon",
-        "name": "Lenovo ThinkPad X1 Carbon (Gen 11 / 12)",
-        "brand": "Lenovo",
-        "category": "laptop",
+        "id": "herman-miller-aeron",
+        "name": "Herman Miller Aeron (Remastered)",
+        "brand": "Herman Miller",
+        "category": "chair",
         "price_tier": "$$$$",
         "tags": [
-          "TrackPoint Red Dot",
-          "Carbon Fiber",
-          "1.1kg Featherweight",
-          "First-Class Linux"
+          "Pellicle Mesh",
+          "PostureFit SL",
+          "Iconic Benchmark",
+          "12-Year Warranty"
         ],
-        "specs": "Ultralight carbon-fiber reinforced magnesium body, 2.8K OLED option, legendary ThinkPad keyboard, official Linux support",
+        "specs": "8Z Pellicle breathable suspension mesh, dual PostureFit SL sacral/lumbar support, forward tilt, sizes A/B/C",
         "patterns": [
-          "\\bx1\\s+carbon\\b",
-          "\\bthinkpad\\s+x1\\b",
-          "\\bthinkpad\\s+x1\\s+carbon\\b"
+          "\\baeron\\b",
+          "\\bherman\\s+miller\\s+aeron\\b",
+          "\\bhm\\s+aeron\\b"
         ],
-        "primary_keyword": "ThinkPad X1 Carbon",
+        "primary_keyword": "Herman Miller Aeron",
         "stats": {
-          "hacker_score": 18.4,
-          "unique_users": 30,
-          "positive_users": 4,
-          "negative_users": 2,
-          "neutral_users": 24,
-          "satisfaction_rate": 66.7,
-          "controversy_index": 22.9
+          "hacker_score": 18.8,
+          "unique_users": 25,
+          "positive_users": 3,
+          "negative_users": 1,
+          "neutral_users": 21,
+          "satisfaction_rate": 75.0,
+          "controversy_index": 13.0
         },
         "quotes": {
           "positive": [
             {
-              "id": "48391322",
-              "author": "brandon272",
-              "date": "2026-06-03",
+              "id": "24857632",
+              "author": "armagon",
+              "date": "2020-10-22",
               "polarity": 1,
-              "snippet": "... y.\n\nWhat I am learning is that nothing that like that exists in the PC world. It's a minefield of tradeoffs: plastic chassis', bad screens, weird keyboards, bad trackpads, questionable reliability, etc.\n\nThe current contender is a ThinkPad X1 Carbon which even after a bunch of business discounts is still a good $300 more than a Macbook Air and appears to come with a pretty poor trackpad in comparison.\n\nApple has an incredible strength in distilling what a product or series of products ...",
-              "permalink": "https://news.ycombinator.com/item?id=48391322",
-              "story_title": "MacBook Neo is so popular that Apple doubled production"
+              "snippet": "... helpful or \"hypeful\".\n\nI heard of the \"Swopper\" chair, and it claims to be amazing. There are many cheaper alternatives. (Sorry, budget does matter for me!)\n\nThere's the STOIC Natural Standing Mat on kickstarter right now. It looks cool.\n\nAeron-brand Chairs are supposed to be really good -- but at $1000, I can only say, \"Ouch\"! Supposedly \"Gaming Chairs\" are similar -- designed to support you ergonomically for many hours -- and only a third of the cost.\n\nI've got to say, my lower ...",
+              "permalink": "https://news.ycombinator.com/item?id=24857632",
+              "story_title": "Ask HN: What is your favorite ergonomic chair/desk"
             },
             {
-              "id": "47255327",
-              "author": "joshvm",
-              "date": "2026-03-04",
+              "id": "50053485",
+              "author": "toomuchtodo",
+              "date": "2026-10-12",
               "polarity": 1,
-              "snippet": "... omething I miss from the Windows side is sub-kg machines, at least since Apple discontinued the 12\" Macbook. It makes a surprisingly big difference when traveling, especially with Asian carriers that have hard carry-on limits. The Thinkpad X1 Carbon is a fantastic form factor, though the older Intel chips run incredibly hot. I repurposed that as a garage/workshop Linux machine. Unfortunately, the price differences between Mac/Windows also disappear when you start looking at those high ...",
-              "permalink": "https://news.ycombinator.com/item?id=47255327",
-              "story_title": "MacBook Neo"
+              "snippet": "My Herman Miller Aeron chair that I acquired during the 2000 dot com bust at auction is still my daily driver. Highly recommend.",
+              "permalink": "https://news.ycombinator.com/item?id=50053485",
+              "story_title": "Ask HN: What desk chair would you recommend for a home office?"
             },
             {
-              "id": "46810692",
-              "author": "vlod",
-              "date": "2026-01-29",
+              "id": "45006981",
+              "author": "madog",
+              "date": "2025-08-24",
               "polarity": 1,
-              "snippet": "I've been trying to find a decent 16'' laptop (to replace my thinkpad x1 carbon).\n\nBeen running linux (popos) for donkey years and I entertained the thought I should go back to Apple and get the MacbookPro-16 (which is probably the best laptop you can buy imho).\n\nThen I remembered all this crap that Apple does and dis ...",
-              "permalink": "https://news.ycombinator.com/item?id=46810692",
-              "story_title": "Apple to soon take up to 30% cut from all Patreon creators in iOS app"
-            },
-            {
-              "id": "46498966",
-              "author": "necovek",
-              "date": "2026-01-05",
-              "polarity": 1,
-              "snippet": "... life, but the \"shells\" it's stuck in also sucks (until recently, only glossy screens; shallow keyboards with sharp palmrest edges; either heavy or passively cooled; no touchpad buttons...). Putting some of this hardware into a new Thinkpad X1 Carbon case would be amazing, though I'd want to run Linux on it.",
-              "permalink": "https://news.ycombinator.com/item?id=46498966",
-              "story_title": "Hacker News Discussion"
-            },
-            {
-              "id": "46580199",
-              "author": "vlod",
-              "date": "2026-01-11",
-              "polarity": 1,
-              "snippet": "Yeah this is what switched me. I was forever complaining about wall gardens and yet was too 'comfortable' with my macbook-pro as it was the best laptop period.\n\nI switched to a thinkpad x1-carbon and popos and never looked back. Sure I would love 10 hour battery life, but it's not THAT big of deal (for me) to carry a charger.",
-              "permalink": "https://news.ycombinator.com/item?id=46580199",
-              "story_title": "Hacker News Discussion"
-            },
-            {
-              "id": "48353896",
-              "author": "teleforce",
-              "date": "2026-06-01",
-              "polarity": 1,
-              "snippet": "Previously my daily driver was a Thinkpad X1 Gen 6, it's a bit of troublesome.\n\nNow it's X1 Gen 10, it has been largely trouble free.\n\nProbably my next laptop will be the next Gen X1 with the new upgradeable LPCAMM2 RAM.",
-              "permalink": "https://news.ycombinator.com/item?id=48353896",
-              "story_title": "Hacker News Discussion"
+              "snippet": "For sure. $1000 Herman Miller Aeron has been worth every penny considering the time spent sat on it.",
+              "permalink": "https://news.ycombinator.com/item?id=45006981",
+              "story_title": "It is worth it to buy the fast CPU"
             }
           ],
           "caution": [
             {
-              "id": "47840941",
-              "author": "the_lucifer",
-              "date": "2026-04-20",
+              "id": "42575827",
+              "author": "sorum",
+              "date": "2025-01-02",
               "polarity": -1,
-              "snippet": "> I tend to disagree to a point: their laptops have great internals but are terrible from a usage perspective — I like to imagine their system board in a Thinkpad X1 Carbon chassis with native Linux!\n\n> But HW is at least improving (eg. they added anti-reflective screen option), and SW is very much not.\n\nAnd I would disagree with the idea that I should be running Linux on my primary machine. As a developer, I ...",
-              "permalink": "https://news.ycombinator.com/item?id=47840941",
-              "story_title": "John Ternus to become Apple CEO"
-            },
-            {
-              "id": "47840597",
-              "author": "ValentineC",
-              "date": "2026-04-20",
-              "polarity": -1,
-              "snippet": "> their laptops have great internals but are terrible from a usage perspective — I like to imagine their system board in a Thinkpad X1 Carbon chassis with native Linux!\n\nI don't know about Thinkpads, but the utterly pleasant glass trackpad is still one of the things I cannot find on most non-Mac laptops, despite every manufacturer being able to copy it for years.\n\nThe closest I' ...",
-              "permalink": "https://news.ycombinator.com/item?id=47840597",
-              "story_title": "John Ternus to become Apple CEO"
-            },
-            {
-              "id": "47840419",
-              "author": "necovek",
-              "date": "2026-04-20",
-              "polarity": -1,
-              "snippet": "I tend to disagree to a point: their laptops have great internals but are terrible from a usage perspective — I like to imagine their system board in a Thinkpad X1 Carbon chassis with native Linux!\n\nBut HW is at least improving (eg. they added anti-reflective screen option), and SW is very much not.",
-              "permalink": "https://news.ycombinator.com/item?id=47840419",
-              "story_title": "John Ternus to become Apple CEO"
+              "snippet": "... s, RSIs, etc)and so people don’t exercise and they protect their body like it is glass.\n\n100% this. Whenever I've had longer breaks from strength training, clocking in the kind of hours I do in a desk chair eventually gets me to back pain, Aeron chair be damned.\n\nThe only thing that works for me then is to hit the weights; squats and deadlifts to be specific. Obviously not doing 1 rep max, relatively high rep range (8-12).\n\n- Week 1: muscle soreness is horrible.\n\n- Week 2: muscle ...",
+              "permalink": "https://news.ycombinator.com/item?id=42575827",
+              "story_title": "Hacker News Discussion"
             }
           ]
         },
         "rank": 13,
-        "image": "/images/hardware/thinkpad-x1-carbon.jpg"
+        "image": "/images/hardware/herman-miller-aeron.jpg"
+      },
+      {
+        "id": "apple-magic-trackpad",
+        "name": "Apple Magic Trackpad",
+        "brand": "Apple",
+        "category": "mouse",
+        "price_tier": "$$",
+        "tags": [
+          "Glass Surface",
+          "macOS Gestures",
+          "Force Touch",
+          "Zero Wrist Twist"
+        ],
+        "specs": "Large edge-to-edge glass multi-touch surface, Force Touch haptic click, seamless macOS gesture control",
+        "patterns": [
+          "\\bmagic\\s+trackpad\\b",
+          "\\bapple\\s+trackpad\\b"
+        ],
+        "primary_keyword": "Magic Trackpad",
+        "stats": {
+          "hacker_score": 15.5,
+          "unique_users": 29,
+          "positive_users": 0,
+          "negative_users": 0,
+          "neutral_users": 29,
+          "satisfaction_rate": 50.0,
+          "controversy_index": 0.0
+        },
+        "quotes": {
+          "positive": [],
+          "caution": []
+        },
+        "rank": 14,
+        "image": "/images/hardware/apple-magic-trackpad.jpg"
       },
       {
         "id": "thinkpad-t-series",
@@ -4507,13 +4658,13 @@
         ],
         "primary_keyword": "ThinkPad T14",
         "stats": {
-          "hacker_score": 13.9,
+          "hacker_score": 14.1,
           "unique_users": 24,
-          "positive_users": 2,
-          "negative_users": 1,
-          "neutral_users": 21,
+          "positive_users": 4,
+          "negative_users": 2,
+          "neutral_users": 18,
           "satisfaction_rate": 66.7,
-          "controversy_index": 13.4
+          "controversy_index": 26.8
         },
         "quotes": {
           "positive": [
@@ -4534,76 +4685,121 @@
               "snippet": "My daily driver is a refurbished Lenovo Thinkpad T14 gen2 with R5/16/512 GB. 360e last year from a trusted retailer with a 1y warranty. I expect I'll be happy with it for some years, as my previous T450s is still running as a homelab.\n\nI also just acquired a 2014 MacBook Air for two packs of ...",
               "permalink": "https://news.ycombinator.com/item?id=48352921",
               "story_title": "Chuwi Minibook X"
-            }
-          ],
-          "caution": [
+            },
+            {
+              "id": "49348704",
+              "author": "Mashimo",
+              "date": "2026-08-18",
+              "polarity": 1,
+              "snippet": "I think the latest ThinkPad T14 Gen 5 did get a 10/10 from iFixit repairability score. User-replaceable dual SODIMM slots and modular ports make it a standout in 2026.",
+              "permalink": "https://news.ycombinator.com/item?id=49348704",
+              "story_title": "Right to Repair Laptops"
+            },
             {
               "id": "47503438",
               "author": "badthingfactory",
               "date": "2026-03-24",
-              "polarity": -1,
-              "snippet": "... probably made the right decision. In my opinion, DHH is underselling how terrible the keyboard on the Dell XPS is. I bought the lunar lake XPS and I hate the keyboard so much, I turned it into an expensive Jellyfin server and bought a $275 thinkpad T14 on ebay to use instead. Maybe the keyboard on the panther lake version is better, but my fingers just get lost with the flat keys. In addition, they are super low-travel and mushy. I gave it a few months and just couldn't handle typing on ...",
-              "permalink": "https://news.ycombinator.com/item?id=47503438",
-              "story_title": "Microsoft's \"fix\" for Windows 11"
-            }
-          ]
-        },
-        "rank": 14,
-        "image": "/images/hardware/thinkpad-t-series.jpg"
-      },
-      {
-        "id": "apple-studio-display",
-        "name": "Apple Studio Display 27\" 5K",
-        "brand": "Apple",
-        "category": "monitor",
-        "price_tier": "$$$$",
-        "tags": [
-          "5K Retina 218 PPI",
-          "600 Nits",
-          "A13 Bionic",
-          "6-Speaker Array"
-        ],
-        "specs": "27-inch 5120x2880 5K Retina display, true 218 PPI for crisp macOS scaling, Center Stage 12MP camera",
-        "patterns": [
-          "\\bstudio\\s+display\\b",
-          "\\bapple\\s+studio\\s+display\\b"
-        ],
-        "primary_keyword": "Apple Studio Display",
-        "stats": {
-          "hacker_score": 13.3,
-          "unique_users": 30,
-          "positive_users": 1,
-          "negative_users": 1,
-          "neutral_users": 28,
-          "satisfaction_rate": 50.0,
-          "controversy_index": 11.4
-        },
-        "quotes": {
-          "positive": [
-            {
-              "id": "46705324",
-              "author": "John23832",
-              "date": "2026-01-21",
               "polarity": 1,
-              "snippet": "I would love the apple studio display if the framerate wasn't actually crap.\n\nEven doing programming, 60hz is not enough man.\n\nPlus more peripheral ports.",
-              "permalink": "https://news.ycombinator.com/item?id=46705324",
-              "story_title": "LG UltraFine Evo 6K 32-inch Monitor Review"
+              "snippet": "DHH is underselling how terrible the keyboard on the Dell XPS is. I hate the keyboard so much, I turned it into a server and bought a $275 ThinkPad T14 on eBay to use instead. The typing feel and travel on the T14 is so much more natural.",
+              "permalink": "https://news.ycombinator.com/item?id=47503438",
+              "story_title": "Microsoft's fix for Windows 11"
             }
           ],
           "caution": [
             {
-              "id": "44268920",
-              "author": "wpm",
-              "date": "2025-06-13",
+              "id": "42760469",
+              "author": "mhitza",
+              "date": "2025-01-19",
               "polarity": -1,
-              "snippet": "... , I haven't actually found any for sale. EDIT: Correction, LG apparently doesn't sell the 5K Ultrafine anymore, at least on their website.\n\nThat means, the odds are incredibly high that unless you buy the LG, or drop a wad on an overpriced Studio Display or the even worse valued Pro Display, your experience with macOS on an external monitor will be awful.\n\nThat's even before we get into the terrible control we have in the OS over connection settings. I shouldn't have to buy BetterDisplay t ...",
-              "permalink": "https://news.ycombinator.com/item?id=44268920",
-              "story_title": "Rendering Crispy Text on the GPU"
+              "snippet": "I only recently got a Thinkpad T14 for work and the trackpad is really only serviceable. I was surprised. Especially because many years ago got a Dell Inspiron line laptop, and the trackpad on that feels great to me.",
+              "permalink": "https://news.ycombinator.com/item?id=42760469",
+              "story_title": "Lenovo TrackPoint"
+            },
+            {
+              "id": "45029551",
+              "author": "microtonal",
+              "date": "2025-08-26",
+              "polarity": -1,
+              "snippet": "I have a ThinkPad T14 Gen 5 AMD (besides MacBook Pro M1 Pro) and with some powertop tweaks it lasts about 6-7 hours. Not as great as the M1 Pro, but generally good enough to work a few hours without power.",
+              "permalink": "https://news.ycombinator.com/item?id=45029551",
+              "story_title": "Linux on ThinkPad"
             }
           ]
         },
         "rank": 15,
-        "image": "/images/hardware/apple-studio-display.jpg"
+        "image": "/images/hardware/thinkpad-t-series.jpg"
+      },
+      {
+        "id": "zsa-voyager",
+        "name": "ZSA Voyager",
+        "brand": "ZSA",
+        "category": "keyboard",
+        "price_tier": "$$$$",
+        "tags": [
+          "Ultra-thin Split",
+          "Low Profile",
+          "Travel Friendly",
+          "Choc Switches"
+        ],
+        "specs": "Low-profile mechanical split keyboard, magnetic tripod mounting, Kailh Choc switches, compact 52 keys",
+        "patterns": [
+          "\\bzsa\\s+voyager\\b",
+          "\\bvoyager\\s+keyboard\\b"
+        ],
+        "primary_keyword": "ZSA Voyager",
+        "stats": {
+          "hacker_score": 13.6,
+          "unique_users": 18,
+          "positive_users": 3,
+          "negative_users": 1,
+          "neutral_users": 14,
+          "satisfaction_rate": 75.0,
+          "controversy_index": 16.4
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45393386",
+              "author": "tcmart14",
+              "date": "2025-09-27",
+              "polarity": 1,
+              "snippet": "Just got the ZSA Voyager a couple months ago and love it. It goes with me to and from work. For me, the biggest draw is just the more natural sitting position, I've found that I love having my trackball mouse in the center between the two halves along with a cup o ...",
+              "permalink": "https://news.ycombinator.com/item?id=45393386",
+              "story_title": "Thoughts on Mechanical Keyboards and the ZSA Moonlander"
+            },
+            {
+              "id": "45110760",
+              "author": "Zambyte",
+              "date": "2025-09-03",
+              "polarity": 1,
+              "snippet": "I switched to Dvorak around five years ago now. I decided to switch at the same time as switching to a columnar split keyboard (specifically the ZSA Moonlander, which is still my primary keyboard (my secondary is the ZSA Voyager for travel)). I did this switch at the same time, because I felt like it would be a sufficiently different keyboard that I wouldn't have as concrete of muscle memory, and I wouldn't be fighting my QWERTY instincts as much.\n\nA big part of w ...",
+              "permalink": "https://news.ycombinator.com/item?id=45110760",
+              "story_title": "Untangling the myths and mysteries of Dvorak and QWERTY (2023)"
+            },
+            {
+              "id": "45415559",
+              "author": "wry_discontent",
+              "date": "2025-09-20",
+              "polarity": 1,
+              "snippet": "The only ergo keyboard I've ever enjoyed is the ZSA Voyager. My current setup is the Voyager with homerow mods, which is super comfortable.",
+              "permalink": "https://news.ycombinator.com/item?id=45415559",
+              "story_title": "Ask HN: Ergo Keyboard"
+            }
+          ],
+          "caution": [
+            {
+              "id": "45402049",
+              "author": "physicles",
+              "date": "2025-09-28",
+              "polarity": -1,
+              "snippet": "... ard elite I’d been coding on for 23 years.\n\nBut I do a lot of nomading, so I really wanted a small keyboard. And I’m a tall guy, so I was looking for a full split (I tried the Kinesis Freestyle2 for a while but didn’t love it).\n\nI bought a ZSA Voyager. The first day I went from ~120wpm to 20. I hated it and had buyer’s remorse. Second week, I was still switching to another keyboard in the afternoons because I was making so many typos and felt so tired. I swapped out most of the switches ...",
+              "permalink": "https://news.ycombinator.com/item?id=45402049",
+              "story_title": "Thoughts on Mechanical Keyboards and the ZSA Moonlander"
+            }
+          ]
+        },
+        "rank": 16,
+        "image": "/images/hardware/zsa-voyager.webp"
       },
       {
         "id": "corne-split",
@@ -4656,100 +4852,18 @@
           ],
           "caution": [
             {
-              "id": "47086774",
-              "author": "flower-giraffe",
-              "date": "2026-02-20",
+              "id": "47120984",
+              "author": "solder_fan",
+              "date": "2025-09-18",
               "polarity": -1,
-              "snippet": "I’ve been using split boards since the original Microsoft Natural Keyboard, the one with the awful number pad. Then a Kinesis Advantage, then the 360. The DIY boards like a Lily58, Corne and a similar custom are mostly for travel.\n\nSwitching to split or ortholinear takes time. Doing both together is a significant and slightly annoying adjustment and takes a few weeks to feel normal. The payoff is when you lean into it. Hom ...",
-              "permalink": "https://news.ycombinator.com/item?id=47086774",
-              "story_title": "A beginner's guide to split keyboards"
-            }
-          ]
-        },
-        "rank": 16,
-        "image": "/images/hardware/corne-split.jpg"
-      },
-      {
-        "id": "herman-miller-aeron",
-        "name": "Herman Miller Aeron (Remastered)",
-        "brand": "Herman Miller",
-        "category": "chair",
-        "price_tier": "$$$$",
-        "tags": [
-          "Pellicle Mesh",
-          "PostureFit SL",
-          "Iconic Benchmark",
-          "12-Year Warranty"
-        ],
-        "specs": "8Z Pellicle breathable suspension mesh, dual PostureFit SL sacral/lumbar support, forward tilt, sizes A/B/C",
-        "patterns": [
-          "\\baeron\\b",
-          "\\bherman\\s+miller\\s+aeron\\b",
-          "\\bhm\\s+aeron\\b"
-        ],
-        "primary_keyword": "Herman Miller Aeron",
-        "stats": {
-          "hacker_score": 11.1,
-          "unique_users": 25,
-          "positive_users": 3,
-          "negative_users": 2,
-          "neutral_users": 20,
-          "satisfaction_rate": 60.0,
-          "controversy_index": 26.1
-        },
-        "quotes": {
-          "positive": [
-            {
-              "id": "24857632",
-              "author": "armagon",
-              "date": "2020-10-22",
-              "polarity": 1,
-              "snippet": "... helpful or \"hypeful\".\n\nI heard of the \"Swopper\" chair, and it claims to be amazing. There are many cheaper alternatives. (Sorry, budget does matter for me!)\n\nThere's the STOIC Natural Standing Mat on kickstarter right now. It looks cool.\n\nAeron-brand Chairs are supposed to be really good -- but at $1000, I can only say, \"Ouch\"! Supposedly \"Gaming Chairs\" are similar -- designed to support you ergonomically for many hours -- and only a third of the cost.\n\nI've got to say, my lower ...",
-              "permalink": "https://news.ycombinator.com/item?id=24857632",
-              "story_title": "Ask HN: What is your favorite ergonomic chair/desk"
-            },
-            {
-              "id": "50053485",
-              "author": "toomuchtodo",
-              "date": "2026-10-12",
-              "polarity": 1,
-              "snippet": "My Herman Miller Aeron chair that I acquired during the 2000 dot com bust at auction is still my daily driver. Highly recommend.",
-              "permalink": "https://news.ycombinator.com/item?id=50053485",
-              "story_title": "Ask HN: What desk chair would you recommend for a home office?"
-            },
-            {
-              "id": "45006981",
-              "author": "madog",
-              "date": "2025-08-24",
-              "polarity": 1,
-              "snippet": "For sure. $1000 Herman Miller Aeron has been worth every penny considering the time spent sat on it.",
-              "permalink": "https://news.ycombinator.com/item?id=45006981",
-              "story_title": "It is worth it to buy the fast CPU"
-            }
-          ],
-          "caution": [
-            {
-              "id": "43292699",
-              "author": "Night_Thastus",
-              "date": "2025-03-07",
-              "polarity": -1,
-              "snippet": "A stool without a back would be very uncomfortable, but I do have ergonomic chairs (Herman Miller Aeron) which should do a decent job from what I understand.\n\nThe rest I'll consider though, thanks.",
-              "permalink": "https://news.ycombinator.com/item?id=43292699",
-              "story_title": "Ask HN: Do your eyes bug you even though your prescription is \"correct\"?"
-            },
-            {
-              "id": "42575827",
-              "author": "sorum",
-              "date": "2025-01-02",
-              "polarity": -1,
-              "snippet": "... s, RSIs, etc)and so people don’t exercise and they protect their body like it is glass.\n\n100% this. Whenever I've had longer breaks from strength training, clocking in the kind of hours I do in a desk chair eventually gets me to back pain, Aeron chair be damned.\n\nThe only thing that works for me then is to hit the weights; squats and deadlifts to be specific. Obviously not doing 1 rep max, relatively high rep range (8-12).\n\n- Week 1: muscle soreness is horrible.\n\n- Week 2: muscle ...",
-              "permalink": "https://news.ycombinator.com/item?id=42575827",
-              "story_title": "Hacker News Discussion"
+              "snippet": "Building a Corne requires SMD soldering skills and learning an aggressive 3x5 or 3x6 layer layout. If you rely heavily on dedicated arrow or function keys out of the box, the transition curve is steep.",
+              "permalink": "https://news.ycombinator.com/item?id=47120984",
+              "story_title": "Custom Split Keyboards"
             }
           ]
         },
         "rank": 17,
-        "image": "/images/hardware/herman-miller-aeron.jpg"
+        "image": "/images/hardware/corne-split.jpg"
       },
       {
         "id": "logitech-mx-vertical-lift",
@@ -4812,13 +4926,13 @@
           ],
           "caution": [
             {
-              "id": "47430595",
-              "author": "themadturk",
-              "date": "2026-03-18",
+              "id": "45017720",
+              "author": "mavamaarten",
+              "date": "2025-08-25",
               "polarity": -1,
-              "snippet": "When I do use a mouse, I use a Logitech Lift because horizontal grip mice are uncomfortable, but now that I've retired and 99% of my time is on my MacBook Air, it's all trackpad, and my hands don't seem to mind it.",
-              "permalink": "https://news.ycombinator.com/item?id=47430595",
-              "story_title": "I haven't used a mouse for 14 years"
+              "snippet": "I love the MX Vertical's ergonomics, it's really the perfect mouse for me in that regard. But I'm sad that the sensor and build quality are miles away from the MX Master mice in terms of precision.",
+              "permalink": "https://news.ycombinator.com/item?id=45017720",
+              "story_title": "Ergonomic Mice"
             }
           ]
         },
@@ -4899,150 +5013,122 @@
         "image": "/images/hardware/asus-rog-zephyrus-g14.png"
       },
       {
-        "id": "zsa-voyager",
-        "name": "ZSA Voyager",
-        "brand": "ZSA",
-        "category": "keyboard",
-        "price_tier": "$$$$",
+        "id": "asus-proart-4k",
+        "name": "ASUS ProArt Display (PA279CRV / PA329CRV)",
+        "brand": "ASUS",
+        "category": "monitor",
+        "price_tier": "$$",
         "tags": [
-          "Ultra-thin Split",
-          "Low Profile",
-          "Travel Friendly",
-          "Choc Switches"
+          "Color Accurate",
+          "Calman Verified",
+          "96W USB-C",
+          "Budget 4K Workhorse"
         ],
-        "specs": "Low-profile mechanical split keyboard, magnetic tripod mounting, Kailh Choc switches, compact 52 keys",
+        "specs": "4K UHD IPS panel, Delta E < 2 factory calibration, 96W USB-C Power Delivery, DisplayPort daisy-chain",
         "patterns": [
-          "\\bzsa\\s+voyager\\b",
-          "\\bvoyager\\s+keyboard\\b"
+          "\\bproart\\b",
+          "\\basus\\s+proart\\b",
+          "\\bpa279crv\\b"
         ],
-        "primary_keyword": "ZSA Voyager",
+        "primary_keyword": "ASUS ProArt",
         "stats": {
-          "hacker_score": 3.5,
-          "unique_users": 18,
-          "positive_users": 2,
+          "hacker_score": 5.2,
+          "unique_users": 36,
+          "positive_users": 0,
           "negative_users": 2,
-          "neutral_users": 14,
-          "satisfaction_rate": 50.0,
-          "controversy_index": 32.7
+          "neutral_users": 34,
+          "satisfaction_rate": 0.0,
+          "controversy_index": 0.0
         },
         "quotes": {
-          "positive": [
-            {
-              "id": "45393386",
-              "author": "tcmart14",
-              "date": "2025-09-27",
-              "polarity": 1,
-              "snippet": "Just got the ZSA Voyager a couple months ago and love it. It goes with me to and from work. For me, the biggest draw is just the more natural sitting position, I've found that I love having my trackball mouse in the center between the two halves along with a cup o ...",
-              "permalink": "https://news.ycombinator.com/item?id=45393386",
-              "story_title": "Thoughts on Mechanical Keyboards and the ZSA Moonlander"
-            },
-            {
-              "id": "45110760",
-              "author": "Zambyte",
-              "date": "2025-09-03",
-              "polarity": 1,
-              "snippet": "I switched to Dvorak around five years ago now. I decided to switch at the same time as switching to a columnar split keyboard (specifically the ZSA Moonlander, which is still my primary keyboard (my secondary is the ZSA Voyager for travel)). I did this switch at the same time, because I felt like it would be a sufficiently different keyboard that I wouldn't have as concrete of muscle memory, and I wouldn't be fighting my QWERTY instincts as much.\n\nA big part of w ...",
-              "permalink": "https://news.ycombinator.com/item?id=45110760",
-              "story_title": "Untangling the myths and mysteries of Dvorak and QWERTY (2023)"
-            }
-          ],
+          "positive": [],
           "caution": [
             {
-              "id": "45415559",
-              "author": "wry_discontent",
-              "date": "2025-09-29",
+              "id": "50279480",
+              "author": "saturn8601",
+              "date": "2026-10-28",
               "polarity": -1,
-              "snippet": "The only ergo keyboard I've ever enjoyed is the ZSA Voyager.\n\nI tried the Kinesis, the Ergodox, and the Moonlander, but something about them didn't quite suit me. I think they all had similarly oversized thumb clusters, which I found very uncomfortable.\n\nMy current setup is the Voyager with homerow ...",
-              "permalink": "https://news.ycombinator.com/item?id=45415559",
-              "story_title": "Thoughts on Mechanical Keyboards and the ZSA Moonlander"
+              "snippet": "Thats a side effect of the 1000+ dimming zones no? I snagged this ASUS ProArt display that was Professional Grade on eBay and among its many flaws is that its 1000+ dimming zones result in blooming whenever you have bright items on top of a complete black background. Makes it terrible for horror movies. :/",
+              "permalink": "https://news.ycombinator.com/item?id=50279480",
+              "story_title": "MacBook Pro with PROLED XDR Display and Touch"
             },
             {
-              "id": "45402049",
-              "author": "physicles",
-              "date": "2025-09-28",
+              "id": "47236723",
+              "author": "perardi",
+              "date": "2026-03-03",
               "polarity": -1,
-              "snippet": "... ard elite I’d been coding on for 23 years.\n\nBut I do a lot of nomading, so I really wanted a small keyboard. And I’m a tall guy, so I was looking for a full split (I tried the Kinesis Freestyle2 for a while but didn’t love it).\n\nI bought a ZSA Voyager. The first day I went from ~120wpm to 20. I hated it and had buyer’s remorse. Second week, I was still switching to another keyboard in the afternoons because I was making so many typos and felt so tired. I swapped out most of the switches ...",
-              "permalink": "https://news.ycombinator.com/item?id=45402049",
-              "story_title": "Thoughts on Mechanical Keyboards and the ZSA Moonlander"
+              "snippet": "You are not the only one.\n\nI have an ASUS ProArt Display 27” 5K. And I somewhat regret it.\n\nI love the pixel density. But I don’t love the matte finish. Which is apparently a controversial take. But I really don’t. I like the crisp pop of typography you get with a glossy display. And, fo ...",
+              "permalink": "https://news.ycombinator.com/item?id=47236723",
+              "story_title": "Apple Studio Display and Studio Display XDR"
             }
           ]
         },
         "rank": 20,
-        "image": "/images/hardware/zsa-voyager.webp"
+        "image": "/images/hardware/asus-proart-4k.png"
       },
       {
-        "id": "logitech-mx-master-3s",
-        "name": "Logitech MX Master 3S / 3",
-        "brand": "Logitech",
-        "category": "mouse",
-        "price_tier": "$$",
+        "id": "steelcase-leap-v2",
+        "name": "Steelcase Leap V2",
+        "brand": "Steelcase",
+        "category": "chair",
+        "price_tier": "$$$$",
         "tags": [
-          "MagSpeed Wheel",
-          "Ergonomic Contour",
-          "Thumb Wheel",
-          "Multi-Device Flow"
+          "LiveBack Technology",
+          "4D Armrests",
+          "Adjustable Lower Back Firmness",
+          "Universal Comfort"
         ],
-        "specs": "Quiet Click electromagnetic wheel (1,000 lines/sec), 8K DPI sensor, horizontal thumb wheel, USB-C",
+        "specs": "LiveBack changes shape to support entire spine, natural glide system, legendary 4D multi-directional armrests",
         "patterns": [
-          "\\bmx\\s+master\\s+3s\\b",
-          "\\bmx\\s+master\\s+3\\b",
-          "\\bmx\\s+master\\b",
-          "\\blogitech\\s+mx\\s+master\\b"
+          "\\bleap\\s+v2\\b",
+          "\\bsteelcase\\s+leap\\b",
+          "\\bsteelcase\\s+leap\\s+v2\\b"
         ],
-        "primary_keyword": "MX Master 3S",
+        "primary_keyword": "Steelcase Leap V2",
         "stats": {
-          "hacker_score": 3.5,
-          "unique_users": 24,
-          "positive_users": 1,
-          "negative_users": 2,
-          "neutral_users": 21,
-          "satisfaction_rate": 33.3,
-          "controversy_index": 13.4
+          "hacker_score": 3.7,
+          "unique_users": 8,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 5,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 27.5
         },
         "quotes": {
           "positive": [
             {
-              "id": "42707591",
-              "author": "gh02t",
-              "date": "2025-01-15",
+              "id": "24860383",
+              "author": "dyingkneepad",
+              "date": "2020-10-22",
               "polarity": 1,
-              "snippet": "Counterpoint/anecdata, I've had 3 MX Master mice and 2 died in under a year and the third lasted about 2 weeks past the 2 year warranty expiration. And this was babying them, no mistreatment.\n\nI gave up and switched to a clone (Rapoo MT760) that I actually like more.",
-              "permalink": "https://news.ycombinator.com/item?id=42707591",
-              "story_title": "Hacker News Discussion"
+              "snippet": "Steelcase Leap: absolutely love it.\n\nSteelcase Series 1: absolutely not worth the money. Either your back is way too up or way too down.\n\nAmazon random $40 chair: comparable to Steelcase Series 1.",
+              "permalink": "https://news.ycombinator.com/item?id=24860383",
+              "story_title": "Ask HN: What is your favorite ergonomic chair/desk"
+            },
+            {
+              "id": "24871975",
+              "author": "arh68",
+              "date": "2025-04-15",
+              "polarity": 1,
+              "snippet": "Leap V2 at work, near perfect: I almost never think about it, can cross my legs any way possible, legs under me, sit however, never uncomfortable.",
+              "permalink": "https://news.ycombinator.com/item?id=24871975",
+              "story_title": "Ask HN: Chair"
             }
           ],
           "caution": [
             {
-              "id": "45015708",
-              "author": "andreldm",
-              "date": "2025-08-25",
+              "id": "31940182",
+              "author": "chair_hunter",
+              "date": "2025-03-10",
               "polarity": -1,
-              "snippet": "I’m also going to return an MX Master 3S (to my employer though). I could only fix its weird scrolling behavior with Logitech’s bloatware, still, for the life of me I couldn’t improve the cursor precision on macOS, it’s was simply maddening to use it. Strangely on Linux the preci ...",
-              "permalink": "https://news.ycombinator.com/item?id=45015708",
-              "story_title": "Building the mouse Logitech won't make"
-            },
-            {
-              "id": "45015524",
-              "author": "skhameneh",
-              "date": "2025-08-25",
-              "polarity": -1,
-              "snippet": "I can relate in so many ways.  \nI purchased a MX Master 3S and while it has a lot of great design choices, overall there were too many flaws for me and I returned it.\n\nWhile I had the mouse, I kept looking for ways to \"fix scrolling\" and everything repeatedly pointed to third party software.  If y ...",
-              "permalink": "https://news.ycombinator.com/item?id=45015524",
-              "story_title": "Building the mouse Logitech won't make"
-            },
-            {
-              "id": "44342960",
-              "author": "skhameneh",
-              "date": "2025-06-22",
-              "polarity": -1,
-              "snippet": "I see a number of recommendations for Logitech mice, FWIW I got a MX Master 3S  because I once had a MX Revolution that I loved.\n\nWell, I hated it and returned it.  The polling speed was awful, Bluetooth connectivity laggy, no built in settings memory, it doesn't scroll correctly with anything Apple out of the box, a ...",
-              "permalink": "https://news.ycombinator.com/item?id=44342960",
-              "story_title": "Ask HN: What is your recommendation for a wireless keyboard and mouse?"
+              "snippet": "The seat cushion on the Leap V2 is relatively thin compared to plush executive chairs. Some people find the bottom of the seat pan firm after 6+ continuous hours of sitting.",
+              "permalink": "https://news.ycombinator.com/item?id=31940182",
+              "story_title": "Office Chairs"
             }
           ]
         },
         "rank": 21,
-        "image": "/images/hardware/logitech-mx-master-3s.jpg"
+        "image": "/images/hardware/steelcase-leap-v2.webp"
       },
       {
         "id": "lg-ultrafine-5k-4k",
@@ -5126,85 +5212,29 @@
         "image": "/images/hardware/lg-ultrafine-5k-4k.jpg"
       },
       {
-        "id": "steelcase-leap-v2",
-        "name": "Steelcase Leap V2",
-        "brand": "Steelcase",
-        "category": "chair",
+        "id": "apple-studio-display",
+        "name": "Apple Studio Display 27\" 5K",
+        "brand": "Apple",
+        "category": "monitor",
         "price_tier": "$$$$",
         "tags": [
-          "LiveBack Technology",
-          "4D Armrests",
-          "Adjustable Lower Back Firmness",
-          "Universal Comfort"
+          "5K Retina 218 PPI",
+          "600 Nits",
+          "A13 Bionic",
+          "6-Speaker Array"
         ],
-        "specs": "LiveBack changes shape to support entire spine, natural glide system, legendary 4D multi-directional armrests",
+        "specs": "27-inch 5120x2880 5K Retina display, true 218 PPI for crisp macOS scaling, Center Stage 12MP camera",
         "patterns": [
-          "\\bleap\\s+v2\\b",
-          "\\bsteelcase\\s+leap\\b",
-          "\\bsteelcase\\s+leap\\s+v2\\b"
+          "\\bstudio\\s+display\\b",
+          "\\bapple\\s+studio\\s+display\\b"
         ],
-        "primary_keyword": "Steelcase Leap V2",
+        "primary_keyword": "Apple Studio Display",
         "stats": {
-          "hacker_score": 1.1,
-          "unique_users": 8,
-          "positive_users": 1,
-          "negative_users": 1,
-          "neutral_users": 6,
-          "satisfaction_rate": 50.0,
-          "controversy_index": 27.5
-        },
-        "quotes": {
-          "positive": [
-            {
-              "id": "24860383",
-              "author": "dyingkneepad",
-              "date": "2020-10-22",
-              "polarity": 1,
-              "snippet": "Steelcase Leap: absolutely love it.\n\nSteelcase Series 1: absolutely not worth the money. Either your back is way too up or way too down.\n\nAmazon random $40 chair: comparable to Steelcase Series 1.",
-              "permalink": "https://news.ycombinator.com/item?id=24860383",
-              "story_title": "Ask HN: What is your favorite ergonomic chair/desk"
-            }
-          ],
-          "caution": [
-            {
-              "id": "24871975",
-              "author": "arh68",
-              "date": "2020-10-23",
-              "polarity": -1,
-              "snippet": "After maybe 2,000 hrs in each of the first 3, I lean Steelcase but it's personal preference:\n\n- Leap V2 at work, near perfect: I almost never think about it, can cross my legs any way possible, legs under me, sit however, never uncomfortable.  Feels like I can \"sit hard\" into it, snug, backrest gently pushing no matter how I stretch\n\n- Leap ...",
-              "permalink": "https://news.ycombinator.com/item?id=24871975",
-              "story_title": "Ask HN: What is your favorite ergonomic chair/desk"
-            }
-          ]
-        },
-        "rank": 23,
-        "image": "/images/hardware/steelcase-leap-v2.webp"
-      },
-      {
-        "id": "asus-proart-4k",
-        "name": "ASUS ProArt Display (PA279CRV / PA329CRV)",
-        "brand": "ASUS",
-        "category": "monitor",
-        "price_tier": "$$",
-        "tags": [
-          "Color Accurate",
-          "Calman Verified",
-          "96W USB-C",
-          "Budget 4K Workhorse"
-        ],
-        "specs": "4K UHD IPS panel, Delta E < 2 factory calibration, 96W USB-C Power Delivery, DisplayPort daisy-chain",
-        "patterns": [
-          "\\bproart\\b",
-          "\\basus\\s+proart\\b",
-          "\\bpa279crv\\b"
-        ],
-        "primary_keyword": "ASUS ProArt",
-        "stats": {
-          "hacker_score": 1.1,
-          "unique_users": 36,
+          "hacker_score": 2.9,
+          "unique_users": 30,
           "positive_users": 0,
-          "negative_users": 3,
-          "neutral_users": 33,
+          "negative_users": 2,
+          "neutral_users": 28,
           "satisfaction_rate": 0.0,
           "controversy_index": 0.0
         },
@@ -5212,36 +5242,27 @@
           "positive": [],
           "caution": [
             {
-              "id": "50279480",
-              "author": "saturn8601",
-              "date": "2026-10-28",
+              "id": "44268920",
+              "author": "wpm",
+              "date": "2025-06-13",
               "polarity": -1,
-              "snippet": "Thats a side effect of the 1000+ dimming zones no? I snagged this ASUS ProArt display that was Professional Grade on eBay and among its many flaws is that its 1000+ dimming zones result in blooming whenever you have bright items on top of a complete black background. Makes it terrible for horror movies. :/",
-              "permalink": "https://news.ycombinator.com/item?id=50279480",
-              "story_title": "MacBook Pro with PROLED XDR Display and Touch"
+              "snippet": "... , I haven't actually found any for sale. EDIT: Correction, LG apparently doesn't sell the 5K Ultrafine anymore, at least on their website.\n\nThat means, the odds are incredibly high that unless you buy the LG, or drop a wad on an overpriced Studio Display or the even worse valued Pro Display, your experience with macOS on an external monitor will be awful.\n\nThat's even before we get into the terrible control we have in the OS over connection settings. I shouldn't have to buy BetterDisplay t ...",
+              "permalink": "https://news.ycombinator.com/item?id=44268920",
+              "story_title": "Rendering Crispy Text on the GPU"
             },
             {
-              "id": "47236723",
-              "author": "perardi",
-              "date": "2026-03-03",
+              "id": "46705324",
+              "author": "John23832",
+              "date": "2025-12-25",
               "polarity": -1,
-              "snippet": "You are not the only one.\n\nI have an ASUS ProArt Display 27” 5K. And I somewhat regret it.\n\nI love the pixel density. But I don’t love the matte finish. Which is apparently a controversial take. But I really don’t. I like the crisp pop of typography you get with a glossy display. And, fo ...",
-              "permalink": "https://news.ycombinator.com/item?id=47236723",
-              "story_title": "Apple Studio Display and Studio Display XDR"
-            },
-            {
-              "id": "42616023",
-              "author": "LeftHandPath",
-              "date": "2025-01-06",
-              "polarity": -1,
-              "snippet": "... are named well and properly explained. The UI isn't as pretty as HP's, but it's a lot more functional.\n\n- Asus overall [5] isn't great (more proprietary names like \"SmartHinge\" and aesthetic-focused product descriptions). However, the Asus ProArt site is done fairly well [6].\n\nAlmost every windows laptop feels like it's trying to sell me on everything that isn't specs. \"SmartHinge\". \"Stealth Mode\". \"Youthful\" aesthetics. Weird proprietary bloatware and extended warranties.\n\nAnd, ev ...",
-              "permalink": "https://news.ycombinator.com/item?id=42616023",
-              "story_title": "Hacker News Discussion"
+              "snippet": "I would love the Apple Studio Display if the framerate wasn't actually crap. Even doing programming, 60hz is not enough man. Plus more peripheral ports.",
+              "permalink": "https://news.ycombinator.com/item?id=46705324",
+              "story_title": "Studio Display"
             }
           ]
         },
-        "rank": 24,
-        "image": "/images/hardware/asus-proart-4k.png"
+        "rank": 23,
+        "image": "/images/hardware/apple-studio-display.jpg"
       },
       {
         "id": "kensington-slimblade-expert",
@@ -5286,17 +5307,17 @@
           ],
           "caution": [
             {
-              "id": "45394228",
-              "author": "npstr",
-              "date": "2025-09-27",
+              "id": "46593158",
+              "author": "GuinansEyebrows",
+              "date": "2025-12-14",
               "polarity": -1,
-              "snippet": "I had some RSI at the start of corona from too much home office + gaming, what actually helped was getting a trackball (Kensington Slimblade Pro) for $work tasks.\n\nTried a Moonlander and hated it. My hands don't work with ortholinear. And I hated having to learn layers and layouts.\nBesides I have a real job and I use a proper IDE so I need my F keys, I like to use the Home/End/ ...",
-              "permalink": "https://news.ycombinator.com/item?id=45394228",
-              "story_title": "Thoughts on Mechanical Keyboards and the ZSA Moonlander"
+              "snippet": "The Kensington Slimblade has unbeatable rotational scrolling, but the proprietary software and chunky industrial design leave a lot to be desired. The ball socket also needs frequent wiping from desk dust.",
+              "permalink": "https://news.ycombinator.com/item?id=46593158",
+              "story_title": "Trackball Recommendations"
             }
           ]
         },
-        "rank": 25,
+        "rank": 24,
         "image": "/images/hardware/kensington-slimblade-expert.jpg"
       },
       {
@@ -5330,8 +5351,81 @@
           "positive": [],
           "caution": []
         },
-        "rank": 26,
+        "rank": 25,
         "image": "/images/hardware/steelcase-gesture.webp"
+      },
+      {
+        "id": "logitech-mx-master-3s",
+        "name": "Logitech MX Master 3S / 3",
+        "brand": "Logitech",
+        "category": "mouse",
+        "price_tier": "$$",
+        "tags": [
+          "MagSpeed Wheel",
+          "Ergonomic Contour",
+          "Thumb Wheel",
+          "Multi-Device Flow"
+        ],
+        "specs": "Quiet Click electromagnetic wheel (1,000 lines/sec), 8K DPI sensor, horizontal thumb wheel, USB-C",
+        "patterns": [
+          "\\bmx\\s+master\\s+3s\\b",
+          "\\bmx\\s+master\\s+3\\b",
+          "\\bmx\\s+master\\b",
+          "\\blogitech\\s+mx\\s+master\\b"
+        ],
+        "primary_keyword": "MX Master 3S",
+        "stats": {
+          "hacker_score": 0.0,
+          "unique_users": 24,
+          "positive_users": 0,
+          "negative_users": 3,
+          "neutral_users": 21,
+          "satisfaction_rate": 0.0,
+          "controversy_index": 0.0
+        },
+        "quotes": {
+          "positive": [],
+          "caution": [
+            {
+              "id": "45015708",
+              "author": "andreldm",
+              "date": "2025-08-25",
+              "polarity": -1,
+              "snippet": "I’m also going to return an MX Master 3S (to my employer though). I could only fix its weird scrolling behavior with Logitech’s bloatware, still, for the life of me I couldn’t improve the cursor precision on macOS, it’s was simply maddening to use it. Strangely on Linux the preci ...",
+              "permalink": "https://news.ycombinator.com/item?id=45015708",
+              "story_title": "Building the mouse Logitech won't make"
+            },
+            {
+              "id": "45015524",
+              "author": "skhameneh",
+              "date": "2025-08-25",
+              "polarity": -1,
+              "snippet": "I can relate in so many ways.  \nI purchased a MX Master 3S and while it has a lot of great design choices, overall there were too many flaws for me and I returned it.\n\nWhile I had the mouse, I kept looking for ways to \"fix scrolling\" and everything repeatedly pointed to third party software.  If y ...",
+              "permalink": "https://news.ycombinator.com/item?id=45015524",
+              "story_title": "Building the mouse Logitech won't make"
+            },
+            {
+              "id": "44342960",
+              "author": "skhameneh",
+              "date": "2025-06-22",
+              "polarity": -1,
+              "snippet": "I see a number of recommendations for Logitech mice, FWIW I got a MX Master 3S  because I once had a MX Revolution that I loved.\n\nWell, I hated it and returned it.  The polling speed was awful, Bluetooth connectivity laggy, no built in settings memory, it doesn't scroll correctly with anything Apple out of the box, a ...",
+              "permalink": "https://news.ycombinator.com/item?id=44342960",
+              "story_title": "Ask HN: What is your recommendation for a wireless keyboard and mouse?"
+            },
+            {
+              "id": "42707591",
+              "author": "gh02t",
+              "date": "2025-01-14",
+              "polarity": -1,
+              "snippet": "Counterpoint/anecdata, I've had 3 MX Master mice and 2 died in under a year and the third lasted about 2 weeks past the 2 year warranty expiration. I gave up and switched to a clone.",
+              "permalink": "https://news.ycombinator.com/item?id=42707591",
+              "story_title": "Mouse recommendations"
+            }
+          ]
+        },
+        "rank": 26,
+        "image": "/images/hardware/logitech-mx-master-3s.jpg"
       },
       {
         "id": "lg-c3-c4-oled-42",
