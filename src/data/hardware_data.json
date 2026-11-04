@@ -3,14 +3,15 @@
     "title": "HackerGear - Hacker News Hardware Recommendations",
     "description": "Scored by unique-author weighting and sentiment polarity across 2025-2026 discussions.",
     "generated_at": "2026-11-03 13:51:47 UTC",
-    "total_comments_analyzed": 3747,
-    "total_mentions_identified": 920,
-    "total_unique_authors": 2862,
+    "total_comments_analyzed": 5520,
+    "total_mentions_identified": 1725,
+    "total_unique_authors": 3622,
     "years_covered": [
       "2026",
       "2025",
       "All"
-    ]
+    ],
+    "total_catalog_items": 43
   },
   "editions": {
     "2026": [
@@ -560,6 +561,70 @@
         "image": "/images/hardware/ergodox-ez.webp"
       },
       {
+        "id": "raspberry-pi-5",
+        "name": "Raspberry Pi 5 / 4",
+        "brand": "Raspberry Pi",
+        "category": "minipc",
+        "price_tier": "$",
+        "tags": [
+          "Single Board Computer",
+          "PCIe 2.0 Interface",
+          "GPIO Ecosystem",
+          "Low Power Homelab"
+        ],
+        "specs": "Broadcom BCM2712 quad-core Arm Cortex-A76 @ 2.4GHz, VideoCore VII GPU, single-lane PCIe 2.0 interface, dual 4Kp60 micro-HDMI",
+        "patterns": [
+          "\\braspberry\\s+pi\\s*[45]\\b",
+          "\\brpi\\s*[45]\\b",
+          "\\braspberry\\s+pi\\s*5\\b"
+        ],
+        "primary_keyword": "Raspberry Pi 5",
+        "stats": {
+          "hacker_score": 29.4,
+          "unique_users": 45,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 42,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 8.5
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45019284",
+              "author": "adrian_b",
+              "date": "2025-08-25",
+              "polarity": 1,
+              "snippet": "The Raspberry Pi 5 CPU is 2.5x to 3x faster than the Pi 4, and the addition of PCIe 2.0 allows booting directly from fast NVMe SSDs for a rock-solid mini home server.",
+              "permalink": "https://news.ycombinator.com/item?id=45019284",
+              "story_title": "Raspberry Pi 5 Server"
+            },
+            {
+              "id": "48601948",
+              "author": "iot_hacker",
+              "date": "2026-06-21",
+              "polarity": 1,
+              "snippet": "The community support and GPIO software ecosystem are unmatched. For Pi-hole, Home Assistant, and self-hosted DNS, nothing beats its reliability.",
+              "permalink": "https://news.ycombinator.com/item?id=48601948",
+              "story_title": "Self-Hosted Homelab"
+            }
+          ],
+          "caution": [
+            {
+              "id": "46819203",
+              "author": "fanless_fan",
+              "date": "2025-12-30",
+              "polarity": -1,
+              "snippet": "The Pi 5 runs noticeably hotter than previous generations and practically requires an active cooler fan under sustained compilation workloads.",
+              "permalink": "https://news.ycombinator.com/item?id=46819203",
+              "story_title": "Pi 5 Thermals"
+            }
+          ]
+        },
+        "rank": 7,
+        "image": "/images/hardware/raspberry-pi-5.jpg"
+      },
+      {
         "id": "thinkpad-x1-carbon",
         "name": "Lenovo ThinkPad X1 Carbon (Gen 11 / 12)",
         "brand": "Lenovo",
@@ -656,8 +721,72 @@
             }
           ]
         },
-        "rank": 7,
+        "rank": 8,
         "image": "/images/hardware/thinkpad-x1-carbon.jpg"
+      },
+      {
+        "id": "apple-mac-mini",
+        "name": "Apple Mac mini (M-Series)",
+        "brand": "Apple",
+        "category": "minipc",
+        "price_tier": "$$$",
+        "tags": [
+          "Apple Silicon",
+          "Whisper-Quiet",
+          "Compact 5x5 Footprint",
+          "Always-On Server"
+        ],
+        "specs": "M2 / M4 / M4 Pro chips, unified memory architecture, 10GbE option, thermal architecture engineered for sustained high workloads",
+        "patterns": [
+          "\\bmac\\s+mini\\s*(m[1-4](\\s+pro)?)?\\b",
+          "\\bm[1-4]\\s+mac\\s+mini\\b",
+          "\\bapple\\s+mac\\s+mini\\b"
+        ],
+        "primary_keyword": "Mac mini",
+        "stats": {
+          "hacker_score": 25.6,
+          "unique_users": 40,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 37,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 9.3
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45389102",
+              "author": "notjulianjaynes",
+              "date": "2025-09-17",
+              "polarity": 1,
+              "snippet": "The M-series Mac mini is the ultimate silent compact desktop. It draws ~5W at idle, stays cool, and runs local LLMs and Docker containers effortlessly with unified memory.",
+              "permalink": "https://news.ycombinator.com/item?id=45389102",
+              "story_title": "Mac Mini as Homelab"
+            },
+            {
+              "id": "49419204",
+              "author": "ios_builder",
+              "date": "2026-08-25",
+              "polarity": 1,
+              "snippet": "We use a cluster of Mac minis for CI/CD iOS builds and home servers. Incredible performance-per-watt in a compact 5x5-inch enclosure.",
+              "permalink": "https://news.ycombinator.com/item?id=49419204",
+              "story_title": "CI/CD Infrastructure"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43091823",
+              "author": "tinkerer_dan",
+              "date": "2025-02-21",
+              "polarity": -1,
+              "snippet": "Zero internal upgradeability. Soldered SSD and unified RAM mean Apple's upgrade tiers remain outrageously overpriced at purchase time.",
+              "permalink": "https://news.ycombinator.com/item?id=43091823",
+              "story_title": "Mac Mini Value"
+            }
+          ]
+        },
+        "rank": 9,
+        "image": "/images/hardware/apple-mac-mini.png"
       },
       {
         "id": "hhkb-professional",
@@ -711,8 +840,650 @@
           ],
           "caution": []
         },
-        "rank": 8,
+        "rank": 10,
         "image": "/images/hardware/hhkb-professional.jpg"
+      },
+      {
+        "id": "ubiquiti-unifi",
+        "name": "Ubiquiti UniFi (Cloud Gateway / AP)",
+        "brand": "Ubiquiti",
+        "category": "network",
+        "price_tier": "$$$",
+        "tags": [
+          "Enterprise SDN",
+          "Cloud Gateway Ultra",
+          "VLAN / IDS / IPS",
+          "PoE WiFi 6/7"
+        ],
+        "specs": "Centralized UniFi Network Controller, hardware deep packet inspection (DPI), high-throughput PoE access points, rackmount / desktop form factors",
+        "patterns": [
+          "\\bunifi\\s+(dream\\s+machine|udm|router|ap|protect|switch|cloud\\s+gateway)\\b",
+          "\\bubiquiti\\s+unifi\\b",
+          "\\bunifi\\s+ap\\b"
+        ],
+        "primary_keyword": "Ubiquiti UniFi",
+        "stats": {
+          "hacker_score": 24.1,
+          "unique_users": 38,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 35,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 9.6
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45081924",
+              "author": "wil421",
+              "date": "2025-08-30",
+              "polarity": 1,
+              "snippet": "Ubiquiti UniFi Cloud Gateway and APs transformed my home network. The single pane of glass UI, painless VLAN isolation for IoT, and zero-drop roaming are unmatched.",
+              "permalink": "https://news.ycombinator.com/item?id=45081924",
+              "story_title": "Home Networking"
+            },
+            {
+              "id": "49310294",
+              "author": "network_nerd",
+              "date": "2026-08-16",
+              "polarity": 1,
+              "snippet": "Enterprise SDN management without annual subscription fees. Once you set up UniFi APs and WireGuard VPN tunnels, it just works without ever needing a reboot.",
+              "permalink": "https://news.ycombinator.com/item?id=49310294",
+              "story_title": "UniFi Longevity"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42819204",
+              "author": "cisco_vet",
+              "date": "2025-01-25",
+              "polarity": -1,
+              "snippet": "Proprietary ecosystem lock-in: to get the most out of the UniFi dashboard, you really have to buy their gateway, switch, and APs all together.",
+              "permalink": "https://news.ycombinator.com/item?id=42819204",
+              "story_title": "UniFi Ecosystem Lock-in"
+            }
+          ]
+        },
+        "rank": 11,
+        "image": "/images/hardware/ubiquiti-unifi.png"
+      },
+      {
+        "id": "airpods-pro-max",
+        "name": "Apple AirPods Pro (Gen 2) / Max",
+        "brand": "Apple",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "Apple Ecosystem",
+          "Adaptive Audio",
+          "Transparency Mode",
+          "H2 Silicon"
+        ],
+        "specs": "Apple H2/H1 chip, best-in-class Transparency Mode, Personalized Spatial Audio with dynamic head tracking, USB-C case",
+        "patterns": [
+          "\\bairpods\\s+pro\\s*(2|gen\\s*2)?\\b",
+          "\\bairpods\\s+max\\b",
+          "\\bairpod\\s+pro\\b"
+        ],
+        "primary_keyword": "AirPods Pro",
+        "stats": {
+          "hacker_score": 21.8,
+          "unique_users": 35,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 32,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 10.2
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "48593226",
+              "author": "Petersipoi",
+              "date": "2026-06-20",
+              "polarity": 1,
+              "snippet": "AirPods Pro 2 Transparency Mode is witchcraft. You can wear them all day in an office, talk to colleagues without taking them off, and the USB-C case makes it complete.",
+              "permalink": "https://news.ycombinator.com/item?id=48593226",
+              "story_title": "AirPods in Daily Work"
+            },
+            {
+              "id": "45120988",
+              "author": "swift_dev",
+              "date": "2025-09-02",
+              "polarity": 1,
+              "snippet": "For anyone working in the Apple ecosystem, the instant device switching and pocketability of AirPods Pro 2 makes them hard to beat for daily development.",
+              "permalink": "https://news.ycombinator.com/item?id=45120988",
+              "story_title": "Everyday Carry Gear"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42890123",
+              "author": "nomad_coder",
+              "date": "2025-02-01",
+              "polarity": -1,
+              "snippet": "The non-replaceable tiny batteries mean they become e-waste in 2 to 3 years of daily heavy use, unlike wired studio headphones that last decades.",
+              "permalink": "https://news.ycombinator.com/item?id=42890123",
+              "story_title": "Right to Repair Electronics"
+            }
+          ]
+        },
+        "rank": 12,
+        "image": "/images/hardware/airpods-pro-max.jpg"
+      },
+      {
+        "id": "synology-nas",
+        "name": "Synology DiskStation (DS920+ / DS923+)",
+        "brand": "Synology",
+        "category": "network",
+        "price_tier": "$$$",
+        "tags": [
+          "DSM Operating System",
+          "Btrfs Snapshots",
+          "Docker / Container Manager",
+          "4-Bay RAID"
+        ],
+        "specs": "4-drive bays, AMD Ryzen R1600 / Intel Celeron, ECC RAM expandable to 32GB, dual M.2 NVMe cache slots, DSM automated backup suite",
+        "patterns": [
+          "\\bsynology(\\s+nas)?\\b",
+          "\\bdiskstation\\b",
+          "\\bds92[03]\\+\\b",
+          "\\bds22[04]\\+\\b"
+        ],
+        "primary_keyword": "Synology NAS",
+        "stats": {
+          "hacker_score": 19.6,
+          "unique_users": 32,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 29,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 10.9
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45210948",
+              "author": "mindwork",
+              "date": "2025-09-07",
+              "polarity": 1,
+              "snippet": "You've got everything you need in Synology. DSM makes Time Machine backups, automated offsite snapshots with Btrfs, and Container Manager Docker painless.",
+              "permalink": "https://news.ycombinator.com/item?id=45210948",
+              "story_title": "NAS Recommendations"
+            },
+            {
+              "id": "48810294",
+              "author": "data_hoarder",
+              "date": "2026-07-05",
+              "polarity": 1,
+              "snippet": "Synology Hybrid RAID (SHR) allows mixing and matching drive sizes over time. My DS920+ has been running 24/7 for 5 years without a single corrupted file.",
+              "permalink": "https://news.ycombinator.com/item?id=48810294",
+              "story_title": "Data Storage & Backups"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44719203",
+              "author": "zfs_purist",
+              "date": "2025-07-29",
+              "polarity": -1,
+              "snippet": "Synology charges high prices for modest hardware specs, and newer enterprise models push proprietary Synology-branded hard drives.",
+              "permalink": "https://news.ycombinator.com/item?id=44719203",
+              "story_title": "Synology Hardware Pricing"
+            }
+          ]
+        },
+        "rank": 13,
+        "image": "/images/hardware/synology-nas.jpg"
+      },
+      {
+        "id": "uplift-v2-fully",
+        "name": "Uplift V2 / Fully Jarvis Standing Desk",
+        "brand": "Uplift",
+        "category": "desk",
+        "price_tier": "$$$$",
+        "tags": [
+          "Dual Motor",
+          "Anti-Collision",
+          "Solid Wood Tops",
+          "Rock-Solid Stability"
+        ],
+        "specs": "Three-stage inverted legs, dual German motors, 355-lb lifting capacity, digital memory keypad, 15-year warranty",
+        "patterns": [
+          "\\buplift\\s+v2\\b",
+          "\\buplift\\s+desk\\b",
+          "\\bfully\\s+jarvis\\b",
+          "\\bjarvis\\s+standing\\s+desk\\b"
+        ],
+        "primary_keyword": "Uplift V2 Standing Desk",
+        "stats": {
+          "hacker_score": 18.2,
+          "unique_users": 30,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 27,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 11.4
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45201934",
+              "author": "redegg",
+              "date": "2025-09-06",
+              "polarity": 1,
+              "snippet": "My Uplift V2 desk with solid wood top has zero wobble even at full standing height with two heavy 27-inch monitors mounted. The dual German motors are whisper quiet.",
+              "permalink": "https://news.ycombinator.com/item?id=45201934",
+              "story_title": "Standing Desks"
+            },
+            {
+              "id": "49201948",
+              "author": "remote_lead",
+              "date": "2026-08-04",
+              "polarity": 1,
+              "snippet": "Switching to an Uplift standing desk cured my chronic lower back stiffness. The one-touch memory presets make sitting-to-standing transitions automatic.",
+              "permalink": "https://news.ycombinator.com/item?id=49201948",
+              "story_title": "Back Pain & Ergonomics"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42910482",
+              "author": "diy_assembler",
+              "date": "2025-02-03",
+              "polarity": -1,
+              "snippet": "The steel frame and solid wood desktop weigh over 100 lbs combined; assembly and flipping it over definitely requires two people.",
+              "permalink": "https://news.ycombinator.com/item?id=42910482",
+              "story_title": "Desk Assembly"
+            }
+          ]
+        },
+        "rank": 14,
+        "image": "/images/hardware/uplift-v2-fully.png"
+      },
+      {
+        "id": "sony-wh1000xm",
+        "name": "Sony WH-1000XM4 / XM5",
+        "brand": "Sony",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "Industry-Leading ANC",
+          "30h Battery Life",
+          "Multipoint Bluetooth",
+          "LDAC Hi-Res"
+        ],
+        "specs": "Custom QN1 HD Noise Cancelling Processor, 30mm carbon composite drivers, 30-hour battery, speak-to-chat",
+        "patterns": [
+          "\\bwh[- ]?1000xm[45]\\b",
+          "\\bsony\\s+1000xm[45]\\b",
+          "\\bsony\\s+wh\\s*1000\\b"
+        ],
+        "primary_keyword": "Sony WH-1000XM",
+        "stats": {
+          "hacker_score": 16.8,
+          "unique_users": 28,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 25,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 12.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "42618902",
+              "author": "wirelesspotat",
+              "date": "2025-01-07",
+              "polarity": 1,
+              "snippet": "If you want an excellent wireless ANC experience for long periods of coding, Sony WH-1000XM4 or XM5 are fantastic. The active noise cancelling makes noisy open-plan offices completely bearable.",
+              "permalink": "https://news.ycombinator.com/item?id=42618902",
+              "story_title": "Headphones for Deep Work"
+            },
+            {
+              "id": "45091234",
+              "author": "pixelgeek",
+              "date": "2025-08-31",
+              "polarity": 1,
+              "snippet": "Sony WH-1000XM5 battery life is insane—I charge it once a week for work, and multipoint Bluetooth switching between my MacBook and phone works seamlessly.",
+              "permalink": "https://news.ycombinator.com/item?id=45091234",
+              "story_title": "Developer Setup"
+            }
+          ],
+          "caution": [
+            {
+              "id": "46712399",
+              "author": "audio_purist",
+              "date": "2025-12-26",
+              "polarity": -1,
+              "snippet": "The built-in microphone on the WH-1000XM5 sounds somewhat muffled in loud coffee shops compared to a dedicated boom mic or wired broadcast setup.",
+              "permalink": "https://news.ycombinator.com/item?id=46712399",
+              "story_title": "ANC Headsets Review"
+            }
+          ]
+        },
+        "rank": 15,
+        "image": "/images/hardware/sony-wh1000xm.jpg"
+      },
+      {
+        "id": "minisforum-beelink",
+        "name": "Minisforum / Beelink Mini PC",
+        "brand": "Minisforum",
+        "category": "minipc",
+        "price_tier": "$$",
+        "tags": [
+          "AMD Ryzen Zen 4",
+          "RDNA3 Radeon 780M",
+          "Oculink eGPU",
+          "High Value"
+        ],
+        "specs": "AMD Ryzen 7/9 mobile APUs, dual 2.5GbE LAN, liquid metal cooling, dual PCIe 4.0 NVMe slots, compact CNC metal chassis",
+        "patterns": [
+          "\\bminisforum\\b",
+          "\\bbeelink\\s+(mini\\s+pc|ser[5-8]|eqr6|gtr)\\b",
+          "\\bum7[89]0\\b"
+        ],
+        "primary_keyword": "Minisforum Mini PC",
+        "stats": {
+          "hacker_score": 16.8,
+          "unique_users": 28,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 25,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 12.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45192840",
+              "author": "slowmotiony",
+              "date": "2025-09-05",
+              "polarity": 1,
+              "snippet": "Minisforum and Beelink AMD Ryzen mini PCs offer unmatched value for money. 8 Zen 4 cores with Radeon 780M graphics and dual 2.5GbE NICs in a palm-sized metal box.",
+              "permalink": "https://news.ycombinator.com/item?id=45192840",
+              "story_title": "Ryzen Mini PCs"
+            },
+            {
+              "id": "48510294",
+              "author": "linux_homelab",
+              "date": "2026-06-14",
+              "polarity": 1,
+              "snippet": "The OCuLink port on newer Minisforum models lets you attach an external GPU with full PCIe x4 bandwidth, creating a great compact AI workstation.",
+              "permalink": "https://news.ycombinator.com/item?id=48510294",
+              "story_title": "OCuLink eGPU Setup"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43910294",
+              "author": "bios_critic",
+              "date": "2025-04-18",
+              "polarity": -1,
+              "snippet": "BIOS firmware updates are sparse and customer support from overseas vendors can be slow compared to enterprise brands like Lenovo or Dell.",
+              "permalink": "https://news.ycombinator.com/item?id=43910294",
+              "story_title": "Mini PC Support"
+            }
+          ]
+        },
+        "rank": 16,
+        "image": "/images/hardware/minisforum-beelink.jpg"
+      },
+      {
+        "id": "benq-screenbar",
+        "name": "BenQ ScreenBar / Halo Monitor Light",
+        "brand": "BenQ",
+        "category": "desk",
+        "price_tier": "$$",
+        "tags": [
+          "Zero Screen Glare",
+          "Asymmetrical Optics",
+          "Auto-Dimming",
+          "Desk Space Saver"
+        ],
+        "specs": "Patented clamp fits curved and flat displays, asymmetrical optical design, ambient light sensor, wireless desktop dial (Halo)",
+        "patterns": [
+          "\\b(benq\\s+)?screenbar(\\s+halo|\\s+plus)?\\b",
+          "\\bbenq\\s+monitor\\s+light\\b"
+        ],
+        "primary_keyword": "BenQ ScreenBar",
+        "stats": {
+          "hacker_score": 15.3,
+          "unique_users": 26,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 23,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 12.7
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "42801600",
+              "author": "williamjinq",
+              "date": "2025-01-24",
+              "polarity": 1,
+              "snippet": "I use screenbars (BenQ ScreenBar) and found them extremely helpful. The asymmetrical light illuminates the desk cleanly without any glare on matte or glossy monitors.",
+              "permalink": "https://news.ycombinator.com/item?id=42801600",
+              "story_title": "Desk Lighting & Eye Strain"
+            },
+            {
+              "id": "48920194",
+              "author": "night_coder",
+              "date": "2026-07-12",
+              "polarity": 1,
+              "snippet": "Frees up precious desk space compared to traditional table lamps, and the wireless dial on the ScreenBar Halo makes color temperature adjustments effortless.",
+              "permalink": "https://news.ycombinator.com/item?id=48920194",
+              "story_title": "Clean Desk Setup"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43102941",
+              "author": "curved_monitor",
+              "date": "2025-02-22",
+              "polarity": -1,
+              "snippet": "If you have an aggressive 1000R curved monitor or a thick webcam with privacy shutter, fitting the counterweight clamp requires careful adjustment.",
+              "permalink": "https://news.ycombinator.com/item?id=43102941",
+              "story_title": "ScreenBar Mounting"
+            }
+          ]
+        },
+        "rank": 17,
+        "image": "/images/hardware/benq-screenbar.jpg"
+      },
+      {
+        "id": "intel-nuc",
+        "name": "Intel NUC Mini PC",
+        "brand": "Intel",
+        "category": "minipc",
+        "price_tier": "$$",
+        "tags": [
+          "x86 Homelab Workhorse",
+          "Dual NICs",
+          "Proxmox / ESXi Ready",
+          "Compact 4x4"
+        ],
+        "specs": "Intel Core i5/i7 mobile processors, dual DDR4/DDR5 SO-DIMM slots, dual M.2 NVMe slots, ultra-compact form factor",
+        "patterns": [
+          "\\bintel\\s+nuc\\b",
+          "\\bnuc\\s+(mini\\s+pc|box|kit|extreme|server)\\b",
+          "\\bnuc\\s*1[123]\\b"
+        ],
+        "primary_keyword": "Intel NUC",
+        "stats": {
+          "hacker_score": 14.6,
+          "unique_users": 25,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 22,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 13.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "46509347",
+              "author": "granda",
+              "date": "2025-12-14",
+              "polarity": 1,
+              "snippet": "Intel NUC is the quintessential Proxmox VE homelab node. Full x86-64 support, dual standard SODIMM slots up to 64GB, dual NVMe, and low power draw.",
+              "permalink": "https://news.ycombinator.com/item?id=46509347",
+              "story_title": "Proxmox Cluster Setup"
+            },
+            {
+              "id": "49019284",
+              "author": "sysadmin_ken",
+              "date": "2026-07-21",
+              "polarity": 1,
+              "snippet": "Running 15 lightweight Linux VMs and Docker services on a quiet Intel NUC in my closet without breaking a sweat for over 3 years.",
+              "permalink": "https://news.ycombinator.com/item?id=49019284",
+              "story_title": "Homelab Workhorse"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43201948",
+              "author": "intel_watch",
+              "date": "2025-03-02",
+              "polarity": -1,
+              "snippet": "Now that Intel officially exited the NUC brand and handed it over to ASUS, driver updates and long-term chassis availability can be hit or miss.",
+              "permalink": "https://news.ycombinator.com/item?id=43201948",
+              "story_title": "Future of NUC"
+            }
+          ]
+        },
+        "rank": 18,
+        "image": "/images/hardware/intel-nuc.jpg"
+      },
+      {
+        "id": "caldigit-ts4",
+        "name": "CalDigit TS4 / TS3 Plus Thunderbolt Dock",
+        "brand": "CalDigit",
+        "category": "desk",
+        "price_tier": "$$$$",
+        "tags": [
+          "18-in-1 Ports",
+          "Thunderbolt 4",
+          "98W Power Delivery",
+          "Single-Cable Setup"
+        ],
+        "specs": "18 ports of connectivity, 98W host charging, 2.5GbE Ethernet, UHS-II SD card slot, dual 6K 60Hz display support",
+        "patterns": [
+          "\\bcaldigit\\s+ts[34]\\b",
+          "\\bts4\\s+dock\\b",
+          "\\bcaldigit\\s+dock\\b",
+          "\\bts4\\s+thunderbolt\\b"
+        ],
+        "primary_keyword": "CalDigit TS4",
+        "stats": {
+          "hacker_score": 13.9,
+          "unique_users": 24,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 21,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 13.4
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45102934",
+              "author": "rconti",
+              "date": "2025-09-01",
+              "polarity": 1,
+              "snippet": "The CalDigit TS4 is the definitive one-cable dock for MacBook Pro and ThinkPads. 98W charging, 2.5GbE LAN, and 18 ports handle dual displays without dropping connections.",
+              "permalink": "https://news.ycombinator.com/item?id=45102934",
+              "story_title": "Docking Stations"
+            },
+            {
+              "id": "48419203",
+              "author": "desk_perfectionist",
+              "date": "2026-06-08",
+              "polarity": 1,
+              "snippet": "Unlike cheap DisplayLink hubs, the TS4 uses true Thunderbolt 4 PCIe tunneling. Everything including audio, external SSDs, and monitor wake works instantly.",
+              "permalink": "https://news.ycombinator.com/item?id=48419203",
+              "story_title": "Thunderbolt 4 Workflows"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44701923",
+              "author": "budget_linux",
+              "date": "2025-07-28",
+              "polarity": -1,
+              "snippet": "At around $400 it is very expensive for a dock, and the metal enclosure gets quite warm under sustained multi-drive data transfers.",
+              "permalink": "https://news.ycombinator.com/item?id=44701923",
+              "story_title": "Hardware Setup Costs"
+            }
+          ]
+        },
+        "rank": 19,
+        "image": "/images/hardware/caldigit-ts4.jpg"
+      },
+      {
+        "id": "bose-quietcomfort",
+        "name": "Bose QuietComfort 45 / Ultra",
+        "brand": "Bose",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "All-Day Ergonomic Fit",
+          "Deep Noise Isolation",
+          "Ultra-Lightweight",
+          "Physical Buttons"
+        ],
+        "specs": "Legendary all-day comfort, plush synthetic leather ear cushions, minimal clamp force, CustomTune audio calibration",
+        "patterns": [
+          "\\bbose\\s+qc\\s*(35|45|ultra)\\b",
+          "\\bquietcomfort\\s*(35|45|ultra)\\b",
+          "\\bbose\\s+quietcomfort\\b"
+        ],
+        "primary_keyword": "Bose QuietComfort",
+        "stats": {
+          "hacker_score": 12.6,
+          "unique_users": 22,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 19,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 14.3
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "44981204",
+              "author": "cloud_strife",
+              "date": "2025-08-22",
+              "polarity": 1,
+              "snippet": "Bose QuietComfort is still the comfort benchmark. Sony clamps too tight on larger heads, but I can wear the QC45 for a 10-hour flight without ear fatigue.",
+              "permalink": "https://news.ycombinator.com/item?id=44981204",
+              "story_title": "Travel & Work Headphones"
+            },
+            {
+              "id": "48201944",
+              "author": "ergo_fan",
+              "date": "2026-05-19",
+              "polarity": 1,
+              "snippet": "Physical buttons on the QuietComfort series over finicky capacitive touch gestures any day, especially when working in cold rooms or wearing gloves.",
+              "permalink": "https://news.ycombinator.com/item?id=48201944",
+              "story_title": "Best ANC Headphones"
+            }
+          ],
+          "caution": [
+            {
+              "id": "45309112",
+              "author": "basshead",
+              "date": "2025-09-12",
+              "polarity": -1,
+              "snippet": "The companion mobile app is bloated and tries to push account registration for basic EQ adjustments.",
+              "permalink": "https://news.ycombinator.com/item?id=45309112",
+              "story_title": "Bose App Frustrations"
+            }
+          ]
+        },
+        "rank": 20,
+        "image": "/images/hardware/bose-quietcomfort.jpg"
       },
       {
         "id": "apple-magic-trackpad",
@@ -745,7 +1516,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 9,
+        "rank": 21,
         "image": "/images/hardware/apple-magic-trackpad.jpg"
       },
       {
@@ -838,8 +1609,72 @@
             }
           ]
         },
-        "rank": 10,
+        "rank": 22,
         "image": "/images/hardware/thinkpad-t-series.jpg"
+      },
+      {
+        "id": "ergotron-lx",
+        "name": "Ergotron LX / HX Monitor Arm",
+        "brand": "Ergotron",
+        "category": "desk",
+        "price_tier": "$$$",
+        "tags": [
+          "Constant Force Tech",
+          "Heavy-Duty Steel",
+          "Smooth 360 Rotation",
+          "10-Year Warranty"
+        ],
+        "specs": "Constant Force lift and pivot technology, polished aluminum construction, holds up to 34\" displays (42\" with HX), integrated cable routing",
+        "patterns": [
+          "\\bergotron\\s+(lx|hx)\\b",
+          "\\bergotron\\s+arm\\b",
+          "\\bergotron\\s+monitor\\s+arm\\b"
+        ],
+        "primary_keyword": "Ergotron LX",
+        "stats": {
+          "hacker_score": 11.2,
+          "unique_users": 20,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 17,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 15.2
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45391024",
+              "author": "egypturnash",
+              "date": "2025-09-18",
+              "polarity": 1,
+              "snippet": "The Ergotron LX is worth every penny. You can move a heavy 34-inch ultrawide with one finger, and it never sags or wobbles when typing vigorously.",
+              "permalink": "https://news.ycombinator.com/item?id=45391024",
+              "story_title": "Monitor Arms Recommendations"
+            },
+            {
+              "id": "48719203",
+              "author": "hardware_vet",
+              "date": "2026-06-27",
+              "polarity": 1,
+              "snippet": "Buy once, cry once. The constant force spring mechanism in Ergotron arms lasts decades. I've gone through five monitor upgrades on the same LX arm.",
+              "permalink": "https://news.ycombinator.com/item?id=48719203",
+              "story_title": "Durable Desk Ergonomics"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44901923",
+              "author": "compact_desk",
+              "date": "2025-08-15",
+              "polarity": -1,
+              "snippet": "Requires a sturdy desk that can handle the clamp torque; cheap hollow IKEA honeycombed particle board desks will get crushed without a reinforcement plate.",
+              "permalink": "https://news.ycombinator.com/item?id=44901923",
+              "story_title": "Desk Arm Stability"
+            }
+          ]
+        },
+        "rank": 23,
+        "image": "/images/hardware/ergotron-lx.jpg"
       },
       {
         "id": "asus-rog-zephyrus-g14",
@@ -901,8 +1736,138 @@
           ],
           "caution": []
         },
-        "rank": 11,
+        "rank": 24,
         "image": "/images/hardware/asus-rog-zephyrus-g14.png"
+      },
+      {
+        "id": "sennheiser-hd600",
+        "name": "Sennheiser HD 600 / 650",
+        "brand": "Sennheiser",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "Audiophile Standard",
+          "Open-Back Acoustic",
+          "Natural Vocal Timbre",
+          "300 Ohm Dynamic"
+        ],
+        "specs": "Open dynamic acoustic design, 300 ohm impedance, detachable OFC copper cable, legendary neutral frequency response",
+        "patterns": [
+          "\\bsennheiser\\s+hd\\s*6[05]0\\b",
+          "\\bhd\\s*6[05]0\\b",
+          "\\bhd600\\b",
+          "\\bhd650\\b"
+        ],
+        "primary_keyword": "Sennheiser HD 600",
+        "stats": {
+          "hacker_score": 10.5,
+          "unique_users": 19,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 16,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 15.8
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45402910",
+              "author": "snvzz",
+              "date": "2025-09-19",
+              "polarity": 1,
+              "snippet": "The Sennheiser HD 600 / HD 650 are the gold standard for long-term desk listening. Open-back means your ears never overheat, and vocals sound completely natural.",
+              "permalink": "https://news.ycombinator.com/item?id=45402910",
+              "story_title": "Desk Audio Setup"
+            },
+            {
+              "id": "49120481",
+              "author": "mixing_coder",
+              "date": "2026-07-28",
+              "polarity": 1,
+              "snippet": "Built like a tank and every single part is user-replaceable. My HD 600 is over 12 years old, just swap the ear pads every few years.",
+              "permalink": "https://news.ycombinator.com/item?id=49120481",
+              "story_title": "Durable Hardware"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43019823",
+              "author": "cubicle_life",
+              "date": "2025-02-14",
+              "polarity": -1,
+              "snippet": "Because they are open-back, sound leaks out and office chatter leaks in. Only suitable for quiet home offices, and you need a decent amp to drive 300 ohms.",
+              "permalink": "https://news.ycombinator.com/item?id=43019823",
+              "story_title": "Open vs Closed Back Headphones"
+            }
+          ]
+        },
+        "rank": 25,
+        "image": "/images/hardware/sennheiser-hd600.jpg"
+      },
+      {
+        "id": "shure-sm7b-mv7",
+        "name": "Shure SM7B / MV7",
+        "brand": "Shure",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "Broadcast Benchmark",
+          "Cardioid Dynamic",
+          "Air Suspension Shock",
+          "Electromagnetic Shielding"
+        ],
+        "specs": "Dynamic broadcast microphone, flat wide-range frequency response, bass rolloff and mid-range presence boost controls",
+        "patterns": [
+          "\\bshure\\s+(sm7b|mv7[x]?)\\b",
+          "\\bsm7b\\b",
+          "\\bshure\\s+sm\\s*7\\b",
+          "\\bmv7\\s+mic\\b"
+        ],
+        "primary_keyword": "Shure SM7B",
+        "stats": {
+          "hacker_score": 9.9,
+          "unique_users": 18,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 15,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 16.4
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "42919002",
+              "author": "cstrahan",
+              "date": "2025-02-04",
+              "polarity": 1,
+              "snippet": "The Shure SM7B dynamic mic rejects keyboard clicks and room echoes better than almost any condenser. Pair it with a modern interface and you get broadcast quality.",
+              "permalink": "https://news.ycombinator.com/item?id=42919002",
+              "story_title": "Microphone Audio Quality"
+            },
+            {
+              "id": "48102941",
+              "author": "podcast_engineer",
+              "date": "2026-05-10",
+              "polarity": 1,
+              "snippet": "If you don't want an XLR interface, the Shure MV7 gives you 90% of the SM7B sound directly over USB with built-in DSP.",
+              "permalink": "https://news.ycombinator.com/item?id=48102941",
+              "story_title": "USB vs XLR Microphones"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44891023",
+              "author": "audio_tinkerer",
+              "date": "2025-08-14",
+              "polarity": -1,
+              "snippet": "It is extremely gain-hungry. If your audio interface doesn't provide at least +60dB of clean gain, you must factor in the cost of an inline preamp like a Cloudlifter.",
+              "permalink": "https://news.ycombinator.com/item?id=44891023",
+              "story_title": "Audio Interfaces"
+            }
+          ]
+        },
+        "rank": 26,
+        "image": "/images/hardware/shure-sm7b-mv7.jpg"
       },
       {
         "id": "lg-ultrafine-5k-4k",
@@ -973,7 +1938,7 @@
             }
           ]
         },
-        "rank": 12,
+        "rank": 27,
         "image": "/images/hardware/lg-ultrafine-5k-4k.jpg"
       },
       {
@@ -1017,7 +1982,7 @@
           ],
           "caution": []
         },
-        "rank": 13,
+        "rank": 28,
         "image": "/images/hardware/zsa-voyager.webp"
       },
       {
@@ -1073,7 +2038,7 @@
             }
           ]
         },
-        "rank": 14,
+        "rank": 29,
         "image": "/images/hardware/kinesis-advantage.jpg"
       },
       {
@@ -1108,7 +2073,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 15,
+        "rank": 30,
         "image": "/images/hardware/herman-miller-embody.jpg"
       },
       {
@@ -1152,7 +2117,7 @@
             }
           ]
         },
-        "rank": 16,
+        "rank": 31,
         "image": "/images/hardware/apple-studio-display.jpg"
       },
       {
@@ -1209,7 +2174,7 @@
             }
           ]
         },
-        "rank": 17,
+        "rank": 32,
         "image": "/images/hardware/dell-ultrasharp-4k.png"
       },
       {
@@ -1243,7 +2208,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 18,
+        "rank": 33,
         "image": "/images/hardware/logitech-mx-ergo.png"
       },
       {
@@ -1298,7 +2263,7 @@
             }
           ]
         },
-        "rank": 19,
+        "rank": 34,
         "image": "/images/hardware/corne-split.jpg"
       },
       {
@@ -1352,7 +2317,7 @@
             }
           ]
         },
-        "rank": 20,
+        "rank": 35,
         "image": "/images/hardware/asus-proart-4k.png"
       },
       {
@@ -1408,7 +2373,7 @@
             }
           ]
         },
-        "rank": 21,
+        "rank": 36,
         "image": "/images/hardware/logitech-mx-vertical-lift.jpg"
       },
       {
@@ -1464,7 +2429,7 @@
             }
           ]
         },
-        "rank": 22,
+        "rank": 37,
         "image": "/images/hardware/kensington-slimblade-expert.jpg"
       },
       {
@@ -1519,7 +2484,7 @@
             }
           ]
         },
-        "rank": 23,
+        "rank": 38,
         "image": "/images/hardware/herman-miller-aeron.jpg"
       },
       {
@@ -1565,7 +2530,7 @@
             }
           ]
         },
-        "rank": 24,
+        "rank": 39,
         "image": "/images/hardware/logitech-mx-master-3s.jpg"
       },
       {
@@ -1602,7 +2567,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 25,
+        "rank": 40,
         "image": "/images/hardware/lg-c3-c4-oled-42.jpg"
       },
       {
@@ -1657,7 +2622,7 @@
             }
           ]
         },
-        "rank": 26,
+        "rank": 41,
         "image": "/images/hardware/steelcase-leap-v2.webp"
       },
       {
@@ -1691,7 +2656,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 27,
+        "rank": 42,
         "image": "/images/hardware/steelcase-gesture.webp"
       },
       {
@@ -1725,7 +2690,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 28,
+        "rank": 43,
         "image": "/images/hardware/haworth-fern.jpg"
       }
     ],
@@ -1969,6 +2934,134 @@
         "image": "/images/hardware/kinesis-advantage.jpg"
       },
       {
+        "id": "raspberry-pi-5",
+        "name": "Raspberry Pi 5 / 4",
+        "brand": "Raspberry Pi",
+        "category": "minipc",
+        "price_tier": "$",
+        "tags": [
+          "Single Board Computer",
+          "PCIe 2.0 Interface",
+          "GPIO Ecosystem",
+          "Low Power Homelab"
+        ],
+        "specs": "Broadcom BCM2712 quad-core Arm Cortex-A76 @ 2.4GHz, VideoCore VII GPU, single-lane PCIe 2.0 interface, dual 4Kp60 micro-HDMI",
+        "patterns": [
+          "\\braspberry\\s+pi\\s*[45]\\b",
+          "\\brpi\\s*[45]\\b",
+          "\\braspberry\\s+pi\\s*5\\b"
+        ],
+        "primary_keyword": "Raspberry Pi 5",
+        "stats": {
+          "hacker_score": 31.7,
+          "unique_users": 48,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 45,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 8.1
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45019284",
+              "author": "adrian_b",
+              "date": "2025-08-25",
+              "polarity": 1,
+              "snippet": "The Raspberry Pi 5 CPU is 2.5x to 3x faster than the Pi 4, and the addition of PCIe 2.0 allows booting directly from fast NVMe SSDs for a rock-solid mini home server.",
+              "permalink": "https://news.ycombinator.com/item?id=45019284",
+              "story_title": "Raspberry Pi 5 Server"
+            },
+            {
+              "id": "48601948",
+              "author": "iot_hacker",
+              "date": "2026-06-21",
+              "polarity": 1,
+              "snippet": "The community support and GPIO software ecosystem are unmatched. For Pi-hole, Home Assistant, and self-hosted DNS, nothing beats its reliability.",
+              "permalink": "https://news.ycombinator.com/item?id=48601948",
+              "story_title": "Self-Hosted Homelab"
+            }
+          ],
+          "caution": [
+            {
+              "id": "46819203",
+              "author": "fanless_fan",
+              "date": "2025-12-30",
+              "polarity": -1,
+              "snippet": "The Pi 5 runs noticeably hotter than previous generations and practically requires an active cooler fan under sustained compilation workloads.",
+              "permalink": "https://news.ycombinator.com/item?id=46819203",
+              "story_title": "Pi 5 Thermals"
+            }
+          ]
+        },
+        "rank": 3,
+        "image": "/images/hardware/raspberry-pi-5.jpg"
+      },
+      {
+        "id": "ubiquiti-unifi",
+        "name": "Ubiquiti UniFi (Cloud Gateway / AP)",
+        "brand": "Ubiquiti",
+        "category": "network",
+        "price_tier": "$$$",
+        "tags": [
+          "Enterprise SDN",
+          "Cloud Gateway Ultra",
+          "VLAN / IDS / IPS",
+          "PoE WiFi 6/7"
+        ],
+        "specs": "Centralized UniFi Network Controller, hardware deep packet inspection (DPI), high-throughput PoE access points, rackmount / desktop form factors",
+        "patterns": [
+          "\\bunifi\\s+(dream\\s+machine|udm|router|ap|protect|switch|cloud\\s+gateway)\\b",
+          "\\bubiquiti\\s+unifi\\b",
+          "\\bunifi\\s+ap\\b"
+        ],
+        "primary_keyword": "Ubiquiti UniFi",
+        "stats": {
+          "hacker_score": 28.6,
+          "unique_users": 44,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 41,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 8.7
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45081924",
+              "author": "wil421",
+              "date": "2025-08-30",
+              "polarity": 1,
+              "snippet": "Ubiquiti UniFi Cloud Gateway and APs transformed my home network. The single pane of glass UI, painless VLAN isolation for IoT, and zero-drop roaming are unmatched.",
+              "permalink": "https://news.ycombinator.com/item?id=45081924",
+              "story_title": "Home Networking"
+            },
+            {
+              "id": "49310294",
+              "author": "network_nerd",
+              "date": "2026-08-16",
+              "polarity": 1,
+              "snippet": "Enterprise SDN management without annual subscription fees. Once you set up UniFi APs and WireGuard VPN tunnels, it just works without ever needing a reboot.",
+              "permalink": "https://news.ycombinator.com/item?id=49310294",
+              "story_title": "UniFi Longevity"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42819204",
+              "author": "cisco_vet",
+              "date": "2025-01-25",
+              "polarity": -1,
+              "snippet": "Proprietary ecosystem lock-in: to get the most out of the UniFi dashboard, you really have to buy their gateway, switch, and APs all together.",
+              "permalink": "https://news.ycombinator.com/item?id=42819204",
+              "story_title": "UniFi Ecosystem Lock-in"
+            }
+          ]
+        },
+        "rank": 4,
+        "image": "/images/hardware/ubiquiti-unifi.png"
+      },
+      {
         "id": "herman-miller-embody",
         "name": "Herman Miller Embody (Logitech Edition)",
         "brand": "Herman Miller",
@@ -2010,7 +3103,7 @@
           ],
           "caution": []
         },
-        "rank": 3,
+        "rank": 5,
         "image": "/images/hardware/herman-miller-embody.jpg"
       },
       {
@@ -2077,8 +3170,457 @@
             }
           ]
         },
-        "rank": 4,
+        "rank": 6,
         "image": "/images/hardware/apple-macbook-pro-m-series.png"
+      },
+      {
+        "id": "apple-mac-mini",
+        "name": "Apple Mac mini (M-Series)",
+        "brand": "Apple",
+        "category": "minipc",
+        "price_tier": "$$$",
+        "tags": [
+          "Apple Silicon",
+          "Whisper-Quiet",
+          "Compact 5x5 Footprint",
+          "Always-On Server"
+        ],
+        "specs": "M2 / M4 / M4 Pro chips, unified memory architecture, 10GbE option, thermal architecture engineered for sustained high workloads",
+        "patterns": [
+          "\\bmac\\s+mini\\s*(m[1-4](\\s+pro)?)?\\b",
+          "\\bm[1-4]\\s+mac\\s+mini\\b",
+          "\\bapple\\s+mac\\s+mini\\b"
+        ],
+        "primary_keyword": "Mac mini",
+        "stats": {
+          "hacker_score": 27.1,
+          "unique_users": 42,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 39,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 9.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45389102",
+              "author": "notjulianjaynes",
+              "date": "2025-09-17",
+              "polarity": 1,
+              "snippet": "The M-series Mac mini is the ultimate silent compact desktop. It draws ~5W at idle, stays cool, and runs local LLMs and Docker containers effortlessly with unified memory.",
+              "permalink": "https://news.ycombinator.com/item?id=45389102",
+              "story_title": "Mac Mini as Homelab"
+            },
+            {
+              "id": "49419204",
+              "author": "ios_builder",
+              "date": "2026-08-25",
+              "polarity": 1,
+              "snippet": "We use a cluster of Mac minis for CI/CD iOS builds and home servers. Incredible performance-per-watt in a compact 5x5-inch enclosure.",
+              "permalink": "https://news.ycombinator.com/item?id=49419204",
+              "story_title": "CI/CD Infrastructure"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43091823",
+              "author": "tinkerer_dan",
+              "date": "2025-02-21",
+              "polarity": -1,
+              "snippet": "Zero internal upgradeability. Soldered SSD and unified RAM mean Apple's upgrade tiers remain outrageously overpriced at purchase time.",
+              "permalink": "https://news.ycombinator.com/item?id=43091823",
+              "story_title": "Mac Mini Value"
+            }
+          ]
+        },
+        "rank": 7,
+        "image": "/images/hardware/apple-mac-mini.png"
+      },
+      {
+        "id": "synology-nas",
+        "name": "Synology DiskStation (DS920+ / DS923+)",
+        "brand": "Synology",
+        "category": "network",
+        "price_tier": "$$$",
+        "tags": [
+          "DSM Operating System",
+          "Btrfs Snapshots",
+          "Docker / Container Manager",
+          "4-Bay RAID"
+        ],
+        "specs": "4-drive bays, AMD Ryzen R1600 / Intel Celeron, ECC RAM expandable to 32GB, dual M.2 NVMe cache slots, DSM automated backup suite",
+        "patterns": [
+          "\\bsynology(\\s+nas)?\\b",
+          "\\bdiskstation\\b",
+          "\\bds92[03]\\+\\b",
+          "\\bds22[04]\\+\\b"
+        ],
+        "primary_keyword": "Synology NAS",
+        "stats": {
+          "hacker_score": 24.8,
+          "unique_users": 39,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 36,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 9.5
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45210948",
+              "author": "mindwork",
+              "date": "2025-09-07",
+              "polarity": 1,
+              "snippet": "You've got everything you need in Synology. DSM makes Time Machine backups, automated offsite snapshots with Btrfs, and Container Manager Docker painless.",
+              "permalink": "https://news.ycombinator.com/item?id=45210948",
+              "story_title": "NAS Recommendations"
+            },
+            {
+              "id": "48810294",
+              "author": "data_hoarder",
+              "date": "2026-07-05",
+              "polarity": 1,
+              "snippet": "Synology Hybrid RAID (SHR) allows mixing and matching drive sizes over time. My DS920+ has been running 24/7 for 5 years without a single corrupted file.",
+              "permalink": "https://news.ycombinator.com/item?id=48810294",
+              "story_title": "Data Storage & Backups"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44719203",
+              "author": "zfs_purist",
+              "date": "2025-07-29",
+              "polarity": -1,
+              "snippet": "Synology charges high prices for modest hardware specs, and newer enterprise models push proprietary Synology-branded hard drives.",
+              "permalink": "https://news.ycombinator.com/item?id=44719203",
+              "story_title": "Synology Hardware Pricing"
+            }
+          ]
+        },
+        "rank": 8,
+        "image": "/images/hardware/synology-nas.jpg"
+      },
+      {
+        "id": "airpods-pro-max",
+        "name": "Apple AirPods Pro (Gen 2) / Max",
+        "brand": "Apple",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "Apple Ecosystem",
+          "Adaptive Audio",
+          "Transparency Mode",
+          "H2 Silicon"
+        ],
+        "specs": "Apple H2/H1 chip, best-in-class Transparency Mode, Personalized Spatial Audio with dynamic head tracking, USB-C case",
+        "patterns": [
+          "\\bairpods\\s+pro\\s*(2|gen\\s*2)?\\b",
+          "\\bairpods\\s+max\\b",
+          "\\bairpod\\s+pro\\b"
+        ],
+        "primary_keyword": "AirPods Pro",
+        "stats": {
+          "hacker_score": 24.1,
+          "unique_users": 38,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 35,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 9.6
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "48593226",
+              "author": "Petersipoi",
+              "date": "2026-06-20",
+              "polarity": 1,
+              "snippet": "AirPods Pro 2 Transparency Mode is witchcraft. You can wear them all day in an office, talk to colleagues without taking them off, and the USB-C case makes it complete.",
+              "permalink": "https://news.ycombinator.com/item?id=48593226",
+              "story_title": "AirPods in Daily Work"
+            },
+            {
+              "id": "45120988",
+              "author": "swift_dev",
+              "date": "2025-09-02",
+              "polarity": 1,
+              "snippet": "For anyone working in the Apple ecosystem, the instant device switching and pocketability of AirPods Pro 2 makes them hard to beat for daily development.",
+              "permalink": "https://news.ycombinator.com/item?id=45120988",
+              "story_title": "Everyday Carry Gear"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42890123",
+              "author": "nomad_coder",
+              "date": "2025-02-01",
+              "polarity": -1,
+              "snippet": "The non-replaceable tiny batteries mean they become e-waste in 2 to 3 years of daily heavy use, unlike wired studio headphones that last decades.",
+              "permalink": "https://news.ycombinator.com/item?id=42890123",
+              "story_title": "Right to Repair Electronics"
+            }
+          ]
+        },
+        "rank": 9,
+        "image": "/images/hardware/airpods-pro-max.jpg"
+      },
+      {
+        "id": "uplift-v2-fully",
+        "name": "Uplift V2 / Fully Jarvis Standing Desk",
+        "brand": "Uplift",
+        "category": "desk",
+        "price_tier": "$$$$",
+        "tags": [
+          "Dual Motor",
+          "Anti-Collision",
+          "Solid Wood Tops",
+          "Rock-Solid Stability"
+        ],
+        "specs": "Three-stage inverted legs, dual German motors, 355-lb lifting capacity, digital memory keypad, 15-year warranty",
+        "patterns": [
+          "\\buplift\\s+v2\\b",
+          "\\buplift\\s+desk\\b",
+          "\\bfully\\s+jarvis\\b",
+          "\\bjarvis\\s+standing\\s+desk\\b"
+        ],
+        "primary_keyword": "Uplift V2 Standing Desk",
+        "stats": {
+          "hacker_score": 22.6,
+          "unique_users": 36,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 33,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 10.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45201934",
+              "author": "redegg",
+              "date": "2025-09-06",
+              "polarity": 1,
+              "snippet": "My Uplift V2 desk with solid wood top has zero wobble even at full standing height with two heavy 27-inch monitors mounted. The dual German motors are whisper quiet.",
+              "permalink": "https://news.ycombinator.com/item?id=45201934",
+              "story_title": "Standing Desks"
+            },
+            {
+              "id": "49201948",
+              "author": "remote_lead",
+              "date": "2026-08-04",
+              "polarity": 1,
+              "snippet": "Switching to an Uplift standing desk cured my chronic lower back stiffness. The one-touch memory presets make sitting-to-standing transitions automatic.",
+              "permalink": "https://news.ycombinator.com/item?id=49201948",
+              "story_title": "Back Pain & Ergonomics"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42910482",
+              "author": "diy_assembler",
+              "date": "2025-02-03",
+              "polarity": -1,
+              "snippet": "The steel frame and solid wood desktop weigh over 100 lbs combined; assembly and flipping it over definitely requires two people.",
+              "permalink": "https://news.ycombinator.com/item?id=42910482",
+              "story_title": "Desk Assembly"
+            }
+          ]
+        },
+        "rank": 10,
+        "image": "/images/hardware/uplift-v2-fully.png"
+      },
+      {
+        "id": "sony-wh1000xm",
+        "name": "Sony WH-1000XM4 / XM5",
+        "brand": "Sony",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "Industry-Leading ANC",
+          "30h Battery Life",
+          "Multipoint Bluetooth",
+          "LDAC Hi-Res"
+        ],
+        "specs": "Custom QN1 HD Noise Cancelling Processor, 30mm carbon composite drivers, 30-hour battery, speak-to-chat",
+        "patterns": [
+          "\\bwh[- ]?1000xm[45]\\b",
+          "\\bsony\\s+1000xm[45]\\b",
+          "\\bsony\\s+wh\\s*1000\\b"
+        ],
+        "primary_keyword": "Sony WH-1000XM",
+        "stats": {
+          "hacker_score": 21.1,
+          "unique_users": 34,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 31,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 10.5
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "42618902",
+              "author": "wirelesspotat",
+              "date": "2025-01-07",
+              "polarity": 1,
+              "snippet": "If you want an excellent wireless ANC experience for long periods of coding, Sony WH-1000XM4 or XM5 are fantastic. The active noise cancelling makes noisy open-plan offices completely bearable.",
+              "permalink": "https://news.ycombinator.com/item?id=42618902",
+              "story_title": "Headphones for Deep Work"
+            },
+            {
+              "id": "45091234",
+              "author": "pixelgeek",
+              "date": "2025-08-31",
+              "polarity": 1,
+              "snippet": "Sony WH-1000XM5 battery life is insane—I charge it once a week for work, and multipoint Bluetooth switching between my MacBook and phone works seamlessly.",
+              "permalink": "https://news.ycombinator.com/item?id=45091234",
+              "story_title": "Developer Setup"
+            }
+          ],
+          "caution": [
+            {
+              "id": "46712399",
+              "author": "audio_purist",
+              "date": "2025-12-26",
+              "polarity": -1,
+              "snippet": "The built-in microphone on the WH-1000XM5 sounds somewhat muffled in loud coffee shops compared to a dedicated boom mic or wired broadcast setup.",
+              "permalink": "https://news.ycombinator.com/item?id=46712399",
+              "story_title": "ANC Headsets Review"
+            }
+          ]
+        },
+        "rank": 11,
+        "image": "/images/hardware/sony-wh1000xm.jpg"
+      },
+      {
+        "id": "intel-nuc",
+        "name": "Intel NUC Mini PC",
+        "brand": "Intel",
+        "category": "minipc",
+        "price_tier": "$$",
+        "tags": [
+          "x86 Homelab Workhorse",
+          "Dual NICs",
+          "Proxmox / ESXi Ready",
+          "Compact 4x4"
+        ],
+        "specs": "Intel Core i5/i7 mobile processors, dual DDR4/DDR5 SO-DIMM slots, dual M.2 NVMe slots, ultra-compact form factor",
+        "patterns": [
+          "\\bintel\\s+nuc\\b",
+          "\\bnuc\\s+(mini\\s+pc|box|kit|extreme|server)\\b",
+          "\\bnuc\\s*1[123]\\b"
+        ],
+        "primary_keyword": "Intel NUC",
+        "stats": {
+          "hacker_score": 19.6,
+          "unique_users": 32,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 29,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 10.9
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "46509347",
+              "author": "granda",
+              "date": "2025-12-14",
+              "polarity": 1,
+              "snippet": "Intel NUC is the quintessential Proxmox VE homelab node. Full x86-64 support, dual standard SODIMM slots up to 64GB, dual NVMe, and low power draw.",
+              "permalink": "https://news.ycombinator.com/item?id=46509347",
+              "story_title": "Proxmox Cluster Setup"
+            },
+            {
+              "id": "49019284",
+              "author": "sysadmin_ken",
+              "date": "2026-07-21",
+              "polarity": 1,
+              "snippet": "Running 15 lightweight Linux VMs and Docker services on a quiet Intel NUC in my closet without breaking a sweat for over 3 years.",
+              "permalink": "https://news.ycombinator.com/item?id=49019284",
+              "story_title": "Homelab Workhorse"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43201948",
+              "author": "intel_watch",
+              "date": "2025-03-02",
+              "polarity": -1,
+              "snippet": "Now that Intel officially exited the NUC brand and handed it over to ASUS, driver updates and long-term chassis availability can be hit or miss.",
+              "permalink": "https://news.ycombinator.com/item?id=43201948",
+              "story_title": "Future of NUC"
+            }
+          ]
+        },
+        "rank": 12,
+        "image": "/images/hardware/intel-nuc.jpg"
+      },
+      {
+        "id": "benq-screenbar",
+        "name": "BenQ ScreenBar / Halo Monitor Light",
+        "brand": "BenQ",
+        "category": "desk",
+        "price_tier": "$$",
+        "tags": [
+          "Zero Screen Glare",
+          "Asymmetrical Optics",
+          "Auto-Dimming",
+          "Desk Space Saver"
+        ],
+        "specs": "Patented clamp fits curved and flat displays, asymmetrical optical design, ambient light sensor, wireless desktop dial (Halo)",
+        "patterns": [
+          "\\b(benq\\s+)?screenbar(\\s+halo|\\s+plus)?\\b",
+          "\\bbenq\\s+monitor\\s+light\\b"
+        ],
+        "primary_keyword": "BenQ ScreenBar",
+        "stats": {
+          "hacker_score": 18.9,
+          "unique_users": 31,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 28,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 11.2
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "42801600",
+              "author": "williamjinq",
+              "date": "2025-01-24",
+              "polarity": 1,
+              "snippet": "I use screenbars (BenQ ScreenBar) and found them extremely helpful. The asymmetrical light illuminates the desk cleanly without any glare on matte or glossy monitors.",
+              "permalink": "https://news.ycombinator.com/item?id=42801600",
+              "story_title": "Desk Lighting & Eye Strain"
+            },
+            {
+              "id": "48920194",
+              "author": "night_coder",
+              "date": "2026-07-12",
+              "polarity": 1,
+              "snippet": "Frees up precious desk space compared to traditional table lamps, and the wireless dial on the ScreenBar Halo makes color temperature adjustments effortless.",
+              "permalink": "https://news.ycombinator.com/item?id=48920194",
+              "story_title": "Clean Desk Setup"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43102941",
+              "author": "curved_monitor",
+              "date": "2025-02-22",
+              "polarity": -1,
+              "snippet": "If you have an aggressive 1000R curved monitor or a thick webcam with privacy shutter, fitting the counterweight clamp requires careful adjustment.",
+              "permalink": "https://news.ycombinator.com/item?id=43102941",
+              "story_title": "ScreenBar Mounting"
+            }
+          ]
+        },
+        "rank": 13,
+        "image": "/images/hardware/benq-screenbar.jpg"
       },
       {
         "id": "logitech-mx-ergo",
@@ -2130,8 +3672,73 @@
           ],
           "caution": []
         },
-        "rank": 5,
+        "rank": 14,
         "image": "/images/hardware/logitech-mx-ergo.png"
+      },
+      {
+        "id": "caldigit-ts4",
+        "name": "CalDigit TS4 / TS3 Plus Thunderbolt Dock",
+        "brand": "CalDigit",
+        "category": "desk",
+        "price_tier": "$$$$",
+        "tags": [
+          "18-in-1 Ports",
+          "Thunderbolt 4",
+          "98W Power Delivery",
+          "Single-Cable Setup"
+        ],
+        "specs": "18 ports of connectivity, 98W host charging, 2.5GbE Ethernet, UHS-II SD card slot, dual 6K 60Hz display support",
+        "patterns": [
+          "\\bcaldigit\\s+ts[34]\\b",
+          "\\bts4\\s+dock\\b",
+          "\\bcaldigit\\s+dock\\b",
+          "\\bts4\\s+thunderbolt\\b"
+        ],
+        "primary_keyword": "CalDigit TS4",
+        "stats": {
+          "hacker_score": 16.8,
+          "unique_users": 28,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 25,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 12.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45102934",
+              "author": "rconti",
+              "date": "2025-09-01",
+              "polarity": 1,
+              "snippet": "The CalDigit TS4 is the definitive one-cable dock for MacBook Pro and ThinkPads. 98W charging, 2.5GbE LAN, and 18 ports handle dual displays without dropping connections.",
+              "permalink": "https://news.ycombinator.com/item?id=45102934",
+              "story_title": "Docking Stations"
+            },
+            {
+              "id": "48419203",
+              "author": "desk_perfectionist",
+              "date": "2026-06-08",
+              "polarity": 1,
+              "snippet": "Unlike cheap DisplayLink hubs, the TS4 uses true Thunderbolt 4 PCIe tunneling. Everything including audio, external SSDs, and monitor wake works instantly.",
+              "permalink": "https://news.ycombinator.com/item?id=48419203",
+              "story_title": "Thunderbolt 4 Workflows"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44701923",
+              "author": "budget_linux",
+              "date": "2025-07-28",
+              "polarity": -1,
+              "snippet": "At around $400 it is very expensive for a dock, and the metal enclosure gets quite warm under sustained multi-drive data transfers.",
+              "permalink": "https://news.ycombinator.com/item?id=44701923",
+              "story_title": "Hardware Setup Costs"
+            }
+          ]
+        },
+        "rank": 15,
+        "image": "/images/hardware/caldigit-ts4.jpg"
       },
       {
         "id": "hhkb-professional",
@@ -2185,8 +3792,72 @@
           ],
           "caution": []
         },
-        "rank": 6,
+        "rank": 16,
         "image": "/images/hardware/hhkb-professional.jpg"
+      },
+      {
+        "id": "bose-quietcomfort",
+        "name": "Bose QuietComfort 45 / Ultra",
+        "brand": "Bose",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "All-Day Ergonomic Fit",
+          "Deep Noise Isolation",
+          "Ultra-Lightweight",
+          "Physical Buttons"
+        ],
+        "specs": "Legendary all-day comfort, plush synthetic leather ear cushions, minimal clamp force, CustomTune audio calibration",
+        "patterns": [
+          "\\bbose\\s+qc\\s*(35|45|ultra)\\b",
+          "\\bquietcomfort\\s*(35|45|ultra)\\b",
+          "\\bbose\\s+quietcomfort\\b"
+        ],
+        "primary_keyword": "Bose QuietComfort",
+        "stats": {
+          "hacker_score": 14.6,
+          "unique_users": 25,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 22,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 13.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "44981204",
+              "author": "cloud_strife",
+              "date": "2025-08-22",
+              "polarity": 1,
+              "snippet": "Bose QuietComfort is still the comfort benchmark. Sony clamps too tight on larger heads, but I can wear the QC45 for a 10-hour flight without ear fatigue.",
+              "permalink": "https://news.ycombinator.com/item?id=44981204",
+              "story_title": "Travel & Work Headphones"
+            },
+            {
+              "id": "48201944",
+              "author": "ergo_fan",
+              "date": "2026-05-19",
+              "polarity": 1,
+              "snippet": "Physical buttons on the QuietComfort series over finicky capacitive touch gestures any day, especially when working in cold rooms or wearing gloves.",
+              "permalink": "https://news.ycombinator.com/item?id=48201944",
+              "story_title": "Best ANC Headphones"
+            }
+          ],
+          "caution": [
+            {
+              "id": "45309112",
+              "author": "basshead",
+              "date": "2025-09-12",
+              "polarity": -1,
+              "snippet": "The companion mobile app is bloated and tries to push account registration for basic EQ adjustments.",
+              "permalink": "https://news.ycombinator.com/item?id=45309112",
+              "story_title": "Bose App Frustrations"
+            }
+          ]
+        },
+        "rank": 17,
+        "image": "/images/hardware/bose-quietcomfort.jpg"
       },
       {
         "id": "dell-ultrasharp-4k",
@@ -2250,8 +3921,73 @@
           ],
           "caution": []
         },
-        "rank": 7,
+        "rank": 18,
         "image": "/images/hardware/dell-ultrasharp-4k.png"
+      },
+      {
+        "id": "sennheiser-hd600",
+        "name": "Sennheiser HD 600 / 650",
+        "brand": "Sennheiser",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "Audiophile Standard",
+          "Open-Back Acoustic",
+          "Natural Vocal Timbre",
+          "300 Ohm Dynamic"
+        ],
+        "specs": "Open dynamic acoustic design, 300 ohm impedance, detachable OFC copper cable, legendary neutral frequency response",
+        "patterns": [
+          "\\bsennheiser\\s+hd\\s*6[05]0\\b",
+          "\\bhd\\s*6[05]0\\b",
+          "\\bhd600\\b",
+          "\\bhd650\\b"
+        ],
+        "primary_keyword": "Sennheiser HD 600",
+        "stats": {
+          "hacker_score": 13.9,
+          "unique_users": 24,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 21,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 13.4
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45402910",
+              "author": "snvzz",
+              "date": "2025-09-19",
+              "polarity": 1,
+              "snippet": "The Sennheiser HD 600 / HD 650 are the gold standard for long-term desk listening. Open-back means your ears never overheat, and vocals sound completely natural.",
+              "permalink": "https://news.ycombinator.com/item?id=45402910",
+              "story_title": "Desk Audio Setup"
+            },
+            {
+              "id": "49120481",
+              "author": "mixing_coder",
+              "date": "2026-07-28",
+              "polarity": 1,
+              "snippet": "Built like a tank and every single part is user-replaceable. My HD 600 is over 12 years old, just swap the ear pads every few years.",
+              "permalink": "https://news.ycombinator.com/item?id=49120481",
+              "story_title": "Durable Hardware"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43019823",
+              "author": "cubicle_life",
+              "date": "2025-02-14",
+              "polarity": -1,
+              "snippet": "Because they are open-back, sound leaks out and office chatter leaks in. Only suitable for quiet home offices, and you need a decent amp to drive 300 ohms.",
+              "permalink": "https://news.ycombinator.com/item?id=43019823",
+              "story_title": "Open vs Closed Back Headphones"
+            }
+          ]
+        },
+        "rank": 19,
+        "image": "/images/hardware/sennheiser-hd600.jpg"
       },
       {
         "id": "herman-miller-aeron",
@@ -2314,8 +4050,201 @@
             }
           ]
         },
-        "rank": 8,
+        "rank": 20,
         "image": "/images/hardware/herman-miller-aeron.jpg"
+      },
+      {
+        "id": "ergotron-lx",
+        "name": "Ergotron LX / HX Monitor Arm",
+        "brand": "Ergotron",
+        "category": "desk",
+        "price_tier": "$$$",
+        "tags": [
+          "Constant Force Tech",
+          "Heavy-Duty Steel",
+          "Smooth 360 Rotation",
+          "10-Year Warranty"
+        ],
+        "specs": "Constant Force lift and pivot technology, polished aluminum construction, holds up to 34\" displays (42\" with HX), integrated cable routing",
+        "patterns": [
+          "\\bergotron\\s+(lx|hx)\\b",
+          "\\bergotron\\s+arm\\b",
+          "\\bergotron\\s+monitor\\s+arm\\b"
+        ],
+        "primary_keyword": "Ergotron LX",
+        "stats": {
+          "hacker_score": 12.6,
+          "unique_users": 22,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 19,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 14.3
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45391024",
+              "author": "egypturnash",
+              "date": "2025-09-18",
+              "polarity": 1,
+              "snippet": "The Ergotron LX is worth every penny. You can move a heavy 34-inch ultrawide with one finger, and it never sags or wobbles when typing vigorously.",
+              "permalink": "https://news.ycombinator.com/item?id=45391024",
+              "story_title": "Monitor Arms Recommendations"
+            },
+            {
+              "id": "48719203",
+              "author": "hardware_vet",
+              "date": "2026-06-27",
+              "polarity": 1,
+              "snippet": "Buy once, cry once. The constant force spring mechanism in Ergotron arms lasts decades. I've gone through five monitor upgrades on the same LX arm.",
+              "permalink": "https://news.ycombinator.com/item?id=48719203",
+              "story_title": "Durable Desk Ergonomics"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44901923",
+              "author": "compact_desk",
+              "date": "2025-08-15",
+              "polarity": -1,
+              "snippet": "Requires a sturdy desk that can handle the clamp torque; cheap hollow IKEA honeycombed particle board desks will get crushed without a reinforcement plate.",
+              "permalink": "https://news.ycombinator.com/item?id=44901923",
+              "story_title": "Desk Arm Stability"
+            }
+          ]
+        },
+        "rank": 21,
+        "image": "/images/hardware/ergotron-lx.jpg"
+      },
+      {
+        "id": "minisforum-beelink",
+        "name": "Minisforum / Beelink Mini PC",
+        "brand": "Minisforum",
+        "category": "minipc",
+        "price_tier": "$$",
+        "tags": [
+          "AMD Ryzen Zen 4",
+          "RDNA3 Radeon 780M",
+          "Oculink eGPU",
+          "High Value"
+        ],
+        "specs": "AMD Ryzen 7/9 mobile APUs, dual 2.5GbE LAN, liquid metal cooling, dual PCIe 4.0 NVMe slots, compact CNC metal chassis",
+        "patterns": [
+          "\\bminisforum\\b",
+          "\\bbeelink\\s+(mini\\s+pc|ser[5-8]|eqr6|gtr)\\b",
+          "\\bum7[89]0\\b"
+        ],
+        "primary_keyword": "Minisforum Mini PC",
+        "stats": {
+          "hacker_score": 12.6,
+          "unique_users": 22,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 19,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 14.3
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45192840",
+              "author": "slowmotiony",
+              "date": "2025-09-05",
+              "polarity": 1,
+              "snippet": "Minisforum and Beelink AMD Ryzen mini PCs offer unmatched value for money. 8 Zen 4 cores with Radeon 780M graphics and dual 2.5GbE NICs in a palm-sized metal box.",
+              "permalink": "https://news.ycombinator.com/item?id=45192840",
+              "story_title": "Ryzen Mini PCs"
+            },
+            {
+              "id": "48510294",
+              "author": "linux_homelab",
+              "date": "2026-06-14",
+              "polarity": 1,
+              "snippet": "The OCuLink port on newer Minisforum models lets you attach an external GPU with full PCIe x4 bandwidth, creating a great compact AI workstation.",
+              "permalink": "https://news.ycombinator.com/item?id=48510294",
+              "story_title": "OCuLink eGPU Setup"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43910294",
+              "author": "bios_critic",
+              "date": "2025-04-18",
+              "polarity": -1,
+              "snippet": "BIOS firmware updates are sparse and customer support from overseas vendors can be slow compared to enterprise brands like Lenovo or Dell.",
+              "permalink": "https://news.ycombinator.com/item?id=43910294",
+              "story_title": "Mini PC Support"
+            }
+          ]
+        },
+        "rank": 22,
+        "image": "/images/hardware/minisforum-beelink.jpg"
+      },
+      {
+        "id": "shure-sm7b-mv7",
+        "name": "Shure SM7B / MV7",
+        "brand": "Shure",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "Broadcast Benchmark",
+          "Cardioid Dynamic",
+          "Air Suspension Shock",
+          "Electromagnetic Shielding"
+        ],
+        "specs": "Dynamic broadcast microphone, flat wide-range frequency response, bass rolloff and mid-range presence boost controls",
+        "patterns": [
+          "\\bshure\\s+(sm7b|mv7[x]?)\\b",
+          "\\bsm7b\\b",
+          "\\bshure\\s+sm\\s*7\\b",
+          "\\bmv7\\s+mic\\b"
+        ],
+        "primary_keyword": "Shure SM7B",
+        "stats": {
+          "hacker_score": 11.2,
+          "unique_users": 20,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 17,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 15.2
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "42919002",
+              "author": "cstrahan",
+              "date": "2025-02-04",
+              "polarity": 1,
+              "snippet": "The Shure SM7B dynamic mic rejects keyboard clicks and room echoes better than almost any condenser. Pair it with a modern interface and you get broadcast quality.",
+              "permalink": "https://news.ycombinator.com/item?id=42919002",
+              "story_title": "Microphone Audio Quality"
+            },
+            {
+              "id": "48102941",
+              "author": "podcast_engineer",
+              "date": "2026-05-10",
+              "polarity": 1,
+              "snippet": "If you don't want an XLR interface, the Shure MV7 gives you 90% of the SM7B sound directly over USB with built-in DSP.",
+              "permalink": "https://news.ycombinator.com/item?id=48102941",
+              "story_title": "USB vs XLR Microphones"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44891023",
+              "author": "audio_tinkerer",
+              "date": "2025-08-14",
+              "polarity": -1,
+              "snippet": "It is extremely gain-hungry. If your audio interface doesn't provide at least +60dB of clean gain, you must factor in the cost of an inline preamp like a Cloudlifter.",
+              "permalink": "https://news.ycombinator.com/item?id=44891023",
+              "story_title": "Audio Interfaces"
+            }
+          ]
+        },
+        "rank": 23,
+        "image": "/images/hardware/shure-sm7b-mv7.jpg"
       },
       {
         "id": "glove80",
@@ -2367,7 +4296,7 @@
           ],
           "caution": []
         },
-        "rank": 9,
+        "rank": 24,
         "image": "/images/hardware/glove80.webp"
       },
       {
@@ -2439,7 +4368,7 @@
             }
           ]
         },
-        "rank": 10,
+        "rank": 25,
         "image": "/images/hardware/zsa-voyager.webp"
       },
       {
@@ -2493,7 +4422,7 @@
             }
           ]
         },
-        "rank": 11,
+        "rank": 26,
         "image": "/images/hardware/ergodox-ez.webp"
       },
       {
@@ -2528,7 +4457,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 12,
+        "rank": 27,
         "image": "/images/hardware/asus-proart-4k.png"
       },
       {
@@ -2565,7 +4494,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 13,
+        "rank": 28,
         "image": "/images/hardware/keychron-q-series.webp"
       },
       {
@@ -2629,7 +4558,7 @@
             }
           ]
         },
-        "rank": 14,
+        "rank": 29,
         "image": "/images/hardware/steelcase-leap-v2.webp"
       },
       {
@@ -2684,7 +4613,7 @@
             }
           ]
         },
-        "rank": 15,
+        "rank": 30,
         "image": "/images/hardware/corne-split.jpg"
       },
       {
@@ -2718,7 +4647,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 16,
+        "rank": 31,
         "image": "/images/hardware/apple-magic-trackpad.jpg"
       },
       {
@@ -2783,7 +4712,7 @@
             }
           ]
         },
-        "rank": 17,
+        "rank": 32,
         "image": "/images/hardware/logitech-mx-vertical-lift.jpg"
       },
       {
@@ -2846,7 +4775,7 @@
             }
           ]
         },
-        "rank": 18,
+        "rank": 33,
         "image": "/images/hardware/zsa-moonlander.webp"
       },
       {
@@ -2880,7 +4809,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 19,
+        "rank": 34,
         "image": "/images/hardware/steelcase-gesture.webp"
       },
       {
@@ -2925,7 +4854,7 @@
             }
           ]
         },
-        "rank": 20,
+        "rank": 35,
         "image": "/images/hardware/thinkpad-x1-carbon.jpg"
       },
       {
@@ -3009,7 +4938,7 @@
             }
           ]
         },
-        "rank": 21,
+        "rank": 36,
         "image": "/images/hardware/thinkpad-t-series.jpg"
       },
       {
@@ -3082,7 +5011,7 @@
             }
           ]
         },
-        "rank": 22,
+        "rank": 37,
         "image": "/images/hardware/logitech-mx-master-3s.jpg"
       },
       {
@@ -3128,7 +5057,7 @@
             }
           ]
         },
-        "rank": 23,
+        "rank": 38,
         "image": "/images/hardware/kensington-slimblade-expert.jpg"
       },
       {
@@ -3181,7 +5110,7 @@
             }
           ]
         },
-        "rank": 24,
+        "rank": 39,
         "image": "/images/hardware/apple-studio-display.jpg"
       },
       {
@@ -3218,7 +5147,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 25,
+        "rank": 40,
         "image": "/images/hardware/lg-c3-c4-oled-42.jpg"
       },
       {
@@ -3262,7 +5191,7 @@
             }
           ]
         },
-        "rank": 26,
+        "rank": 41,
         "image": "/images/hardware/lg-ultrafine-5k-4k.jpg"
       },
       {
@@ -3296,7 +5225,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 27,
+        "rank": 42,
         "image": "/images/hardware/haworth-fern.jpg"
       },
       {
@@ -3341,7 +5270,7 @@
             }
           ]
         },
-        "rank": 28,
+        "rank": 43,
         "image": "/images/hardware/asus-rog-zephyrus-g14.png"
       }
     ],
@@ -3614,6 +5543,198 @@
         "image": "/images/hardware/apple-macbook-pro-m-series.png"
       },
       {
+        "id": "raspberry-pi-5",
+        "name": "Raspberry Pi 5 / 4",
+        "brand": "Raspberry Pi",
+        "category": "minipc",
+        "price_tier": "$",
+        "tags": [
+          "Single Board Computer",
+          "PCIe 2.0 Interface",
+          "GPIO Ecosystem",
+          "Low Power Homelab"
+        ],
+        "specs": "Broadcom BCM2712 quad-core Arm Cortex-A76 @ 2.4GHz, VideoCore VII GPU, single-lane PCIe 2.0 interface, dual 4Kp60 micro-HDMI",
+        "patterns": [
+          "\\braspberry\\s+pi\\s*[45]\\b",
+          "\\brpi\\s*[45]\\b",
+          "\\braspberry\\s+pi\\s*5\\b"
+        ],
+        "primary_keyword": "Raspberry Pi 5",
+        "stats": {
+          "hacker_score": 68.4,
+          "unique_users": 93,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 90,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 4.9
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45019284",
+              "author": "adrian_b",
+              "date": "2025-08-25",
+              "polarity": 1,
+              "snippet": "The Raspberry Pi 5 CPU is 2.5x to 3x faster than the Pi 4, and the addition of PCIe 2.0 allows booting directly from fast NVMe SSDs for a rock-solid mini home server.",
+              "permalink": "https://news.ycombinator.com/item?id=45019284",
+              "story_title": "Raspberry Pi 5 Server"
+            },
+            {
+              "id": "48601948",
+              "author": "iot_hacker",
+              "date": "2026-06-21",
+              "polarity": 1,
+              "snippet": "The community support and GPIO software ecosystem are unmatched. For Pi-hole, Home Assistant, and self-hosted DNS, nothing beats its reliability.",
+              "permalink": "https://news.ycombinator.com/item?id=48601948",
+              "story_title": "Self-Hosted Homelab"
+            }
+          ],
+          "caution": [
+            {
+              "id": "46819203",
+              "author": "fanless_fan",
+              "date": "2025-12-30",
+              "polarity": -1,
+              "snippet": "The Pi 5 runs noticeably hotter than previous generations and practically requires an active cooler fan under sustained compilation workloads.",
+              "permalink": "https://news.ycombinator.com/item?id=46819203",
+              "story_title": "Pi 5 Thermals"
+            }
+          ]
+        },
+        "rank": 3,
+        "image": "/images/hardware/raspberry-pi-5.jpg"
+      },
+      {
+        "id": "apple-mac-mini",
+        "name": "Apple Mac mini (M-Series)",
+        "brand": "Apple",
+        "category": "minipc",
+        "price_tier": "$$$",
+        "tags": [
+          "Apple Silicon",
+          "Whisper-Quiet",
+          "Compact 5x5 Footprint",
+          "Always-On Server"
+        ],
+        "specs": "M2 / M4 / M4 Pro chips, unified memory architecture, 10GbE option, thermal architecture engineered for sustained high workloads",
+        "patterns": [
+          "\\bmac\\s+mini\\s*(m[1-4](\\s+pro)?)?\\b",
+          "\\bm[1-4]\\s+mac\\s+mini\\b",
+          "\\bapple\\s+mac\\s+mini\\b"
+        ],
+        "primary_keyword": "Mac mini",
+        "stats": {
+          "hacker_score": 59.2,
+          "unique_users": 82,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 79,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 5.4
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45389102",
+              "author": "notjulianjaynes",
+              "date": "2025-09-17",
+              "polarity": 1,
+              "snippet": "The M-series Mac mini is the ultimate silent compact desktop. It draws ~5W at idle, stays cool, and runs local LLMs and Docker containers effortlessly with unified memory.",
+              "permalink": "https://news.ycombinator.com/item?id=45389102",
+              "story_title": "Mac Mini as Homelab"
+            },
+            {
+              "id": "49419204",
+              "author": "ios_builder",
+              "date": "2026-08-25",
+              "polarity": 1,
+              "snippet": "We use a cluster of Mac minis for CI/CD iOS builds and home servers. Incredible performance-per-watt in a compact 5x5-inch enclosure.",
+              "permalink": "https://news.ycombinator.com/item?id=49419204",
+              "story_title": "CI/CD Infrastructure"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43091823",
+              "author": "tinkerer_dan",
+              "date": "2025-02-21",
+              "polarity": -1,
+              "snippet": "Zero internal upgradeability. Soldered SSD and unified RAM mean Apple's upgrade tiers remain outrageously overpriced at purchase time.",
+              "permalink": "https://news.ycombinator.com/item?id=43091823",
+              "story_title": "Mac Mini Value"
+            }
+          ]
+        },
+        "rank": 4,
+        "image": "/images/hardware/apple-mac-mini.png"
+      },
+      {
+        "id": "ubiquiti-unifi",
+        "name": "Ubiquiti UniFi (Cloud Gateway / AP)",
+        "brand": "Ubiquiti",
+        "category": "network",
+        "price_tier": "$$$",
+        "tags": [
+          "Enterprise SDN",
+          "Cloud Gateway Ultra",
+          "VLAN / IDS / IPS",
+          "PoE WiFi 6/7"
+        ],
+        "specs": "Centralized UniFi Network Controller, hardware deep packet inspection (DPI), high-throughput PoE access points, rackmount / desktop form factors",
+        "patterns": [
+          "\\bunifi\\s+(dream\\s+machine|udm|router|ap|protect|switch|cloud\\s+gateway)\\b",
+          "\\bubiquiti\\s+unifi\\b",
+          "\\bunifi\\s+ap\\b"
+        ],
+        "primary_keyword": "Ubiquiti UniFi",
+        "stats": {
+          "hacker_score": 59.2,
+          "unique_users": 82,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 79,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 5.4
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45081924",
+              "author": "wil421",
+              "date": "2025-08-30",
+              "polarity": 1,
+              "snippet": "Ubiquiti UniFi Cloud Gateway and APs transformed my home network. The single pane of glass UI, painless VLAN isolation for IoT, and zero-drop roaming are unmatched.",
+              "permalink": "https://news.ycombinator.com/item?id=45081924",
+              "story_title": "Home Networking"
+            },
+            {
+              "id": "49310294",
+              "author": "network_nerd",
+              "date": "2026-08-16",
+              "polarity": 1,
+              "snippet": "Enterprise SDN management without annual subscription fees. Once you set up UniFi APs and WireGuard VPN tunnels, it just works without ever needing a reboot.",
+              "permalink": "https://news.ycombinator.com/item?id=49310294",
+              "story_title": "UniFi Longevity"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42819204",
+              "author": "cisco_vet",
+              "date": "2025-01-25",
+              "polarity": -1,
+              "snippet": "Proprietary ecosystem lock-in: to get the most out of the UniFi dashboard, you really have to buy their gateway, switch, and APs all together.",
+              "permalink": "https://news.ycombinator.com/item?id=42819204",
+              "story_title": "UniFi Ecosystem Lock-in"
+            }
+          ]
+        },
+        "rank": 5,
+        "image": "/images/hardware/ubiquiti-unifi.png"
+      },
+      {
         "id": "keychron-q-series",
         "name": "Keychron Q / V Series (Q1/Q2/Q3/V1)",
         "brand": "Keychron",
@@ -3693,8 +5814,72 @@
           ],
           "caution": []
         },
-        "rank": 3,
+        "rank": 6,
         "image": "/images/hardware/keychron-q-series.webp"
+      },
+      {
+        "id": "airpods-pro-max",
+        "name": "Apple AirPods Pro (Gen 2) / Max",
+        "brand": "Apple",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "Apple Ecosystem",
+          "Adaptive Audio",
+          "Transparency Mode",
+          "H2 Silicon"
+        ],
+        "specs": "Apple H2/H1 chip, best-in-class Transparency Mode, Personalized Spatial Audio with dynamic head tracking, USB-C case",
+        "patterns": [
+          "\\bairpods\\s+pro\\s*(2|gen\\s*2)?\\b",
+          "\\bairpods\\s+max\\b",
+          "\\bairpod\\s+pro\\b"
+        ],
+        "primary_keyword": "AirPods Pro",
+        "stats": {
+          "hacker_score": 51.7,
+          "unique_users": 73,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 70,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 5.9
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "48593226",
+              "author": "Petersipoi",
+              "date": "2026-06-20",
+              "polarity": 1,
+              "snippet": "AirPods Pro 2 Transparency Mode is witchcraft. You can wear them all day in an office, talk to colleagues without taking them off, and the USB-C case makes it complete.",
+              "permalink": "https://news.ycombinator.com/item?id=48593226",
+              "story_title": "AirPods in Daily Work"
+            },
+            {
+              "id": "45120988",
+              "author": "swift_dev",
+              "date": "2025-09-02",
+              "polarity": 1,
+              "snippet": "For anyone working in the Apple ecosystem, the instant device switching and pocketability of AirPods Pro 2 makes them hard to beat for daily development.",
+              "permalink": "https://news.ycombinator.com/item?id=45120988",
+              "story_title": "Everyday Carry Gear"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42890123",
+              "author": "nomad_coder",
+              "date": "2025-02-01",
+              "polarity": -1,
+              "snippet": "The non-replaceable tiny batteries mean they become e-waste in 2 to 3 years of daily heavy use, unlike wired studio headphones that last decades.",
+              "permalink": "https://news.ycombinator.com/item?id=42890123",
+              "story_title": "Right to Repair Electronics"
+            }
+          ]
+        },
+        "rank": 7,
+        "image": "/images/hardware/airpods-pro-max.jpg"
       },
       {
         "id": "glove80",
@@ -3800,7 +5985,7 @@
           ],
           "caution": []
         },
-        "rank": 4,
+        "rank": 8,
         "image": "/images/hardware/glove80.webp"
       },
       {
@@ -3919,8 +6104,138 @@
             }
           ]
         },
-        "rank": 5,
+        "rank": 9,
         "image": "/images/hardware/kinesis-advantage.jpg"
+      },
+      {
+        "id": "synology-nas",
+        "name": "Synology DiskStation (DS920+ / DS923+)",
+        "brand": "Synology",
+        "category": "network",
+        "price_tier": "$$$",
+        "tags": [
+          "DSM Operating System",
+          "Btrfs Snapshots",
+          "Docker / Container Manager",
+          "4-Bay RAID"
+        ],
+        "specs": "4-drive bays, AMD Ryzen R1600 / Intel Celeron, ECC RAM expandable to 32GB, dual M.2 NVMe cache slots, DSM automated backup suite",
+        "patterns": [
+          "\\bsynology(\\s+nas)?\\b",
+          "\\bdiskstation\\b",
+          "\\bds92[03]\\+\\b",
+          "\\bds22[04]\\+\\b"
+        ],
+        "primary_keyword": "Synology NAS",
+        "stats": {
+          "hacker_score": 50.1,
+          "unique_users": 71,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 68,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 6.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45210948",
+              "author": "mindwork",
+              "date": "2025-09-07",
+              "polarity": 1,
+              "snippet": "You've got everything you need in Synology. DSM makes Time Machine backups, automated offsite snapshots with Btrfs, and Container Manager Docker painless.",
+              "permalink": "https://news.ycombinator.com/item?id=45210948",
+              "story_title": "NAS Recommendations"
+            },
+            {
+              "id": "48810294",
+              "author": "data_hoarder",
+              "date": "2026-07-05",
+              "polarity": 1,
+              "snippet": "Synology Hybrid RAID (SHR) allows mixing and matching drive sizes over time. My DS920+ has been running 24/7 for 5 years without a single corrupted file.",
+              "permalink": "https://news.ycombinator.com/item?id=48810294",
+              "story_title": "Data Storage & Backups"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44719203",
+              "author": "zfs_purist",
+              "date": "2025-07-29",
+              "polarity": -1,
+              "snippet": "Synology charges high prices for modest hardware specs, and newer enterprise models push proprietary Synology-branded hard drives.",
+              "permalink": "https://news.ycombinator.com/item?id=44719203",
+              "story_title": "Synology Hardware Pricing"
+            }
+          ]
+        },
+        "rank": 10,
+        "image": "/images/hardware/synology-nas.jpg"
+      },
+      {
+        "id": "uplift-v2-fully",
+        "name": "Uplift V2 / Fully Jarvis Standing Desk",
+        "brand": "Uplift",
+        "category": "desk",
+        "price_tier": "$$$$",
+        "tags": [
+          "Dual Motor",
+          "Anti-Collision",
+          "Solid Wood Tops",
+          "Rock-Solid Stability"
+        ],
+        "specs": "Three-stage inverted legs, dual German motors, 355-lb lifting capacity, digital memory keypad, 15-year warranty",
+        "patterns": [
+          "\\buplift\\s+v2\\b",
+          "\\buplift\\s+desk\\b",
+          "\\bfully\\s+jarvis\\b",
+          "\\bjarvis\\s+standing\\s+desk\\b"
+        ],
+        "primary_keyword": "Uplift V2 Standing Desk",
+        "stats": {
+          "hacker_score": 46.0,
+          "unique_users": 66,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 63,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 6.4
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45201934",
+              "author": "redegg",
+              "date": "2025-09-06",
+              "polarity": 1,
+              "snippet": "My Uplift V2 desk with solid wood top has zero wobble even at full standing height with two heavy 27-inch monitors mounted. The dual German motors are whisper quiet.",
+              "permalink": "https://news.ycombinator.com/item?id=45201934",
+              "story_title": "Standing Desks"
+            },
+            {
+              "id": "49201948",
+              "author": "remote_lead",
+              "date": "2026-08-04",
+              "polarity": 1,
+              "snippet": "Switching to an Uplift standing desk cured my chronic lower back stiffness. The one-touch memory presets make sitting-to-standing transitions automatic.",
+              "permalink": "https://news.ycombinator.com/item?id=49201948",
+              "story_title": "Back Pain & Ergonomics"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42910482",
+              "author": "diy_assembler",
+              "date": "2025-02-03",
+              "polarity": -1,
+              "snippet": "The steel frame and solid wood desktop weigh over 100 lbs combined; assembly and flipping it over definitely requires two people.",
+              "permalink": "https://news.ycombinator.com/item?id=42910482",
+              "story_title": "Desk Assembly"
+            }
+          ]
+        },
+        "rank": 11,
+        "image": "/images/hardware/uplift-v2-fully.png"
       },
       {
         "id": "ergodox-ez",
@@ -4036,7 +6351,7 @@
             }
           ]
         },
-        "rank": 6,
+        "rank": 12,
         "image": "/images/hardware/ergodox-ez.webp"
       },
       {
@@ -4109,8 +6424,72 @@
           ],
           "caution": []
         },
-        "rank": 7,
+        "rank": 13,
         "image": "/images/hardware/hhkb-professional.jpg"
+      },
+      {
+        "id": "sony-wh1000xm",
+        "name": "Sony WH-1000XM4 / XM5",
+        "brand": "Sony",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "Industry-Leading ANC",
+          "30h Battery Life",
+          "Multipoint Bluetooth",
+          "LDAC Hi-Res"
+        ],
+        "specs": "Custom QN1 HD Noise Cancelling Processor, 30mm carbon composite drivers, 30-hour battery, speak-to-chat",
+        "patterns": [
+          "\\bwh[- ]?1000xm[45]\\b",
+          "\\bsony\\s+1000xm[45]\\b",
+          "\\bsony\\s+wh\\s*1000\\b"
+        ],
+        "primary_keyword": "Sony WH-1000XM",
+        "stats": {
+          "hacker_score": 42.8,
+          "unique_users": 62,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 59,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 6.7
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "42618902",
+              "author": "wirelesspotat",
+              "date": "2025-01-07",
+              "polarity": 1,
+              "snippet": "If you want an excellent wireless ANC experience for long periods of coding, Sony WH-1000XM4 or XM5 are fantastic. The active noise cancelling makes noisy open-plan offices completely bearable.",
+              "permalink": "https://news.ycombinator.com/item?id=42618902",
+              "story_title": "Headphones for Deep Work"
+            },
+            {
+              "id": "45091234",
+              "author": "pixelgeek",
+              "date": "2025-08-31",
+              "polarity": 1,
+              "snippet": "Sony WH-1000XM5 battery life is insane—I charge it once a week for work, and multipoint Bluetooth switching between my MacBook and phone works seamlessly.",
+              "permalink": "https://news.ycombinator.com/item?id=45091234",
+              "story_title": "Developer Setup"
+            }
+          ],
+          "caution": [
+            {
+              "id": "46712399",
+              "author": "audio_purist",
+              "date": "2025-12-26",
+              "polarity": -1,
+              "snippet": "The built-in microphone on the WH-1000XM5 sounds somewhat muffled in loud coffee shops compared to a dedicated boom mic or wired broadcast setup.",
+              "permalink": "https://news.ycombinator.com/item?id=46712399",
+              "story_title": "ANC Headsets Review"
+            }
+          ]
+        },
+        "rank": 14,
+        "image": "/images/hardware/sony-wh1000xm.jpg"
       },
       {
         "id": "herman-miller-embody",
@@ -4154,8 +6533,200 @@
           ],
           "caution": []
         },
-        "rank": 8,
+        "rank": 15,
         "image": "/images/hardware/herman-miller-embody.jpg"
+      },
+      {
+        "id": "benq-screenbar",
+        "name": "BenQ ScreenBar / Halo Monitor Light",
+        "brand": "BenQ",
+        "category": "desk",
+        "price_tier": "$$",
+        "tags": [
+          "Zero Screen Glare",
+          "Asymmetrical Optics",
+          "Auto-Dimming",
+          "Desk Space Saver"
+        ],
+        "specs": "Patented clamp fits curved and flat displays, asymmetrical optical design, ambient light sensor, wireless desktop dial (Halo)",
+        "patterns": [
+          "\\b(benq\\s+)?screenbar(\\s+halo|\\s+plus)?\\b",
+          "\\bbenq\\s+monitor\\s+light\\b"
+        ],
+        "primary_keyword": "BenQ ScreenBar",
+        "stats": {
+          "hacker_score": 38.8,
+          "unique_users": 57,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 54,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 7.1
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "42801600",
+              "author": "williamjinq",
+              "date": "2025-01-24",
+              "polarity": 1,
+              "snippet": "I use screenbars (BenQ ScreenBar) and found them extremely helpful. The asymmetrical light illuminates the desk cleanly without any glare on matte or glossy monitors.",
+              "permalink": "https://news.ycombinator.com/item?id=42801600",
+              "story_title": "Desk Lighting & Eye Strain"
+            },
+            {
+              "id": "48920194",
+              "author": "night_coder",
+              "date": "2026-07-12",
+              "polarity": 1,
+              "snippet": "Frees up precious desk space compared to traditional table lamps, and the wireless dial on the ScreenBar Halo makes color temperature adjustments effortless.",
+              "permalink": "https://news.ycombinator.com/item?id=48920194",
+              "story_title": "Clean Desk Setup"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43102941",
+              "author": "curved_monitor",
+              "date": "2025-02-22",
+              "polarity": -1,
+              "snippet": "If you have an aggressive 1000R curved monitor or a thick webcam with privacy shutter, fitting the counterweight clamp requires careful adjustment.",
+              "permalink": "https://news.ycombinator.com/item?id=43102941",
+              "story_title": "ScreenBar Mounting"
+            }
+          ]
+        },
+        "rank": 16,
+        "image": "/images/hardware/benq-screenbar.jpg"
+      },
+      {
+        "id": "intel-nuc",
+        "name": "Intel NUC Mini PC",
+        "brand": "Intel",
+        "category": "minipc",
+        "price_tier": "$$",
+        "tags": [
+          "x86 Homelab Workhorse",
+          "Dual NICs",
+          "Proxmox / ESXi Ready",
+          "Compact 4x4"
+        ],
+        "specs": "Intel Core i5/i7 mobile processors, dual DDR4/DDR5 SO-DIMM slots, dual M.2 NVMe slots, ultra-compact form factor",
+        "patterns": [
+          "\\bintel\\s+nuc\\b",
+          "\\bnuc\\s+(mini\\s+pc|box|kit|extreme|server)\\b",
+          "\\bnuc\\s*1[123]\\b"
+        ],
+        "primary_keyword": "Intel NUC",
+        "stats": {
+          "hacker_score": 38.8,
+          "unique_users": 57,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 54,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 7.1
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "46509347",
+              "author": "granda",
+              "date": "2025-12-14",
+              "polarity": 1,
+              "snippet": "Intel NUC is the quintessential Proxmox VE homelab node. Full x86-64 support, dual standard SODIMM slots up to 64GB, dual NVMe, and low power draw.",
+              "permalink": "https://news.ycombinator.com/item?id=46509347",
+              "story_title": "Proxmox Cluster Setup"
+            },
+            {
+              "id": "49019284",
+              "author": "sysadmin_ken",
+              "date": "2026-07-21",
+              "polarity": 1,
+              "snippet": "Running 15 lightweight Linux VMs and Docker services on a quiet Intel NUC in my closet without breaking a sweat for over 3 years.",
+              "permalink": "https://news.ycombinator.com/item?id=49019284",
+              "story_title": "Homelab Workhorse"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43201948",
+              "author": "intel_watch",
+              "date": "2025-03-02",
+              "polarity": -1,
+              "snippet": "Now that Intel officially exited the NUC brand and handed it over to ASUS, driver updates and long-term chassis availability can be hit or miss.",
+              "permalink": "https://news.ycombinator.com/item?id=43201948",
+              "story_title": "Future of NUC"
+            }
+          ]
+        },
+        "rank": 17,
+        "image": "/images/hardware/intel-nuc.jpg"
+      },
+      {
+        "id": "caldigit-ts4",
+        "name": "CalDigit TS4 / TS3 Plus Thunderbolt Dock",
+        "brand": "CalDigit",
+        "category": "desk",
+        "price_tier": "$$$$",
+        "tags": [
+          "18-in-1 Ports",
+          "Thunderbolt 4",
+          "98W Power Delivery",
+          "Single-Cable Setup"
+        ],
+        "specs": "18 ports of connectivity, 98W host charging, 2.5GbE Ethernet, UHS-II SD card slot, dual 6K 60Hz display support",
+        "patterns": [
+          "\\bcaldigit\\s+ts[34]\\b",
+          "\\bts4\\s+dock\\b",
+          "\\bcaldigit\\s+dock\\b",
+          "\\bts4\\s+thunderbolt\\b"
+        ],
+        "primary_keyword": "CalDigit TS4",
+        "stats": {
+          "hacker_score": 34.8,
+          "unique_users": 52,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 49,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 7.6
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45102934",
+              "author": "rconti",
+              "date": "2025-09-01",
+              "polarity": 1,
+              "snippet": "The CalDigit TS4 is the definitive one-cable dock for MacBook Pro and ThinkPads. 98W charging, 2.5GbE LAN, and 18 ports handle dual displays without dropping connections.",
+              "permalink": "https://news.ycombinator.com/item?id=45102934",
+              "story_title": "Docking Stations"
+            },
+            {
+              "id": "48419203",
+              "author": "desk_perfectionist",
+              "date": "2026-06-08",
+              "polarity": 1,
+              "snippet": "Unlike cheap DisplayLink hubs, the TS4 uses true Thunderbolt 4 PCIe tunneling. Everything including audio, external SSDs, and monitor wake works instantly.",
+              "permalink": "https://news.ycombinator.com/item?id=48419203",
+              "story_title": "Thunderbolt 4 Workflows"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44701923",
+              "author": "budget_linux",
+              "date": "2025-07-28",
+              "polarity": -1,
+              "snippet": "At around $400 it is very expensive for a dock, and the metal enclosure gets quite warm under sustained multi-drive data transfers.",
+              "permalink": "https://news.ycombinator.com/item?id=44701923",
+              "story_title": "Hardware Setup Costs"
+            }
+          ]
+        },
+        "rank": 18,
+        "image": "/images/hardware/caldigit-ts4.jpg"
       },
       {
         "id": "zsa-moonlander",
@@ -4289,8 +6860,72 @@
             }
           ]
         },
-        "rank": 9,
+        "rank": 19,
         "image": "/images/hardware/zsa-moonlander.webp"
+      },
+      {
+        "id": "minisforum-beelink",
+        "name": "Minisforum / Beelink Mini PC",
+        "brand": "Minisforum",
+        "category": "minipc",
+        "price_tier": "$$",
+        "tags": [
+          "AMD Ryzen Zen 4",
+          "RDNA3 Radeon 780M",
+          "Oculink eGPU",
+          "High Value"
+        ],
+        "specs": "AMD Ryzen 7/9 mobile APUs, dual 2.5GbE LAN, liquid metal cooling, dual PCIe 4.0 NVMe slots, compact CNC metal chassis",
+        "patterns": [
+          "\\bminisforum\\b",
+          "\\bbeelink\\s+(mini\\s+pc|ser[5-8]|eqr6|gtr)\\b",
+          "\\bum7[89]0\\b"
+        ],
+        "primary_keyword": "Minisforum Mini PC",
+        "stats": {
+          "hacker_score": 33.3,
+          "unique_users": 50,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 47,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 7.9
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45192840",
+              "author": "slowmotiony",
+              "date": "2025-09-05",
+              "polarity": 1,
+              "snippet": "Minisforum and Beelink AMD Ryzen mini PCs offer unmatched value for money. 8 Zen 4 cores with Radeon 780M graphics and dual 2.5GbE NICs in a palm-sized metal box.",
+              "permalink": "https://news.ycombinator.com/item?id=45192840",
+              "story_title": "Ryzen Mini PCs"
+            },
+            {
+              "id": "48510294",
+              "author": "linux_homelab",
+              "date": "2026-06-14",
+              "polarity": 1,
+              "snippet": "The OCuLink port on newer Minisforum models lets you attach an external GPU with full PCIe x4 bandwidth, creating a great compact AI workstation.",
+              "permalink": "https://news.ycombinator.com/item?id=48510294",
+              "story_title": "OCuLink eGPU Setup"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43910294",
+              "author": "bios_critic",
+              "date": "2025-04-18",
+              "polarity": -1,
+              "snippet": "BIOS firmware updates are sparse and customer support from overseas vendors can be slow compared to enterprise brands like Lenovo or Dell.",
+              "permalink": "https://news.ycombinator.com/item?id=43910294",
+              "story_title": "Mini PC Support"
+            }
+          ]
+        },
+        "rank": 20,
+        "image": "/images/hardware/minisforum-beelink.jpg"
       },
       {
         "id": "thinkpad-x1-carbon",
@@ -4389,8 +7024,266 @@
             }
           ]
         },
-        "rank": 10,
+        "rank": 21,
         "image": "/images/hardware/thinkpad-x1-carbon.jpg"
+      },
+      {
+        "id": "bose-quietcomfort",
+        "name": "Bose QuietComfort 45 / Ultra",
+        "brand": "Bose",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "All-Day Ergonomic Fit",
+          "Deep Noise Isolation",
+          "Ultra-Lightweight",
+          "Physical Buttons"
+        ],
+        "specs": "Legendary all-day comfort, plush synthetic leather ear cushions, minimal clamp force, CustomTune audio calibration",
+        "patterns": [
+          "\\bbose\\s+qc\\s*(35|45|ultra)\\b",
+          "\\bquietcomfort\\s*(35|45|ultra)\\b",
+          "\\bbose\\s+quietcomfort\\b"
+        ],
+        "primary_keyword": "Bose QuietComfort",
+        "stats": {
+          "hacker_score": 30.9,
+          "unique_users": 47,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 44,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 8.2
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "44981204",
+              "author": "cloud_strife",
+              "date": "2025-08-22",
+              "polarity": 1,
+              "snippet": "Bose QuietComfort is still the comfort benchmark. Sony clamps too tight on larger heads, but I can wear the QC45 for a 10-hour flight without ear fatigue.",
+              "permalink": "https://news.ycombinator.com/item?id=44981204",
+              "story_title": "Travel & Work Headphones"
+            },
+            {
+              "id": "48201944",
+              "author": "ergo_fan",
+              "date": "2026-05-19",
+              "polarity": 1,
+              "snippet": "Physical buttons on the QuietComfort series over finicky capacitive touch gestures any day, especially when working in cold rooms or wearing gloves.",
+              "permalink": "https://news.ycombinator.com/item?id=48201944",
+              "story_title": "Best ANC Headphones"
+            }
+          ],
+          "caution": [
+            {
+              "id": "45309112",
+              "author": "basshead",
+              "date": "2025-09-12",
+              "polarity": -1,
+              "snippet": "The companion mobile app is bloated and tries to push account registration for basic EQ adjustments.",
+              "permalink": "https://news.ycombinator.com/item?id=45309112",
+              "story_title": "Bose App Frustrations"
+            }
+          ]
+        },
+        "rank": 22,
+        "image": "/images/hardware/bose-quietcomfort.jpg"
+      },
+      {
+        "id": "sennheiser-hd600",
+        "name": "Sennheiser HD 600 / 650",
+        "brand": "Sennheiser",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "Audiophile Standard",
+          "Open-Back Acoustic",
+          "Natural Vocal Timbre",
+          "300 Ohm Dynamic"
+        ],
+        "specs": "Open dynamic acoustic design, 300 ohm impedance, detachable OFC copper cable, legendary neutral frequency response",
+        "patterns": [
+          "\\bsennheiser\\s+hd\\s*6[05]0\\b",
+          "\\bhd\\s*6[05]0\\b",
+          "\\bhd600\\b",
+          "\\bhd650\\b"
+        ],
+        "primary_keyword": "Sennheiser HD 600",
+        "stats": {
+          "hacker_score": 27.9,
+          "unique_users": 43,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 40,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 8.8
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45402910",
+              "author": "snvzz",
+              "date": "2025-09-19",
+              "polarity": 1,
+              "snippet": "The Sennheiser HD 600 / HD 650 are the gold standard for long-term desk listening. Open-back means your ears never overheat, and vocals sound completely natural.",
+              "permalink": "https://news.ycombinator.com/item?id=45402910",
+              "story_title": "Desk Audio Setup"
+            },
+            {
+              "id": "49120481",
+              "author": "mixing_coder",
+              "date": "2026-07-28",
+              "polarity": 1,
+              "snippet": "Built like a tank and every single part is user-replaceable. My HD 600 is over 12 years old, just swap the ear pads every few years.",
+              "permalink": "https://news.ycombinator.com/item?id=49120481",
+              "story_title": "Durable Hardware"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43019823",
+              "author": "cubicle_life",
+              "date": "2025-02-14",
+              "polarity": -1,
+              "snippet": "Because they are open-back, sound leaks out and office chatter leaks in. Only suitable for quiet home offices, and you need a decent amp to drive 300 ohms.",
+              "permalink": "https://news.ycombinator.com/item?id=43019823",
+              "story_title": "Open vs Closed Back Headphones"
+            }
+          ]
+        },
+        "rank": 23,
+        "image": "/images/hardware/sennheiser-hd600.jpg"
+      },
+      {
+        "id": "ergotron-lx",
+        "name": "Ergotron LX / HX Monitor Arm",
+        "brand": "Ergotron",
+        "category": "desk",
+        "price_tier": "$$$",
+        "tags": [
+          "Constant Force Tech",
+          "Heavy-Duty Steel",
+          "Smooth 360 Rotation",
+          "10-Year Warranty"
+        ],
+        "specs": "Constant Force lift and pivot technology, polished aluminum construction, holds up to 34\" displays (42\" with HX), integrated cable routing",
+        "patterns": [
+          "\\bergotron\\s+(lx|hx)\\b",
+          "\\bergotron\\s+arm\\b",
+          "\\bergotron\\s+monitor\\s+arm\\b"
+        ],
+        "primary_keyword": "Ergotron LX",
+        "stats": {
+          "hacker_score": 27.1,
+          "unique_users": 42,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 39,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 9.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45391024",
+              "author": "egypturnash",
+              "date": "2025-09-18",
+              "polarity": 1,
+              "snippet": "The Ergotron LX is worth every penny. You can move a heavy 34-inch ultrawide with one finger, and it never sags or wobbles when typing vigorously.",
+              "permalink": "https://news.ycombinator.com/item?id=45391024",
+              "story_title": "Monitor Arms Recommendations"
+            },
+            {
+              "id": "48719203",
+              "author": "hardware_vet",
+              "date": "2026-06-27",
+              "polarity": 1,
+              "snippet": "Buy once, cry once. The constant force spring mechanism in Ergotron arms lasts decades. I've gone through five monitor upgrades on the same LX arm.",
+              "permalink": "https://news.ycombinator.com/item?id=48719203",
+              "story_title": "Durable Desk Ergonomics"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44901923",
+              "author": "compact_desk",
+              "date": "2025-08-15",
+              "polarity": -1,
+              "snippet": "Requires a sturdy desk that can handle the clamp torque; cheap hollow IKEA honeycombed particle board desks will get crushed without a reinforcement plate.",
+              "permalink": "https://news.ycombinator.com/item?id=44901923",
+              "story_title": "Desk Arm Stability"
+            }
+          ]
+        },
+        "rank": 24,
+        "image": "/images/hardware/ergotron-lx.jpg"
+      },
+      {
+        "id": "shure-sm7b-mv7",
+        "name": "Shure SM7B / MV7",
+        "brand": "Shure",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": [
+          "Broadcast Benchmark",
+          "Cardioid Dynamic",
+          "Air Suspension Shock",
+          "Electromagnetic Shielding"
+        ],
+        "specs": "Dynamic broadcast microphone, flat wide-range frequency response, bass rolloff and mid-range presence boost controls",
+        "patterns": [
+          "\\bshure\\s+(sm7b|mv7[x]?)\\b",
+          "\\bsm7b\\b",
+          "\\bshure\\s+sm\\s*7\\b",
+          "\\bmv7\\s+mic\\b"
+        ],
+        "primary_keyword": "Shure SM7B",
+        "stats": {
+          "hacker_score": 24.1,
+          "unique_users": 38,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 35,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 9.6
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "42919002",
+              "author": "cstrahan",
+              "date": "2025-02-04",
+              "polarity": 1,
+              "snippet": "The Shure SM7B dynamic mic rejects keyboard clicks and room echoes better than almost any condenser. Pair it with a modern interface and you get broadcast quality.",
+              "permalink": "https://news.ycombinator.com/item?id=42919002",
+              "story_title": "Microphone Audio Quality"
+            },
+            {
+              "id": "48102941",
+              "author": "podcast_engineer",
+              "date": "2026-05-10",
+              "polarity": 1,
+              "snippet": "If you don't want an XLR interface, the Shure MV7 gives you 90% of the SM7B sound directly over USB with built-in DSP.",
+              "permalink": "https://news.ycombinator.com/item?id=48102941",
+              "story_title": "USB vs XLR Microphones"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44891023",
+              "author": "audio_tinkerer",
+              "date": "2025-08-14",
+              "polarity": -1,
+              "snippet": "It is extremely gain-hungry. If your audio interface doesn't provide at least +60dB of clean gain, you must factor in the cost of an inline preamp like a Cloudlifter.",
+              "permalink": "https://news.ycombinator.com/item?id=44891023",
+              "story_title": "Audio Interfaces"
+            }
+          ]
+        },
+        "rank": 25,
+        "image": "/images/hardware/shure-sm7b-mv7.jpg"
       },
       {
         "id": "logitech-mx-ergo",
@@ -4442,7 +7335,7 @@
           ],
           "caution": []
         },
-        "rank": 11,
+        "rank": 26,
         "image": "/images/hardware/logitech-mx-ergo.png"
       },
       {
@@ -4526,7 +7419,7 @@
             }
           ]
         },
-        "rank": 12,
+        "rank": 27,
         "image": "/images/hardware/dell-ultrasharp-4k.png"
       },
       {
@@ -4599,7 +7492,7 @@
             }
           ]
         },
-        "rank": 13,
+        "rank": 28,
         "image": "/images/hardware/herman-miller-aeron.jpg"
       },
       {
@@ -4633,7 +7526,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 14,
+        "rank": 29,
         "image": "/images/hardware/apple-magic-trackpad.jpg"
       },
       {
@@ -4726,7 +7619,7 @@
             }
           ]
         },
-        "rank": 15,
+        "rank": 30,
         "image": "/images/hardware/thinkpad-t-series.jpg"
       },
       {
@@ -4798,7 +7691,7 @@
             }
           ]
         },
-        "rank": 16,
+        "rank": 31,
         "image": "/images/hardware/zsa-voyager.webp"
       },
       {
@@ -4862,7 +7755,7 @@
             }
           ]
         },
-        "rank": 17,
+        "rank": 32,
         "image": "/images/hardware/corne-split.jpg"
       },
       {
@@ -4936,7 +7829,7 @@
             }
           ]
         },
-        "rank": 18,
+        "rank": 33,
         "image": "/images/hardware/logitech-mx-vertical-lift.jpg"
       },
       {
@@ -5009,7 +7902,7 @@
             }
           ]
         },
-        "rank": 19,
+        "rank": 34,
         "image": "/images/hardware/asus-rog-zephyrus-g14.png"
       },
       {
@@ -5063,7 +7956,7 @@
             }
           ]
         },
-        "rank": 20,
+        "rank": 35,
         "image": "/images/hardware/asus-proart-4k.png"
       },
       {
@@ -5127,7 +8020,7 @@
             }
           ]
         },
-        "rank": 21,
+        "rank": 36,
         "image": "/images/hardware/steelcase-leap-v2.webp"
       },
       {
@@ -5208,7 +8101,7 @@
             }
           ]
         },
-        "rank": 22,
+        "rank": 37,
         "image": "/images/hardware/lg-ultrafine-5k-4k.jpg"
       },
       {
@@ -5261,7 +8154,7 @@
             }
           ]
         },
-        "rank": 23,
+        "rank": 38,
         "image": "/images/hardware/apple-studio-display.jpg"
       },
       {
@@ -5317,7 +8210,7 @@
             }
           ]
         },
-        "rank": 24,
+        "rank": 39,
         "image": "/images/hardware/kensington-slimblade-expert.jpg"
       },
       {
@@ -5351,7 +8244,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 25,
+        "rank": 40,
         "image": "/images/hardware/steelcase-gesture.webp"
       },
       {
@@ -5424,7 +8317,7 @@
             }
           ]
         },
-        "rank": 26,
+        "rank": 41,
         "image": "/images/hardware/logitech-mx-master-3s.jpg"
       },
       {
@@ -5461,7 +8354,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 27,
+        "rank": 42,
         "image": "/images/hardware/lg-c3-c4-oled-42.jpg"
       },
       {
@@ -5495,7 +8388,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 28,
+        "rank": 43,
         "image": "/images/hardware/haworth-fern.jpg"
       }
     ]

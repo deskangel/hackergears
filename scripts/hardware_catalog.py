@@ -484,5 +484,265 @@ CATALOG = [
             r"\bg14\s+oled\b"
         ],
         "primary_keyword": "Zephyrus G14"
+    },
+
+    # ==========================================
+    # AUDIO & HEADPHONES (耳机/音频)
+    # ==========================================
+    {
+        "id": "sony-wh1000xm",
+        "image": "/images/hardware/sony-wh1000xm.jpg",
+        "name": "Sony WH-1000XM4 / XM5",
+        "brand": "Sony",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": ["Industry-Leading ANC", "30h Battery Life", "Multipoint Bluetooth", "LDAC Hi-Res"],
+        "specs": "Custom QN1 HD Noise Cancelling Processor, 30mm carbon composite drivers, 30-hour battery, speak-to-chat",
+        "patterns": [
+            r"\bwh[- ]?1000xm[45]\b",
+            r"\bsony\s+1000xm[45]\b",
+            r"\bsony\s+wh\s*1000\b"
+        ],
+        "primary_keyword": "Sony WH-1000XM"
+    },
+    {
+        "id": "airpods-pro-max",
+        "image": "/images/hardware/airpods-pro-max.jpg",
+        "name": "Apple AirPods Pro (Gen 2) / Max",
+        "brand": "Apple",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": ["Apple Ecosystem", "Adaptive Audio", "Transparency Mode", "H2 Silicon"],
+        "specs": "Apple H2/H1 chip, best-in-class Transparency Mode, Personalized Spatial Audio with dynamic head tracking, USB-C case",
+        "patterns": [
+            r"\bairpods\s+pro\s*(2|gen\s*2)?\b",
+            r"\bairpods\s+max\b",
+            r"\bairpod\s+pro\b"
+        ],
+        "primary_keyword": "AirPods Pro"
+    },
+    {
+        "id": "bose-quietcomfort",
+        "image": "/images/hardware/bose-quietcomfort.jpg",
+        "name": "Bose QuietComfort 45 / Ultra",
+        "brand": "Bose",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": ["All-Day Ergonomic Fit", "Deep Noise Isolation", "Ultra-Lightweight", "Physical Buttons"],
+        "specs": "Legendary all-day comfort, plush synthetic leather ear cushions, minimal clamp force, CustomTune audio calibration",
+        "patterns": [
+            r"\bbose\s+qc\s*(35|45|ultra)\b",
+            r"\bquietcomfort\s*(35|45|ultra)\b",
+            r"\bbose\s+quietcomfort\b"
+        ],
+        "primary_keyword": "Bose QuietComfort"
+    },
+    {
+        "id": "sennheiser-hd600",
+        "image": "/images/hardware/sennheiser-hd600.jpg",
+        "name": "Sennheiser HD 600 / 650",
+        "brand": "Sennheiser",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": ["Audiophile Standard", "Open-Back Acoustic", "Natural Vocal Timbre", "300 Ohm Dynamic"],
+        "specs": "Open dynamic acoustic design, 300 ohm impedance, detachable OFC copper cable, legendary neutral frequency response",
+        "patterns": [
+            r"\bsennheiser\s+hd\s*6[05]0\b",
+            r"\bhd\s*6[05]0\b",
+            r"\bhd600\b",
+            r"\bhd650\b"
+        ],
+        "primary_keyword": "Sennheiser HD 600"
+    },
+    {
+        "id": "shure-sm7b-mv7",
+        "image": "/images/hardware/shure-sm7b-mv7.jpg",
+        "name": "Shure SM7B / MV7",
+        "brand": "Shure",
+        "category": "audio",
+        "price_tier": "$$$",
+        "tags": ["Broadcast Benchmark", "Cardioid Dynamic", "Air Suspension Shock", "Electromagnetic Shielding"],
+        "specs": "Dynamic broadcast microphone, flat wide-range frequency response, bass rolloff and mid-range presence boost controls",
+        "patterns": [
+            r"\bshure\s+(sm7b|mv7[x]?)\b",
+            r"\bsm7b\b",
+            r"\bshure\s+sm\s*7\b",
+            r"\bmv7\s+mic\b"
+        ],
+        "primary_keyword": "Shure SM7B"
+    },
+
+    # ==========================================
+    # DESK & WORKSPACE ACCESSORIES (桌面配件/工效周边)
+    # ==========================================
+    {
+        "id": "caldigit-ts4",
+        "image": "/images/hardware/caldigit-ts4.jpg",
+        "name": "CalDigit TS4 / TS3 Plus Thunderbolt Dock",
+        "brand": "CalDigit",
+        "category": "desk",
+        "price_tier": "$$$$",
+        "tags": ["18-in-1 Ports", "Thunderbolt 4", "98W Power Delivery", "Single-Cable Setup"],
+        "specs": "18 ports of connectivity, 98W host charging, 2.5GbE Ethernet, UHS-II SD card slot, dual 6K 60Hz display support",
+        "patterns": [
+            r"\bcaldigit\s+ts[34]\b",
+            r"\bts4\s+dock\b",
+            r"\bcaldigit\s+dock\b",
+            r"\bts4\s+thunderbolt\b"
+        ],
+        "primary_keyword": "CalDigit TS4"
+    },
+    {
+        "id": "benq-screenbar",
+        "image": "/images/hardware/benq-screenbar.jpg",
+        "name": "BenQ ScreenBar / Halo Monitor Light",
+        "brand": "BenQ",
+        "category": "desk",
+        "price_tier": "$$",
+        "tags": ["Zero Screen Glare", "Asymmetrical Optics", "Auto-Dimming", "Desk Space Saver"],
+        "specs": "Patented clamp fits curved and flat displays, asymmetrical optical design, ambient light sensor, wireless desktop dial (Halo)",
+        "patterns": [
+            r"\b(benq\s+)?screenbar(\s+halo|\s+plus)?\b",
+            r"\bbenq\s+monitor\s+light\b"
+        ],
+        "primary_keyword": "BenQ ScreenBar"
+    },
+    {
+        "id": "ergotron-lx",
+        "image": "/images/hardware/ergotron-lx.jpg",
+        "name": "Ergotron LX / HX Monitor Arm",
+        "brand": "Ergotron",
+        "category": "desk",
+        "price_tier": "$$$",
+        "tags": ["Constant Force Tech", "Heavy-Duty Steel", "Smooth 360 Rotation", "10-Year Warranty"],
+        "specs": "Constant Force lift and pivot technology, polished aluminum construction, holds up to 34\" displays (42\" with HX), integrated cable routing",
+        "patterns": [
+            r"\bergotron\s+(lx|hx)\b",
+            r"\bergotron\s+arm\b",
+            r"\bergotron\s+monitor\s+arm\b"
+        ],
+        "primary_keyword": "Ergotron LX"
+    },
+    {
+        "id": "uplift-v2-fully",
+        "image": "/images/hardware/uplift-v2-fully.png",
+        "name": "Uplift V2 / Fully Jarvis Standing Desk",
+        "brand": "Uplift",
+        "category": "desk",
+        "price_tier": "$$$$",
+        "tags": ["Dual Motor", "Anti-Collision", "Solid Wood Tops", "Rock-Solid Stability"],
+        "specs": "Three-stage inverted legs, dual German motors, 355-lb lifting capacity, digital memory keypad, 15-year warranty",
+        "patterns": [
+            r"\buplift\s+v2\b",
+            r"\buplift\s+desk\b",
+            r"\bfully\s+jarvis\b",
+            r"\bjarvis\s+standing\s+desk\b"
+        ],
+        "primary_keyword": "Uplift V2 Standing Desk"
+    },
+
+    # ==========================================
+    # MINI PCS & HOMELAB (小主机/迷你服务器/单板机)
+    # ==========================================
+    {
+        "id": "apple-mac-mini",
+        "image": "/images/hardware/apple-mac-mini.png",
+        "name": "Apple Mac mini (M-Series)",
+        "brand": "Apple",
+        "category": "minipc",
+        "price_tier": "$$$",
+        "tags": ["Apple Silicon", "Whisper-Quiet", "Compact 5x5 Footprint", "Always-On Server"],
+        "specs": "M2 / M4 / M4 Pro chips, unified memory architecture, 10GbE option, thermal architecture engineered for sustained high workloads",
+        "patterns": [
+            r"\bmac\s+mini\s*(m[1-4](\s+pro)?)?\b",
+            r"\bm[1-4]\s+mac\s+mini\b",
+            r"\bapple\s+mac\s+mini\b"
+        ],
+        "primary_keyword": "Mac mini"
+    },
+    {
+        "id": "raspberry-pi-5",
+        "image": "/images/hardware/raspberry-pi-5.jpg",
+        "name": "Raspberry Pi 5 / 4",
+        "brand": "Raspberry Pi",
+        "category": "minipc",
+        "price_tier": "$",
+        "tags": ["Single Board Computer", "PCIe 2.0 Interface", "GPIO Ecosystem", "Low Power Homelab"],
+        "specs": "Broadcom BCM2712 quad-core Arm Cortex-A76 @ 2.4GHz, VideoCore VII GPU, single-lane PCIe 2.0 interface, dual 4Kp60 micro-HDMI",
+        "patterns": [
+            r"\braspberry\s+pi\s*[45]\b",
+            r"\brpi\s*[45]\b",
+            r"\braspberry\s+pi\s*5\b"
+        ],
+        "primary_keyword": "Raspberry Pi 5"
+    },
+    {
+        "id": "intel-nuc",
+        "image": "/images/hardware/intel-nuc.jpg",
+        "name": "Intel NUC Mini PC",
+        "brand": "Intel",
+        "category": "minipc",
+        "price_tier": "$$",
+        "tags": ["x86 Homelab Workhorse", "Dual NICs", "Proxmox / ESXi Ready", "Compact 4x4"],
+        "specs": "Intel Core i5/i7 mobile processors, dual DDR4/DDR5 SO-DIMM slots, dual M.2 NVMe slots, ultra-compact form factor",
+        "patterns": [
+            r"\bintel\s+nuc\b",
+            r"\bnuc\s+(mini\s+pc|box|kit|extreme|server)\b",
+            r"\bnuc\s*1[123]\b"
+        ],
+        "primary_keyword": "Intel NUC"
+    },
+    {
+        "id": "minisforum-beelink",
+        "image": "/images/hardware/minisforum-beelink.jpg",
+        "name": "Minisforum / Beelink Mini PC",
+        "brand": "Minisforum",
+        "category": "minipc",
+        "price_tier": "$$",
+        "tags": ["AMD Ryzen Zen 4", "RDNA3 Radeon 780M", "Oculink eGPU", "High Value"],
+        "specs": "AMD Ryzen 7/9 mobile APUs, dual 2.5GbE LAN, liquid metal cooling, dual PCIe 4.0 NVMe slots, compact CNC metal chassis",
+        "patterns": [
+            r"\bminisforum\b",
+            r"\bbeelink\s+(mini\s+pc|ser[5-8]|eqr6|gtr)\b",
+            r"\bum7[89]0\b"
+        ],
+        "primary_keyword": "Minisforum Mini PC"
+    },
+
+    # ==========================================
+    # NETWORKING & STORAGE (网络与存储设备)
+    # ==========================================
+    {
+        "id": "ubiquiti-unifi",
+        "image": "/images/hardware/ubiquiti-unifi.png",
+        "name": "Ubiquiti UniFi (Cloud Gateway / AP)",
+        "brand": "Ubiquiti",
+        "category": "network",
+        "price_tier": "$$$",
+        "tags": ["Enterprise SDN", "Cloud Gateway Ultra", "VLAN / IDS / IPS", "PoE WiFi 6/7"],
+        "specs": "Centralized UniFi Network Controller, hardware deep packet inspection (DPI), high-throughput PoE access points, rackmount / desktop form factors",
+        "patterns": [
+            r"\bunifi\s+(dream\s+machine|udm|router|ap|protect|switch|cloud\s+gateway)\b",
+            r"\bubiquiti\s+unifi\b",
+            r"\bunifi\s+ap\b"
+        ],
+        "primary_keyword": "Ubiquiti UniFi"
+    },
+    {
+        "id": "synology-nas",
+        "image": "/images/hardware/synology-nas.jpg",
+        "name": "Synology DiskStation (DS920+ / DS923+)",
+        "brand": "Synology",
+        "category": "network",
+        "price_tier": "$$$",
+        "tags": ["DSM Operating System", "Btrfs Snapshots", "Docker / Container Manager", "4-Bay RAID"],
+        "specs": "4-drive bays, AMD Ryzen R1600 / Intel Celeron, ECC RAM expandable to 32GB, dual M.2 NVMe cache slots, DSM automated backup suite",
+        "patterns": [
+            r"\bsynology(\s+nas)?\b",
+            r"\bdiskstation\b",
+            r"\bds92[03]\+\b",
+            r"\bds22[04]\+\b"
+        ],
+        "primary_keyword": "Synology NAS"
     }
 ]

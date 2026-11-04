@@ -1,5 +1,16 @@
 import React from 'react';
-import { LayoutGrid, Keyboard, Mouse, Monitor, Armchair, Laptop } from 'lucide-react';
+import { 
+  LayoutGrid, 
+  Keyboard, 
+  Mouse, 
+  Monitor, 
+  Armchair, 
+  Laptop, 
+  Headphones, 
+  LampDesk, 
+  Cpu, 
+  HardDrive 
+} from 'lucide-react';
 
 export default function CategoryNav({ selectedCategory, onSelectCategory, counts, selectedYear = '2026' }) {
   const categories = [
@@ -7,8 +18,12 @@ export default function CategoryNav({ selectedCategory, onSelectCategory, counts
     { id: 'keyboard', label: 'Keyboards', icon: Keyboard },
     { id: 'mouse', label: 'Mice & Trackballs', icon: Mouse },
     { id: 'monitor', label: 'Monitors', icon: Monitor },
-    { id: 'chair', label: 'Ergonomic Chairs', icon: Armchair },
+    { id: 'chair', label: 'Chairs', icon: Armchair },
     { id: 'laptop', label: 'Laptops', icon: Laptop },
+    { id: 'audio', label: 'Audio & ANC', icon: Headphones },
+    { id: 'desk', label: 'Desk Accessories', icon: LampDesk },
+    { id: 'minipc', label: 'Mini PCs & Homelab', icon: Cpu },
+    { id: 'network', label: 'Network & NAS', icon: HardDrive },
   ];
 
   const yearLabel = selectedYear === 'All' ? '2-Year Combined' : `${selectedYear} Leaderboard`;
@@ -19,7 +34,7 @@ export default function CategoryNav({ selectedCategory, onSelectCategory, counts
       <div className="flex items-center justify-between px-1 text-xs">
         <div className="flex items-center gap-2">
           <span className="font-mono uppercase font-bold text-gray-400 text-[11px] tracking-wider">
-            Categories
+            Categories ({categories.length - 1})
           </span>
           <span className="text-[11px] font-mono font-medium text-[#ff8533] bg-[#ff6600]/10 border border-[#ff6600]/25 px-2.5 py-0.5 rounded-full flex items-center gap-1.5 transition-all">
             <span className="w-1.5 h-1.5 rounded-full bg-[#ff6600] animate-pulse" />
@@ -30,8 +45,8 @@ export default function CategoryNav({ selectedCategory, onSelectCategory, counts
         </div>
       </div>
 
-      {/* Category Buttons Bar */}
-      <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none no-scrollbar">
+      {/* Category Buttons Bar - Responsive: Scrollable on mobile, Clean wrapping on tablet/desktop */}
+      <div className="flex items-center gap-2 overflow-x-auto md:flex-wrap pb-1.5 scrollbar-none no-scrollbar">
         {categories.map((cat) => {
           const Icon = cat.icon;
           const isActive = selectedCategory === cat.id;
@@ -41,19 +56,19 @@ export default function CategoryNav({ selectedCategory, onSelectCategory, counts
             <button
               key={cat.id}
               onClick={() => onSelectCategory(cat.id)}
-              className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all cursor-pointer ${
+              className={`flex items-center gap-2 px-3 py-1.5 md:px-3.5 md:py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all cursor-pointer ${
                 isActive
-                  ? 'bg-[#ff6600] text-white shadow-md shadow-[#ff6600]/25'
-                  : 'bg-[#151924] hover:bg-[#1f2537] text-gray-300 hover:text-white border border-gray-800'
+                  ? 'bg-[#ff6600] text-white shadow-md shadow-[#ff6600]/25 ring-1 ring-[#ff8533]/50'
+                  : 'bg-[#151924] hover:bg-[#1f2537] text-gray-300 hover:text-white border border-gray-800/80 hover:border-gray-700'
               }`}
             >
-              <Icon className="w-3.5 h-3.5" />
+              <Icon className="w-3.5 h-3.5 shrink-0" />
               <span>{cat.label}</span>
               {count !== undefined && count !== null && (
                 <span
                   key={`${selectedYear}-${cat.id}-${count}`}
                   className={`text-[10px] px-1.5 py-0.2 rounded-md font-mono transition-all animate-in fade-in duration-200 ${
-                    isActive ? 'bg-black/25 text-white' : 'bg-gray-800 text-gray-300 font-bold'
+                    isActive ? 'bg-black/30 text-white' : 'bg-gray-800 text-gray-300 font-bold'
                   }`}
                 >
                   {count}

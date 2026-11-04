@@ -45,7 +45,30 @@ IMAGE_SOURCES = {
     "framework-laptop-13-16": "https://static.frame.work/6ou8q6io9z68ecbjuc0se3qxxbiw",
     "thinkpad-x1-carbon": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Lenovo_ThinkPad_X1_Carbon_Ultrabook.jpg/960px-Lenovo_ThinkPad_X1_Carbon_Ultrabook.jpg",
     "thinkpad-t-series": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/ThinkPad_T14.jpg/960px-ThinkPad_T14.jpg",
-    "asus-rog-zephyrus-g14": "https://dlcdnwebimgs.asus.com/gain/1596FF79-B299-49DE-8BCF-9ABD2C884429/w800"
+    "asus-rog-zephyrus-g14": "https://dlcdnwebimgs.asus.com/gain/1596FF79-B299-49DE-8BCF-9ABD2C884429/w800",
+
+    # Audio & Headphones
+    "sony-wh1000xm": "https://m.media-amazon.com/images/I/71o8Q5XJS5L._AC_SL1500_.jpg",
+    "airpods-pro-max": "https://upload.wikimedia.org/wikipedia/commons/b/b9/AirPods_Pro_3_with_case.jpg",
+    "bose-quietcomfort": "https://m.media-amazon.com/images/I/51JbsHSktkL._AC_SL1500_.jpg",
+    "sennheiser-hd600": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Sennheiser_HD650_headphones.jpg/960px-Sennheiser_HD650_headphones.jpg",
+    "shure-sm7b-mv7": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Shure_SM7.jpg/960px-Shure_SM7.jpg",
+
+    # Desk & Workspace Accessories
+    "caldigit-ts4": "http://us.caldigit.com/cdn/shop/products/TS4_VerticalRightFrontView_WhiteBG.jpg",
+    "benq-screenbar": "https://image.benq.com/is/image/benqco/comprehensive-1-1?wid=800",
+    "ergotron-lx": "https://media.ergotron.com/reserved/parts/45-241-224-b-orig.jpg",
+    "uplift-v2-fully": "https://cdn11.bigcommerce.com/s-l85bzww3lo/images/stencil/1280w/products/890/37623/UPL960_Desk_App-2000x2000__69489.1783450612.png",
+
+    # Mini PCs & Homelab
+    "apple-mac-mini": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Mac_Mini_2020_silver.png",
+    "raspberry-pi-5": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Raspberry_Pi_4_Model_B_-_Top.jpg/960px-Raspberry_Pi_4_Model_B_-_Top.jpg",
+    "intel-nuc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Intel_NUC8.jpg/960px-Intel_NUC8.jpg",
+    "minisforum-beelink": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Minisforum_N40_Mini_PC_from_above.jpg/960px-Minisforum_N40_Mini_PC_from_above.jpg",
+
+    # Network & Storage
+    "ubiquiti-unifi": "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fd3220754-f4a9-4ecc-a0bd-64e1520ef471%2F3d57b19a-bee7-48b2-b9fa-094965aa608c.png&q=85&w=800",
+    "synology-nas": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Synology_Disk_Station_DS223J_-_NAS-Server.jpg/960px-Synology_Disk_Station_DS223J_-_NAS-Server.jpg"
 }
 
 def main():

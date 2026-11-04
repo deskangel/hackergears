@@ -41,7 +41,11 @@ def mine_algolia_threads():
         "Ask HN laptop for development",
         "Ask HN ergonomic equipment RSI",
         "Ask HN hardware recommendations",
-        "Ask HN mechanical keyboard"
+        "Ask HN mechanical keyboard",
+        "Ask HN headphones for programming focus",
+        "Ask HN standing desk recommendation",
+        "Ask HN homelab mini PC server",
+        "Ask HN best NAS home storage"
     ]
     
     threads = []
@@ -52,7 +56,7 @@ def mine_algolia_threads():
         for hit in data.get("hits", []):
             story_id = hit.get("objectID")
             title = hit.get("title", "")
-            if story_id and any(w in title.lower() for w in ["keyboard", "chair", "monitor", "mouse", "laptop", "hardware", "ergonomic", "desk"]):
+            if story_id and any(w in title.lower() for w in ["keyboard", "chair", "monitor", "mouse", "laptop", "hardware", "ergonomic", "desk", "headphone", "audio", "homelab", "server", "nas", "dock"]):
                 threads.append((story_id, title))
         time.sleep(0.2)
     

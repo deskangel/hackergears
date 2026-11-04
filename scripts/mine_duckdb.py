@@ -16,7 +16,11 @@ def get_hardware_sql_filter():
         "ultrasharp", "studio display", "oled c3", "oled c4", "ultrafine", "proart",
         "aeron", "embody", "steelcase leap", "gesture", "haworth fern", "ergonomic chair",
         "macbook pro", "framework laptop", "framework 13", "framework 16", "thinkpad x1",
-        "thinkpad t14", "zephyrus g14"
+        "thinkpad t14", "zephyrus g14",
+        "wh-1000xm", "airpods pro", "airpods max", "quietcomfort", "sennheiser hd", "sm7b",
+        "caldigit", "screenbar", "ergotron", "uplift desk", "jarvis desk",
+        "mac mini", "raspberry pi", "intel nuc", "minisforum", "beelink",
+        "unifi", "synology", "diskstation"
     ]
     clauses = [f"text ILIKE '%{term}%'" for term in terms]
     return " OR ".join(clauses)

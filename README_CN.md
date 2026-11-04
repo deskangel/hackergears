@@ -25,12 +25,16 @@ HackerGear 致力于解决这些问题：
 
 ## ✨ 核心特性 (Features)
 
-- ⌨️ **五大核心极客硬件分类**
-  - **Keyboards（机械/分体人体工学键盘）**：Kinesis Advantage 360、ZSA Moonlander、Ergodox EZ、HHKB Professional 等。
-  - **Mice & Trackballs（鼠标/人体工学轨迹球）**：Logitech MX Master 3S、Kensington SlimBlade、Elecom Deft Pro 等。
-  - **Monitors（编程显示器）**：Dell UltraSharp 40 5K2K、LG DualUp 28MQ780、Studio Display 等。
-  - **Chairs（人体工学椅）**：Herman Miller Aeron / Embody、Steelcase Gesture / Leap 等。
-  - **Laptops（主力开发笔记本）**：MacBook Pro (M-Series)、Framework Laptop 13/16、ThinkPad X1 Carbon 等。
+- ⌨️ **九大核心极客硬件分类 (40+ 款生产力装备)**
+  - **Keyboards（机械/分体人体工学键盘）**：Kinesis Advantage 360、ZSA Moonlander、Ergodox EZ、HHKB Professional、Corne、Keychron Q/V 系列等。
+  - **Mice & Trackballs（鼠标/人体工学轨迹球）**：Logitech MX Master 3S、Magic Trackpad、Kensington SlimBlade、Logitech MX Ergo、Elecom Deft Pro 等。
+  - **Monitors（编程显示器）**：Dell UltraSharp 40 5K2K、Apple Studio Display、LG DualUp、LG C3/C4 OLED、ASUS ProArt 等。
+  - **Chairs（人体工学椅）**：Herman Miller Aeron / Embody、Steelcase Gesture / Leap V2、Haworth Fern 等。
+  - **Laptops（主力开发笔记本）**：MacBook Pro (M-Series)、Framework Laptop 13/16、ThinkPad X1 Carbon、ThinkPad T14、ROG Zephyrus G14 等。
+  - **Audio & ANC（降噪耳机与音频）**：Sony WH-1000XM4/XM5、Apple AirPods Pro 2 / Max、Bose QuietComfort 45、Sennheiser HD 600/650、Shure SM7B/MV7 等。
+  - **Desk Accessories（桌面配件与工效周边）**：CalDigit TS4 雷电扩展坞、BenQ ScreenBar 屏幕挂灯、Ergotron LX 机械悬臂支架、Uplift V2 / Fully Jarvis 电动升降桌等。
+  - **Mini PCs & Homelab（小主机与迷你服务器）**：Apple Mac mini (M系列)、Raspberry Pi 5/4 单板机、Intel NUC、Minisforum/Beelink AMD 迷你主机等。
+  - **Network & NAS（网络与私有云存储）**：Ubiquiti UniFi Cloud Gateway & AP、Synology DiskStation (DS920+/DS923+) 等。
 
 - 🧠 **透明且严谨的 Hacker Score 评分算法**
   - 主公式：
