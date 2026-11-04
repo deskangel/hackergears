@@ -25,15 +25,13 @@ HackerGear 致力于解决这些问题：
 
 ## ✨ 核心特性 (Features)
 
-- ⌨️ **九大核心极客硬件分类 (40+ 款生产力装备)**
-  - **Keyboards（机械/分体人体工学键盘）**：Kinesis Advantage 360、ZSA Moonlander、Ergodox EZ、HHKB Professional、Corne、Keychron Q/V 系列等。
-  - **Mice & Trackballs（鼠标/人体工学轨迹球）**：Logitech MX Master 3S、Magic Trackpad、Kensington SlimBlade、Logitech MX Ergo、Elecom Deft Pro 等。
+- ⌨️ **七大核心极客硬件分类 (47 款精选生产力装备)**
+  - **Keyboards & Mice（键鼠与输入设备）**：Kinesis Advantage 360、ZSA Moonlander / Voyager、HHKB Pro、Corne、Keychron Q/V，以及 Logitech MX Master 3S、Magic Trackpad、Kensington SlimBlade 轨迹球等。
+  - **Computers & Laptops（开发电脑与主机）**：MacBook Pro (M-Series)、Framework 13/16、ThinkPad X1/T14，以及 Mac mini (M系列)、Raspberry Pi 5、Intel NUC、Minisforum AMD 迷你主机等。
+  - **Mobile & Tablets（手机与移动平板）**：Google Pixel 8/9 (GrapheneOS)、Apple iPhone 15/16 Pro、iPad Pro (M系列移动开发终端)、reMarkable 2 电子墨水屏等。
   - **Monitors（编程显示器）**：Dell UltraSharp 40 5K2K、Apple Studio Display、LG DualUp、LG C3/C4 OLED、ASUS ProArt 等。
-  - **Chairs（人体工学椅）**：Herman Miller Aeron / Embody、Steelcase Gesture / Leap V2、Haworth Fern 等。
-  - **Laptops（主力开发笔记本）**：MacBook Pro (M-Series)、Framework Laptop 13/16、ThinkPad X1 Carbon、ThinkPad T14、ROG Zephyrus G14 等。
-  - **Audio & ANC（降噪耳机与音频）**：Sony WH-1000XM4/XM5、Apple AirPods Pro 2 / Max、Bose QuietComfort 45、Sennheiser HD 600/650、Shure SM7B/MV7 等。
-  - **Desk Accessories（桌面配件与工效周边）**：CalDigit TS4 雷电扩展坞、BenQ ScreenBar 屏幕挂灯、Ergotron LX 机械悬臂支架、Uplift V2 / Fully Jarvis 电动升降桌等。
-  - **Mini PCs & Homelab（小主机与迷你服务器）**：Apple Mac mini (M系列)、Raspberry Pi 5/4 单板机、Intel NUC、Minisforum/Beelink AMD 迷你主机等。
+  - **Desks & Chairs（工效桌椅与办公家具）**：Herman Miller Aeron / Embody、Steelcase Leap V2 / Gesture、Haworth Fern，以及 Uplift V2 / Fully 升降桌、Ergotron LX 支架、BenQ ScreenBar 挂灯、CalDigit TS4 扩展坞等。
+  - **Audio & ANC（降噪耳机与音频）**：Sony WH-1000XM4/XM5、Apple AirPods Pro 2 / Max、Bose QuietComfort 45、Sennheiser HD 600/650、Shure SM7B/MV7 麦克风等。
   - **Network & NAS（网络与私有云存储）**：Ubiquiti UniFi Cloud Gateway & AP、Synology DiskStation (DS920+/DS923+) 等。
 
 - 🧠 **透明且严谨的 Hacker Score 评分算法**

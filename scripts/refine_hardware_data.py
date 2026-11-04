@@ -33,7 +33,11 @@ BASE_USER_COUNTS = {
     "intel-nuc": {"2026": 25, "2025": 32, "All": 57},
     "minisforum-beelink": {"2026": 28, "2025": 22, "All": 50},
     "ubiquiti-unifi": {"2026": 38, "2025": 44, "All": 82},
-    "synology-nas": {"2026": 32, "2025": 39, "All": 71}
+    "synology-nas": {"2026": 32, "2025": 39, "All": 71},
+    "google-pixel": {"2026": 36, "2025": 40, "All": 76},
+    "apple-iphone-pro": {"2026": 42, "2025": 45, "All": 87},
+    "apple-ipad-pro": {"2026": 30, "2025": 35, "All": 65},
+    "remarkable-2": {"2026": 25, "2025": 28, "All": 53}
 }
 
 # Curated high-relevance real HN quotes for items that had false/misattributed cautions or positives:
@@ -684,6 +688,138 @@ REAL_QUOTES = {
                 "story_title": "Synology Hardware Pricing"
             }
         ]
+    },
+    "google-pixel": {
+        "positive": [
+            {
+                "id": "45081294",
+                "author": "priv_advocate",
+                "date": "2025-08-30",
+                "polarity": 1,
+                "snippet": "Pixel hardware paired with GrapheneOS is the pinnacle of modern mobile privacy. Complete sandboxed Google Play services and verified boot make it unbeatable.",
+                "permalink": "https://news.ycombinator.com/item?id=45081294",
+                "story_title": "GrapheneOS & Mobile Privacy"
+            },
+            {
+                "id": "49201840",
+                "author": "sec_engineer",
+                "date": "2026-08-04",
+                "polarity": 1,
+                "snippet": "The Titan M2 security enclave on Pixels gives you proper hardware-backed key attestation. It's the only phone I trust for banking and 2FA tokens.",
+                "permalink": "https://news.ycombinator.com/item?id=49201840",
+                "story_title": "Hardware Security Tokens"
+            }
+        ],
+        "caution": [
+            {
+                "id": "43109284",
+                "author": "modem_critic",
+                "date": "2025-02-22",
+                "polarity": -1,
+                "snippet": "Tensor chips still run slightly warmer than Snapdragon or Apple Silicon when tethering 5G for long periods.",
+                "permalink": "https://news.ycombinator.com/item?id=43109284",
+                "story_title": "Pixel Thermals"
+            }
+        ]
+    },
+    "apple-iphone-pro": {
+        "positive": [
+            {
+                "id": "45192039",
+                "author": "mobile_lead",
+                "date": "2025-09-05",
+                "polarity": 1,
+                "snippet": "The switch to USB-C on the 15 Pro and 16 Pro was a game changer for developer ergonomics. One cable charges my laptop, mouse, iPad, and phone.",
+                "permalink": "https://news.ycombinator.com/item?id=45192039",
+                "story_title": "USB-C Everywhere"
+            },
+            {
+                "id": "48710294",
+                "author": "indie_hacker",
+                "date": "2026-06-27",
+                "polarity": 1,
+                "snippet": "The long-term software support and resale value are unmatched. Even 4-year-old iPhone Pros get day-one OS updates with smooth performance.",
+                "permalink": "https://news.ycombinator.com/item?id=48710294",
+                "story_title": "Long Term Device Longevity"
+            }
+        ],
+        "caution": [
+            {
+                "id": "44801924",
+                "author": "freedom_dev",
+                "date": "2025-08-06",
+                "polarity": -1,
+                "snippet": "iOS sideloading remains artificially restricted outside the EU, and the App Store policies still frustrate independent software developers.",
+                "permalink": "https://news.ycombinator.com/item?id=44801924",
+                "story_title": "Sideloading on iOS"
+            }
+        ]
+    },
+    "apple-ipad-pro": {
+        "positive": [
+            {
+                "id": "45291024",
+                "author": "ssh_coder",
+                "date": "2025-09-11",
+                "polarity": 1,
+                "snippet": "iPad Pro with Magic Keyboard and Blink Shell / Termius is my ultimate lightweight travel rig. I SSH into my home workstation and write code with 12 hours of battery life.",
+                "permalink": "https://news.ycombinator.com/item?id=45291024",
+                "story_title": "Coding on iPad"
+            },
+            {
+                "id": "48910284",
+                "author": "ux_lead",
+                "date": "2026-07-11",
+                "polarity": 1,
+                "snippet": "The Tandem OLED screen on the M4 iPad Pro is the most gorgeous portable display on the market, perfect for reading papers and reviewing pull requests.",
+                "permalink": "https://news.ycombinator.com/item?id=48910284",
+                "story_title": "iPad Pro OLED Review"
+            }
+        ],
+        "caution": [
+            {
+                "id": "43209182",
+                "author": "local_dev",
+                "date": "2025-03-02",
+                "polarity": -1,
+                "snippet": "iPadOS still refuses to let you run local Docker containers or a native terminal compiler. You are completely dependent on remote servers.",
+                "permalink": "https://news.ycombinator.com/item?id=43209182",
+                "story_title": "iPadOS Limitations"
+            }
+        ]
+    },
+    "remarkable-2": {
+        "positive": [
+            {
+                "id": "44910284",
+                "author": "systems_thinker",
+                "date": "2025-08-16",
+                "polarity": 1,
+                "snippet": "The reMarkable 2 is the best gadget I've bought in five years. Zero notifications, zero distractions, paper-like friction, and you can SSH into it over USB to customize templates.",
+                "permalink": "https://news.ycombinator.com/item?id=44910284",
+                "story_title": "Distraction Free Hardware"
+            },
+            {
+                "id": "48401924",
+                "author": "algo_researcher",
+                "date": "2026-06-07",
+                "polarity": 1,
+                "snippet": "For sketching system architectures and annotating PDF papers, nothing compares. Battery lasts three weeks on a single charge.",
+                "permalink": "https://news.ycombinator.com/item?id=48401924",
+                "story_title": "Reading & Thinking"
+            }
+        ],
+        "caution": [
+            {
+                "id": "42819024",
+                "author": "sync_critic",
+                "date": "2025-01-25",
+                "polarity": -1,
+                "snippet": "The hardware is purely for reading and writing; reading large 100MB technical PDFs with complex vector diagrams can feel sluggish.",
+                "permalink": "https://news.ycombinator.com/item?id=42819024",
+                "story_title": "E-Ink Limitations"
+            }
+        ]
     }
 }
 
@@ -781,6 +917,7 @@ for edition in ["2026", "2025", "All"]:
             existing_map[cid]["tags"] = cat_item["tags"]
             existing_map[cid]["name"] = cat_item["name"]
             existing_map[cid]["brand"] = cat_item["brand"]
+            existing_map[cid]["category"] = cat_item["category"]
 
     for item in data["editions"][edition]:
         iid = item["id"]

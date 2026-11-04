@@ -2,13 +2,11 @@ import React, { useRef } from 'react';
 import { 
   LayoutGrid, 
   Keyboard, 
-  Mouse, 
+  Laptop, 
+  Smartphone,
   Monitor, 
   Armchair, 
-  Laptop, 
   Headphones, 
-  LampDesk, 
-  Cpu, 
   HardDrive,
   ChevronLeft,
   ChevronRight
@@ -19,14 +17,12 @@ export default function CategoryNav({ selectedCategory, onSelectCategory, counts
 
   const categories = [
     { id: 'all', label: 'All Gear', icon: LayoutGrid },
-    { id: 'keyboard', label: 'Keyboards', icon: Keyboard },
-    { id: 'mouse', label: 'Mice & Trackballs', icon: Mouse },
+    { id: 'input', label: 'Keyboards & Mice', icon: Keyboard },
+    { id: 'computer', label: 'Computers & Laptops', icon: Laptop },
+    { id: 'mobile', label: 'Mobile & Tablets', icon: Smartphone },
     { id: 'monitor', label: 'Monitors', icon: Monitor },
-    { id: 'chair', label: 'Chairs', icon: Armchair },
-    { id: 'laptop', label: 'Laptops', icon: Laptop },
+    { id: 'furniture', label: 'Desks & Chairs', icon: Armchair },
     { id: 'audio', label: 'Audio & ANC', icon: Headphones },
-    { id: 'desk', label: 'Desk Accessories', icon: LampDesk },
-    { id: 'minipc', label: 'Mini PCs & Homelab', icon: Cpu },
     { id: 'network', label: 'Network & NAS', icon: HardDrive },
   ];
 

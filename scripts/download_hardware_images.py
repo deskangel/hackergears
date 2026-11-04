@@ -68,7 +68,13 @@ IMAGE_SOURCES = {
 
     # Network & Storage
     "ubiquiti-unifi": "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fd3220754-f4a9-4ecc-a0bd-64e1520ef471%2F3d57b19a-bee7-48b2-b9fa-094965aa608c.png&q=85&w=800",
-    "synology-nas": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Synology_Disk_Station_DS223J_-_NAS-Server.jpg/960px-Synology_Disk_Station_DS223J_-_NAS-Server.jpg"
+    "synology-nas": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Synology_Disk_Station_DS223J_-_NAS-Server.jpg/960px-Synology_Disk_Station_DS223J_-_NAS-Server.jpg",
+
+    # Mobile & Tablets
+    "google-pixel": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Google_Pixel_8%2C_shown_in_Shibuya_Stream_2.jpg/960px-Google_Pixel_8%2C_shown_in_Shibuya_Stream_2.jpg",
+    "apple-iphone-pro": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/IPhone_15_Pro.jpeg/960px-IPhone_15_Pro.jpeg",
+    "apple-ipad-pro": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/IPad_Pro_Mockup.png/960px-IPad_Pro_Mockup.png",
+    "remarkable-2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/ReMarkable_tablet_with_sleeve_and_pen.jpg/960px-ReMarkable_tablet_with_sleeve_and_pen.jpg"
 }
 
 def main():

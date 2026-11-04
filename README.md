@@ -24,15 +24,13 @@ HackerGear solves this by:
 
 ## ✨ Features
 
-- ⌨️ **Nine Core Geek Hardware Categories (40+ Productivity Tools)**
-  - **Keyboards**: Kinesis Advantage 360 / 2, ZSA Moonlander, ZSA Voyager, Ergodox EZ, HHKB Professional, Corne, Keychron Q/V, etc.
-  - **Mice & Trackballs**: Logitech MX Master 3S, Kensington SlimBlade / Expert, Elecom Deft Pro, Apple Magic Trackpad, Logitech MX Ergo, etc.
+- ⌨️ **Seven Core Geek Hardware Categories (47 Mined Tools)**
+  - **Keyboards & Mice**: Kinesis Advantage 360, ZSA Moonlander / Voyager, HHKB Pro, Corne, Keychron Q/V, Logitech MX Master 3S, Magic Trackpad, Kensington SlimBlade, etc.
+  - **Computers & Laptops**: MacBook Pro (M-Series), Framework 13/16, ThinkPad X1/T14, Mac mini, Raspberry Pi 5, Intel NUC, Minisforum AMD Mini PCs, etc.
+  - **Mobile & Tablets**: Google Pixel 8/9 (GrapheneOS), Apple iPhone 15/16 Pro, iPad Pro (M-Series), reMarkable 2 E-Ink Tablet, etc.
   - **Monitors**: Dell UltraSharp 40 5K2K, LG DualUp, Apple Studio Display, LG C3/C4 OLED, ASUS ProArt, etc.
-  - **Ergonomic Chairs**: Herman Miller Aeron & Embody, Steelcase Gesture & Leap V2, Haworth Fern, etc.
-  - **Laptops**: Apple MacBook Pro (M-Series), Framework Laptop 13/16, Lenovo ThinkPad X1 Carbon / T14, ROG Zephyrus G14, etc.
+  - **Desks & Chairs**: Herman Miller Aeron & Embody, Steelcase Leap V2 / Gesture, Haworth Fern, Uplift V2 / Fully Standing Desks, Ergotron LX Arm, BenQ ScreenBar, CalDigit TS4 Dock, etc.
   - **Audio & ANC**: Sony WH-1000XM4/XM5, Apple AirPods Pro 2 / Max, Bose QuietComfort 45, Sennheiser HD 600/650, Shure SM7B/MV7, etc.
-  - **Desk Accessories**: CalDigit TS4 Thunderbolt Dock, BenQ ScreenBar Halo, Ergotron LX Monitor Arm, Uplift V2 / Fully Jarvis Standing Desk, etc.
-  - **Mini PCs & Homelab**: Apple Mac mini (M-Series), Raspberry Pi 5/4, Intel NUC, Minisforum / Beelink AMD Mini PCs, etc.
   - **Network & NAS**: Ubiquiti UniFi Cloud Gateway & AP, Synology DiskStation (DS920+/DS923+), etc.
 
 - 🧠 **Transparent Ranking Algorithm (Hacker Score)**

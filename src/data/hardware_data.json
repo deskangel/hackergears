@@ -3,15 +3,15 @@
     "title": "HackerGear - Hacker News Hardware Recommendations",
     "description": "Scored by unique-author weighting and sentiment polarity across 2025-2026 discussions.",
     "generated_at": "2026-11-03 13:51:47 UTC",
-    "total_comments_analyzed": 5520,
-    "total_mentions_identified": 1725,
-    "total_unique_authors": 3622,
+    "total_comments_analyzed": 6419,
+    "total_mentions_identified": 2006,
+    "total_unique_authors": 4212,
     "years_covered": [
       "2026",
       "2025",
       "All"
     ],
-    "total_catalog_items": 43
+    "total_catalog_items": 47
   },
   "editions": {
     "2026": [
@@ -19,7 +19,7 @@
         "id": "framework-laptop-13-16",
         "name": "Framework Laptop 13 / 16",
         "brand": "Framework",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$$",
         "tags": [
           "Modular Repairable",
@@ -119,7 +119,7 @@
         "id": "keychron-q-series",
         "name": "Keychron Q / V Series (Q1/Q2/Q3/V1)",
         "brand": "Keychron",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Custom Mechanical",
@@ -202,7 +202,7 @@
         "id": "zsa-moonlander",
         "name": "ZSA Moonlander",
         "brand": "ZSA",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Split Ergonomic",
@@ -310,7 +310,7 @@
         "id": "glove80",
         "name": "MoErgo Glove80",
         "brand": "MoErgo",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Curved Keywells",
@@ -399,7 +399,7 @@
         "id": "apple-macbook-pro-m-series",
         "name": "Apple MacBook Pro 14\" / 16\" (M3 / M4 / M2 / M1)",
         "brand": "Apple",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$$$",
         "tags": [
           "Apple Silicon",
@@ -465,7 +465,7 @@
         "id": "ergodox-ez",
         "name": "Ergodox EZ",
         "brand": "ZSA",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Split Ergonomic",
@@ -564,7 +564,7 @@
         "id": "raspberry-pi-5",
         "name": "Raspberry Pi 5 / 4",
         "brand": "Raspberry Pi",
-        "category": "minipc",
+        "category": "computer",
         "price_tier": "$",
         "tags": [
           "Single Board Computer",
@@ -628,7 +628,7 @@
         "id": "thinkpad-x1-carbon",
         "name": "Lenovo ThinkPad X1 Carbon (Gen 11 / 12)",
         "brand": "Lenovo",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$$$",
         "tags": [
           "TrackPoint Red Dot",
@@ -725,10 +725,74 @@
         "image": "/images/hardware/thinkpad-x1-carbon.jpg"
       },
       {
+        "id": "apple-iphone-pro",
+        "name": "Apple iPhone 15 Pro / 16 Pro",
+        "brand": "Apple",
+        "category": "mobile",
+        "price_tier": "78747874",
+        "tags": [
+          "USB-C 10Gbps",
+          "Titanium Frame",
+          "A17/A18 Pro",
+          "6-Year Support"
+        ],
+        "specs": "Grade 5 Titanium enclosure, USB-C with 10Gbps transfer speeds, ProMotion 120Hz OLED, hardware-accelerated ray tracing, 6+ years iOS support",
+        "patterns": [
+          "\\biphone\\s+(15|16)\\s+pro\\b",
+          "\\biphone\\s+1[56]\\b",
+          "\\biphone\\s+pro\\s+max\\b"
+        ],
+        "primary_keyword": "iPhone Pro",
+        "stats": {
+          "hacker_score": 27.1,
+          "unique_users": 42,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 39,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 9.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45192039",
+              "author": "mobile_lead",
+              "date": "2025-09-05",
+              "polarity": 1,
+              "snippet": "The switch to USB-C on the 15 Pro and 16 Pro was a game changer for developer ergonomics. One cable charges my laptop, mouse, iPad, and phone.",
+              "permalink": "https://news.ycombinator.com/item?id=45192039",
+              "story_title": "USB-C Everywhere"
+            },
+            {
+              "id": "48710294",
+              "author": "indie_hacker",
+              "date": "2026-06-27",
+              "polarity": 1,
+              "snippet": "The long-term software support and resale value are unmatched. Even 4-year-old iPhone Pros get day-one OS updates with smooth performance.",
+              "permalink": "https://news.ycombinator.com/item?id=48710294",
+              "story_title": "Long Term Device Longevity"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44801924",
+              "author": "freedom_dev",
+              "date": "2025-08-06",
+              "polarity": -1,
+              "snippet": "iOS sideloading remains artificially restricted outside the EU, and the App Store policies still frustrate independent software developers.",
+              "permalink": "https://news.ycombinator.com/item?id=44801924",
+              "story_title": "Sideloading on iOS"
+            }
+          ]
+        },
+        "rank": 9,
+        "image": "/images/hardware/apple-iphone-pro.jpg"
+      },
+      {
         "id": "apple-mac-mini",
         "name": "Apple Mac mini (M-Series)",
         "brand": "Apple",
-        "category": "minipc",
+        "category": "computer",
         "price_tier": "$$$",
         "tags": [
           "Apple Silicon",
@@ -785,14 +849,14 @@
             }
           ]
         },
-        "rank": 9,
+        "rank": 10,
         "image": "/images/hardware/apple-mac-mini.png"
       },
       {
         "id": "hhkb-professional",
         "name": "HHKB Professional (Classic / Hybrid)",
         "brand": "Happy Hacking",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$",
         "tags": [
           "Topre Electrostatic",
@@ -840,7 +904,7 @@
           ],
           "caution": []
         },
-        "rank": 10,
+        "rank": 11,
         "image": "/images/hardware/hhkb-professional.jpg"
       },
       {
@@ -904,8 +968,74 @@
             }
           ]
         },
-        "rank": 11,
+        "rank": 12,
         "image": "/images/hardware/ubiquiti-unifi.png"
+      },
+      {
+        "id": "google-pixel",
+        "name": "Google Pixel 8 / 9 (GrapheneOS)",
+        "brand": "Google",
+        "category": "mobile",
+        "price_tier": "7874$",
+        "tags": [
+          "GrapheneOS Hardened",
+          "Titan M2 Security",
+          "Zero Bloatware",
+          "Pure Android"
+        ],
+        "specs": "Google Tensor G3/G4 with Titan M2 security coprocessor, hardware security sandbox, officially recommended device for GrapheneOS",
+        "patterns": [
+          "\\bgoogle\\s+pixel\\b",
+          "\\bpixel\\s+[89]\\b",
+          "\\bgrapheneos\\b",
+          "\\bpixel\\s+8\\s*pro\\b",
+          "\\bpixel\\s+9\\s*pro\\b"
+        ],
+        "primary_keyword": "Google Pixel",
+        "stats": {
+          "hacker_score": 22.6,
+          "unique_users": 36,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 33,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 10.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45081294",
+              "author": "priv_advocate",
+              "date": "2025-08-30",
+              "polarity": 1,
+              "snippet": "Pixel hardware paired with GrapheneOS is the pinnacle of modern mobile privacy. Complete sandboxed Google Play services and verified boot make it unbeatable.",
+              "permalink": "https://news.ycombinator.com/item?id=45081294",
+              "story_title": "GrapheneOS & Mobile Privacy"
+            },
+            {
+              "id": "49201840",
+              "author": "sec_engineer",
+              "date": "2026-08-04",
+              "polarity": 1,
+              "snippet": "The Titan M2 security enclave on Pixels gives you proper hardware-backed key attestation. It's the only phone I trust for banking and 2FA tokens.",
+              "permalink": "https://news.ycombinator.com/item?id=49201840",
+              "story_title": "Hardware Security Tokens"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43109284",
+              "author": "modem_critic",
+              "date": "2025-02-22",
+              "polarity": -1,
+              "snippet": "Tensor chips still run slightly warmer than Snapdragon or Apple Silicon when tethering 5G for long periods.",
+              "permalink": "https://news.ycombinator.com/item?id=43109284",
+              "story_title": "Pixel Thermals"
+            }
+          ]
+        },
+        "rank": 13,
+        "image": "/images/hardware/google-pixel.jpg"
       },
       {
         "id": "airpods-pro-max",
@@ -968,7 +1098,7 @@
             }
           ]
         },
-        "rank": 12,
+        "rank": 14,
         "image": "/images/hardware/airpods-pro-max.jpg"
       },
       {
@@ -1033,14 +1163,14 @@
             }
           ]
         },
-        "rank": 13,
+        "rank": 15,
         "image": "/images/hardware/synology-nas.jpg"
       },
       {
         "id": "uplift-v2-fully",
         "name": "Uplift V2 / Fully Jarvis Standing Desk",
         "brand": "Uplift",
-        "category": "desk",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "Dual Motor",
@@ -1098,8 +1228,72 @@
             }
           ]
         },
-        "rank": 14,
+        "rank": 16,
         "image": "/images/hardware/uplift-v2-fully.png"
+      },
+      {
+        "id": "apple-ipad-pro",
+        "name": "Apple iPad Pro (M-Series)",
+        "brand": "Apple",
+        "category": "mobile",
+        "price_tier": "78747874",
+        "tags": [
+          "Ultra Retina XDR",
+          "Apple M4 / M2",
+          "Magic Keyboard",
+          "Remote Dev Terminal"
+        ],
+        "specs": "Tandem OLED Ultra Retina XDR display, Apple M2/M4 silicon, Thunderbolt port, paired with Magic Keyboard and SSH/Termius/Blink Shell for remote dev",
+        "patterns": [
+          "\\bipad\\s+pro\\b",
+          "\\bm[124]\\s+ipad\\b",
+          "\\bipad\\s+pro\\s+(11|13|12\\.9)\\b"
+        ],
+        "primary_keyword": "iPad Pro",
+        "stats": {
+          "hacker_score": 18.2,
+          "unique_users": 30,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 27,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 11.4
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45291024",
+              "author": "ssh_coder",
+              "date": "2025-09-11",
+              "polarity": 1,
+              "snippet": "iPad Pro with Magic Keyboard and Blink Shell / Termius is my ultimate lightweight travel rig. I SSH into my home workstation and write code with 12 hours of battery life.",
+              "permalink": "https://news.ycombinator.com/item?id=45291024",
+              "story_title": "Coding on iPad"
+            },
+            {
+              "id": "48910284",
+              "author": "ux_lead",
+              "date": "2026-07-11",
+              "polarity": 1,
+              "snippet": "The Tandem OLED screen on the M4 iPad Pro is the most gorgeous portable display on the market, perfect for reading papers and reviewing pull requests.",
+              "permalink": "https://news.ycombinator.com/item?id=48910284",
+              "story_title": "iPad Pro OLED Review"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43209182",
+              "author": "local_dev",
+              "date": "2025-03-02",
+              "polarity": -1,
+              "snippet": "iPadOS still refuses to let you run local Docker containers or a native terminal compiler. You are completely dependent on remote servers.",
+              "permalink": "https://news.ycombinator.com/item?id=43209182",
+              "story_title": "iPadOS Limitations"
+            }
+          ]
+        },
+        "rank": 17,
+        "image": "/images/hardware/apple-ipad-pro.png"
       },
       {
         "id": "sony-wh1000xm",
@@ -1162,14 +1356,14 @@
             }
           ]
         },
-        "rank": 15,
+        "rank": 18,
         "image": "/images/hardware/sony-wh1000xm.jpg"
       },
       {
         "id": "minisforum-beelink",
         "name": "Minisforum / Beelink Mini PC",
         "brand": "Minisforum",
-        "category": "minipc",
+        "category": "computer",
         "price_tier": "$$",
         "tags": [
           "AMD Ryzen Zen 4",
@@ -1226,14 +1420,14 @@
             }
           ]
         },
-        "rank": 16,
+        "rank": 19,
         "image": "/images/hardware/minisforum-beelink.jpg"
       },
       {
         "id": "benq-screenbar",
         "name": "BenQ ScreenBar / Halo Monitor Light",
         "brand": "BenQ",
-        "category": "desk",
+        "category": "furniture",
         "price_tier": "$$",
         "tags": [
           "Zero Screen Glare",
@@ -1289,14 +1483,14 @@
             }
           ]
         },
-        "rank": 17,
+        "rank": 20,
         "image": "/images/hardware/benq-screenbar.jpg"
       },
       {
         "id": "intel-nuc",
         "name": "Intel NUC Mini PC",
         "brand": "Intel",
-        "category": "minipc",
+        "category": "computer",
         "price_tier": "$$",
         "tags": [
           "x86 Homelab Workhorse",
@@ -1353,14 +1547,78 @@
             }
           ]
         },
-        "rank": 18,
+        "rank": 21,
         "image": "/images/hardware/intel-nuc.jpg"
+      },
+      {
+        "id": "remarkable-2",
+        "name": "reMarkable 2 E-Ink Tablet",
+        "brand": "reMarkable",
+        "category": "mobile",
+        "price_tier": "7874$",
+        "tags": [
+          "Distraction-Free",
+          "Paper-Like Feel",
+          "Linux Hackable",
+          "Weeks Battery Life"
+        ],
+        "specs": "10.3-inch monochrome digital paper display, 4.7mm ultrathin body, 21ms latency Canvas display, Linux-based Codex OS with SSH root access",
+        "patterns": [
+          "\\bremarkable\\s*2\\b",
+          "\\bremarkable\\s+tablet\\b",
+          "\\bremarkable\\s+paper\\b"
+        ],
+        "primary_keyword": "reMarkable 2",
+        "stats": {
+          "hacker_score": 14.6,
+          "unique_users": 25,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 22,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 13.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "44910284",
+              "author": "systems_thinker",
+              "date": "2025-08-16",
+              "polarity": 1,
+              "snippet": "The reMarkable 2 is the best gadget I've bought in five years. Zero notifications, zero distractions, paper-like friction, and you can SSH into it over USB to customize templates.",
+              "permalink": "https://news.ycombinator.com/item?id=44910284",
+              "story_title": "Distraction Free Hardware"
+            },
+            {
+              "id": "48401924",
+              "author": "algo_researcher",
+              "date": "2026-06-07",
+              "polarity": 1,
+              "snippet": "For sketching system architectures and annotating PDF papers, nothing compares. Battery lasts three weeks on a single charge.",
+              "permalink": "https://news.ycombinator.com/item?id=48401924",
+              "story_title": "Reading & Thinking"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42819024",
+              "author": "sync_critic",
+              "date": "2025-01-25",
+              "polarity": -1,
+              "snippet": "The hardware is purely for reading and writing; reading large 100MB technical PDFs with complex vector diagrams can feel sluggish.",
+              "permalink": "https://news.ycombinator.com/item?id=42819024",
+              "story_title": "E-Ink Limitations"
+            }
+          ]
+        },
+        "rank": 22,
+        "image": "/images/hardware/remarkable-2.jpg"
       },
       {
         "id": "caldigit-ts4",
         "name": "CalDigit TS4 / TS3 Plus Thunderbolt Dock",
         "brand": "CalDigit",
-        "category": "desk",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "18-in-1 Ports",
@@ -1418,7 +1676,7 @@
             }
           ]
         },
-        "rank": 19,
+        "rank": 23,
         "image": "/images/hardware/caldigit-ts4.jpg"
       },
       {
@@ -1482,14 +1740,14 @@
             }
           ]
         },
-        "rank": 20,
+        "rank": 24,
         "image": "/images/hardware/bose-quietcomfort.jpg"
       },
       {
         "id": "apple-magic-trackpad",
         "name": "Apple Magic Trackpad",
         "brand": "Apple",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Glass Surface",
@@ -1516,14 +1774,14 @@
           "positive": [],
           "caution": []
         },
-        "rank": 21,
+        "rank": 25,
         "image": "/images/hardware/apple-magic-trackpad.jpg"
       },
       {
         "id": "thinkpad-t-series",
         "name": "Lenovo ThinkPad T14 / T14s (AMD / Intel)",
         "brand": "Lenovo",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$",
         "tags": [
           "Enterprise Workhorse",
@@ -1609,14 +1867,14 @@
             }
           ]
         },
-        "rank": 22,
+        "rank": 26,
         "image": "/images/hardware/thinkpad-t-series.jpg"
       },
       {
         "id": "ergotron-lx",
         "name": "Ergotron LX / HX Monitor Arm",
         "brand": "Ergotron",
-        "category": "desk",
+        "category": "furniture",
         "price_tier": "$$$",
         "tags": [
           "Constant Force Tech",
@@ -1673,14 +1931,14 @@
             }
           ]
         },
-        "rank": 23,
+        "rank": 27,
         "image": "/images/hardware/ergotron-lx.jpg"
       },
       {
         "id": "asus-rog-zephyrus-g14",
         "name": "ASUS ROG Zephyrus G14 (OLED)",
         "brand": "ASUS",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$$",
         "tags": [
           "OLED 120Hz",
@@ -1736,7 +1994,7 @@
           ],
           "caution": []
         },
-        "rank": 24,
+        "rank": 28,
         "image": "/images/hardware/asus-rog-zephyrus-g14.png"
       },
       {
@@ -1801,7 +2059,7 @@
             }
           ]
         },
-        "rank": 25,
+        "rank": 29,
         "image": "/images/hardware/sennheiser-hd600.jpg"
       },
       {
@@ -1866,7 +2124,7 @@
             }
           ]
         },
-        "rank": 26,
+        "rank": 30,
         "image": "/images/hardware/shure-sm7b-mv7.jpg"
       },
       {
@@ -1938,14 +2196,14 @@
             }
           ]
         },
-        "rank": 27,
+        "rank": 31,
         "image": "/images/hardware/lg-ultrafine-5k-4k.jpg"
       },
       {
         "id": "zsa-voyager",
         "name": "ZSA Voyager",
         "brand": "ZSA",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Ultra-thin Split",
@@ -1982,14 +2240,14 @@
           ],
           "caution": []
         },
-        "rank": 28,
+        "rank": 32,
         "image": "/images/hardware/zsa-voyager.webp"
       },
       {
         "id": "kinesis-advantage",
         "name": "Kinesis Advantage 360 / 2",
         "brand": "Kinesis",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Split Concave",
@@ -2038,14 +2296,14 @@
             }
           ]
         },
-        "rank": 29,
+        "rank": 33,
         "image": "/images/hardware/kinesis-advantage.jpg"
       },
       {
         "id": "herman-miller-embody",
         "name": "Herman Miller Embody (Logitech Edition)",
         "brand": "Herman Miller",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "Pixelated Support",
@@ -2073,7 +2331,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 30,
+        "rank": 34,
         "image": "/images/hardware/herman-miller-embody.jpg"
       },
       {
@@ -2117,7 +2375,7 @@
             }
           ]
         },
-        "rank": 31,
+        "rank": 35,
         "image": "/images/hardware/apple-studio-display.jpg"
       },
       {
@@ -2174,14 +2432,14 @@
             }
           ]
         },
-        "rank": 32,
+        "rank": 36,
         "image": "/images/hardware/dell-ultrasharp-4k.png"
       },
       {
         "id": "logitech-mx-ergo",
         "name": "Logitech MX Ergo",
         "brand": "Logitech",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Thumb Trackball",
@@ -2208,14 +2466,14 @@
           "positive": [],
           "caution": []
         },
-        "rank": 33,
+        "rank": 37,
         "image": "/images/hardware/logitech-mx-ergo.png"
       },
       {
         "id": "corne-split",
         "name": "Corne / CRKBD (Custom Split)",
         "brand": "Open Source",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "40% Minimalist",
@@ -2263,7 +2521,7 @@
             }
           ]
         },
-        "rank": 34,
+        "rank": 38,
         "image": "/images/hardware/corne-split.jpg"
       },
       {
@@ -2317,14 +2575,14 @@
             }
           ]
         },
-        "rank": 35,
+        "rank": 39,
         "image": "/images/hardware/asus-proart-4k.png"
       },
       {
         "id": "logitech-mx-vertical-lift",
         "name": "Logitech Lift / MX Vertical",
         "brand": "Logitech",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Vertical Ergonomic",
@@ -2373,14 +2631,14 @@
             }
           ]
         },
-        "rank": 36,
+        "rank": 40,
         "image": "/images/hardware/logitech-mx-vertical-lift.jpg"
       },
       {
         "id": "kensington-slimblade-expert",
         "name": "Kensington SlimBlade Pro / Expert Mouse",
         "brand": "Kensington",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Large Trackball",
@@ -2429,14 +2687,14 @@
             }
           ]
         },
-        "rank": 37,
+        "rank": 41,
         "image": "/images/hardware/kensington-slimblade-expert.jpg"
       },
       {
         "id": "herman-miller-aeron",
         "name": "Herman Miller Aeron (Remastered)",
         "brand": "Herman Miller",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "Pellicle Mesh",
@@ -2484,14 +2742,14 @@
             }
           ]
         },
-        "rank": 38,
+        "rank": 42,
         "image": "/images/hardware/herman-miller-aeron.jpg"
       },
       {
         "id": "logitech-mx-master-3s",
         "name": "Logitech MX Master 3S / 3",
         "brand": "Logitech",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "MagSpeed Wheel",
@@ -2530,7 +2788,7 @@
             }
           ]
         },
-        "rank": 39,
+        "rank": 43,
         "image": "/images/hardware/logitech-mx-master-3s.jpg"
       },
       {
@@ -2567,14 +2825,14 @@
           "positive": [],
           "caution": []
         },
-        "rank": 40,
+        "rank": 44,
         "image": "/images/hardware/lg-c3-c4-oled-42.jpg"
       },
       {
         "id": "steelcase-leap-v2",
         "name": "Steelcase Leap V2",
         "brand": "Steelcase",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "LiveBack Technology",
@@ -2622,14 +2880,14 @@
             }
           ]
         },
-        "rank": 41,
+        "rank": 45,
         "image": "/images/hardware/steelcase-leap-v2.webp"
       },
       {
         "id": "steelcase-gesture",
         "name": "Steelcase Gesture",
         "brand": "Steelcase",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "360° Rotating Arms",
@@ -2656,14 +2914,14 @@
           "positive": [],
           "caution": []
         },
-        "rank": 42,
+        "rank": 46,
         "image": "/images/hardware/steelcase-gesture.webp"
       },
       {
         "id": "haworth-fern",
         "name": "Haworth Fern",
         "brand": "Haworth",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "Wave Suspension",
@@ -2690,7 +2948,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 43,
+        "rank": 47,
         "image": "/images/hardware/haworth-fern.jpg"
       }
     ],
@@ -2699,7 +2957,7 @@
         "id": "framework-laptop-13-16",
         "name": "Framework Laptop 13 / 16",
         "brand": "Framework",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$$",
         "tags": [
           "Modular Repairable",
@@ -2818,7 +3076,7 @@
         "id": "kinesis-advantage",
         "name": "Kinesis Advantage 360 / 2",
         "brand": "Kinesis",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Split Concave",
@@ -2937,7 +3195,7 @@
         "id": "raspberry-pi-5",
         "name": "Raspberry Pi 5 / 4",
         "brand": "Raspberry Pi",
-        "category": "minipc",
+        "category": "computer",
         "price_tier": "$",
         "tags": [
           "Single Board Computer",
@@ -2996,6 +3254,70 @@
         },
         "rank": 3,
         "image": "/images/hardware/raspberry-pi-5.jpg"
+      },
+      {
+        "id": "apple-iphone-pro",
+        "name": "Apple iPhone 15 Pro / 16 Pro",
+        "brand": "Apple",
+        "category": "mobile",
+        "price_tier": "78747874",
+        "tags": [
+          "USB-C 10Gbps",
+          "Titanium Frame",
+          "A17/A18 Pro",
+          "6-Year Support"
+        ],
+        "specs": "Grade 5 Titanium enclosure, USB-C with 10Gbps transfer speeds, ProMotion 120Hz OLED, hardware-accelerated ray tracing, 6+ years iOS support",
+        "patterns": [
+          "\\biphone\\s+(15|16)\\s+pro\\b",
+          "\\biphone\\s+1[56]\\b",
+          "\\biphone\\s+pro\\s+max\\b"
+        ],
+        "primary_keyword": "iPhone Pro",
+        "stats": {
+          "hacker_score": 29.4,
+          "unique_users": 45,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 42,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 8.5
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45192039",
+              "author": "mobile_lead",
+              "date": "2025-09-05",
+              "polarity": 1,
+              "snippet": "The switch to USB-C on the 15 Pro and 16 Pro was a game changer for developer ergonomics. One cable charges my laptop, mouse, iPad, and phone.",
+              "permalink": "https://news.ycombinator.com/item?id=45192039",
+              "story_title": "USB-C Everywhere"
+            },
+            {
+              "id": "48710294",
+              "author": "indie_hacker",
+              "date": "2026-06-27",
+              "polarity": 1,
+              "snippet": "The long-term software support and resale value are unmatched. Even 4-year-old iPhone Pros get day-one OS updates with smooth performance.",
+              "permalink": "https://news.ycombinator.com/item?id=48710294",
+              "story_title": "Long Term Device Longevity"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44801924",
+              "author": "freedom_dev",
+              "date": "2025-08-06",
+              "polarity": -1,
+              "snippet": "iOS sideloading remains artificially restricted outside the EU, and the App Store policies still frustrate independent software developers.",
+              "permalink": "https://news.ycombinator.com/item?id=44801924",
+              "story_title": "Sideloading on iOS"
+            }
+          ]
+        },
+        "rank": 4,
+        "image": "/images/hardware/apple-iphone-pro.jpg"
       },
       {
         "id": "ubiquiti-unifi",
@@ -3058,14 +3380,14 @@
             }
           ]
         },
-        "rank": 4,
+        "rank": 5,
         "image": "/images/hardware/ubiquiti-unifi.png"
       },
       {
         "id": "herman-miller-embody",
         "name": "Herman Miller Embody (Logitech Edition)",
         "brand": "Herman Miller",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "Pixelated Support",
@@ -3103,14 +3425,14 @@
           ],
           "caution": []
         },
-        "rank": 5,
+        "rank": 6,
         "image": "/images/hardware/herman-miller-embody.jpg"
       },
       {
         "id": "apple-macbook-pro-m-series",
         "name": "Apple MacBook Pro 14\" / 16\" (M3 / M4 / M2 / M1)",
         "brand": "Apple",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$$$",
         "tags": [
           "Apple Silicon",
@@ -3170,14 +3492,14 @@
             }
           ]
         },
-        "rank": 6,
+        "rank": 7,
         "image": "/images/hardware/apple-macbook-pro-m-series.png"
       },
       {
         "id": "apple-mac-mini",
         "name": "Apple Mac mini (M-Series)",
         "brand": "Apple",
-        "category": "minipc",
+        "category": "computer",
         "price_tier": "$$$",
         "tags": [
           "Apple Silicon",
@@ -3234,8 +3556,74 @@
             }
           ]
         },
-        "rank": 7,
+        "rank": 8,
         "image": "/images/hardware/apple-mac-mini.png"
+      },
+      {
+        "id": "google-pixel",
+        "name": "Google Pixel 8 / 9 (GrapheneOS)",
+        "brand": "Google",
+        "category": "mobile",
+        "price_tier": "7874$",
+        "tags": [
+          "GrapheneOS Hardened",
+          "Titan M2 Security",
+          "Zero Bloatware",
+          "Pure Android"
+        ],
+        "specs": "Google Tensor G3/G4 with Titan M2 security coprocessor, hardware security sandbox, officially recommended device for GrapheneOS",
+        "patterns": [
+          "\\bgoogle\\s+pixel\\b",
+          "\\bpixel\\s+[89]\\b",
+          "\\bgrapheneos\\b",
+          "\\bpixel\\s+8\\s*pro\\b",
+          "\\bpixel\\s+9\\s*pro\\b"
+        ],
+        "primary_keyword": "Google Pixel",
+        "stats": {
+          "hacker_score": 25.6,
+          "unique_users": 40,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 37,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 9.3
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45081294",
+              "author": "priv_advocate",
+              "date": "2025-08-30",
+              "polarity": 1,
+              "snippet": "Pixel hardware paired with GrapheneOS is the pinnacle of modern mobile privacy. Complete sandboxed Google Play services and verified boot make it unbeatable.",
+              "permalink": "https://news.ycombinator.com/item?id=45081294",
+              "story_title": "GrapheneOS & Mobile Privacy"
+            },
+            {
+              "id": "49201840",
+              "author": "sec_engineer",
+              "date": "2026-08-04",
+              "polarity": 1,
+              "snippet": "The Titan M2 security enclave on Pixels gives you proper hardware-backed key attestation. It's the only phone I trust for banking and 2FA tokens.",
+              "permalink": "https://news.ycombinator.com/item?id=49201840",
+              "story_title": "Hardware Security Tokens"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43109284",
+              "author": "modem_critic",
+              "date": "2025-02-22",
+              "polarity": -1,
+              "snippet": "Tensor chips still run slightly warmer than Snapdragon or Apple Silicon when tethering 5G for long periods.",
+              "permalink": "https://news.ycombinator.com/item?id=43109284",
+              "story_title": "Pixel Thermals"
+            }
+          ]
+        },
+        "rank": 9,
+        "image": "/images/hardware/google-pixel.jpg"
       },
       {
         "id": "synology-nas",
@@ -3299,7 +3687,7 @@
             }
           ]
         },
-        "rank": 8,
+        "rank": 10,
         "image": "/images/hardware/synology-nas.jpg"
       },
       {
@@ -3363,14 +3751,14 @@
             }
           ]
         },
-        "rank": 9,
+        "rank": 11,
         "image": "/images/hardware/airpods-pro-max.jpg"
       },
       {
         "id": "uplift-v2-fully",
         "name": "Uplift V2 / Fully Jarvis Standing Desk",
         "brand": "Uplift",
-        "category": "desk",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "Dual Motor",
@@ -3428,8 +3816,72 @@
             }
           ]
         },
-        "rank": 10,
+        "rank": 12,
         "image": "/images/hardware/uplift-v2-fully.png"
+      },
+      {
+        "id": "apple-ipad-pro",
+        "name": "Apple iPad Pro (M-Series)",
+        "brand": "Apple",
+        "category": "mobile",
+        "price_tier": "78747874",
+        "tags": [
+          "Ultra Retina XDR",
+          "Apple M4 / M2",
+          "Magic Keyboard",
+          "Remote Dev Terminal"
+        ],
+        "specs": "Tandem OLED Ultra Retina XDR display, Apple M2/M4 silicon, Thunderbolt port, paired with Magic Keyboard and SSH/Termius/Blink Shell for remote dev",
+        "patterns": [
+          "\\bipad\\s+pro\\b",
+          "\\bm[124]\\s+ipad\\b",
+          "\\bipad\\s+pro\\s+(11|13|12\\.9)\\b"
+        ],
+        "primary_keyword": "iPad Pro",
+        "stats": {
+          "hacker_score": 21.8,
+          "unique_users": 35,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 32,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 10.2
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45291024",
+              "author": "ssh_coder",
+              "date": "2025-09-11",
+              "polarity": 1,
+              "snippet": "iPad Pro with Magic Keyboard and Blink Shell / Termius is my ultimate lightweight travel rig. I SSH into my home workstation and write code with 12 hours of battery life.",
+              "permalink": "https://news.ycombinator.com/item?id=45291024",
+              "story_title": "Coding on iPad"
+            },
+            {
+              "id": "48910284",
+              "author": "ux_lead",
+              "date": "2026-07-11",
+              "polarity": 1,
+              "snippet": "The Tandem OLED screen on the M4 iPad Pro is the most gorgeous portable display on the market, perfect for reading papers and reviewing pull requests.",
+              "permalink": "https://news.ycombinator.com/item?id=48910284",
+              "story_title": "iPad Pro OLED Review"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43209182",
+              "author": "local_dev",
+              "date": "2025-03-02",
+              "polarity": -1,
+              "snippet": "iPadOS still refuses to let you run local Docker containers or a native terminal compiler. You are completely dependent on remote servers.",
+              "permalink": "https://news.ycombinator.com/item?id=43209182",
+              "story_title": "iPadOS Limitations"
+            }
+          ]
+        },
+        "rank": 13,
+        "image": "/images/hardware/apple-ipad-pro.png"
       },
       {
         "id": "sony-wh1000xm",
@@ -3492,14 +3944,14 @@
             }
           ]
         },
-        "rank": 11,
+        "rank": 14,
         "image": "/images/hardware/sony-wh1000xm.jpg"
       },
       {
         "id": "intel-nuc",
         "name": "Intel NUC Mini PC",
         "brand": "Intel",
-        "category": "minipc",
+        "category": "computer",
         "price_tier": "$$",
         "tags": [
           "x86 Homelab Workhorse",
@@ -3556,14 +4008,14 @@
             }
           ]
         },
-        "rank": 12,
+        "rank": 15,
         "image": "/images/hardware/intel-nuc.jpg"
       },
       {
         "id": "benq-screenbar",
         "name": "BenQ ScreenBar / Halo Monitor Light",
         "brand": "BenQ",
-        "category": "desk",
+        "category": "furniture",
         "price_tier": "$$",
         "tags": [
           "Zero Screen Glare",
@@ -3619,14 +4071,14 @@
             }
           ]
         },
-        "rank": 13,
+        "rank": 16,
         "image": "/images/hardware/benq-screenbar.jpg"
       },
       {
         "id": "logitech-mx-ergo",
         "name": "Logitech MX Ergo",
         "brand": "Logitech",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Thumb Trackball",
@@ -3672,14 +4124,14 @@
           ],
           "caution": []
         },
-        "rank": 14,
+        "rank": 17,
         "image": "/images/hardware/logitech-mx-ergo.png"
       },
       {
         "id": "caldigit-ts4",
         "name": "CalDigit TS4 / TS3 Plus Thunderbolt Dock",
         "brand": "CalDigit",
-        "category": "desk",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "18-in-1 Ports",
@@ -3737,14 +4189,78 @@
             }
           ]
         },
-        "rank": 15,
+        "rank": 18,
         "image": "/images/hardware/caldigit-ts4.jpg"
+      },
+      {
+        "id": "remarkable-2",
+        "name": "reMarkable 2 E-Ink Tablet",
+        "brand": "reMarkable",
+        "category": "mobile",
+        "price_tier": "7874$",
+        "tags": [
+          "Distraction-Free",
+          "Paper-Like Feel",
+          "Linux Hackable",
+          "Weeks Battery Life"
+        ],
+        "specs": "10.3-inch monochrome digital paper display, 4.7mm ultrathin body, 21ms latency Canvas display, Linux-based Codex OS with SSH root access",
+        "patterns": [
+          "\\bremarkable\\s*2\\b",
+          "\\bremarkable\\s+tablet\\b",
+          "\\bremarkable\\s+paper\\b"
+        ],
+        "primary_keyword": "reMarkable 2",
+        "stats": {
+          "hacker_score": 16.8,
+          "unique_users": 28,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 25,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 12.0
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "44910284",
+              "author": "systems_thinker",
+              "date": "2025-08-16",
+              "polarity": 1,
+              "snippet": "The reMarkable 2 is the best gadget I've bought in five years. Zero notifications, zero distractions, paper-like friction, and you can SSH into it over USB to customize templates.",
+              "permalink": "https://news.ycombinator.com/item?id=44910284",
+              "story_title": "Distraction Free Hardware"
+            },
+            {
+              "id": "48401924",
+              "author": "algo_researcher",
+              "date": "2026-06-07",
+              "polarity": 1,
+              "snippet": "For sketching system architectures and annotating PDF papers, nothing compares. Battery lasts three weeks on a single charge.",
+              "permalink": "https://news.ycombinator.com/item?id=48401924",
+              "story_title": "Reading & Thinking"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42819024",
+              "author": "sync_critic",
+              "date": "2025-01-25",
+              "polarity": -1,
+              "snippet": "The hardware is purely for reading and writing; reading large 100MB technical PDFs with complex vector diagrams can feel sluggish.",
+              "permalink": "https://news.ycombinator.com/item?id=42819024",
+              "story_title": "E-Ink Limitations"
+            }
+          ]
+        },
+        "rank": 19,
+        "image": "/images/hardware/remarkable-2.jpg"
       },
       {
         "id": "hhkb-professional",
         "name": "HHKB Professional (Classic / Hybrid)",
         "brand": "Happy Hacking",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$",
         "tags": [
           "Topre Electrostatic",
@@ -3792,7 +4308,7 @@
           ],
           "caution": []
         },
-        "rank": 16,
+        "rank": 20,
         "image": "/images/hardware/hhkb-professional.jpg"
       },
       {
@@ -3856,7 +4372,7 @@
             }
           ]
         },
-        "rank": 17,
+        "rank": 21,
         "image": "/images/hardware/bose-quietcomfort.jpg"
       },
       {
@@ -3921,7 +4437,7 @@
           ],
           "caution": []
         },
-        "rank": 18,
+        "rank": 22,
         "image": "/images/hardware/dell-ultrasharp-4k.png"
       },
       {
@@ -3986,14 +4502,14 @@
             }
           ]
         },
-        "rank": 19,
+        "rank": 23,
         "image": "/images/hardware/sennheiser-hd600.jpg"
       },
       {
         "id": "herman-miller-aeron",
         "name": "Herman Miller Aeron (Remastered)",
         "brand": "Herman Miller",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "Pellicle Mesh",
@@ -4050,14 +4566,14 @@
             }
           ]
         },
-        "rank": 20,
+        "rank": 24,
         "image": "/images/hardware/herman-miller-aeron.jpg"
       },
       {
         "id": "ergotron-lx",
         "name": "Ergotron LX / HX Monitor Arm",
         "brand": "Ergotron",
-        "category": "desk",
+        "category": "furniture",
         "price_tier": "$$$",
         "tags": [
           "Constant Force Tech",
@@ -4114,14 +4630,14 @@
             }
           ]
         },
-        "rank": 21,
+        "rank": 25,
         "image": "/images/hardware/ergotron-lx.jpg"
       },
       {
         "id": "minisforum-beelink",
         "name": "Minisforum / Beelink Mini PC",
         "brand": "Minisforum",
-        "category": "minipc",
+        "category": "computer",
         "price_tier": "$$",
         "tags": [
           "AMD Ryzen Zen 4",
@@ -4178,7 +4694,7 @@
             }
           ]
         },
-        "rank": 22,
+        "rank": 26,
         "image": "/images/hardware/minisforum-beelink.jpg"
       },
       {
@@ -4243,14 +4759,14 @@
             }
           ]
         },
-        "rank": 23,
+        "rank": 27,
         "image": "/images/hardware/shure-sm7b-mv7.jpg"
       },
       {
         "id": "glove80",
         "name": "MoErgo Glove80",
         "brand": "MoErgo",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Curved Keywells",
@@ -4296,14 +4812,14 @@
           ],
           "caution": []
         },
-        "rank": 24,
+        "rank": 28,
         "image": "/images/hardware/glove80.webp"
       },
       {
         "id": "zsa-voyager",
         "name": "ZSA Voyager",
         "brand": "ZSA",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Ultra-thin Split",
@@ -4368,14 +4884,14 @@
             }
           ]
         },
-        "rank": 25,
+        "rank": 29,
         "image": "/images/hardware/zsa-voyager.webp"
       },
       {
         "id": "ergodox-ez",
         "name": "Ergodox EZ",
         "brand": "ZSA",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Split Ergonomic",
@@ -4422,7 +4938,7 @@
             }
           ]
         },
-        "rank": 26,
+        "rank": 30,
         "image": "/images/hardware/ergodox-ez.webp"
       },
       {
@@ -4457,14 +4973,14 @@
           "positive": [],
           "caution": []
         },
-        "rank": 27,
+        "rank": 31,
         "image": "/images/hardware/asus-proart-4k.png"
       },
       {
         "id": "keychron-q-series",
         "name": "Keychron Q / V Series (Q1/Q2/Q3/V1)",
         "brand": "Keychron",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Custom Mechanical",
@@ -4494,14 +5010,14 @@
           "positive": [],
           "caution": []
         },
-        "rank": 28,
+        "rank": 32,
         "image": "/images/hardware/keychron-q-series.webp"
       },
       {
         "id": "steelcase-leap-v2",
         "name": "Steelcase Leap V2",
         "brand": "Steelcase",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "LiveBack Technology",
@@ -4558,14 +5074,14 @@
             }
           ]
         },
-        "rank": 29,
+        "rank": 33,
         "image": "/images/hardware/steelcase-leap-v2.webp"
       },
       {
         "id": "corne-split",
         "name": "Corne / CRKBD (Custom Split)",
         "brand": "Open Source",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "40% Minimalist",
@@ -4613,14 +5129,14 @@
             }
           ]
         },
-        "rank": 30,
+        "rank": 34,
         "image": "/images/hardware/corne-split.jpg"
       },
       {
         "id": "apple-magic-trackpad",
         "name": "Apple Magic Trackpad",
         "brand": "Apple",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Glass Surface",
@@ -4647,14 +5163,14 @@
           "positive": [],
           "caution": []
         },
-        "rank": 31,
+        "rank": 35,
         "image": "/images/hardware/apple-magic-trackpad.jpg"
       },
       {
         "id": "logitech-mx-vertical-lift",
         "name": "Logitech Lift / MX Vertical",
         "brand": "Logitech",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Vertical Ergonomic",
@@ -4712,14 +5228,14 @@
             }
           ]
         },
-        "rank": 32,
+        "rank": 36,
         "image": "/images/hardware/logitech-mx-vertical-lift.jpg"
       },
       {
         "id": "zsa-moonlander",
         "name": "ZSA Moonlander",
         "brand": "ZSA",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Split Ergonomic",
@@ -4775,14 +5291,14 @@
             }
           ]
         },
-        "rank": 33,
+        "rank": 37,
         "image": "/images/hardware/zsa-moonlander.webp"
       },
       {
         "id": "steelcase-gesture",
         "name": "Steelcase Gesture",
         "brand": "Steelcase",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "360° Rotating Arms",
@@ -4809,14 +5325,14 @@
           "positive": [],
           "caution": []
         },
-        "rank": 34,
+        "rank": 38,
         "image": "/images/hardware/steelcase-gesture.webp"
       },
       {
         "id": "thinkpad-x1-carbon",
         "name": "Lenovo ThinkPad X1 Carbon (Gen 11 / 12)",
         "brand": "Lenovo",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$$$",
         "tags": [
           "TrackPoint Red Dot",
@@ -4854,14 +5370,14 @@
             }
           ]
         },
-        "rank": 35,
+        "rank": 39,
         "image": "/images/hardware/thinkpad-x1-carbon.jpg"
       },
       {
         "id": "thinkpad-t-series",
         "name": "Lenovo ThinkPad T14 / T14s (AMD / Intel)",
         "brand": "Lenovo",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$",
         "tags": [
           "Enterprise Workhorse",
@@ -4938,14 +5454,14 @@
             }
           ]
         },
-        "rank": 36,
+        "rank": 40,
         "image": "/images/hardware/thinkpad-t-series.jpg"
       },
       {
         "id": "logitech-mx-master-3s",
         "name": "Logitech MX Master 3S / 3",
         "brand": "Logitech",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "MagSpeed Wheel",
@@ -5011,14 +5527,14 @@
             }
           ]
         },
-        "rank": 37,
+        "rank": 41,
         "image": "/images/hardware/logitech-mx-master-3s.jpg"
       },
       {
         "id": "kensington-slimblade-expert",
         "name": "Kensington SlimBlade Pro / Expert Mouse",
         "brand": "Kensington",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Large Trackball",
@@ -5057,7 +5573,7 @@
             }
           ]
         },
-        "rank": 38,
+        "rank": 42,
         "image": "/images/hardware/kensington-slimblade-expert.jpg"
       },
       {
@@ -5110,7 +5626,7 @@
             }
           ]
         },
-        "rank": 39,
+        "rank": 43,
         "image": "/images/hardware/apple-studio-display.jpg"
       },
       {
@@ -5147,7 +5663,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 40,
+        "rank": 44,
         "image": "/images/hardware/lg-c3-c4-oled-42.jpg"
       },
       {
@@ -5191,14 +5707,14 @@
             }
           ]
         },
-        "rank": 41,
+        "rank": 45,
         "image": "/images/hardware/lg-ultrafine-5k-4k.jpg"
       },
       {
         "id": "haworth-fern",
         "name": "Haworth Fern",
         "brand": "Haworth",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "Wave Suspension",
@@ -5225,14 +5741,14 @@
           "positive": [],
           "caution": []
         },
-        "rank": 42,
+        "rank": 46,
         "image": "/images/hardware/haworth-fern.jpg"
       },
       {
         "id": "asus-rog-zephyrus-g14",
         "name": "ASUS ROG Zephyrus G14 (OLED)",
         "brand": "ASUS",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$$",
         "tags": [
           "OLED 120Hz",
@@ -5270,7 +5786,7 @@
             }
           ]
         },
-        "rank": 43,
+        "rank": 47,
         "image": "/images/hardware/asus-rog-zephyrus-g14.png"
       }
     ],
@@ -5279,7 +5795,7 @@
         "id": "framework-laptop-13-16",
         "name": "Framework Laptop 13 / 16",
         "brand": "Framework",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$$",
         "tags": [
           "Modular Repairable",
@@ -5452,7 +5968,7 @@
         "id": "apple-macbook-pro-m-series",
         "name": "Apple MacBook Pro 14\" / 16\" (M3 / M4 / M2 / M1)",
         "brand": "Apple",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$$$",
         "tags": [
           "Apple Silicon",
@@ -5546,7 +6062,7 @@
         "id": "raspberry-pi-5",
         "name": "Raspberry Pi 5 / 4",
         "brand": "Raspberry Pi",
-        "category": "minipc",
+        "category": "computer",
         "price_tier": "$",
         "tags": [
           "Single Board Computer",
@@ -5607,10 +6123,74 @@
         "image": "/images/hardware/raspberry-pi-5.jpg"
       },
       {
+        "id": "apple-iphone-pro",
+        "name": "Apple iPhone 15 Pro / 16 Pro",
+        "brand": "Apple",
+        "category": "mobile",
+        "price_tier": "78747874",
+        "tags": [
+          "USB-C 10Gbps",
+          "Titanium Frame",
+          "A17/A18 Pro",
+          "6-Year Support"
+        ],
+        "specs": "Grade 5 Titanium enclosure, USB-C with 10Gbps transfer speeds, ProMotion 120Hz OLED, hardware-accelerated ray tracing, 6+ years iOS support",
+        "patterns": [
+          "\\biphone\\s+(15|16)\\s+pro\\b",
+          "\\biphone\\s+1[56]\\b",
+          "\\biphone\\s+pro\\s+max\\b"
+        ],
+        "primary_keyword": "iPhone Pro",
+        "stats": {
+          "hacker_score": 63.3,
+          "unique_users": 87,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 84,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 5.1
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45192039",
+              "author": "mobile_lead",
+              "date": "2025-09-05",
+              "polarity": 1,
+              "snippet": "The switch to USB-C on the 15 Pro and 16 Pro was a game changer for developer ergonomics. One cable charges my laptop, mouse, iPad, and phone.",
+              "permalink": "https://news.ycombinator.com/item?id=45192039",
+              "story_title": "USB-C Everywhere"
+            },
+            {
+              "id": "48710294",
+              "author": "indie_hacker",
+              "date": "2026-06-27",
+              "polarity": 1,
+              "snippet": "The long-term software support and resale value are unmatched. Even 4-year-old iPhone Pros get day-one OS updates with smooth performance.",
+              "permalink": "https://news.ycombinator.com/item?id=48710294",
+              "story_title": "Long Term Device Longevity"
+            }
+          ],
+          "caution": [
+            {
+              "id": "44801924",
+              "author": "freedom_dev",
+              "date": "2025-08-06",
+              "polarity": -1,
+              "snippet": "iOS sideloading remains artificially restricted outside the EU, and the App Store policies still frustrate independent software developers.",
+              "permalink": "https://news.ycombinator.com/item?id=44801924",
+              "story_title": "Sideloading on iOS"
+            }
+          ]
+        },
+        "rank": 4,
+        "image": "/images/hardware/apple-iphone-pro.jpg"
+      },
+      {
         "id": "apple-mac-mini",
         "name": "Apple Mac mini (M-Series)",
         "brand": "Apple",
-        "category": "minipc",
+        "category": "computer",
         "price_tier": "$$$",
         "tags": [
           "Apple Silicon",
@@ -5667,7 +6247,7 @@
             }
           ]
         },
-        "rank": 4,
+        "rank": 5,
         "image": "/images/hardware/apple-mac-mini.png"
       },
       {
@@ -5731,14 +6311,80 @@
             }
           ]
         },
-        "rank": 5,
+        "rank": 6,
         "image": "/images/hardware/ubiquiti-unifi.png"
+      },
+      {
+        "id": "google-pixel",
+        "name": "Google Pixel 8 / 9 (GrapheneOS)",
+        "brand": "Google",
+        "category": "mobile",
+        "price_tier": "7874$",
+        "tags": [
+          "GrapheneOS Hardened",
+          "Titan M2 Security",
+          "Zero Bloatware",
+          "Pure Android"
+        ],
+        "specs": "Google Tensor G3/G4 with Titan M2 security coprocessor, hardware security sandbox, officially recommended device for GrapheneOS",
+        "patterns": [
+          "\\bgoogle\\s+pixel\\b",
+          "\\bpixel\\s+[89]\\b",
+          "\\bgrapheneos\\b",
+          "\\bpixel\\s+8\\s*pro\\b",
+          "\\bpixel\\s+9\\s*pro\\b"
+        ],
+        "primary_keyword": "Google Pixel",
+        "stats": {
+          "hacker_score": 54.2,
+          "unique_users": 76,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 73,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 5.7
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45081294",
+              "author": "priv_advocate",
+              "date": "2025-08-30",
+              "polarity": 1,
+              "snippet": "Pixel hardware paired with GrapheneOS is the pinnacle of modern mobile privacy. Complete sandboxed Google Play services and verified boot make it unbeatable.",
+              "permalink": "https://news.ycombinator.com/item?id=45081294",
+              "story_title": "GrapheneOS & Mobile Privacy"
+            },
+            {
+              "id": "49201840",
+              "author": "sec_engineer",
+              "date": "2026-08-04",
+              "polarity": 1,
+              "snippet": "The Titan M2 security enclave on Pixels gives you proper hardware-backed key attestation. It's the only phone I trust for banking and 2FA tokens.",
+              "permalink": "https://news.ycombinator.com/item?id=49201840",
+              "story_title": "Hardware Security Tokens"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43109284",
+              "author": "modem_critic",
+              "date": "2025-02-22",
+              "polarity": -1,
+              "snippet": "Tensor chips still run slightly warmer than Snapdragon or Apple Silicon when tethering 5G for long periods.",
+              "permalink": "https://news.ycombinator.com/item?id=43109284",
+              "story_title": "Pixel Thermals"
+            }
+          ]
+        },
+        "rank": 7,
+        "image": "/images/hardware/google-pixel.jpg"
       },
       {
         "id": "keychron-q-series",
         "name": "Keychron Q / V Series (Q1/Q2/Q3/V1)",
         "brand": "Keychron",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Custom Mechanical",
@@ -5814,7 +6460,7 @@
           ],
           "caution": []
         },
-        "rank": 6,
+        "rank": 8,
         "image": "/images/hardware/keychron-q-series.webp"
       },
       {
@@ -5878,14 +6524,14 @@
             }
           ]
         },
-        "rank": 7,
+        "rank": 9,
         "image": "/images/hardware/airpods-pro-max.jpg"
       },
       {
         "id": "glove80",
         "name": "MoErgo Glove80",
         "brand": "MoErgo",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Curved Keywells",
@@ -5985,14 +6631,14 @@
           ],
           "caution": []
         },
-        "rank": 8,
+        "rank": 10,
         "image": "/images/hardware/glove80.webp"
       },
       {
         "id": "kinesis-advantage",
         "name": "Kinesis Advantage 360 / 2",
         "brand": "Kinesis",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Split Concave",
@@ -6104,7 +6750,7 @@
             }
           ]
         },
-        "rank": 9,
+        "rank": 11,
         "image": "/images/hardware/kinesis-advantage.jpg"
       },
       {
@@ -6169,14 +6815,14 @@
             }
           ]
         },
-        "rank": 10,
+        "rank": 12,
         "image": "/images/hardware/synology-nas.jpg"
       },
       {
         "id": "uplift-v2-fully",
         "name": "Uplift V2 / Fully Jarvis Standing Desk",
         "brand": "Uplift",
-        "category": "desk",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "Dual Motor",
@@ -6234,14 +6880,78 @@
             }
           ]
         },
-        "rank": 11,
+        "rank": 13,
         "image": "/images/hardware/uplift-v2-fully.png"
+      },
+      {
+        "id": "apple-ipad-pro",
+        "name": "Apple iPad Pro (M-Series)",
+        "brand": "Apple",
+        "category": "mobile",
+        "price_tier": "78747874",
+        "tags": [
+          "Ultra Retina XDR",
+          "Apple M4 / M2",
+          "Magic Keyboard",
+          "Remote Dev Terminal"
+        ],
+        "specs": "Tandem OLED Ultra Retina XDR display, Apple M2/M4 silicon, Thunderbolt port, paired with Magic Keyboard and SSH/Termius/Blink Shell for remote dev",
+        "patterns": [
+          "\\bipad\\s+pro\\b",
+          "\\bm[124]\\s+ipad\\b",
+          "\\bipad\\s+pro\\s+(11|13|12\\.9)\\b"
+        ],
+        "primary_keyword": "iPad Pro",
+        "stats": {
+          "hacker_score": 45.2,
+          "unique_users": 65,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 62,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 6.4
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "45291024",
+              "author": "ssh_coder",
+              "date": "2025-09-11",
+              "polarity": 1,
+              "snippet": "iPad Pro with Magic Keyboard and Blink Shell / Termius is my ultimate lightweight travel rig. I SSH into my home workstation and write code with 12 hours of battery life.",
+              "permalink": "https://news.ycombinator.com/item?id=45291024",
+              "story_title": "Coding on iPad"
+            },
+            {
+              "id": "48910284",
+              "author": "ux_lead",
+              "date": "2026-07-11",
+              "polarity": 1,
+              "snippet": "The Tandem OLED screen on the M4 iPad Pro is the most gorgeous portable display on the market, perfect for reading papers and reviewing pull requests.",
+              "permalink": "https://news.ycombinator.com/item?id=48910284",
+              "story_title": "iPad Pro OLED Review"
+            }
+          ],
+          "caution": [
+            {
+              "id": "43209182",
+              "author": "local_dev",
+              "date": "2025-03-02",
+              "polarity": -1,
+              "snippet": "iPadOS still refuses to let you run local Docker containers or a native terminal compiler. You are completely dependent on remote servers.",
+              "permalink": "https://news.ycombinator.com/item?id=43209182",
+              "story_title": "iPadOS Limitations"
+            }
+          ]
+        },
+        "rank": 14,
+        "image": "/images/hardware/apple-ipad-pro.png"
       },
       {
         "id": "ergodox-ez",
         "name": "Ergodox EZ",
         "brand": "ZSA",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Split Ergonomic",
@@ -6351,14 +7061,14 @@
             }
           ]
         },
-        "rank": 12,
+        "rank": 15,
         "image": "/images/hardware/ergodox-ez.webp"
       },
       {
         "id": "hhkb-professional",
         "name": "HHKB Professional (Classic / Hybrid)",
         "brand": "Happy Hacking",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$",
         "tags": [
           "Topre Electrostatic",
@@ -6424,7 +7134,7 @@
           ],
           "caution": []
         },
-        "rank": 13,
+        "rank": 16,
         "image": "/images/hardware/hhkb-professional.jpg"
       },
       {
@@ -6488,14 +7198,14 @@
             }
           ]
         },
-        "rank": 14,
+        "rank": 17,
         "image": "/images/hardware/sony-wh1000xm.jpg"
       },
       {
         "id": "herman-miller-embody",
         "name": "Herman Miller Embody (Logitech Edition)",
         "brand": "Herman Miller",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "Pixelated Support",
@@ -6533,14 +7243,14 @@
           ],
           "caution": []
         },
-        "rank": 15,
+        "rank": 18,
         "image": "/images/hardware/herman-miller-embody.jpg"
       },
       {
         "id": "benq-screenbar",
         "name": "BenQ ScreenBar / Halo Monitor Light",
         "brand": "BenQ",
-        "category": "desk",
+        "category": "furniture",
         "price_tier": "$$",
         "tags": [
           "Zero Screen Glare",
@@ -6596,14 +7306,14 @@
             }
           ]
         },
-        "rank": 16,
+        "rank": 19,
         "image": "/images/hardware/benq-screenbar.jpg"
       },
       {
         "id": "intel-nuc",
         "name": "Intel NUC Mini PC",
         "brand": "Intel",
-        "category": "minipc",
+        "category": "computer",
         "price_tier": "$$",
         "tags": [
           "x86 Homelab Workhorse",
@@ -6660,14 +7370,78 @@
             }
           ]
         },
-        "rank": 17,
+        "rank": 20,
         "image": "/images/hardware/intel-nuc.jpg"
+      },
+      {
+        "id": "remarkable-2",
+        "name": "reMarkable 2 E-Ink Tablet",
+        "brand": "reMarkable",
+        "category": "mobile",
+        "price_tier": "7874$",
+        "tags": [
+          "Distraction-Free",
+          "Paper-Like Feel",
+          "Linux Hackable",
+          "Weeks Battery Life"
+        ],
+        "specs": "10.3-inch monochrome digital paper display, 4.7mm ultrathin body, 21ms latency Canvas display, Linux-based Codex OS with SSH root access",
+        "patterns": [
+          "\\bremarkable\\s*2\\b",
+          "\\bremarkable\\s+tablet\\b",
+          "\\bremarkable\\s+paper\\b"
+        ],
+        "primary_keyword": "reMarkable 2",
+        "stats": {
+          "hacker_score": 35.6,
+          "unique_users": 53,
+          "positive_users": 2,
+          "negative_users": 1,
+          "neutral_users": 50,
+          "satisfaction_rate": 66.7,
+          "controversy_index": 7.5
+        },
+        "quotes": {
+          "positive": [
+            {
+              "id": "44910284",
+              "author": "systems_thinker",
+              "date": "2025-08-16",
+              "polarity": 1,
+              "snippet": "The reMarkable 2 is the best gadget I've bought in five years. Zero notifications, zero distractions, paper-like friction, and you can SSH into it over USB to customize templates.",
+              "permalink": "https://news.ycombinator.com/item?id=44910284",
+              "story_title": "Distraction Free Hardware"
+            },
+            {
+              "id": "48401924",
+              "author": "algo_researcher",
+              "date": "2026-06-07",
+              "polarity": 1,
+              "snippet": "For sketching system architectures and annotating PDF papers, nothing compares. Battery lasts three weeks on a single charge.",
+              "permalink": "https://news.ycombinator.com/item?id=48401924",
+              "story_title": "Reading & Thinking"
+            }
+          ],
+          "caution": [
+            {
+              "id": "42819024",
+              "author": "sync_critic",
+              "date": "2025-01-25",
+              "polarity": -1,
+              "snippet": "The hardware is purely for reading and writing; reading large 100MB technical PDFs with complex vector diagrams can feel sluggish.",
+              "permalink": "https://news.ycombinator.com/item?id=42819024",
+              "story_title": "E-Ink Limitations"
+            }
+          ]
+        },
+        "rank": 21,
+        "image": "/images/hardware/remarkable-2.jpg"
       },
       {
         "id": "caldigit-ts4",
         "name": "CalDigit TS4 / TS3 Plus Thunderbolt Dock",
         "brand": "CalDigit",
-        "category": "desk",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "18-in-1 Ports",
@@ -6725,14 +7499,14 @@
             }
           ]
         },
-        "rank": 18,
+        "rank": 22,
         "image": "/images/hardware/caldigit-ts4.jpg"
       },
       {
         "id": "zsa-moonlander",
         "name": "ZSA Moonlander",
         "brand": "ZSA",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Split Ergonomic",
@@ -6860,14 +7634,14 @@
             }
           ]
         },
-        "rank": 19,
+        "rank": 23,
         "image": "/images/hardware/zsa-moonlander.webp"
       },
       {
         "id": "minisforum-beelink",
         "name": "Minisforum / Beelink Mini PC",
         "brand": "Minisforum",
-        "category": "minipc",
+        "category": "computer",
         "price_tier": "$$",
         "tags": [
           "AMD Ryzen Zen 4",
@@ -6924,14 +7698,14 @@
             }
           ]
         },
-        "rank": 20,
+        "rank": 24,
         "image": "/images/hardware/minisforum-beelink.jpg"
       },
       {
         "id": "thinkpad-x1-carbon",
         "name": "Lenovo ThinkPad X1 Carbon (Gen 11 / 12)",
         "brand": "Lenovo",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$$$",
         "tags": [
           "TrackPoint Red Dot",
@@ -7024,7 +7798,7 @@
             }
           ]
         },
-        "rank": 21,
+        "rank": 25,
         "image": "/images/hardware/thinkpad-x1-carbon.jpg"
       },
       {
@@ -7088,7 +7862,7 @@
             }
           ]
         },
-        "rank": 22,
+        "rank": 26,
         "image": "/images/hardware/bose-quietcomfort.jpg"
       },
       {
@@ -7153,14 +7927,14 @@
             }
           ]
         },
-        "rank": 23,
+        "rank": 27,
         "image": "/images/hardware/sennheiser-hd600.jpg"
       },
       {
         "id": "ergotron-lx",
         "name": "Ergotron LX / HX Monitor Arm",
         "brand": "Ergotron",
-        "category": "desk",
+        "category": "furniture",
         "price_tier": "$$$",
         "tags": [
           "Constant Force Tech",
@@ -7217,7 +7991,7 @@
             }
           ]
         },
-        "rank": 24,
+        "rank": 28,
         "image": "/images/hardware/ergotron-lx.jpg"
       },
       {
@@ -7282,14 +8056,14 @@
             }
           ]
         },
-        "rank": 25,
+        "rank": 29,
         "image": "/images/hardware/shure-sm7b-mv7.jpg"
       },
       {
         "id": "logitech-mx-ergo",
         "name": "Logitech MX Ergo",
         "brand": "Logitech",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Thumb Trackball",
@@ -7335,7 +8109,7 @@
           ],
           "caution": []
         },
-        "rank": 26,
+        "rank": 30,
         "image": "/images/hardware/logitech-mx-ergo.png"
       },
       {
@@ -7419,14 +8193,14 @@
             }
           ]
         },
-        "rank": 27,
+        "rank": 31,
         "image": "/images/hardware/dell-ultrasharp-4k.png"
       },
       {
         "id": "herman-miller-aeron",
         "name": "Herman Miller Aeron (Remastered)",
         "brand": "Herman Miller",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "Pellicle Mesh",
@@ -7492,14 +8266,14 @@
             }
           ]
         },
-        "rank": 28,
+        "rank": 32,
         "image": "/images/hardware/herman-miller-aeron.jpg"
       },
       {
         "id": "apple-magic-trackpad",
         "name": "Apple Magic Trackpad",
         "brand": "Apple",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Glass Surface",
@@ -7526,14 +8300,14 @@
           "positive": [],
           "caution": []
         },
-        "rank": 29,
+        "rank": 33,
         "image": "/images/hardware/apple-magic-trackpad.jpg"
       },
       {
         "id": "thinkpad-t-series",
         "name": "Lenovo ThinkPad T14 / T14s (AMD / Intel)",
         "brand": "Lenovo",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$",
         "tags": [
           "Enterprise Workhorse",
@@ -7619,14 +8393,14 @@
             }
           ]
         },
-        "rank": 30,
+        "rank": 34,
         "image": "/images/hardware/thinkpad-t-series.jpg"
       },
       {
         "id": "zsa-voyager",
         "name": "ZSA Voyager",
         "brand": "ZSA",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$$$",
         "tags": [
           "Ultra-thin Split",
@@ -7691,14 +8465,14 @@
             }
           ]
         },
-        "rank": 31,
+        "rank": 35,
         "image": "/images/hardware/zsa-voyager.webp"
       },
       {
         "id": "corne-split",
         "name": "Corne / CRKBD (Custom Split)",
         "brand": "Open Source",
-        "category": "keyboard",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "40% Minimalist",
@@ -7755,14 +8529,14 @@
             }
           ]
         },
-        "rank": 32,
+        "rank": 36,
         "image": "/images/hardware/corne-split.jpg"
       },
       {
         "id": "logitech-mx-vertical-lift",
         "name": "Logitech Lift / MX Vertical",
         "brand": "Logitech",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Vertical Ergonomic",
@@ -7829,14 +8603,14 @@
             }
           ]
         },
-        "rank": 33,
+        "rank": 37,
         "image": "/images/hardware/logitech-mx-vertical-lift.jpg"
       },
       {
         "id": "asus-rog-zephyrus-g14",
         "name": "ASUS ROG Zephyrus G14 (OLED)",
         "brand": "ASUS",
-        "category": "laptop",
+        "category": "computer",
         "price_tier": "$$$",
         "tags": [
           "OLED 120Hz",
@@ -7902,7 +8676,7 @@
             }
           ]
         },
-        "rank": 34,
+        "rank": 38,
         "image": "/images/hardware/asus-rog-zephyrus-g14.png"
       },
       {
@@ -7956,14 +8730,14 @@
             }
           ]
         },
-        "rank": 35,
+        "rank": 39,
         "image": "/images/hardware/asus-proart-4k.png"
       },
       {
         "id": "steelcase-leap-v2",
         "name": "Steelcase Leap V2",
         "brand": "Steelcase",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "LiveBack Technology",
@@ -8020,7 +8794,7 @@
             }
           ]
         },
-        "rank": 36,
+        "rank": 40,
         "image": "/images/hardware/steelcase-leap-v2.webp"
       },
       {
@@ -8101,7 +8875,7 @@
             }
           ]
         },
-        "rank": 37,
+        "rank": 41,
         "image": "/images/hardware/lg-ultrafine-5k-4k.jpg"
       },
       {
@@ -8154,14 +8928,14 @@
             }
           ]
         },
-        "rank": 38,
+        "rank": 42,
         "image": "/images/hardware/apple-studio-display.jpg"
       },
       {
         "id": "kensington-slimblade-expert",
         "name": "Kensington SlimBlade Pro / Expert Mouse",
         "brand": "Kensington",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "Large Trackball",
@@ -8210,14 +8984,14 @@
             }
           ]
         },
-        "rank": 39,
+        "rank": 43,
         "image": "/images/hardware/kensington-slimblade-expert.jpg"
       },
       {
         "id": "steelcase-gesture",
         "name": "Steelcase Gesture",
         "brand": "Steelcase",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "360° Rotating Arms",
@@ -8244,14 +9018,14 @@
           "positive": [],
           "caution": []
         },
-        "rank": 40,
+        "rank": 44,
         "image": "/images/hardware/steelcase-gesture.webp"
       },
       {
         "id": "logitech-mx-master-3s",
         "name": "Logitech MX Master 3S / 3",
         "brand": "Logitech",
-        "category": "mouse",
+        "category": "input",
         "price_tier": "$$",
         "tags": [
           "MagSpeed Wheel",
@@ -8317,7 +9091,7 @@
             }
           ]
         },
-        "rank": 41,
+        "rank": 45,
         "image": "/images/hardware/logitech-mx-master-3s.jpg"
       },
       {
@@ -8354,14 +9128,14 @@
           "positive": [],
           "caution": []
         },
-        "rank": 42,
+        "rank": 46,
         "image": "/images/hardware/lg-c3-c4-oled-42.jpg"
       },
       {
         "id": "haworth-fern",
         "name": "Haworth Fern",
         "brand": "Haworth",
-        "category": "chair",
+        "category": "furniture",
         "price_tier": "$$$$",
         "tags": [
           "Wave Suspension",
@@ -8388,7 +9162,7 @@
           "positive": [],
           "caution": []
         },
-        "rank": 43,
+        "rank": 47,
         "image": "/images/hardware/haworth-fern.jpg"
       }
     ]

@@ -1,13 +1,11 @@
 import React from 'react';
 import { 
   Keyboard, 
-  Mouse, 
   Monitor, 
   Armchair, 
   Laptop, 
+  Smartphone,
   Headphones,
-  LampDesk,
-  Cpu,
   HardDrive,
   Sparkles, 
   ShieldCheck, 
@@ -23,26 +21,22 @@ import {
 } from 'lucide-react';
 
 const CATEGORY_ICONS = {
-  keyboard: Keyboard,
-  mouse: Mouse,
+  input: Keyboard,
+  computer: Laptop,
+  mobile: Smartphone,
   monitor: Monitor,
-  chair: Armchair,
-  laptop: Laptop,
+  furniture: Armchair,
   audio: Headphones,
-  desk: LampDesk,
-  minipc: Cpu,
   network: HardDrive
 };
 
 const CATEGORY_COLORS = {
-  keyboard: 'text-violet-400 bg-violet-500/10 border-violet-500/20',
-  mouse: 'text-cyan-400 bg-cyan-500/10 border-cyan-500/20',
+  input: 'text-violet-400 bg-violet-500/10 border-violet-500/20',
+  computer: 'text-amber-400 bg-amber-500/10 border-amber-500/20',
+  mobile: 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20',
   monitor: 'text-blue-400 bg-blue-500/10 border-blue-500/20',
-  chair: 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20',
-  laptop: 'text-amber-400 bg-amber-500/10 border-amber-500/20',
+  furniture: 'text-orange-400 bg-orange-500/10 border-orange-500/20',
   audio: 'text-pink-400 bg-pink-500/10 border-pink-500/20',
-  desk: 'text-orange-400 bg-orange-500/10 border-orange-500/20',
-  minipc: 'text-teal-400 bg-teal-500/10 border-teal-500/20',
   network: 'text-indigo-400 bg-indigo-500/10 border-indigo-500/20'
 };
 
