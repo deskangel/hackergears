@@ -9,7 +9,8 @@ export default function YearSelector({ selectedYear, onSelectYear }) {
       subtitle: 'Latest discussions & trending hardware',
       icon: Flame,
       badge: 'Trending Now',
-      badgeColor: 'bg-rose-500/10 text-rose-400 border-rose-500/20'
+      badgeColor: 'bg-rose-500/10 text-rose-400 border-rose-500/20',
+      itemCount: '24 Ranked'
     },
     {
       id: '2025',
@@ -17,7 +18,8 @@ export default function YearSelector({ selectedYear, onSelectYear }) {
       subtitle: 'Full year verified developer favorites',
       icon: Trophy,
       badge: 'Annual Benchmark',
-      badgeColor: 'bg-amber-500/10 text-amber-400 border-amber-500/20'
+      badgeColor: 'bg-amber-500/10 text-amber-400 border-amber-500/20',
+      itemCount: '26 Ranked'
     },
     {
       id: 'All',
@@ -25,7 +27,8 @@ export default function YearSelector({ selectedYear, onSelectYear }) {
       subtitle: 'Aggregated unique author rankings',
       icon: Layers,
       badge: '2025 - 2026',
-      badgeColor: 'bg-sky-500/10 text-sky-400 border-sky-500/20'
+      badgeColor: 'bg-sky-500/10 text-sky-400 border-sky-500/20',
+      itemCount: '26 Ranked'
     }
   ];
 
@@ -64,9 +67,16 @@ export default function YearSelector({ selectedYear, onSelectYear }) {
                     {opt.label}
                   </span>
                 </div>
-                <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full border ${opt.badgeColor}`}>
-                  {opt.badge}
-                </span>
+                <div className="flex items-center gap-1.5">
+                  <span className={`text-[10px] font-mono px-1.5 py-0.5 rounded font-bold ${
+                    isActive ? 'bg-[#ff6600]/20 text-[#ff8533] border border-[#ff6600]/30' : 'bg-gray-800/80 text-gray-400'
+                  }`}>
+                    {opt.itemCount}
+                  </span>
+                  <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full border ${opt.badgeColor}`}>
+                    {opt.badge}
+                  </span>
+                </div>
               </div>
               <p className="text-xs text-gray-400">
                 {opt.subtitle}

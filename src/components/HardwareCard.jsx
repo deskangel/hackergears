@@ -12,7 +12,10 @@ import {
   ExternalLink, 
   ChevronRight,
   ThumbsUp,
-  ThumbsDown
+  ThumbsDown,
+  ArrowUp,
+  ArrowDown,
+  Minus
 } from 'lucide-react';
 
 const CATEGORY_ICONS = {
@@ -31,7 +34,13 @@ const CATEGORY_COLORS = {
   laptop: 'text-amber-400 bg-amber-500/10 border-amber-500/20'
 };
 
-export default function HardwareCard({ item, rank, onSelect }) {
+export default function HardwareCard({ 
+  item, 
+  rank, 
+  selectedYear = '2026',
+  rankTrend,
+  onSelect 
+}) {
   const [imgError, setImgError] = React.useState(false);
   const Icon = CATEGORY_ICONS[item.category] || Sparkles;
   const colorClass = CATEGORY_COLORS[item.category] || 'text-gray-400 bg-gray-500/10 border-gray-500/20';
@@ -55,12 +64,12 @@ export default function HardwareCard({ item, rank, onSelect }) {
   return (
     <div 
       onClick={() => onSelect(item)}
-      className="group relative bg-[#131722] hover:bg-[#181d2c] border border-gray-800/90 hover:border-gray-700/80 rounded-2xl p-5 transition-all duration-200 flex flex-col justify-between shadow-lg hover:shadow-2xl hover:shadow-[#ff6600]/5 cursor-pointer"
+      className="group relative bg-[#131722] hover:bg-[#181d2c] border border-gray-800/90 hover:border-gray-700/80 rounded-2xl p-5 transition-all duration-200 flex flex-col justify-between shadow-lg hover:shadow-2xl hover:shadow-[#ff6600]/5 cursor-pointer animate-in fade-in duration-200"
     >
       {/* Top Bar: Rank & Category & Price */}
       <div>
         <div className="flex items-center justify-between gap-2 mb-3">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 flex-wrap">
             <span className={`w-7 h-7 rounded-lg flex items-center justify-center font-mono font-bold text-xs ${
               rank === 1 ? 'bg-amber-400/20 text-amber-300 ring-1 ring-amber-400/40' :
               rank === 2 ? 'bg-slate-300/20 text-slate-200 ring-1 ring-slate-300/40' :
@@ -69,6 +78,38 @@ export default function HardwareCard({ item, rank, onSelect }) {
             }`}>
               #{rank}
             </span>
+
+            {/* Rank Movement Trend Badge */}
+            {rankTrend && (
+              <>
+                {rankTrend.type === 'up' && (
+                  <span 
+                    className="flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[10px] font-mono font-bold text-emerald-400 bg-emerald-500/10 border border-emerald-500/25"
+                    title={`Up ${rankTrend.diff} spots vs 2025 (#${rankTrend.prevRank})`}
+                  >
+                    <ArrowUp className="w-2.5 h-2.5" />+{rankTrend.diff}
+                  </span>
+                )}
+                {rankTrend.type === 'down' && (
+                  <span 
+                    className="flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[10px] font-mono font-bold text-rose-400 bg-rose-500/10 border border-rose-500/25"
+                    title={`Down ${Math.abs(rankTrend.diff)} spots vs 2025 (#${rankTrend.prevRank})`}
+                  >
+                    <ArrowDown className="w-2.5 h-2.5" />{rankTrend.diff}
+                  </span>
+                )}
+                {rankTrend.type === 'same' && rank === 1 && (
+                  <span className="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold text-amber-400 bg-amber-500/10 border border-amber-500/25">
+                    ★ #1 Leader
+                  </span>
+                )}
+                {rankTrend.type === 'new' && (
+                  <span className="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold text-cyan-400 bg-cyan-500/10 border border-cyan-500/25">
+                    NEW
+                  </span>
+                )}
+              </>
+            )}
 
             <span className={`flex items-center gap-1.2 px-2.5 py-0.5 rounded-full text-[11px] font-medium border ${colorClass}`}>
               <Icon className="w-3 h-3" />
@@ -116,8 +157,8 @@ export default function HardwareCard({ item, rank, onSelect }) {
         <div className="bg-[#0b0e16] border border-gray-800/80 rounded-xl p-3 mb-4">
           <div className="flex items-center justify-between mb-2">
             <div>
-              <div className="text-[10px] font-mono uppercase text-gray-500">
-                Hacker Score
+              <div className="text-[10px] font-mono uppercase text-gray-400">
+                {selectedYear === 'All' ? 'Combined Score' : `${selectedYear} Score`}
               </div>
               <div className="flex items-baseline gap-1.5">
                 <span className="text-xl font-extrabold text-[#ff6600] font-mono">
@@ -128,7 +169,7 @@ export default function HardwareCard({ item, rank, onSelect }) {
             </div>
 
             <div className="text-right">
-              <div className="text-[10px] font-mono uppercase text-gray-500">
+              <div className="text-[10px] font-mono uppercase text-gray-400">
                 Satisfaction
               </div>
               <div className="flex items-center gap-1 justify-end font-mono">
@@ -201,7 +242,7 @@ export default function HardwareCard({ item, rank, onSelect }) {
 
         {/* Footer Action */}
         <div className="pt-2 border-t border-gray-800/60 flex items-center justify-between text-xs font-medium text-gray-400 group-hover:text-white transition-colors">
-          <span>Inspect {totalUsers} HN reviews</span>
+          <span>Inspect {totalUsers} HN {selectedYear === 'All' ? '' : `${selectedYear} `}reviews</span>
           <ChevronRight className="w-4 h-4 text-gray-500 group-hover:text-[#ff6600] group-hover:translate-x-0.5 transition-all" />
         </div>
       </div>

@@ -6,7 +6,11 @@ export default function FilterBar({
   onSearchChange,
   sortOrder,
   onSortChange,
-  totalResults
+  totalResults,
+  selectedYear = '2026',
+  hideZeroMentions = true,
+  onToggleHideZeroMentions,
+  zeroMentionCount = 0
 }) {
   const sortOptions = [
     { id: 'hacker_score', label: 'Hacker Score', desc: 'Weighted Net Sentiment', icon: Sparkles },
@@ -68,9 +72,27 @@ export default function FilterBar({
           })}
         </div>
 
-        {/* Results Counter */}
-        <div className="text-[11px] font-mono text-gray-500 bg-gray-900/40 px-2 py-1 rounded border border-gray-800/60">
-          <span className="text-gray-300 font-semibold">{totalResults}</span> items
+        {/* Results Counter & Year Filter */}
+        <div className="flex items-center gap-1.5">
+          <div className="text-[11px] font-mono text-gray-400 bg-gray-900/60 px-2.5 py-1 rounded-md border border-gray-800 flex items-center gap-1.5">
+            <span className="text-[#ff6600] font-bold">{totalResults}</span>
+            <span>items in</span>
+            <span className="font-semibold text-gray-200">{selectedYear === 'All' ? 'Combined' : selectedYear}</span>
+          </div>
+
+          {zeroMentionCount > 0 && onToggleHideZeroMentions && (
+            <button
+              onClick={onToggleHideZeroMentions}
+              className={`text-[10px] font-mono px-2 py-1 rounded-md border transition-all cursor-pointer ${
+                hideZeroMentions 
+                  ? 'bg-gray-800/80 text-gray-400 border-gray-700/60 hover:text-white hover:border-gray-600' 
+                  : 'bg-[#ff6600]/15 text-[#ff8533] border-[#ff6600]/40 shadow-sm'
+              }`}
+              title="Toggle hardware with 0 mentions in this edition"
+            >
+              {hideZeroMentions ? `+${zeroMentionCount} unranked hidden` : 'Showing all items'}
+            </button>
+          )}
         </div>
 
       </div>

@@ -15,13 +15,79 @@ export default function App() {
   const [sortOrder, setSortOrder] = useState('hacker_score');
   const [selectedItem, setSelectedItem] = useState(null);
   const [isExplainerOpen, setIsExplainerOpen] = useState(false);
+  const [hideZeroMentions, setHideZeroMentions] = useState(true);
 
-  // Current year items
-  const currentEditionItems = useMemo(() => {
+  // Raw edition items
+  const allEditionItems = useMemo(() => {
     return rawData.editions?.[selectedYear] || [];
   }, [selectedYear]);
 
-  // Compute category counts
+  // Count of items with zero mentions in this edition
+  const zeroMentionCount = useMemo(() => {
+    return allEditionItems.filter((item) => (item.stats?.unique_users || 0) === 0).length;
+  }, [allEditionItems]);
+
+  // Current filtered edition items (excluding 0-mention items by default for clean rankings)
+  const currentEditionItems = useMemo(() => {
+    if (hideZeroMentions) {
+      return allEditionItems.filter((item) => (item.stats?.unique_users || 0) > 0);
+    }
+    return allEditionItems;
+  }, [allEditionItems, hideZeroMentions]);
+
+  // Rank Trend comparison between 2026 and 2025
+  const rankTrends = useMemo(() => {
+    const trends = {};
+    const items2025 = (rawData.editions?.['2025'] || []).filter(
+      (it) => (it.stats?.unique_users || 0) > 0
+    );
+    const map2025 = {};
+    items2025.forEach((it, idx) => {
+      map2025[it.id] = idx + 1;
+    });
+
+    const items2026 = (rawData.editions?.['2026'] || []).filter(
+      (it) => (it.stats?.unique_users || 0) > 0
+    );
+    const map2026 = {};
+    items2026.forEach((it, idx) => {
+      map2026[it.id] = idx + 1;
+    });
+
+    if (selectedYear === '2026') {
+      currentEditionItems.forEach((it, idx) => {
+        const curRank = idx + 1;
+        const prevRank = map2025[it.id];
+        if (prevRank !== undefined) {
+          const diff = prevRank - curRank;
+          trends[it.id] = {
+            diff,
+            prevRank,
+            type: diff > 0 ? 'up' : diff < 0 ? 'down' : 'same'
+          };
+        } else {
+          trends[it.id] = { diff: 0, type: 'new' };
+        }
+      });
+    } else if (selectedYear === '2025') {
+      currentEditionItems.forEach((it, idx) => {
+        const curRank = idx + 1;
+        const nextRank = map2026[it.id];
+        if (nextRank !== undefined) {
+          const diff = curRank - nextRank;
+          trends[it.id] = {
+            diff,
+            nextRank,
+            type: diff > 0 ? 'up' : diff < 0 ? 'down' : 'same'
+          };
+        }
+      });
+    }
+
+    return trends;
+  }, [selectedYear, currentEditionItems]);
+
+  // Compute category counts based on current active edition
   const categoryCounts = useMemo(() => {
     const counts = { all: currentEditionItems.length };
     currentEditionItems.forEach((item) => {
@@ -101,6 +167,7 @@ export default function App() {
             selectedCategory={selectedCategory}
             onSelectCategory={setSelectedCategory}
             counts={categoryCounts}
+            selectedYear={selectedYear}
           />
         </div>
 
@@ -111,6 +178,10 @@ export default function App() {
           sortOrder={sortOrder}
           onSortChange={setSortOrder}
           totalResults={filteredAndSortedItems.length}
+          selectedYear={selectedYear}
+          hideZeroMentions={hideZeroMentions}
+          onToggleHideZeroMentions={() => setHideZeroMentions((prev) => !prev)}
+          zeroMentionCount={zeroMentionCount}
         />
 
         {/* Hardware Items Grid */}
@@ -118,9 +189,11 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {filteredAndSortedItems.map((item, index) => (
               <HardwareCard
-                key={item.id}
+                key={`${selectedYear}-${item.id}`}
                 item={item}
                 rank={index + 1}
+                selectedYear={selectedYear}
+                rankTrend={rankTrends[item.id]}
                 onSelect={(it) => setSelectedItem(it)}
               />
             ))}
