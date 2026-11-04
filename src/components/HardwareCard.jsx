@@ -193,6 +193,9 @@ export default function HardwareCard({
               <span className="flex items-center gap-1 text-emerald-400">
                 <ThumbsUp className="w-2.5 h-2.5" /> {posUsers} endorsed
               </span>
+              <span className={`flex items-center gap-1 ${neuUsers > 0 ? 'text-gray-300' : 'text-gray-500'}`}>
+                <Minus className="w-2.5 h-2.5 text-gray-500" /> {neuUsers} neutral
+              </span>
               {negUsers > 0 ? (
                 <span className="flex items-center gap-1 text-rose-400">
                   <ThumbsDown className="w-2.5 h-2.5" /> {negUsers} cautions
