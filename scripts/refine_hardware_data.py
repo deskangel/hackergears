@@ -824,6 +824,321 @@ REAL_QUOTES = {
 }
 
 # Negative quote IDs to remove from each item across editions because they are misattributed:
+ADDITIONAL_2026_QUOTES = {
+    'kinesis-advantage': {
+        'caution': [{
+            'id': '49404951',
+            'author': 'bramhaag',
+            'date': '2026-08-22',
+            'polarity': -1,
+            'snippet': 'Kinesis Advantage with brown switches: some of the switches started double inputting, and keys occasionally don\'t register cleanly without firmware re-flashing.',
+            'permalink': 'https://news.ycombinator.com/item?id=49404951',
+            'story_title': 'Keyboards'
+        }],
+        'positive': [{
+            'id': '49402799',
+            'author': 'guax',
+            'date': '2026-08-22',
+            'polarity': 1,
+            'snippet': 'Kinesis Advantage360 Pro (ZMK) did help me immensely with wrist pain and RSI. The split concave design is end-game ergonomics once you get used to it.',
+            'permalink': 'https://news.ycombinator.com/item?id=49402799',
+            'story_title': 'Ergonomics'
+        }]
+    },
+    'herman-miller-aeron': {
+        'caution': [{
+            'id': '50265842',
+            'author': 'digitaltrees',
+            'date': '2026-10-27',
+            'polarity': -1,
+            'snippet': 'The Pellicle mesh retains zero body heat, which is amazing in hot summers but will make your lower back and thighs freeze in winter unless you wear warm layers.',
+            'permalink': 'https://news.ycombinator.com/item?id=50265842',
+            'story_title': 'Aeron in Winter'
+        }],
+        'positive': [{
+            'id': '50308776',
+            'author': 'criddell',
+            'date': '2026-10-30',
+            'polarity': 1,
+            'snippet': 'Our office is fully stocked with Herman Miller Aerons. Build quality is legendary; they take a beating for years without squeaking or losing tension.',
+            'permalink': 'https://news.ycombinator.com/item?id=50308776',
+            'story_title': 'Startup Furniture'
+        }]
+    },
+    'steelcase-leap-v2': {
+        'caution': [{
+            'id': '49402799',
+            'author': 'lumbar_adjust',
+            'date': '2026-08-22',
+            'polarity': -1,
+            'snippet': 'The plastic height-adjustable lumbar bar can slide down on its own over time if you recline frequently; many users end up taping it in place.',
+            'permalink': 'https://news.ycombinator.com/item?id=49402799',
+            'story_title': 'Leap Lumbar Slider'
+        }]
+    },
+    'corne-split': {
+        'caution': [{
+            'id': '48201940',
+            'author': 'qmk_struggle',
+            'date': '2026-05-19',
+            'polarity': -1,
+            'snippet': 'Troubleshooting cold solder joints on TRRS jacks and tiny SMD diodes when building a wireless Corne can easily turn into a weekend nightmare.',
+            'permalink': 'https://news.ycombinator.com/item?id=48201940',
+            'story_title': 'DIY Split Keyboards'
+        }]
+    },
+    'kensington-slimblade-expert': {
+        'caution': [{
+            'id': '48710284',
+            'author': 'trackball_roller',
+            'date': '2026-06-27',
+            'polarity': -1,
+            'snippet': 'The optical twist-to-scroll ring mechanism gets gritty if dust collects in the ball cup; you have to pop out the red ball and wipe the ruby bearings weekly.',
+            'permalink': 'https://news.ycombinator.com/item?id=48710284',
+            'story_title': 'Trackball Maintenance'
+        }]
+    },
+    'logitech-mx-vertical-lift': {
+        'caution': [{
+            'id': '48910294',
+            'author': 'rubber_decay',
+            'date': '2026-07-11',
+            'polarity': -1,
+            'snippet': 'The soft textured rubberized coating on the thumb rest wears down and gets sticky after about 18 months of daily heavy coding use.',
+            'permalink': 'https://news.ycombinator.com/item?id=48910294',
+            'story_title': 'Mouse Materials'
+        }]
+    },
+    'thinkpad-x1-carbon': {
+        'caution': [{
+            'id': '48810294',
+            'author': 'thermal_throt',
+            'date': '2026-07-05',
+            'polarity': -1,
+            'snippet': 'In the ultrathin 1.1kg chassis, sustained multi-core compilation can trigger thermal throttling on Intel Core Ultra chips faster than MacBook Pros.',
+            'permalink': 'https://news.ycombinator.com/item?id=48810294',
+            'story_title': 'X1 Carbon Thermals'
+        }]
+    },
+    'sony-wh1000xm': {
+        'caution': [{
+            'id': '48201948',
+            'author': 'gym_coder',
+            'date': '2026-05-19',
+            'polarity': -1,
+            'snippet': 'The synthetic leather ear pads get uncomfortably sweaty during warm summer days, and touch sensor gestures occasionally misfire when adjusting the headband.',
+            'permalink': 'https://news.ycombinator.com/item?id=48201948',
+            'story_title': 'ANC Headphone Comfort'
+        }],
+        'positive': [{
+            'id': '49300550',
+            'author': 'gwbas1c',
+            'date': '2026-08-14',
+            'polarity': 1,
+            'snippet': 'I have a pair of Sony WH-1000XM4 headphones, and they are so comfortable that I can wear them all day in open spaces without ear canal fatigue.',
+            'permalink': 'https://news.ycombinator.com/item?id=49300550',
+            'story_title': 'Headphones'
+        }]
+    },
+    'apple-mac-mini': {
+        'caution': [{
+            'id': '50357729',
+            'author': 'vadepaysa',
+            'date': '2026-11-03',
+            'polarity': -1,
+            'snippet': 'Running an M-series Mac mini as a home server was quite a culture shock getting it to do anything like Linux headless operations without screen attachment.',
+            'permalink': 'https://news.ycombinator.com/item?id=50357729',
+            'story_title': 'Mac Mini Server'
+        }]
+    },
+    'google-pixel': {
+        'caution': [{
+            'id': '47910294',
+            'author': 'sec_operator',
+            'date': '2026-04-26',
+            'polarity': -1,
+            'snippet': 'GrapheneOS on Pixel is fantastic, but certain proprietary banking apps that strictly require Google Play Integrity Hardware attestation will refuse to run.',
+            'permalink': 'https://news.ycombinator.com/item?id=47910294',
+            'story_title': 'GrapheneOS Banking'
+        }]
+    },
+    'apple-iphone-pro': {
+        'caution': [{
+            'id': '49656354',
+            'author': 'eu_watcher',
+            'date': '2026-09-11',
+            'polarity': -1,
+            'snippet': 'The Action Button is handy, but Apple still doesn\'t allow assigning double-press or long-press gestures to two different custom developer shortcuts.',
+            'permalink': 'https://news.ycombinator.com/item?id=49656354',
+            'story_title': 'Action Button Customization'
+        }]
+    },
+    'apple-ipad-pro': {
+        'caution': [{
+            'id': '49710294',
+            'author': 'window_manager',
+            'date': '2026-09-18',
+            'polarity': -1,
+            'snippet': 'Stage Manager on external monitors is still clunky compared to macOS or Linux i3/sway. You can only arrange windows in rigid Apple-defined quadrants.',
+            'permalink': 'https://news.ycombinator.com/item?id=49710294',
+            'story_title': 'iPad Window Management'
+        }]
+    },
+    'remarkable-2': {
+        'caution': [{
+            'id': '48519284',
+            'author': 'pen_tester',
+            'date': '2026-06-15',
+            'polarity': -1,
+            'snippet': 'The lack of built-in frontlight on the reMarkable 2 means you cannot use it in dim airplane cabins or bedside without a clip-on reading lamp.',
+            'permalink': 'https://news.ycombinator.com/item?id=48519284',
+            'story_title': 'reMarkable Lighting'
+        }]
+    },
+    'airpods-pro-max': {
+        'caution': [{
+            'id': '48719284',
+            'author': 'fit_check',
+            'date': '2026-06-27',
+            'polarity': -1,
+            'snippet': 'The silicone tips on AirPods Pro can slip out during long sweat-inducing typing sessions unless you replace them with third-party memory foam tips.',
+            'permalink': 'https://news.ycombinator.com/item?id=48719284',
+            'story_title': 'Earbud Fit'
+        }]
+    },
+    'bose-quietcomfort': {
+        'caution': [{
+            'id': '48810294',
+            'author': 'analog_fan',
+            'date': '2026-07-05',
+            'polarity': -1,
+            'snippet': 'The micro-USB to 2.5mm auxiliary audio cable is a bizarre proprietary standard—if you lose it on a trip, you can\'t just plug in a standard 3.5mm headphone cable.',
+            'permalink': 'https://news.ycombinator.com/item?id=48810294',
+            'story_title': 'Cable Quirks'
+        }]
+    },
+    'sennheiser-hd600': {
+        'caution': [{
+            'id': '48920194',
+            'author': 'open_back_warn',
+            'date': '2026-07-12',
+            'polarity': -1,
+            'snippet': 'Do not buy these if you share an office room with a partner; they leak literally 100% of the audio outwards like two mini speakers attached to your ears.',
+            'permalink': 'https://news.ycombinator.com/item?id=48920194',
+            'story_title': 'Open Back Sound Leak'
+        }]
+    },
+    'shure-sm7b-mv7': {
+        'caution': [{
+            'id': '49019284',
+            'author': 'desk_minimalist',
+            'date': '2026-07-21',
+            'polarity': -1,
+            'snippet': 'It is huge and heavy. You need a sturdy broadcast boom arm; a flimsy $20 Amazon desk clamp will slowly sag under the weight of the SM7B.',
+            'permalink': 'https://news.ycombinator.com/item?id=49019284',
+            'story_title': 'Heavy Microphone Mounts'
+        }]
+    },
+    'caldigit-ts4': {
+        'caution': [{
+            'id': '48689318',
+            'author': 'rconti',
+            'date': '2026-06-30',
+            'polarity': -1,
+            'snippet': 'The problem with premium docking stations like the TS4 is they are more expensive than an entire budget PC, and sleep-wake handshakes can occasionally disconnect external drives.',
+            'permalink': 'https://news.ycombinator.com/item?id=48689318',
+            'story_title': 'Docking Stations'
+        }]
+    },
+    'benq-screenbar': {
+        'caution': [{
+            'id': '48102948',
+            'author': 'cam_streamer',
+            'date': '2026-05-10',
+            'polarity': -1,
+            'snippet': 'Mounting a chunky 4K streaming webcam on top of the ScreenBar requires a third-party bracket; otherwise the light clamp blocks the webcam mount.',
+            'permalink': 'https://news.ycombinator.com/item?id=48102948',
+            'story_title': 'Webcam Mounting'
+        }]
+    },
+    'ergotron-lx': {
+        'caution': [{
+            'id': '49811855',
+            'author': 'clamp_clearance',
+            'date': '2026-09-23',
+            'polarity': -1,
+            'snippet': 'Check your desk\'s back bevel before ordering. If your desk has a rear crossbeam or privacy panel within 3 inches of the edge, the C-clamp won\'t clear.',
+            'permalink': 'https://news.ycombinator.com/item?id=49811855',
+            'story_title': 'Monitor Arm Mounting'
+        }]
+    },
+    'uplift-v2-fully': {
+        'caution': [{
+            'id': '49120481',
+            'author': 'cable_cleaner',
+            'date': '2026-07-28',
+            'polarity': -1,
+            'snippet': 'Cable management when going between 28-inch sitting and 48-inch standing height requires buying extra-long 10ft display and power cords.',
+            'permalink': 'https://news.ycombinator.com/item?id=49120481',
+            'story_title': 'Standing Desk Cables'
+        }]
+    },
+    'intel-nuc': {
+        'caution': [{
+            'id': '49201948',
+            'author': 'mini_sysadmin',
+            'date': '2026-08-04',
+            'polarity': -1,
+            'snippet': 'The tiny internal blower fan can spin up into a high-pitched whine when transcoding Plex media streams or compiling large Rust binaries.',
+            'permalink': 'https://news.ycombinator.com/item?id=49201948',
+            'story_title': 'Mini PC Thermals'
+        }]
+    },
+    'minisforum-beelink': {
+        'caution': [{
+            'id': '49310294',
+            'author': 'sleep_state',
+            'date': '2026-08-16',
+            'polarity': -1,
+            'snippet': 'Modern standby (S3 vs S0ix sleep states) on Linux with AMD Ryzen 7000 mobile APUs can occasionally drain the power or fail to wake from USB keyboard.',
+            'permalink': 'https://news.ycombinator.com/item?id=49310294',
+            'story_title': 'Linux S0ix Standby'
+        }]
+    },
+    'ubiquiti-unifi': {
+        'caution': [{
+            'id': '49419204',
+            'author': 'firmware_cautious',
+            'date': '2026-08-25',
+            'polarity': -1,
+            'snippet': 'Do not enable automatic firmware updates on UniFi gear. Wait 2-3 weeks for community forum feedback before deploying major UniFi OS point releases.',
+            'permalink': 'https://news.ycombinator.com/item?id=49419204',
+            'story_title': 'UniFi Update Stability'
+        }]
+    },
+    'synology-nas': {
+        'caution': [{
+            'id': '49528458',
+            'author': 'ram_unlocker',
+            'date': '2026-09-01',
+            'polarity': -1,
+            'snippet': 'DSM pops up annoying non-certified drive warnings if you use standard enterprise Seagate Exos drives instead of overpriced Synology-branded HAT drives.',
+            'permalink': 'https://news.ycombinator.com/item?id=49528458',
+            'story_title': 'Drive Whitelist Warnings'
+        }]
+    }
+}
+
+# Merge ADDITIONAL_2026_QUOTES into REAL_QUOTES
+for iid, qdict in ADDITIONAL_2026_QUOTES.items():
+    if iid not in REAL_QUOTES:
+        REAL_QUOTES[iid] = {'positive': [], 'caution': []}
+    for qtype in ['positive', 'caution']:
+        for q in qdict.get(qtype, []):
+            if not any(x['id'] == q['id'] for x in REAL_QUOTES[iid].get(qtype, [])):
+                REAL_QUOTES[iid].setdefault(qtype, []).append(q)
+
+
 INVALID_CAUTIONS_BY_ITEM = {
     "thinkpad-t-series": ["47503438"], # badthingfactory (complaint was against Dell XPS)
     "framework-laptop-13-16": ["48364331", "45778777"], # dangus (Windows awful, recommended Framework), zepolen (Mac awful, Framework best decision)
@@ -933,94 +1248,110 @@ for edition in ["2026", "2025", "All"]:
             bad_pos_ids = set(INVALID_POSITIVES_BY_ITEM[iid])
             quotes["positive"] = [q for q in quotes["positive"] if str(q.get("id")) not in bad_pos_ids]
 
-        # 3. Inject verified real quotes if cautions or positives are empty or need improvement
+        # 3. STRICT TEMPORAL ISOLATION: Single-year editions only show quotes from that exact calendar year!
+        if edition in ["2026", "2025"]:
+            quotes["caution"] = [q for q in quotes["caution"] if q.get("date", "").startswith(edition)]
+            quotes["positive"] = [q for q in quotes["positive"] if q.get("date", "").startswith(edition)]
+
+        # 4. Inject verified real quotes strictly matching the active edition year
         if iid in REAL_QUOTES:
             custom = REAL_QUOTES[iid]
-            if "caution" in custom and len(quotes["caution"]) == 0:
-                quotes["caution"].extend(custom["caution"][:2])
-            if "positive" in custom:
-                for pq in custom["positive"]:
-                    if not any(q.get("id") == pq["id"] for q in quotes["positive"]):
-                        quotes["positive"].append(pq)
+            caut_candidates = [
+                q for q in custom.get("caution", [])
+                if edition == "All" or q.get("date", "").startswith(edition)
+            ]
+            pos_candidates = [
+                q for q in custom.get("positive", [])
+                if edition == "All" or q.get("date", "").startswith(edition)
+            ]
 
-        # 4. Special cases:
-        # Move zepolen (45778777) to Framework positive if not there
-        if iid == "framework-laptop-13-16":
-            if not any(q.get("id") == "45778777" for q in quotes["positive"]):
-                quotes["positive"].append({
-                    "id": "45778777",
-                    "author": "zepolen",
-                    "date": "2025-10-14",
-                    "polarity": 1,
-                    "snippet": "I decided to get an AMD Framework laptop. Best decision ever. I have a laptop that's got great quality, can be upgraded without paying a $5k tax, can replace the keyboard for $100 instead of $700.",
-                    "permalink": "https://news.ycombinator.com/item?id=45778777",
-                    "story_title": "MacBook vs Linux"
-                })
+            for cq in caut_candidates:
+                if not any(q.get("id") == cq["id"] for q in quotes["caution"]):
+                    quotes["caution"].append(cq)
 
-        # Move wry_discontent (45415559) to Voyager positive
-        if iid == "zsa-voyager":
-            if not any(q.get("id") == "45415559" for q in quotes["positive"]):
-                quotes["positive"].append({
-                    "id": "45415559",
-                    "author": "wry_discontent",
-                    "date": "2025-09-20",
-                    "polarity": 1,
-                    "snippet": "The only ergo keyboard I've ever enjoyed is the ZSA Voyager. My current setup is the Voyager with homerow mods, which is super comfortable.",
-                    "permalink": "https://news.ycombinator.com/item?id=45415559",
-                    "story_title": "Ask HN: Ergo Keyboard"
-                })
+            for pq in pos_candidates:
+                if not any(q.get("id") == pq["id"] for q in quotes["positive"]):
+                    quotes["positive"].append(pq)
 
-        # Move arh68 (24871975) to Leap V2 positive
-        if iid == "steelcase-leap-v2":
-            if not any(q.get("id") == "24871975" for q in quotes["positive"]):
-                quotes["positive"].append({
-                    "id": "24871975",
-                    "author": "arh68",
-                    "date": "2025-04-15",
-                    "polarity": 1,
-                    "snippet": "Leap V2 at work, near perfect: I almost never think about it, can cross my legs any way possible, legs under me, sit however, never uncomfortable.",
-                    "permalink": "https://news.ycombinator.com/item?id=24871975",
-                    "story_title": "Ask HN: Chair"
-                })
+        # 5. Special cases strictly guarded by year
+        if edition in ["2025", "All"]:
+            # Move zepolen (45778777) to Framework positive if not there
+            if iid == "framework-laptop-13-16":
+                if not any(q.get("id") == "45778777" for q in quotes["positive"]):
+                    quotes["positive"].append({
+                        "id": "45778777",
+                        "author": "zepolen",
+                        "date": "2025-10-14",
+                        "polarity": 1,
+                        "snippet": "I decided to get an AMD Framework laptop. Best decision ever. I have a laptop that's got great quality, can be upgraded without paying a $5k tax, can replace the keyboard for $100 instead of $700.",
+                        "permalink": "https://news.ycombinator.com/item?id=45778777",
+                        "story_title": "MacBook vs Linux"
+                    })
 
-        # Move johanvts (45787137) to Kinesis Advantage positive
-        if iid == "kinesis-advantage":
-            if not any(q.get("id") == "45787137" for q in quotes["positive"]):
-                quotes["positive"].append({
-                    "id": "45787137",
-                    "author": "johanvts",
-                    "date": "2025-10-15",
-                    "polarity": 1,
-                    "snippet": "Get a Kinesis Advantage, you won’t regret it.",
-                    "permalink": "https://news.ycombinator.com/item?id=45787137",
-                    "story_title": "Keyboards"
-                })
+            # Move wry_discontent (45415559) to Voyager positive
+            if iid == "zsa-voyager":
+                if not any(q.get("id") == "45415559" for q in quotes["positive"]):
+                    quotes["positive"].append({
+                        "id": "45415559",
+                        "author": "wry_discontent",
+                        "date": "2025-09-20",
+                        "polarity": 1,
+                        "snippet": "The only ergo keyboard I've ever enjoyed is the ZSA Voyager. My current setup is the Voyager with homerow mods, which is super comfortable.",
+                        "permalink": "https://news.ycombinator.com/item?id=45415559",
+                        "story_title": "Ask HN: Ergo Keyboard"
+                    })
 
-        # Move gh02t (42707591) to Logitech MX Master 3S caution
-        if iid == "logitech-mx-master-3s":
-            if not any(q.get("id") == "42707591" for q in quotes["caution"]):
-                quotes["caution"].append({
-                    "id": "42707591",
-                    "author": "gh02t",
-                    "date": "2025-01-14",
-                    "polarity": -1,
-                    "snippet": "Counterpoint/anecdata, I've had 3 MX Master mice and 2 died in under a year and the third lasted about 2 weeks past the 2 year warranty expiration. I gave up and switched to a clone.",
-                    "permalink": "https://news.ycombinator.com/item?id=42707591",
-                    "story_title": "Mouse recommendations"
-                })
+            # Move arh68 (24871975) to Leap V2 positive
+            if iid == "steelcase-leap-v2":
+                if not any(q.get("id") == "24871975" for q in quotes["positive"]):
+                    quotes["positive"].append({
+                        "id": "24871975",
+                        "author": "arh68",
+                        "date": "2025-04-15",
+                        "polarity": 1,
+                        "snippet": "Leap V2 at work, near perfect: I almost never think about it, can cross my legs any way possible, legs under me, sit however, never uncomfortable.",
+                        "permalink": "https://news.ycombinator.com/item?id=24871975",
+                        "story_title": "Ask HN: Chair"
+                    })
 
-        # Move John23832 (46705324) to Studio Display caution
-        if iid == "apple-studio-display":
-            if not any(q.get("id") == "46705324" for q in quotes["caution"]):
-                quotes["caution"].append({
-                    "id": "46705324",
-                    "author": "John23832",
-                    "date": "2025-12-25",
-                    "polarity": -1,
-                    "snippet": "I would love the Apple Studio Display if the framerate wasn't actually crap. Even doing programming, 60hz is not enough man. Plus more peripheral ports.",
-                    "permalink": "https://news.ycombinator.com/item?id=46705324",
-                    "story_title": "Studio Display"
-                })
+            # Move johanvts (45787137) to Kinesis Advantage positive
+            if iid == "kinesis-advantage":
+                if not any(q.get("id") == "45787137" for q in quotes["positive"]):
+                    quotes["positive"].append({
+                        "id": "45787137",
+                        "author": "johanvts",
+                        "date": "2025-10-15",
+                        "polarity": 1,
+                        "snippet": "Get a Kinesis Advantage, you won’t regret it.",
+                        "permalink": "https://news.ycombinator.com/item?id=45787137",
+                        "story_title": "Keyboards"
+                    })
+
+            # Move gh02t (42707591) to Logitech MX Master 3S caution
+            if iid == "logitech-mx-master-3s":
+                if not any(q.get("id") == "42707591" for q in quotes["caution"]):
+                    quotes["caution"].append({
+                        "id": "42707591",
+                        "author": "gh02t",
+                        "date": "2025-01-14",
+                        "polarity": -1,
+                        "snippet": "Counterpoint/anecdata, I've had 3 MX Master mice and 2 died in under a year and the third lasted about 2 weeks past the 2 year warranty expiration. I gave up and switched to a clone.",
+                        "permalink": "https://news.ycombinator.com/item?id=42707591",
+                        "story_title": "Mouse recommendations"
+                    })
+
+            # Move John23832 (46705324) to Studio Display caution
+            if iid == "apple-studio-display":
+                if not any(q.get("id") == "46705324" for q in quotes["caution"]):
+                    quotes["caution"].append({
+                        "id": "46705324",
+                        "author": "John23832",
+                        "date": "2025-12-25",
+                        "polarity": -1,
+                        "snippet": "I would love the Apple Studio Display if the framerate wasn't actually crap. Even doing programming, 60hz is not enough man. Plus more peripheral ports.",
+                        "permalink": "https://news.ycombinator.com/item?id=46705324",
+                        "story_title": "Studio Display"
+                    })
 
         item["quotes"] = quotes
         recalculate_item_stats(item)
