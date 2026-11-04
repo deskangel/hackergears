@@ -70,10 +70,10 @@ export default function HardwareCard({
   return (
     <div 
       onClick={() => onSelect(item)}
-      className="group relative bg-[#131722] hover:bg-[#181d2c] border border-gray-800/90 hover:border-gray-700/80 rounded-2xl p-5 transition-all duration-200 flex flex-col justify-between shadow-lg hover:shadow-2xl hover:shadow-[#ff6600]/5 cursor-pointer animate-in fade-in duration-200"
+      className="group relative bg-[#131722] hover:bg-[#181d2c] border border-gray-800/90 hover:border-gray-700/80 rounded-2xl p-5 transition-all duration-200 flex flex-col justify-between shadow-lg hover:shadow-2xl hover:shadow-[#ff6600]/5 cursor-pointer animate-in fade-in duration-200 min-w-0"
     >
       {/* Top Bar: Rank & Category & Price */}
-      <div>
+      <div className="min-w-0">
         <div className="flex items-center justify-between gap-2 mb-3">
           <div className="flex items-center gap-2 flex-wrap">
             <span className={`w-7 h-7 rounded-lg flex items-center justify-center font-mono font-bold text-xs ${
@@ -150,11 +150,17 @@ export default function HardwareCard({
         </div>
 
         {/* Item Brand & Name */}
-        <div className="mb-3">
-          <div className="text-[11px] font-mono text-gray-400 font-semibold tracking-wider uppercase mb-0.5">
+        <div className="mb-3 min-w-0">
+          <div 
+            className="text-[11px] font-mono text-gray-400 font-semibold tracking-wider uppercase mb-0.5 truncate whitespace-nowrap"
+            title={item.brand}
+          >
             {item.brand}
           </div>
-          <h3 className="text-base font-bold text-white group-hover:text-[#ff8533] transition-colors leading-snug">
+          <h3 
+            className="text-base font-bold text-white group-hover:text-[#ff8533] transition-colors leading-snug truncate whitespace-nowrap"
+            title={item.name}
+          >
             {item.name}
           </h3>
         </div>
@@ -215,11 +221,11 @@ export default function HardwareCard({
 
         {/* Tags */}
         {item.tags && item.tags.length > 0 && (
-          <div className="flex flex-wrap gap-1.5 mb-4">
+          <div className="flex items-center gap-1.5 mb-4 overflow-hidden h-6 min-w-0">
             {item.tags.slice(0, 3).map((tag, idx) => (
               <span 
                 key={idx} 
-                className="text-[10px] bg-gray-800/60 text-gray-300 px-2 py-0.5 rounded-md border border-gray-700/50"
+                className="text-[10px] bg-gray-800/60 text-gray-300 px-2 py-0.5 rounded-md border border-gray-700/50 whitespace-nowrap flex-shrink-0"
               >
                 {tag}
               </span>
@@ -229,23 +235,23 @@ export default function HardwareCard({
       </div>
 
       {/* Featured HN Quote Snippet */}
-      <div>
+      <div className="min-w-0">
         {topQuote ? (
-          <div className="bg-[#10141f] border border-gray-800/70 rounded-xl p-3 mb-3 relative group/quote">
-            <div className="flex items-center justify-between text-[11px] text-gray-400 mb-1.5 font-mono">
-              <span className="flex items-center gap-1 text-[#ff8533]">
-                <MessageSquareQuote className="w-3.5 h-3.5" />
-                <span>@{topQuote.author}</span>
+          <div className="bg-[#10141f] border border-gray-800/70 rounded-xl p-3 mb-3 relative group/quote min-h-[76px] flex flex-col justify-center">
+            <div className="flex items-center justify-between text-[11px] text-gray-400 mb-1 font-mono">
+              <span className="flex items-center gap-1 text-[#ff8533] truncate min-w-0">
+                <MessageSquareQuote className="w-3.5 h-3.5 flex-shrink-0" />
+                <span className="truncate">@{topQuote.author}</span>
               </span>
-              <span className="text-gray-500">{topQuote.date}</span>
+              <span className="text-gray-500 whitespace-nowrap text-[10px] ml-2 flex-shrink-0">{topQuote.date}</span>
             </div>
             <p className="text-xs text-gray-300 italic line-clamp-2 leading-relaxed">
               "{topQuote.snippet}"
             </p>
           </div>
         ) : (
-          <div className="text-xs text-gray-400 italic mb-3">
-            Referenced in discussions without extracted single-sentence quotes.
+          <div className="bg-[#10141f]/50 border border-gray-800/40 rounded-xl p-3 mb-3 min-h-[76px] flex items-center justify-center text-xs text-gray-500 italic">
+            Referenced in discussions without extracted single quotes.
           </div>
         )}
 
