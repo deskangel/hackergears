@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cpu, HelpCircle, Database, Sparkles, ExternalLink } from 'lucide-react';
+import { Cpu, Calculator, Database, Sparkles, ExternalLink } from 'lucide-react';
 
 export default function Header({ metadata, onOpenExplainer }) {
   return (
@@ -48,11 +48,11 @@ export default function Header({ metadata, onOpenExplainer }) {
           {/* Explainer Button */}
           <button
             onClick={onOpenExplainer}
-            className="flex items-center gap-1.5 bg-[#1a2130] hover:bg-[#222c40] text-amber-300 hover:text-amber-200 border border-amber-500/30 px-3 py-1.5 rounded-lg transition-colors font-medium shadow-sm cursor-pointer"
-            title="Read about the HackerBooks mention trap and our algorithm"
+            className="flex items-center gap-1.5 bg-[#1a2130] hover:bg-[#222c40] text-orange-400 hover:text-orange-300 border border-[#ff6600]/30 hover:border-[#ff6600]/50 px-3 py-1.5 rounded-lg transition-colors font-medium shadow-sm cursor-pointer"
+            title="View our ranking algorithm and calculation methodology"
           >
-            <HelpCircle className="w-3.5 h-3.5 text-amber-400" />
-            <span>Why not raw mentions?</span>
+            <Calculator className="w-3.5 h-3.5 text-[#ff6600]" />
+            <span>Ranking Algorithm</span>
           </button>
 
           {/* Hacker News Link */}

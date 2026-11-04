@@ -1,7 +1,7 @@
 """
 sentiment.py
 Hardware-specific sentiment polarity classifier and quote extractor for HackerGear.
-Solves the HackerBooks problem by distinguishing glowing endorsements from heated complaints.
+Distinguishes glowing endorsements from heated complaints and ergonomic warnings.
 """
 
 import re
