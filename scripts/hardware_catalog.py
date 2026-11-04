@@ -213,7 +213,7 @@ CATALOG = [
     },
     {
         "id": "logitech-mx-ergo",
-        "image": "/images/hardware/logitech-mx-ergo.webp",
+        "image": "/images/hardware/logitech-mx-ergo.png",
         "name": "Logitech MX Ergo",
         "brand": "Logitech",
         "category": "mouse",
@@ -419,7 +419,7 @@ CATALOG = [
     },
     {
         "id": "framework-laptop-13-16",
-        "image": "/images/hardware/framework-laptop-13-16.jpg",
+        "image": "/images/hardware/framework-laptop-13-16.webp",
         "name": "Framework Laptop 13 / 16",
         "brand": "Framework",
         "category": "laptop",
