@@ -77,10 +77,12 @@ This document specifies mandatory rules and quality baselines for developing, da
 
 ## 5. UI & Responsive Layout Rules
 
-1. **Category Navigation Scalability**:
-   - When new hardware categories are added, `CategoryNav` must remain aesthetically balanced across mobile (narrow screen) and desktop (wide screen).
-   - Use flexible wrapping (`flex-wrap`) or modern horizontal scroll with subtle scrollbars to prevent awkward wrapping or horizontal page-breaking overflow.
-   - Dynamic item counts per category must update immediately when switching between `2026`, `2025`, and `All`.
+1. **Category Navigation Stability & Anti-Layout-Shift**:
+   - Navigation pills must NEVER oscillate or jump between lines when clicked.
+   - **No Unstable Wrapping**: Avoid raw unconstrained `flex-wrap` where pill rows sit on a knife-edge threshold. Keep `CategoryNav` in a smooth, unified single-row horizontal scroll container (`overflow-x-auto whitespace-nowrap`) with scroll helpers.
+   - **Lock Viewport Scrollbar**: Always keep `html { overflow-y: scroll; scrollbar-gutter: stable; }` in CSS to prevent the browser's vertical scrollbar from appearing/disappearing and causing page width jumps (CLS) when category filters change result lengths.
+   - **Dimension Consistency**: Active and inactive buttons must maintain identical border box widths (e.g. 1px border on both states, matching badge font-weight and padding) to eliminate any hover/click width variation.
+   - **Dynamic Count Sync**: Category item counts must update immediately when switching between `2026`, `2025`, and `All`.
 
 2. **Zero-Mention Handling**:
    - By default, items with zero mentions in the active year are filtered out from the leaderboard to keep rankings clean and high-signal, while keeping the toggle available for users who want to explore all catalog items.

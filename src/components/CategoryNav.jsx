@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { 
   LayoutGrid, 
   Keyboard, 
@@ -9,10 +9,14 @@ import {
   Headphones, 
   LampDesk, 
   Cpu, 
-  HardDrive 
+  HardDrive,
+  ChevronLeft,
+  ChevronRight
 } from 'lucide-react';
 
 export default function CategoryNav({ selectedCategory, onSelectCategory, counts, selectedYear = '2026' }) {
+  const scrollRef = useRef(null);
+
   const categories = [
     { id: 'all', label: 'All Gear', icon: LayoutGrid },
     { id: 'keyboard', label: 'Keyboards', icon: Keyboard },
@@ -28,9 +32,15 @@ export default function CategoryNav({ selectedCategory, onSelectCategory, counts
 
   const yearLabel = selectedYear === 'All' ? '2-Year Combined' : `${selectedYear} Leaderboard`;
 
+  const scrollNav = (offset) => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: offset, behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="space-y-2.5">
-      {/* Category Nav Header with Active Year Indicator */}
+      {/* Category Nav Header with Active Year Indicator and Scroll Controls */}
       <div className="flex items-center justify-between px-1 text-xs">
         <div className="flex items-center gap-2">
           <span className="font-mono uppercase font-bold text-gray-400 text-[11px] tracking-wider">
@@ -43,10 +53,31 @@ export default function CategoryNav({ selectedCategory, onSelectCategory, counts
             <span className="font-bold text-white">{counts ? counts.all : 0} items active</span>
           </span>
         </div>
+
+        {/* Scroll Helper Buttons */}
+        <div className="hidden sm:flex items-center gap-1 text-gray-400">
+          <button
+            onClick={() => scrollNav(-240)}
+            className="p-1 hover:text-white hover:bg-gray-800/80 rounded-lg transition-colors cursor-pointer border border-gray-800"
+            title="Scroll categories left"
+          >
+            <ChevronLeft className="w-3.5 h-3.5" />
+          </button>
+          <button
+            onClick={() => scrollNav(240)}
+            className="p-1 hover:text-white hover:bg-gray-800/80 rounded-lg transition-colors cursor-pointer border border-gray-800"
+            title="Scroll categories right"
+          >
+            <ChevronRight className="w-3.5 h-3.5" />
+          </button>
+        </div>
       </div>
 
-      {/* Category Buttons Bar - Responsive: Scrollable on mobile, Clean wrapping on tablet/desktop */}
-      <div className="flex items-center gap-2 overflow-x-auto md:flex-wrap pb-1.5 scrollbar-none no-scrollbar">
+      {/* Category Buttons Bar - Single-row horizontal scroll, zero layout shifts */}
+      <div
+        ref={scrollRef}
+        className="flex items-center gap-2 overflow-x-auto pb-1.5 scroll-smooth scrollbar-none no-scrollbar"
+      >
         {categories.map((cat) => {
           const Icon = cat.icon;
           const isActive = selectedCategory === cat.id;
@@ -56,10 +87,10 @@ export default function CategoryNav({ selectedCategory, onSelectCategory, counts
             <button
               key={cat.id}
               onClick={() => onSelectCategory(cat.id)}
-              className={`flex items-center gap-2 px-3 py-1.5 md:px-3.5 md:py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all cursor-pointer ${
+              className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all cursor-pointer border shrink-0 ${
                 isActive
-                  ? 'bg-[#ff6600] text-white shadow-md shadow-[#ff6600]/25 ring-1 ring-[#ff8533]/50'
-                  : 'bg-[#151924] hover:bg-[#1f2537] text-gray-300 hover:text-white border border-gray-800/80 hover:border-gray-700'
+                  ? 'bg-[#ff6600] text-white border-[#ff6600] shadow-md shadow-[#ff6600]/25'
+                  : 'bg-[#151924] hover:bg-[#1f2537] text-gray-300 hover:text-white border-gray-800/80 hover:border-gray-700'
               }`}
             >
               <Icon className="w-3.5 h-3.5 shrink-0" />
@@ -67,8 +98,8 @@ export default function CategoryNav({ selectedCategory, onSelectCategory, counts
               {count !== undefined && count !== null && (
                 <span
                   key={`${selectedYear}-${cat.id}-${count}`}
-                  className={`text-[10px] px-1.5 py-0.2 rounded-md font-mono transition-all animate-in fade-in duration-200 ${
-                    isActive ? 'bg-black/30 text-white' : 'bg-gray-800 text-gray-300 font-bold'
+                  className={`text-[10px] px-1.5 py-0.5 rounded-md font-mono font-bold transition-all ${
+                    isActive ? 'bg-black/30 text-white' : 'bg-gray-800 text-gray-300'
                   }`}
                 >
                   {count}
